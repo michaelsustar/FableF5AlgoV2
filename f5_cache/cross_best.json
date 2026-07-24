@@ -1,0 +1,23 @@
+{
+  "hitter_form_weight": 0.6,
+  "slash_weights": {
+    "avg": 0.0,
+    "obp": 0.0,
+    "slg": 1.0
+  },
+  "pitcher_weights": {
+    "runs_thru_5": 0.30000000000000004,
+    "whip": 0.2,
+    "k_pct": 0.5,
+    "ip_per_start": 0.0
+  },
+  "b0": 0.1209,
+  "b1": 0.0271,
+  "b2": 0.05,
+  "scale": 10.0,
+  "batting_window_days": 7,
+  "no_bet_edge": 0.022,
+  "strong_edge": 0.064,
+  "cross_logloss": 0.688,
+  "fitted_on": "pooled 2025+2026"
+}
