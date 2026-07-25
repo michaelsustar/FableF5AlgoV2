@@ -1,0 +1,59 @@
+{
+ "generated_at": "2026-07-25T14:43:00",
+ "slate_date": "2026-07-25",
+ "ledger": {
+  "bets": 2,
+  "wins": 0,
+  "losses": 1,
+  "pushes": 1,
+  "units": -1.0,
+  "roi": -0.5,
+  "hit": 0.0,
+  "claimed": 0.596
+ },
+ "series": [
+  {
+   "date": "2026-07-24",
+   "units": -1.0
+  }
+ ],
+ "bets_today": [
+  {
+   "matchup": "Toronto Blue Jays @ Boston Red Sox",
+   "pick": "Boston Red Sox",
+   "ml": 105,
+   "tier": "STRONG",
+   "model_p": 0.559,
+   "mkt_p": 0.459,
+   "value": 0.1
+  },
+  {
+   "matchup": "Houston Astros @ Chicago White Sox",
+   "pick": "Chicago White Sox",
+   "ml": -145,
+   "tier": "STRONG",
+   "model_p": 0.641,
+   "mkt_p": 0.559,
+   "value": 0.082
+  },
+  {
+   "matchup": "Los Angeles Dodgers @ New York Mets",
+   "pick": "New York Mets",
+   "ml": 120,
+   "tier": "STRONG",
+   "model_p": 0.494,
+   "mkt_p": 0.428,
+   "value": 0.066
+  },
+  {
+   "matchup": "Chicago Cubs @ Pittsburgh Pirates",
+   "pick": "Chicago Cubs",
+   "ml": 110,
+   "tier": "STRONG",
+   "model_p": 0.515,
+   "mkt_p": 0.449,
+   "value": 0.065
+  }
+ ],
+ "evaluated_today": 10
+}
