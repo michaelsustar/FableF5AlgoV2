@@ -2080,7 +2080,7 @@ def daily(slate_date):
         ("Fetching today's F5 odds", lambda: fetch_odds_day(slate_date)),
         ("Scoring the slate (bets only)",
          lambda: score_slate(slate_date, bets_only=True)),
-        ("Exporting the site data", lambda: export_site(slate_date)),
+        ("Exporting the docs data", lambda: export_site(slate_date)),
     ]
     for i, (label, fn) in enumerate(steps, 1):
         print(f"\n{'=' * 70}\n[{i}/{len(steps)}] {label}\n{'=' * 70}")
@@ -2109,7 +2109,7 @@ def track_safe():
 # --------------------------------------------------------------------------
 def export_site(slate_date=None):
     slate_date = slate_date or date.today()
-    site = Path("./site")
+    site = Path("docs")
     site.mkdir(exist_ok=True)
     log = (json.loads(FORWARD_LOG.read_text())
            if FORWARD_LOG.exists() else {})
@@ -2158,7 +2158,7 @@ def export_site(slate_date=None):
         "evaluated_today": len(todays),
     }
     (site / "data.json").write_text(json.dumps(data, indent=1))
-    print(f"  site/data.json written — {len(bets)} bet(s) today, "
+    print(f"  docs/data.json written — {len(bets)} bet(s) today, "
           f"ledger {wins}-{len(dec) - wins}-{pushes}, "
           f"{units:+.2f} units")
 
@@ -2221,7 +2221,7 @@ def main():
     p_cf.add_argument("--seasons", default="2025,2026")
     p_cf.add_argument("--apply", action="store_true")
     sub.add_parser("track", help="grade forward-test verdicts vs reality")
-    p_ex = sub.add_parser("export", help="write site/data.json for the dashboard")
+    p_ex = sub.add_parser("export", help="write docs/data.json for the dashboard")
     p_ex.add_argument("--date", default=None)
     p_dy = sub.add_parser("daily",
                           help="one-shot morning routine: grade yesterday, "
