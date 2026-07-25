@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FIRST FIVE — a live model experiment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --felt:#173425; --felt-deep:#0F2418; --chalk:#EDE8DC; --chalk-dim:#A9B5A6;
+    --bulb:#F2B63C; --loss:#D96A5A; --win:#7FBF8E; --line:#2C4A38;
+  }
+  *{box-sizing:border-box;margin:0}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+  body{background:var(--felt-deep);color:var(--chalk);font:400 16px/1.55 "Barlow",sans-serif}
+  a{color:var(--bulb)}
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px 64px}
+  header{padding:44px 0 8px;border-bottom:2px solid var(--line)}
+  .eyebrow{font:600 12px/1 "IBM Plex Mono",monospace;letter-spacing:.22em;color:var(--bulb);text-transform:uppercase}
+  h1{font:700 clamp(52px,10vw,88px)/0.95 "Barlow Condensed",sans-serif;letter-spacing:.01em;text-transform:uppercase;margin:10px 0 6px}
+  h1 .five{color:var(--bulb)}
+  .thesis{color:var(--chalk-dim);max-width:56ch;margin-bottom:10px}
+  .stamp{font:500 12px "IBM Plex Mono",monospace;color:var(--chalk-dim)}
+  h2{font:700 22px "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.06em;margin:38px 0 14px;display:flex;align-items:baseline;gap:10px}
+  h2 small{font:500 11px "IBM Plex Mono",monospace;color:var(--chalk-dim);letter-spacing:.1em;text-transform:none}
+  /* scoreboard */
+  .board{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;background:var(--felt);border:1px solid var(--line);border-radius:8px;padding:14px}
+  .tile{padding:10px 12px;border-radius:6px;background:var(--felt-deep)}
+  .tile b{display:block;font:600 30px/1 "IBM Plex Mono",monospace;color:var(--bulb);text-shadow:0 0 14px rgba(242,182,60,.35)}
+  .tile b.neg{color:var(--loss);text-shadow:0 0 14px rgba(217,106,90,.3)}
+  .tile b.pos{color:var(--win);text-shadow:0 0 14px rgba(127,191,142,.3)}
+  .tile span{font:600 10px "IBM Plex Mono",monospace;letter-spacing:.18em;color:var(--chalk-dim);text-transform:uppercase}
+  /* bankroll line */
+  .chartbox{background:var(--felt);border:1px solid var(--line);border-radius:8px;padding:14px}
+  svg{display:block;width:100%;height:180px}
+  .axis{font:500 10px "IBM Plex Mono",monospace;fill:var(--chalk-dim)}
+  /* bet cards */
+  .bet{display:grid;grid-template-columns:1fr auto;gap:4px 16px;background:var(--felt);border:1px solid var(--line);border-left:4px solid var(--bulb);border-radius:8px;padding:14px 16px;margin-bottom:10px}
+  .bet.lean{border-left-color:var(--chalk-dim)}
+  .bet .matchup{font:500 13px "IBM Plex Mono",monospace;color:var(--chalk-dim)}
+  .bet .pick{font:700 26px "Barlow Condensed",sans-serif;text-transform:uppercase}
+  .bet .ml{font:600 22px "IBM Plex Mono",monospace;color:var(--bulb);align-self:center}
+  .bet .nums{grid-column:1/-1;font:500 12px "IBM Plex Mono",monospace;color:var(--chalk-dim)}
+  .bet .nums b{color:var(--chalk)}
+  .chip{display:inline-block;font:600 10px "IBM Plex Mono",monospace;letter-spacing:.15em;padding:3px 8px;border-radius:3px;background:var(--bulb);color:var(--felt-deep);vertical-align:middle;margin-left:8px}
+  .chip.lean{background:transparent;border:1px solid var(--chalk-dim);color:var(--chalk-dim)}
+  .empty{background:var(--felt);border:1px dashed var(--line);border-radius:8px;padding:22px;color:var(--chalk-dim);text-align:center}
+  .empty b{color:var(--chalk)}
+  /* footer honesty */
+  .rules{border-top:2px solid var(--line);margin-top:44px;padding-top:18px;color:var(--chalk-dim);font-size:14px;max-width:64ch}
+  .rules b{color:var(--chalk)}
+  :focus-visible{outline:2px solid var(--bulb);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">A live public experiment · paper units only</p>
+    <h1>First <span class="five">Five</span></h1>
+    <p class="thesis">A frozen statistical model picks first-five-innings sides against real market prices. Nothing is retuned mid-trial, results are graded automatically, and the ledger below — wins and losses alike — is the whole point.</p>
+    <p class="stamp" id="stamp">loading…</p>
+  </header>
+
+  <h2>The ledger <small>every graded bet since the freeze</small></h2>
+  <div class="board" id="board"></div>
+
+  <h2>Bankroll line <small>cumulative paper units, 1u per bet</small></h2>
+  <div class="chartbox"><svg id="chart" viewBox="0 0 800 180" preserveAspectRatio="none" role="img" aria-label="Cumulative units over time"></svg></div>
+
+  <h2>Today's card <small id="cardnote"></small></h2>
+  <div id="bets"></div>
+
+  <p class="rules"><b>The rules of the trial:</b> the model's weights, coefficients, and betting threshold were frozen before this page existed. Each day's verdicts are logged at the listed price and never rewritten, first-five ties settle as pushes, and rain-shortened games are void. If the line goes up, the model is beating the market; if it doesn't, you're watching an honest negative result in real time — which is rarer than a picks site, and worth more.</p>
+</div>
+<script>
+(async function(){
+  let d;
+  try{ d = await (await fetch("data.json?cb="+Date.now())).json(); }
+  catch(e){ document.getElementById("stamp").textContent = "data.json not found — run the export."; return; }
+
+  document.getElementById("stamp").textContent =
+    "slate " + d.slate_date + " · updated " + d.generated_at.replace("T"," ");
+
+  const L = d.ledger, fmt=(v,f)=>v==null?"—":f(v);
+  const tiles = [
+    ["record", L.bets? (L.wins+"-"+L.losses+"-"+L.pushes) : "0-0-0", null],
+    ["units", fmt(L.units,v=>(v>0?"+":"")+v.toFixed(2)), L.units>0?"pos":L.units<0?"neg":null],
+    ["roi / bet", fmt(L.roi,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"), L.roi>0?"pos":L.roi<0?"neg":null],
+    ["hit rate", fmt(L.hit,v=>(100*v).toFixed(1)+"%"), null],
+    ["claimed", fmt(L.claimed,v=>(100*v).toFixed(1)+"%"), null],
+  ];
+  document.getElementById("board").innerHTML = tiles.map(([k,v,c])=>
+    `<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
+
+  // bankroll polyline
+  const s = d.series||[]; const svg = document.getElementById("chart");
+  if(s.length<2){ svg.outerHTML = '<div class="empty">The line starts drawing once two days are graded.</div>'; }
+  else{
+    const us = s.map(p=>p.units), min=Math.min(0,...us), max=Math.max(0,...us), pad=(max-min)*0.15||1;
+    const y=u=>170-((u-min+pad*0.5)/(max-min+pad))*160;
+    const x=i=>10+ i*(780/(s.length-1));
+    const pts = s.map((p,i)=>x(i)+","+y(p.units)).join(" ");
+    const zero = y(0);
+    svg.innerHTML =
+      `<line x1="10" y1="${zero}" x2="790" y2="${zero}" stroke="#2C4A38" stroke-dasharray="4 4"/>`+
+      `<polyline points="${pts}" fill="none" stroke="${us[us.length-1]>=0?'#7FBF8E':'#D96A5A'}" stroke-width="2.5" stroke-linejoin="round"/>`+
+      s.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.units)}" r="2.6" fill="#F2B63C"/>`).join("")+
+      `<text class="axis" x="12" y="${zero-6}">0u</text>`+
+      `<text class="axis" x="12" y="16">${s[0].date}</text>`+
+      `<text class="axis" x="700" y="16">${s[s.length-1].date}</text>`;
+  }
+
+  // today's card
+  const bets = d.bets_today||[];
+  document.getElementById("cardnote").textContent =
+    bets.length + " bet" + (bets.length===1?"":"s") + " from " + d.evaluated_today + " games evaluated";
+  const box = document.getElementById("bets");
+  if(!bets.length){
+    box.innerHTML = '<div class="empty"><b>No bets today.</b> Nothing on the slate cleared the value threshold — passing is the model working, not resting.</div>';
+  } else {
+    const ml=v=>v==null?"":(v>0?"+":"")+Math.round(v);
+    box.innerHTML = bets.map(b=>`
+      <div class="bet ${b.tier==="LEAN"?"lean":""}">
+        <div>
+          <div class="matchup">${b.matchup}</div>
+          <div class="pick">${b.pick}<span class="chip ${b.tier==="LEAN"?"lean":""}">${b.tier}</span></div>
+        </div>
+        <div class="ml">${ml(b.ml)}</div>
+        <div class="nums">model <b>${(100*b.model_p).toFixed(0)}%</b> · market <b>${(100*b.mkt_p).toFixed(0)}%</b> · edge <b>+${(100*b.value).toFixed(1)}%</b></div>
+      </div>`).join("");
+  }
+})();
+</script>
+</body>
+</html>

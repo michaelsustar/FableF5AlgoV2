@@ -2080,6 +2080,7 @@ def daily(slate_date):
         ("Fetching today's F5 odds", lambda: fetch_odds_day(slate_date)),
         ("Scoring the slate (bets only)",
          lambda: score_slate(slate_date, bets_only=True)),
+        ("Exporting the site data", lambda: export_site(slate_date)),
     ]
     for i, (label, fn) in enumerate(steps, 1):
         print(f"\n{'=' * 70}\n[{i}/{len(steps)}] {label}\n{'=' * 70}")
@@ -2099,6 +2100,67 @@ def track_safe():
         print("  No verdicts logged yet — nothing to grade on day one.")
         return
     track()
+
+
+
+
+# --------------------------------------------------------------------------
+# SITE EXPORT — one static data.json for the public dashboard
+# --------------------------------------------------------------------------
+def export_site(slate_date=None):
+    slate_date = slate_date or date.today()
+    site = Path("./site")
+    site.mkdir(exist_ok=True)
+    log = (json.loads(FORWARD_LOG.read_text())
+           if FORWARD_LOG.exists() else {})
+    graded = [r for r in log.values() if r.get("graded")]
+    picks = [r for r in graded if r.get("pick")
+             and r.get("outcome") != "void"]
+    dec = [r for r in picks if r["outcome"] != "tie"]
+    wins = sum(1 for r in dec if r["pick"] == r["outcome"])
+    pushes = sum(1 for r in picks if r["outcome"] == "tie")
+    units = sum(r.get("units", 0) for r in picks)
+
+    by_day = {}
+    for r in sorted(picks, key=lambda r: r["date"]):
+        by_day[r["date"]] = by_day.get(r["date"], 0) + r.get("units", 0)
+    cum, series = 0.0, []
+    for d_iso, u in sorted(by_day.items()):
+        cum += u
+        series.append({"date": d_iso, "units": round(cum, 2)})
+
+    todays = [r for r in log.values()
+              if r["date"] == slate_date.isoformat()]
+    bets = [{"matchup": r["matchup"], "pick": r["pick"],
+             "ml": r.get("pick_ml"), "tier": r["tier"],
+             "model_p": r["p_home"] if r["pick"] == r["home_team"]
+                        else round(1 - r["p_home"], 3),
+             "mkt_p": r["mkt_p_home"] if r["pick"] == r["home_team"]
+                      else round(1 - r["mkt_p_home"], 3),
+             "value": abs(r.get("value") or 0)}
+            for r in todays if r.get("pick")]
+    bets.sort(key=lambda b: b["value"], reverse=True)
+
+    data = {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "slate_date": slate_date.isoformat(),
+        "ledger": {
+            "bets": len(picks), "wins": wins,
+            "losses": len(dec) - wins, "pushes": pushes,
+            "units": round(units, 2),
+            "roi": round(units / len(picks), 4) if picks else None,
+            "hit": round(wins / len(dec), 4) if dec else None,
+            "claimed": round(mean([max(r["p_home"], 1 - r["p_home"])
+                                   for r in dec]), 4) if dec else None,
+        },
+        "series": series,
+        "bets_today": bets,
+        "evaluated_today": len(todays),
+    }
+    (site / "data.json").write_text(json.dumps(data, indent=1))
+    print(f"  site/data.json written — {len(bets)} bet(s) today, "
+          f"ledger {wins}-{len(dec) - wins}-{pushes}, "
+          f"{units:+.2f} units")
 
 
 # --------------------------------------------------------------------------
@@ -2159,6 +2221,8 @@ def main():
     p_cf.add_argument("--seasons", default="2025,2026")
     p_cf.add_argument("--apply", action="store_true")
     sub.add_parser("track", help="grade forward-test verdicts vs reality")
+    p_ex = sub.add_parser("export", help="write site/data.json for the dashboard")
+    p_ex.add_argument("--date", default=None)
     p_dy = sub.add_parser("daily",
                           help="one-shot morning routine: grade yesterday, "
                                "fetch odds, show today's bets")
@@ -2199,6 +2263,8 @@ def main():
         evaluate(args.season)
     elif args.cmd == "track":
         track()
+    elif args.cmd == "export":
+        export_site(d)
     elif args.cmd == "daily":
         daily(d)
     elif args.cmd == "crossfit":
