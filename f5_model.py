@@ -842,6 +842,7 @@ def score_slate(slate_date: date, bets_only=False):
         entry = {
             "gamePk": pk,
             "matchup": f'{away["team"]["name"]} @ {home["team"]["name"]}',
+            "game_time": g.get("gameDate"),      # ISO UTC first pitch
         }
         if "Postponed" in detailed or "Cancelled" in detailed:
             entry["postponed"] = detailed
@@ -1961,9 +1962,14 @@ def log_forward(results, slate_date):
             continue
         key = str(r["gamePk"])
         if key in log:
+            # metadata-only backfill; never rewrites a recorded bet
+            if r.get("game_time") and not log[key].get("game_time"):
+                log[key]["game_time"] = r["game_time"]
+                added += 1
             continue
         log[key] = {
             "gamePk": r["gamePk"], "date": slate_date.isoformat(),
+            "game_time": r.get("game_time"),
             "matchup": r["matchup"], "pick": pred.get("pick"),
             "tier": pred["tier"], "p_home": pred["p_home"],
             "mkt_p_home": pred["mkt_p_home"],
@@ -2080,7 +2086,7 @@ def daily(slate_date):
         ("Fetching today's F5 odds", lambda: fetch_odds_day(slate_date)),
         ("Scoring the slate (bets only)",
          lambda: score_slate(slate_date, bets_only=True)),
-        ("Exporting the docs data", lambda: export_site(slate_date)),
+        ("Exporting the site data", lambda: export_site(slate_date)),
     ]
     for i, (label, fn) in enumerate(steps, 1):
         print(f"\n{'=' * 70}\n[{i}/{len(steps)}] {label}\n{'=' * 70}")
@@ -2109,7 +2115,7 @@ def track_safe():
 # --------------------------------------------------------------------------
 def export_site(slate_date=None):
     slate_date = slate_date or date.today()
-    site = Path("docs")
+    site = Path("./docs")          # GitHub Pages serves / or /docs only
     site.mkdir(exist_ok=True)
     log = (json.loads(FORWARD_LOG.read_text())
            if FORWARD_LOG.exists() else {})
@@ -2133,13 +2139,17 @@ def export_site(slate_date=None):
               if r["date"] == slate_date.isoformat()]
     bets = [{"matchup": r["matchup"], "pick": r["pick"],
              "ml": r.get("pick_ml"), "tier": r["tier"],
+             "time": r.get("game_time"),
              "model_p": r["p_home"] if r["pick"] == r["home_team"]
                         else round(1 - r["p_home"], 3),
              "mkt_p": r["mkt_p_home"] if r["pick"] == r["home_team"]
                       else round(1 - r["mkt_p_home"], 3),
              "value": abs(r.get("value") or 0)}
             for r in todays if r.get("pick")]
-    bets.sort(key=lambda b: b["value"], reverse=True)
+    # first pitch order; games without a listed time sink to the bottom
+    bets.sort(key=lambda b: (b["time"] is None, b["time"] or "",
+                             -b["value"]))
+    params = load_model_params() or {}
 
     data = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
@@ -2156,6 +2166,17 @@ def export_site(slate_date=None):
         "series": series,
         "bets_today": bets,
         "evaluated_today": len(todays),
+        "model": {
+            "batting_window_days": params.get("batting_window_days", 14),
+            "pitcher_starts": PITCHER_LAST_N_STARTS,
+            "hitter_form_weight": params.get("hitter_form_weight",
+                                             HITTER_FORM_WEIGHT),
+            "slash_weights": params.get("slash_weights", SLASH_WEIGHTS),
+            "pitcher_weights": params.get("pitcher_weights",
+                                          PITCHER_WEIGHTS),
+            "min_pa": MIN_BATTER_PA,
+            "edge_min": params.get("market_edge_min", MARKET_EDGE_MIN),
+        },
     }
     (site / "data.json").write_text(json.dumps(data, indent=1))
     print(f"  docs/data.json written — {len(bets)} bet(s) today, "
@@ -2221,7 +2242,7 @@ def main():
     p_cf.add_argument("--seasons", default="2025,2026")
     p_cf.add_argument("--apply", action="store_true")
     sub.add_parser("track", help="grade forward-test verdicts vs reality")
-    p_ex = sub.add_parser("export", help="write docs/data.json for the dashboard")
+    p_ex = sub.add_parser("export", help="write site/data.json for the dashboard")
     p_ex.add_argument("--date", default=None)
     p_dy = sub.add_parser("daily",
                           help="one-shot morning routine: grade yesterday, "
