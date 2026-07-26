@@ -1,0 +1,63 @@
+name: Daily F5 run
+
+on:
+  schedule:
+    # 14:00 UTC = 10:00 AM ET during the MLB season (EDT).
+    # Actions cron is UTC and ignores DST; scheduled runs can fire
+    # 5-20 min late under load, so this leaves a cushion before the
+    # earliest realistic first pitch (12:05 PM ET matinees).
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}     # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write           # needed to commit the day's results back
+
+concurrency:
+  group: daily-f5           # never let two runs race each other
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      TZ: America/New_York  # so "today" means today in ET, not UTC
+
+    steps:
+      - name: Check out the repo (with caches and ledger)
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sanity check — frozen params must be present
+        run: |
+          test -f f5_cache/model_params.json || {
+            echo "::error::f5_cache/model_params.json is missing from the repo."
+            echo "Commit it locally, or the model has no frozen weights to run."
+            exit 1
+          }
+
+      - name: Run the daily pipeline
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python f5_model.py daily
+
+      - name: Commit and push results
+        run: |
+          git config user.name "f5-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit (no slate, or nothing new)."
+          else
+            git commit -m "daily run $(date +%Y-%m-%d)"
+            git pull --rebase --autostash
+            git push
+          fi
