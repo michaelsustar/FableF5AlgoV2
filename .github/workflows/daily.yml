@@ -6,7 +6,7 @@ on:
     # Actions cron is UTC and ignores DST; scheduled runs can fire
     # 5-20 min late under load, so this leaves a cushion before the
     # earliest realistic first pitch (12:05 PM ET matinees).
-    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
   workflow_dispatch: {}     # adds a "Run workflow" button for manual runs
 
 permissions:
