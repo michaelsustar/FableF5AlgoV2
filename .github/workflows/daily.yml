@@ -1,12 +1,10 @@
 name: Daily F5 run
 
 on:
-  schedule:
-    # 14:00 UTC = 10:00 AM ET during the MLB season (EDT).
-    # Actions cron is UTC and ignores DST; scheduled runs can fire
-    # 5-20 min late under load, so this leaves a cushion before the
-    # earliest realistic first pitch (12:05 PM ET matinees).
-    - cron: "0 15 * * *"
+    schedule:
+    - cron: "11 15 * * *"   # ~11:11 AM ET — primary
+    - cron: "11 16 * * *"   # ~12:23 PM ET — backup
+    
   workflow_dispatch: {}     # adds a "Run workflow" button for manual runs
 
 permissions:
