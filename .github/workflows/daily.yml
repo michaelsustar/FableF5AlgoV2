@@ -1,7 +1,7 @@
 name: Daily F5 run
 
 on:
-    schedule:
+  schedule:
     - cron: "11 15 * * *"   # ~11:11 AM ET — primary
     - cron: "11 16 * * *"   # ~12:23 PM ET — backup
     
