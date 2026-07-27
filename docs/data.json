@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-07-26T21:03:16",
- "slate_date": "2026-07-26",
+ "generated_at": "2026-07-27T12:15:08",
+ "slate_date": "2026-07-27",
  "ledger": {
-  "bets": 9,
+  "bets": 10,
   "wins": 1,
-  "losses": 6,
+  "losses": 7,
   "pushes": 2,
-  "units": -4.9,
-  "roi": -0.5444,
-  "hit": 0.1429,
-  "claimed": 0.5506
+  "units": -5.9,
+  "roi": -0.59,
+  "hit": 0.125,
+  "claimed": 0.5455
  },
  "series": [
   {
@@ -22,52 +22,42 @@
   },
   {
    "date": "2026-07-26",
-   "units": -4.9
+   "units": -5.9
   }
  ],
  "bets_today": [
   {
-   "matchup": "Cleveland Guardians @ Tampa Bay Rays",
-   "pick": "Cleveland Guardians",
-   "ml": 120,
+   "matchup": "Philadelphia Phillies @ Miami Marlins",
+   "pick": "Miami Marlins",
+   "ml": 154,
    "tier": "STRONG",
-   "time": "2026-07-26T16:15:00Z",
-   "model_p": 0.593,
-   "mkt_p": 0.431,
-   "value": 0.162
+   "time": "2026-07-27T22:40:00Z",
+   "model_p": 0.446,
+   "mkt_p": 0.371,
+   "value": 0.075
   },
   {
-   "matchup": "Kansas City Royals @ Detroit Tigers",
-   "pick": "Kansas City Royals",
-   "ml": 148,
+   "matchup": "Arizona Diamondbacks @ Pittsburgh Pirates",
+   "pick": "Arizona Diamondbacks",
+   "ml": -110,
    "tier": "STRONG",
-   "time": "2026-07-26T17:40:00Z",
-   "model_p": 0.547,
-   "mkt_p": 0.382,
-   "value": 0.165
+   "time": "2026-07-27T22:40:00Z",
+   "model_p": 0.55,
+   "mkt_p": 0.49,
+   "value": 0.06
   },
   {
-   "matchup": "Colorado Rockies @ Milwaukee Brewers",
-   "pick": "Colorado Rockies",
-   "ml": 270,
+   "matchup": "Houston Astros @ Los Angeles Angels",
+   "pick": "Los Angeles Angels",
+   "ml": -115,
    "tier": "STRONG",
-   "time": "2026-07-26T18:10:00Z",
-   "model_p": 0.462,
-   "mkt_p": 0.256,
-   "value": 0.206
-  },
-  {
-   "matchup": "New York Yankees @ Philadelphia Phillies",
-   "pick": "New York Yankees",
-   "ml": 140,
-   "tier": "STRONG",
-   "time": "2026-07-26T23:20:00Z",
-   "model_p": 0.49,
-   "mkt_p": 0.395,
-   "value": 0.095
+   "time": "2026-07-28T01:38:00Z",
+   "model_p": 0.64,
+   "mkt_p": 0.5,
+   "value": 0.14
   }
  ],
- "evaluated_today": 8,
+ "evaluated_today": 7,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

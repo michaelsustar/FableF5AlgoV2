@@ -1,0 +1,2010 @@
+[
+  {
+    "gamePk": 822868,
+    "matchup": "Seattle Mariners @ Texas Rangers",
+    "game_time": "2026-07-27T18:35:00Z",
+    "away": {
+      "team": "Seattle Mariners",
+      "batting_score": 42.7,
+      "pitcher": "George Kirby",
+      "pitcher_score": 75.7,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.333,
+        "whip": 1.0,
+        "k_pct": 0.2667,
+        "ip_per_start": 6.67,
+        "pcts": {
+          "runs_thru_5": 73.3,
+          "whip": 77.7,
+          "k_pct": 75.3,
+          "ip_per_start": 93.2
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 3.778,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Cole Young",
+          "pa": 37,
+          "form": 68.6,
+          "platoon_mult": 1.074
+        },
+        {
+          "name": "Julio Rodr\u00edguez",
+          "pa": 33,
+          "form": 30.3,
+          "platoon_mult": 0.946
+        },
+        {
+          "name": "Dominic Canzone",
+          "pa": 35,
+          "form": 47.5,
+          "platoon_mult": 0.984
+        },
+        {
+          "name": "Randy Arozarena",
+          "pa": 40,
+          "form": 56.6,
+          "platoon_mult": 1.028
+        },
+        {
+          "name": "Josh Naylor",
+          "pa": 37,
+          "form": 60.7,
+          "platoon_mult": 0.982
+        },
+        {
+          "name": "Cal Raleigh",
+          "pa": 36,
+          "form": 17.9,
+          "platoon_mult": 1.079
+        },
+        {
+          "name": "Victor Robles",
+          "pa": 12
+        },
+        {
+          "name": "J.P. Crawford",
+          "pa": 21,
+          "form": 37.1,
+          "platoon_mult": 1.019
+        },
+        {
+          "name": "Colt Emerson",
+          "pa": 33,
+          "form": 22.6,
+          "platoon_mult": 1.018
+        }
+      ]
+    },
+    "home": {
+      "team": "Texas Rangers",
+      "batting_score": 63.2,
+      "pitcher": "Kumar Rocker",
+      "pitcher_score": 29.8,
+      "pitcher_metrics": {
+        "runs_thru_5": 3.0,
+        "whip": 1.188,
+        "k_pct": 0.2388,
+        "ip_per_start": 5.33,
+        "pcts": {
+          "runs_thru_5": 23.0,
+          "whip": 59.8,
+          "k_pct": 66.6,
+          "ip_per_start": 54.1
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.889,
+      "lineup": "CONFIRMED",
+      "batters": [
+        {
+          "name": "Joc Pederson",
+          "pa": 24,
+          "form": 94.6,
+          "platoon_mult": 1.006
+        },
+        {
+          "name": "Wyatt Langford",
+          "pa": 37,
+          "form": 88.2,
+          "platoon_mult": 1.004
+        },
+        {
+          "name": "Ezequiel Duran",
+          "pa": 36,
+          "form": 66.6,
+          "platoon_mult": 0.984
+        },
+        {
+          "name": "Brandon Nimmo",
+          "pa": 37,
+          "form": 69.6,
+          "platoon_mult": 0.952
+        },
+        {
+          "name": "Evan Carter",
+          "pa": 25,
+          "form": 70.9,
+          "platoon_mult": 1.085
+        },
+        {
+          "name": "Jake Burger",
+          "pa": 34,
+          "form": 45.4,
+          "platoon_mult": 0.964
+        },
+        {
+          "name": "Nicky Lopez",
+          "pa": 32,
+          "form": 53.3,
+          "platoon_mult": 0.979
+        },
+        {
+          "name": "Josh Smith",
+          "pa": 6
+        },
+        {
+          "name": "Elias D\u00edaz",
+          "pa": 22,
+          "form": 16.8,
+          "platoon_mult": 0.85
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 16,
+      "total": 18,
+      "pct": 88.9
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Texas Rangers",
+      "away": "Seattle Mariners",
+      "home_ml": 105,
+      "away_ml": -135,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.499,
+      "mkt_p_home": 0.459,
+      "value": 0.04,
+      "mode": "market",
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 824245,
+    "matchup": "Baltimore Orioles @ Detroit Tigers",
+    "game_time": "2026-07-27T22:40:00Z",
+    "away": {
+      "team": "Baltimore Orioles",
+      "batting_score": 47.2,
+      "pitcher": "Kyle Bradish",
+      "pitcher_score": 85.3,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.0,
+        "whip": 0.738,
+        "k_pct": 0.1818,
+        "ip_per_start": 6.78,
+        "pcts": {
+          "runs_thru_5": 83.1,
+          "whip": 92.9,
+          "k_pct": 29.1,
+          "ip_per_start": 95.6
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.0,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Dylan Beavers",
+          "pa": 32,
+          "form": 72.3,
+          "platoon_mult": 1.071
+        },
+        {
+          "name": "Pete Alonso",
+          "pa": 43,
+          "form": 53.9,
+          "platoon_mult": 1.057
+        },
+        {
+          "name": "Gunnar Henderson",
+          "pa": 42,
+          "form": 36.8,
+          "platoon_mult": 0.98
+        },
+        {
+          "name": "Taylor Ward",
+          "pa": 43,
+          "form": 46.3,
+          "platoon_mult": 0.938
+        },
+        {
+          "name": "Coby Mayo",
+          "pa": 17,
+          "form": 42.4,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Tyler O'Neill",
+          "pa": 21,
+          "form": 52.1,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Leody Taveras",
+          "pa": 29,
+          "form": 16.1,
+          "platoon_mult": 1.11
+        },
+        {
+          "name": "Jackson Holliday",
+          "pa": 31,
+          "form": 57.6,
+          "platoon_mult": 0.971
+        },
+        {
+          "name": "Sam Huff",
+          "pa": 11
+        }
+      ]
+    },
+    "home": {
+      "team": "Detroit Tigers",
+      "batting_score": 56.3,
+      "pitcher": "Keider Montero",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": 3.8,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Colt Keith",
+          "pa": 29,
+          "form": 67.9,
+          "platoon_mult": 1.039
+        },
+        {
+          "name": "Kevin McGonigle",
+          "pa": 39,
+          "form": 58.3,
+          "platoon_mult": 1.056
+        },
+        {
+          "name": "Gleyber Torres",
+          "pa": 26,
+          "form": 32.1,
+          "platoon_mult": 1.073
+        },
+        {
+          "name": "Riley Greene",
+          "pa": 41,
+          "form": 54.8,
+          "platoon_mult": 1.075
+        },
+        {
+          "name": "Dillon Dingler",
+          "pa": 39,
+          "form": 100.0,
+          "platoon_mult": 1.059
+        },
+        {
+          "name": "Zach McKinstry",
+          "pa": 29,
+          "form": 38.4,
+          "platoon_mult": 1.098
+        },
+        {
+          "name": "Spencer Torkelson",
+          "pa": 37,
+          "form": 42.9,
+          "platoon_mult": 0.978
+        },
+        {
+          "name": "James Outman",
+          "pa": 24,
+          "form": 26.0,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Hao-Yu Lee",
+          "pa": 32,
+          "form": 86.0,
+          "platoon_mult": 0.951
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 17,
+      "total": 18,
+      "pct": 94.4
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Detroit Tigers",
+      "away": "Baltimore Orioles",
+      "home_ml": -115,
+      "away_ml": -115,
+      "book": "draftkings"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823353,
+    "matchup": "Arizona Diamondbacks @ Pittsburgh Pirates",
+    "game_time": "2026-07-27T22:40:00Z",
+    "away": {
+      "team": "Arizona Diamondbacks",
+      "batting_score": 66.3,
+      "pitcher": "Merrill Kelly",
+      "pitcher_score": 56.2,
+      "pitcher_metrics": {
+        "runs_thru_5": 2.0,
+        "whip": 1.059,
+        "k_pct": 0.1875,
+        "ip_per_start": 5.67,
+        "pcts": {
+          "runs_thru_5": 53.0,
+          "whip": 71.6,
+          "k_pct": 34.1,
+          "ip_per_start": 66.2
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 6.3,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Corbin Carroll",
+          "pa": 41,
+          "form": 59.1,
+          "platoon_mult": 0.902
+        },
+        {
+          "name": "Geraldo Perdomo",
+          "pa": 47,
+          "form": 45.2,
+          "platoon_mult": 1.045
+        },
+        {
+          "name": "Gabriel Moreno",
+          "pa": 46,
+          "form": 93.1,
+          "platoon_mult": 1.019
+        },
+        {
+          "name": "Ketel Marte",
+          "pa": 41,
+          "form": 45.5,
+          "platoon_mult": 0.915
+        },
+        {
+          "name": "Ryan Waldschmidt",
+          "pa": 23,
+          "form": 78.3,
+          "platoon_mult": 0.951
+        },
+        {
+          "name": "Nolan Arenado",
+          "pa": 40,
+          "form": 64.6,
+          "platoon_mult": 0.983
+        },
+        {
+          "name": "Jorge Barrosa",
+          "pa": 9
+        },
+        {
+          "name": "Tyler Locklear",
+          "pa": 24,
+          "form": 78.4,
+          "platoon_mult": 0.989
+        },
+        {
+          "name": "Tim Tawa",
+          "pa": 38,
+          "form": 66.0,
+          "platoon_mult": 1.132
+        }
+      ]
+    },
+    "home": {
+      "team": "Pittsburgh Pirates",
+      "batting_score": 43.8,
+      "pitcher": "Mitch Keller",
+      "pitcher_score": 33.7,
+      "pitcher_metrics": {
+        "runs_thru_5": 2.667,
+        "whip": 1.357,
+        "k_pct": 0.1613,
+        "ip_per_start": 4.67,
+        "pcts": {
+          "runs_thru_5": 33.8,
+          "whip": 41.6,
+          "k_pct": 16.6,
+          "ip_per_start": 25.0
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.111,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jake Mangum",
+          "pa": 35,
+          "form": 35.3,
+          "platoon_mult": 1.033
+        },
+        {
+          "name": "Brandon Lowe",
+          "pa": 29,
+          "form": 43.9,
+          "platoon_mult": 1.096
+        },
+        {
+          "name": "Bryan Reynolds",
+          "pa": 38,
+          "form": 12.5,
+          "platoon_mult": 0.963
+        },
+        {
+          "name": "Esmerlyn Valdez",
+          "pa": 38,
+          "form": 67.7,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Ryan O'Hearn",
+          "pa": 36,
+          "form": 33.5,
+          "platoon_mult": 1.081
+        },
+        {
+          "name": "Jared Triolo",
+          "pa": 23,
+          "form": 64.2,
+          "platoon_mult": 0.969
+        },
+        {
+          "name": "Jacob Gonzalez",
+          "pa": 23,
+          "form": 49.4,
+          "platoon_mult": 0.986
+        },
+        {
+          "name": "Shawn Ross",
+          "pa": 5
+        },
+        {
+          "name": "Billy Cook",
+          "pa": 10
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 15,
+      "total": 18,
+      "pct": 83.3
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Pittsburgh Pirates",
+      "away": "Arizona Diamondbacks",
+      "home_ml": -120,
+      "away_ml": -110,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.45,
+      "mkt_p_home": 0.51,
+      "value": -0.06,
+      "mode": "market",
+      "pick": "Arizona Diamondbacks",
+      "pick_ml": -110,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 823839,
+    "matchup": "Philadelphia Phillies @ Miami Marlins",
+    "game_time": "2026-07-27T22:40:00Z",
+    "away": {
+      "team": "Philadelphia Phillies",
+      "batting_score": 50.7,
+      "pitcher": "Zack Wheeler",
+      "pitcher_score": 92.5,
+      "pitcher_metrics": {
+        "runs_thru_5": 0.667,
+        "whip": 0.65,
+        "k_pct": 0.4583,
+        "ip_per_start": 6.67,
+        "pcts": {
+          "runs_thru_5": 91.9,
+          "whip": 96.6,
+          "k_pct": 99.0,
+          "ip_per_start": 93.2
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.0,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Trea Turner",
+          "pa": 40,
+          "form": 93.5,
+          "platoon_mult": 1.048
+        },
+        {
+          "name": "Kyle Schwarber",
+          "pa": 38,
+          "form": 52.8,
+          "platoon_mult": 0.968
+        },
+        {
+          "name": "Bryce Harper",
+          "pa": 38,
+          "form": 33.6,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Brandon Marsh",
+          "pa": 33,
+          "form": 15.7,
+          "platoon_mult": 1.08
+        },
+        {
+          "name": "Alec Bohm",
+          "pa": 38,
+          "form": 62.7,
+          "platoon_mult": 0.96
+        },
+        {
+          "name": "Bryson Stott",
+          "pa": 33,
+          "form": 65.3,
+          "platoon_mult": 0.975
+        },
+        {
+          "name": "J.T. Realmuto",
+          "pa": 31,
+          "form": 76.9,
+          "platoon_mult": 1.025
+        },
+        {
+          "name": "Bryan De La Cruz",
+          "pa": 8
+        },
+        {
+          "name": "Justin Crawford",
+          "pa": 18,
+          "form": 5.3,
+          "platoon_mult": 1.048
+        }
+      ]
+    },
+    "home": {
+      "team": "Miami Marlins",
+      "batting_score": 31.8,
+      "pitcher": "Tyler Phillips",
+      "pitcher_score": 62.4,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.333,
+        "whip": 1.452,
+        "k_pct": 0.1333,
+        "ip_per_start": 3.44,
+        "pcts": {
+          "runs_thru_5": 73.3,
+          "whip": 33.4,
+          "k_pct": 8.1,
+          "ip_per_start": 3.7
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 2.778,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Otto Lopez",
+          "pa": 31,
+          "form": 34.8,
+          "platoon_mult": 0.945
+        },
+        {
+          "name": "Kyle Stowers",
+          "pa": 39,
+          "form": 34.5,
+          "platoon_mult": 1.081
+        },
+        {
+          "name": "Heriberto Hern\u00e1ndez",
+          "pa": 38,
+          "form": 51.5,
+          "platoon_mult": 0.909
+        },
+        {
+          "name": "Xavier Edwards",
+          "pa": 37,
+          "form": 10.0,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Liam Hicks",
+          "pa": 37,
+          "form": 29.2,
+          "platoon_mult": 1.086
+        },
+        {
+          "name": "Leo Jim\u00e9nez",
+          "pa": 15,
+          "form": 24.4,
+          "platoon_mult": 1.048
+        },
+        {
+          "name": "Jakob Marsee",
+          "pa": 21,
+          "form": 13.1,
+          "platoon_mult": 0.99
+        },
+        {
+          "name": "Javier Sanoja",
+          "pa": 33,
+          "form": 35.4,
+          "platoon_mult": 0.921
+        },
+        {
+          "name": "Joe Mack",
+          "pa": 26,
+          "form": 53.6,
+          "platoon_mult": 1.067
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 17,
+      "total": 18,
+      "pct": 94.4
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Miami Marlins",
+      "away": "Philadelphia Phillies",
+      "home_ml": 154,
+      "away_ml": -200,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.446,
+      "mkt_p_home": 0.371,
+      "value": 0.075,
+      "mode": "market",
+      "pick": "Miami Marlins",
+      "pick_ml": 154,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 822705,
+    "matchup": "Toronto Blue Jays @ Washington Nationals",
+    "game_time": "2026-07-27T22:45:00Z",
+    "away": {
+      "team": "Toronto Blue Jays",
+      "batting_score": 54.5,
+      "pitcher": "Max Scherzer",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": 2.4,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Nathan Lukes",
+          "pa": 31,
+          "form": 47.4,
+          "platoon_mult": 0.955
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "pa": 42,
+          "form": 57.8,
+          "platoon_mult": 1.131
+        },
+        {
+          "name": "Alejandro Kirk",
+          "pa": 28,
+          "form": 75.9,
+          "platoon_mult": 0.993
+        },
+        {
+          "name": "George Springer",
+          "pa": 38,
+          "form": 97.1,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Daulton Varsho",
+          "pa": 33,
+          "form": 58.0,
+          "platoon_mult": 1.062
+        },
+        {
+          "name": "Kazuma Okamoto",
+          "pa": 39,
+          "form": 8.2,
+          "platoon_mult": 1.025
+        },
+        {
+          "name": "Ernie Clement",
+          "pa": 42,
+          "form": 58.7,
+          "platoon_mult": 1.012
+        },
+        {
+          "name": "Andr\u00e9s Gim\u00e9nez",
+          "pa": 24,
+          "form": 33.2,
+          "platoon_mult": 0.877
+        },
+        {
+          "name": "Yohendrick Pi\u00f1ango",
+          "pa": 12
+        }
+      ]
+    },
+    "home": {
+      "team": "Washington Nationals",
+      "batting_score": 64.3,
+      "pitcher": "Andrew Alvarez",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "L",
+      "rpg_14d": 7.556,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "James Wood",
+          "pa": 44,
+          "form": 41.8,
+          "platoon_mult": 1.054
+        },
+        {
+          "name": "Daylen Lile",
+          "pa": 33,
+          "form": 55.9,
+          "platoon_mult": 1.053
+        },
+        {
+          "name": "Dylan Crews",
+          "pa": 37,
+          "form": 77.3,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "CJ Abrams",
+          "pa": 41,
+          "form": 100.0,
+          "platoon_mult": 1.092
+        },
+        {
+          "name": "Brady House",
+          "pa": 5
+        },
+        {
+          "name": "Jacob Young",
+          "pa": 29,
+          "form": 82.8,
+          "platoon_mult": 0.957
+        },
+        {
+          "name": "Harry Ford",
+          "pa": 20,
+          "form": 61.0,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Luis Garc\u00eda Jr.",
+          "pa": 29,
+          "form": 45.9,
+          "platoon_mult": 1.045
+        },
+        {
+          "name": "Nasim Nu\u00f1ez",
+          "pa": 35,
+          "form": 49.5,
+          "platoon_mult": 0.954
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 16,
+      "total": 18,
+      "pct": 88.9
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Washington Nationals",
+      "away": "Toronto Blue Jays",
+      "home_ml": -140,
+      "away_ml": 110,
+      "book": "draftkings"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 824490,
+    "matchup": "Cleveland Guardians @ Cincinnati Reds",
+    "game_time": "2026-07-27T23:10:00Z",
+    "away": {
+      "team": "Cleveland Guardians",
+      "batting_score": 46.3,
+      "pitcher": "Slade Cecconi",
+      "pitcher_score": 5.6,
+      "pitcher_metrics": {
+        "runs_thru_5": 4.333,
+        "whip": 2.025,
+        "k_pct": 0.1765,
+        "ip_per_start": 4.44,
+        "pcts": {
+          "runs_thru_5": 4.1,
+          "whip": 5.7,
+          "k_pct": 24.7,
+          "ip_per_start": 17.6
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 3.5,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Steven Kwan",
+          "pa": 38,
+          "form": 97.2,
+          "platoon_mult": 1.074
+        },
+        {
+          "name": "Jos\u00e9 Ram\u00edrez",
+          "pa": 18,
+          "form": 20.1,
+          "platoon_mult": 0.881
+        },
+        {
+          "name": "Chase DeLauter",
+          "pa": 39,
+          "form": 68.7,
+          "platoon_mult": 0.934
+        },
+        {
+          "name": "Brayan Rocchio",
+          "pa": 43,
+          "form": 31.6,
+          "platoon_mult": 1.05
+        },
+        {
+          "name": "Travis Bazzana",
+          "pa": 43,
+          "form": 73.4,
+          "platoon_mult": 1.132
+        },
+        {
+          "name": "Angel Mart\u00ednez",
+          "pa": 11
+        },
+        {
+          "name": "David Fry",
+          "pa": 15,
+          "form": 0.7,
+          "platoon_mult": 1.078
+        },
+        {
+          "name": "Austin Hedges",
+          "pa": 14
+        },
+        {
+          "name": "Rhys Hoskins",
+          "pa": 23,
+          "form": 32.1,
+          "platoon_mult": 1.083
+        }
+      ]
+    },
+    "home": {
+      "team": "Cincinnati Reds",
+      "batting_score": 50.9,
+      "pitcher": "Chase Burns",
+      "pitcher_score": 69.4,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.333,
+        "whip": 1.25,
+        "k_pct": 0.1818,
+        "ip_per_start": 5.33,
+        "pcts": {
+          "runs_thru_5": 73.3,
+          "whip": 53.7,
+          "k_pct": 29.1,
+          "ip_per_start": 54.1
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.111,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Elly De La Cruz",
+          "pa": 41,
+          "form": 77.3,
+          "platoon_mult": 0.907
+        },
+        {
+          "name": "Edwin Arroyo",
+          "pa": 26,
+          "form": 39.4,
+          "platoon_mult": 0.945
+        },
+        {
+          "name": "JJ Bleday",
+          "pa": 38,
+          "form": 29.9,
+          "platoon_mult": 1.027
+        },
+        {
+          "name": "Eugenio Su\u00e1rez",
+          "pa": 33,
+          "form": 47.3,
+          "platoon_mult": 0.983
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "pa": 25,
+          "form": 79.8,
+          "platoon_mult": 1.073
+        },
+        {
+          "name": "Dane Myers",
+          "pa": 26,
+          "form": 46.0,
+          "platoon_mult": 0.976
+        },
+        {
+          "name": "Noelvi Marte",
+          "pa": 17,
+          "form": 16.5,
+          "platoon_mult": 0.978
+        },
+        {
+          "name": "Tyler Stephenson",
+          "pa": 24,
+          "form": 82.2,
+          "platoon_mult": 1.049
+        },
+        {
+          "name": "Sal Stewart",
+          "pa": 36,
+          "form": 40.1,
+          "platoon_mult": 0.956
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 16,
+      "total": 18,
+      "pct": 88.9
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Cincinnati Reds",
+      "away": "Cleveland Guardians",
+      "home_ml": -188,
+      "away_ml": 145,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.619,
+      "mkt_p_home": 0.615,
+      "value": 0.004,
+      "mode": "market",
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823597,
+    "matchup": "Atlanta Braves @ New York Mets",
+    "game_time": "2026-07-27T23:10:00Z",
+    "away": {
+      "team": "Atlanta Braves",
+      "batting_score": 62.0,
+      "pitcher": "Mart\u00edn P\u00e9rez",
+      "pitcher_score": 22.6,
+      "pitcher_metrics": {
+        "runs_thru_5": 3.0,
+        "whip": 1.575,
+        "k_pct": 0.0847,
+        "ip_per_start": 4.44,
+        "pcts": {
+          "runs_thru_5": 23.0,
+          "whip": 24.7,
+          "k_pct": 1.0,
+          "ip_per_start": 17.6
+        }
+      },
+      "pitcher_hand": "L",
+      "rpg_14d": 6.0,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Drake Baldwin",
+          "pa": 48,
+          "form": 90.3,
+          "platoon_mult": 0.922
+        },
+        {
+          "name": "Ozzie Albies",
+          "pa": 48,
+          "form": 40.3,
+          "platoon_mult": 1.058
+        },
+        {
+          "name": "Matt Olson",
+          "pa": 47,
+          "form": 61.1,
+          "platoon_mult": 0.934
+        },
+        {
+          "name": "Michael Harris II",
+          "pa": 46,
+          "form": 71.1,
+          "platoon_mult": 0.948
+        },
+        {
+          "name": "Mauricio Dub\u00f3n",
+          "pa": 44,
+          "form": 32.7,
+          "platoon_mult": 0.971
+        },
+        {
+          "name": "Jorge Mateo",
+          "pa": 3
+        },
+        {
+          "name": "Austin Riley",
+          "pa": 42,
+          "form": 72.4,
+          "platoon_mult": 0.943
+        },
+        {
+          "name": "Brewer Hicklen",
+          "pa": 19,
+          "form": 84.4,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Jim Jarvis",
+          "pa": 36,
+          "form": 43.7,
+          "platoon_mult": 1.0
+        }
+      ]
+    },
+    "home": {
+      "team": "New York Mets",
+      "batting_score": 33.9,
+      "pitcher": "Zac Thornton",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "L",
+      "rpg_14d": 3.778,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "A.J. Ewing",
+          "pa": 43,
+          "form": 31.9,
+          "platoon_mult": 0.99
+        },
+        {
+          "name": "Francisco Lindor",
+          "pa": 40,
+          "form": 49.1,
+          "platoon_mult": 0.86
+        },
+        {
+          "name": "Bo Bichette",
+          "pa": 40,
+          "form": 52.9,
+          "platoon_mult": 1.062
+        },
+        {
+          "name": "Carson Benge",
+          "pa": 35,
+          "form": 27.4,
+          "platoon_mult": 0.968
+        },
+        {
+          "name": "Jorge Polanco",
+          "pa": 22,
+          "form": 0.8,
+          "platoon_mult": 1.082
+        },
+        {
+          "name": "Marcus Semien",
+          "pa": 25,
+          "form": 25.1,
+          "platoon_mult": 1.061
+        },
+        {
+          "name": "Tyrone Taylor",
+          "pa": 14
+        },
+        {
+          "name": "Brett Baty",
+          "pa": 22,
+          "form": 49.9,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Luis Torrens",
+          "pa": 14
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 15,
+      "total": 18,
+      "pct": 83.3
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "New York Mets",
+      "away": "Atlanta Braves",
+      "home_ml": -115,
+      "away_ml": -115,
+      "book": "draftkings"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 824570,
+    "matchup": "New York Yankees @ Chicago White Sox",
+    "game_time": "2026-07-27T23:40:00Z",
+    "away": {
+      "team": "New York Yankees",
+      "batting_score": 38.0,
+      "pitcher": "Max Fried",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "L",
+      "rpg_14d": 2.889,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Paul Goldschmidt",
+          "pa": 29,
+          "form": 62.8,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Ben Rice",
+          "pa": 38,
+          "form": 40.6,
+          "platoon_mult": 0.884
+        },
+        {
+          "name": "Ryan McMahon",
+          "pa": 23,
+          "form": 21.7,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Jasson Dom\u00ednguez",
+          "pa": 37,
+          "form": 30.2,
+          "platoon_mult": 1.044
+        },
+        {
+          "name": "Anthony Volpe",
+          "pa": 16,
+          "form": 63.5,
+          "platoon_mult": 0.965
+        },
+        {
+          "name": "Trent Grisham",
+          "pa": 37,
+          "form": 4.6,
+          "platoon_mult": 1.038
+        },
+        {
+          "name": "Spencer Jones",
+          "pa": 5
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "pa": 27,
+          "form": 4.7,
+          "platoon_mult": 0.965
+        },
+        {
+          "name": "Austin Wells",
+          "pa": 17,
+          "form": 75.9,
+          "platoon_mult": 0.85
+        }
+      ]
+    },
+    "home": {
+      "team": "Chicago White Sox",
+      "batting_score": 49.7,
+      "pitcher": "Noah Schultz",
+      "pitcher_score": 13.9,
+      "pitcher_metrics": {
+        "runs_thru_5": 3.333,
+        "whip": 1.829,
+        "k_pct": 0.1343,
+        "ip_per_start": 4.56,
+        "pcts": {
+          "runs_thru_5": 13.2,
+          "whip": 12.5,
+          "k_pct": 9.5,
+          "ip_per_start": 21.3
+        }
+      },
+      "pitcher_hand": "L",
+      "rpg_14d": 5.222,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Junior Perez",
+          "pa": 3
+        },
+        {
+          "name": "Munetaka Murakami",
+          "pa": 40,
+          "form": 68.0,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Miguel Vargas",
+          "pa": 40,
+          "form": 51.3,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Braden Montgomery",
+          "pa": 38,
+          "form": 64.1,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Andrew Benintendi",
+          "pa": 30,
+          "form": 46.3,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Tristan Peters",
+          "pa": 35,
+          "form": 11.0,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Chase Meidroth",
+          "pa": 30,
+          "form": 95.6,
+          "platoon_mult": 1.144
+        },
+        {
+          "name": "Luisangel Acu\u00f1a",
+          "pa": 10
+        },
+        {
+          "name": "Drew Romo",
+          "pa": 18,
+          "form": 11.8,
+          "platoon_mult": 1.0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 15,
+      "total": 18,
+      "pct": 83.3
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Chicago White Sox",
+      "away": "New York Yankees",
+      "home_ml": 124,
+      "away_ml": -160,
+      "book": "draftkings"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823025,
+    "matchup": "Chicago Cubs @ St. Louis Cardinals",
+    "game_time": "2026-07-27T23:45:00Z",
+    "away": {
+      "team": "Chicago Cubs",
+      "batting_score": 62.5,
+      "pitcher": "David Peterson",
+      "pitcher_score": 26.4,
+      "pitcher_metrics": {
+        "runs_thru_5": 3.0,
+        "whip": 1.435,
+        "k_pct": 0.1343,
+        "ip_per_start": 5.11,
+        "pcts": {
+          "runs_thru_5": 23.0,
+          "whip": 34.8,
+          "k_pct": 9.5,
+          "ip_per_start": 45.6
+        }
+      },
+      "pitcher_hand": "L",
+      "rpg_14d": 6.333,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Pete Crow-Armstrong",
+          "pa": 42,
+          "form": 82.9,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Seiya Suzuki",
+          "pa": 44,
+          "form": 73.2,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Michael Busch",
+          "pa": 44,
+          "form": 72.2,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Ian Happ",
+          "pa": 39,
+          "form": 51.6,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Nico Hoerner",
+          "pa": 39,
+          "form": 74.4,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Michael Conforto",
+          "pa": 18,
+          "form": 44.5,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Carson Kelly",
+          "pa": 24,
+          "form": 5.0,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Pedro Ram\u00edrez",
+          "pa": 27,
+          "form": 93.0,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Dansby Swanson",
+          "pa": 36,
+          "form": 65.2,
+          "platoon_mult": 1.0
+        }
+      ]
+    },
+    "home": {
+      "team": "St. Louis Cardinals",
+      "batting_score": 33.3,
+      "pitcher": null,
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": null,
+      "rpg_14d": 3.7,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "JJ Wetherholt",
+          "pa": 46,
+          "form": 34.9,
+          "platoon_mult": 0.967
+        },
+        {
+          "name": "Jordan Walker",
+          "pa": 44,
+          "form": 38.8,
+          "platoon_mult": 1.094
+        },
+        {
+          "name": "Iv\u00e1n Herrera",
+          "pa": 41,
+          "form": 31.5,
+          "platoon_mult": 1.095
+        },
+        {
+          "name": "Nathan Church",
+          "pa": 27,
+          "form": 3.9,
+          "platoon_mult": 1.039
+        },
+        {
+          "name": "Masyn Winn",
+          "pa": 40,
+          "form": 31.4,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Jos\u00e9 Ferm\u00edn",
+          "pa": 28,
+          "form": 37.7,
+          "platoon_mult": 1.105
+        },
+        {
+          "name": "Lars Nootbaar",
+          "pa": 35,
+          "form": 19.2,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Blaze Jordan",
+          "pa": 30,
+          "form": 41.5,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Jimmy Crooks",
+          "pa": 17,
+          "form": 60.7,
+          "platoon_mult": 1.0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 18,
+      "total": 18,
+      "pct": 100.0
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "St. Louis Cardinals",
+      "away": "Chicago Cubs",
+      "home_ml": -115,
+      "away_ml": -115,
+      "book": "draftkings"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 824001,
+    "matchup": "Houston Astros @ Los Angeles Angels",
+    "game_time": "2026-07-28T01:38:00Z",
+    "away": {
+      "team": "Houston Astros",
+      "batting_score": 25.4,
+      "pitcher": "Tatsuya Imai",
+      "pitcher_score": 27.9,
+      "pitcher_metrics": {
+        "runs_thru_5": 2.667,
+        "whip": 2.091,
+        "k_pct": 0.2321,
+        "ip_per_start": 3.67,
+        "pcts": {
+          "runs_thru_5": 33.8,
+          "whip": 3.7,
+          "k_pct": 63.2,
+          "ip_per_start": 5.4
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.444,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Nick Allen",
+          "pa": 10
+        },
+        {
+          "name": "Christian V\u00e1zquez",
+          "pa": 15,
+          "form": 11.3,
+          "platoon_mult": 1.017
+        },
+        {
+          "name": "Isaac Paredes",
+          "pa": 39,
+          "form": 82.2,
+          "platoon_mult": 1.015
+        },
+        {
+          "name": "Jose Altuve",
+          "pa": 34,
+          "form": 29.3,
+          "platoon_mult": 0.999
+        },
+        {
+          "name": "LaMonte Wade Jr.",
+          "pa": 33,
+          "form": 17.8,
+          "platoon_mult": 0.948
+        },
+        {
+          "name": "Yainer Diaz",
+          "pa": 25,
+          "form": 4.9,
+          "platoon_mult": 1.057
+        },
+        {
+          "name": "Taylor Trammell",
+          "pa": 14
+        },
+        {
+          "name": "Cam Smith",
+          "pa": 27,
+          "form": 7.0,
+          "platoon_mult": 1.022
+        },
+        {
+          "name": "Zach Dezenzo",
+          "pa": 13
+        }
+      ]
+    },
+    "home": {
+      "team": "Los Angeles Angels",
+      "batting_score": 43.8,
+      "pitcher": "Walbert Ure\u00f1a",
+      "pitcher_score": 89.2,
+      "pitcher_metrics": {
+        "runs_thru_5": 0.333,
+        "whip": 1.149,
+        "k_pct": 0.2154,
+        "ip_per_start": 5.22,
+        "pcts": {
+          "runs_thru_5": 97.3,
+          "whip": 64.9,
+          "k_pct": 50.7,
+          "ip_per_start": 49.0
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 2.667,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Zach Neto",
+          "pa": 38,
+          "form": 37.0,
+          "platoon_mult": 0.949
+        },
+        {
+          "name": "Mike Trout",
+          "pa": 38,
+          "form": 75.6,
+          "platoon_mult": 1.001
+        },
+        {
+          "name": "Oswald Peraza",
+          "pa": 14
+        },
+        {
+          "name": "Jorge Soler",
+          "pa": 34,
+          "form": 16.2,
+          "platoon_mult": 1.032
+        },
+        {
+          "name": "Nolan Schanuel",
+          "pa": 38,
+          "form": 65.6,
+          "platoon_mult": 1.049
+        },
+        {
+          "name": "Jo Adell",
+          "pa": 35,
+          "form": 47.6,
+          "platoon_mult": 0.87
+        },
+        {
+          "name": "Denzer Guzman",
+          "pa": 23,
+          "form": 6.9,
+          "platoon_mult": 1.006
+        },
+        {
+          "name": "Jose Siri",
+          "pa": 16,
+          "form": 75.5,
+          "platoon_mult": 0.925
+        },
+        {
+          "name": "Logan O'Hoppe",
+          "pa": 19,
+          "form": 25.6,
+          "platoon_mult": 0.923
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 14,
+      "total": 18,
+      "pct": 77.8
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Los Angeles Angels",
+      "away": "Houston Astros",
+      "home_ml": -115,
+      "away_ml": -115,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.64,
+      "mkt_p_home": 0.5,
+      "value": 0.14,
+      "mode": "market",
+      "pick": "Los Angeles Angels",
+      "pick_ml": -115,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 824977,
+    "matchup": "Boston Red Sox @ Athletics",
+    "game_time": "2026-07-28T01:40:00Z",
+    "away": {
+      "team": "Boston Red Sox",
+      "batting_score": 54.6,
+      "pitcher": "Payton Tolle",
+      "pitcher_score": 78.3,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.0,
+        "whip": 1.043,
+        "k_pct": 0.3548,
+        "ip_per_start": 5.11,
+        "pcts": {
+          "runs_thru_5": 83.1,
+          "whip": 73.0,
+          "k_pct": 92.2,
+          "ip_per_start": 45.6
+        }
+      },
+      "pitcher_hand": "L",
+      "rpg_14d": 5.3,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jahmai Jones",
+          "pa": 9
+        },
+        {
+          "name": "Ceddanne Rafaela",
+          "pa": 42,
+          "form": 53.0,
+          "platoon_mult": 0.953
+        },
+        {
+          "name": "Wilyer Abreu",
+          "pa": 42,
+          "form": 44.8,
+          "platoon_mult": 0.872
+        },
+        {
+          "name": "Willson Contreras",
+          "pa": 36,
+          "form": 85.7,
+          "platoon_mult": 0.978
+        },
+        {
+          "name": "Caleb Durbin",
+          "pa": 40,
+          "form": 64.3,
+          "platoon_mult": 1.027
+        },
+        {
+          "name": "Romy Gonzalez",
+          "pa": 21,
+          "form": 20.3,
+          "platoon_mult": 0.869
+        },
+        {
+          "name": "Jarren Duran",
+          "pa": 38,
+          "form": 33.6,
+          "platoon_mult": 1.008
+        },
+        {
+          "name": "Andruw Monasterio",
+          "pa": 22,
+          "form": 80.6,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Carlos Narv\u00e1ez",
+          "pa": 11
+        }
+      ]
+    },
+    "home": {
+      "team": "Athletics",
+      "batting_score": 52.6,
+      "pitcher": "Jack Perkins",
+      "pitcher_score": 9.3,
+      "pitcher_metrics": {
+        "runs_thru_5": 4.0,
+        "whip": 1.61,
+        "k_pct": 0.2615,
+        "ip_per_start": 4.56,
+        "pcts": {
+          "runs_thru_5": 6.1,
+          "whip": 23.0,
+          "k_pct": 74.0,
+          "ip_per_start": 21.3
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 5.111,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jacob Wilson",
+          "pa": 41,
+          "form": 57.5,
+          "platoon_mult": 0.96
+        },
+        {
+          "name": "Nick Kurtz",
+          "pa": 8
+        },
+        {
+          "name": "Jonah Heim",
+          "pa": 31,
+          "form": 28.3,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Tyler Soderstrom",
+          "pa": 38,
+          "form": 71.7,
+          "platoon_mult": 0.874
+        },
+        {
+          "name": "Tommy White",
+          "pa": 33,
+          "form": 63.7,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Lawrence Butler",
+          "pa": 29,
+          "form": 43.4,
+          "platoon_mult": 0.96
+        },
+        {
+          "name": "Donovan Walton",
+          "pa": 26,
+          "form": 47.8,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Jeff McNeil",
+          "pa": 24,
+          "form": 80.8,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Carlos Cortes",
+          "pa": 21,
+          "form": 27.5,
+          "platoon_mult": 1.0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 15,
+      "total": 18,
+      "pct": 83.3
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "Athletics",
+      "away": "Boston Red Sox",
+      "home_ml": 120,
+      "away_ml": -154,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.424,
+      "mkt_p_home": 0.428,
+      "value": -0.004,
+      "mode": "market",
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823195,
+    "matchup": "Milwaukee Brewers @ San Francisco Giants",
+    "game_time": "2026-07-28T01:45:00Z",
+    "away": {
+      "team": "Milwaukee Brewers",
+      "batting_score": 68.2,
+      "pitcher": "Brandon Sproat",
+      "pitcher_score": 53.5,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.667,
+        "whip": 1.714,
+        "k_pct": 0.193,
+        "ip_per_start": 3.89,
+        "pcts": {
+          "runs_thru_5": 63.5,
+          "whip": 18.6,
+          "k_pct": 36.1,
+          "ip_per_start": 8.4
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 5.111,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jackson Chourio",
+          "pa": 40,
+          "form": 38.8,
+          "platoon_mult": 0.962
+        },
+        {
+          "name": "Brice Turang",
+          "pa": 34,
+          "form": 74.1,
+          "platoon_mult": 1.114
+        },
+        {
+          "name": "Andrew Vaughn",
+          "pa": 23,
+          "form": 62.1,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "William Contreras",
+          "pa": 37,
+          "form": 31.9,
+          "platoon_mult": 1.005
+        },
+        {
+          "name": "Blake Perkins",
+          "pa": 0
+        },
+        {
+          "name": "Gary S\u00e1nchez",
+          "pa": 11
+        },
+        {
+          "name": "Luis Lara",
+          "pa": 22,
+          "form": 70.8,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Cooper Pratt",
+          "pa": 27,
+          "form": 99.9,
+          "platoon_mult": 1.148
+        },
+        {
+          "name": "Joey Ortiz",
+          "pa": 29,
+          "form": 100.0,
+          "platoon_mult": 1.063
+        }
+      ]
+    },
+    "home": {
+      "team": "San Francisco Giants",
+      "batting_score": 44.1,
+      "pitcher": "Tyler Mahle",
+      "pitcher_score": 52.7,
+      "pitcher_metrics": {
+        "runs_thru_5": 2.0,
+        "whip": 1.347,
+        "k_pct": 0.1806,
+        "ip_per_start": 5.44,
+        "pcts": {
+          "runs_thru_5": 53.0,
+          "whip": 43.6,
+          "k_pct": 27.0,
+          "ip_per_start": 59.5
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.556,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Luis Arraez",
+          "pa": 36,
+          "form": 52.3,
+          "platoon_mult": 1.012
+        },
+        {
+          "name": "Heliot Ramos",
+          "pa": 40,
+          "form": 21.9,
+          "platoon_mult": 0.946
+        },
+        {
+          "name": "Bryce Eldridge",
+          "pa": 39,
+          "form": 46.6,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Rafael Devers",
+          "pa": 39,
+          "form": 71.3,
+          "platoon_mult": 1.145
+        },
+        {
+          "name": "Casey Schmitt",
+          "pa": 38,
+          "form": 24.5,
+          "platoon_mult": 0.973
+        },
+        {
+          "name": "Jesus Rodriguez",
+          "pa": 7
+        },
+        {
+          "name": "Willy Adames",
+          "pa": 36,
+          "form": 47.6,
+          "platoon_mult": 1.051
+        },
+        {
+          "name": "Drew Cavanaugh",
+          "pa": 15,
+          "form": 76.5,
+          "platoon_mult": 0.998
+        },
+        {
+          "name": "Daniel Susac",
+          "pa": 16,
+          "form": 11.6,
+          "platoon_mult": 0.909
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 15,
+      "total": 18,
+      "pct": 83.3
+    },
+    "market": {
+      "date": "2026-07-27",
+      "home": "San Francisco Giants",
+      "away": "Milwaukee Brewers",
+      "home_ml": 100,
+      "away_ml": -130,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.477,
+      "mkt_p_home": 0.469,
+      "value": 0.007,
+      "mode": "market",
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  }
+]
