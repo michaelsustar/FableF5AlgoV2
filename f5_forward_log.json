@@ -338,7 +338,9 @@
   "away_team": "Cleveland Guardians",
   "params": "cdce6d9745",
   "logged_at": "2026-07-26T00:21:08",
-  "graded": false
+  "graded": true,
+  "outcome": "Tampa Bay Rays",
+  "units": -1.0
  },
  "824810": {
   "gamePk": 824810,
@@ -355,7 +357,9 @@
   "away_team": "Atlanta Braves",
   "params": "cdce6d9745",
   "logged_at": "2026-07-26T00:21:08",
-  "graded": false
+  "graded": true,
+  "outcome": "Atlanta Braves",
+  "units": 0.0
  },
  "824246": {
   "gamePk": 824246,
@@ -372,7 +376,9 @@
   "away_team": "Kansas City Royals",
   "params": "cdce6d9745",
   "logged_at": "2026-07-26T00:21:08",
-  "graded": false
+  "graded": true,
+  "outcome": "Detroit Tigers",
+  "units": -1.0
  },
  "823599": {
   "gamePk": 823599,
@@ -389,7 +395,9 @@
   "away_team": "Los Angeles Dodgers",
   "params": "cdce6d9745",
   "logged_at": "2026-07-26T00:21:08",
-  "graded": false
+  "graded": true,
+  "outcome": "Los Angeles Dodgers",
+  "units": 0.0
  },
  "823755": {
   "gamePk": 823755,
@@ -406,7 +414,9 @@
   "away_team": "Colorado Rockies",
   "params": "cdce6d9745",
   "logged_at": "2026-07-26T00:21:08",
-  "graded": false
+  "graded": true,
+  "outcome": "Milwaukee Brewers",
+  "units": -1.0
  },
  "823028": {
   "gamePk": 823028,
@@ -423,7 +433,9 @@
   "away_team": "Cincinnati Reds",
   "params": "cdce6d9745",
   "logged_at": "2026-07-26T00:21:08",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0
  },
  "822870": {
   "gamePk": 822870,
@@ -440,7 +452,9 @@
   "away_team": "Seattle Mariners",
   "params": "cdce6d9745",
   "logged_at": "2026-07-26T00:21:08",
-  "graded": false
+  "graded": true,
+  "outcome": "Texas Rangers",
+  "units": 0.0
  },
  "823433": {
   "gamePk": 823433,

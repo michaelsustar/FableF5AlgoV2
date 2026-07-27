@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>First Five Hot Streak Algo — DocShuuBets</title>
+<meta name="description" content="An MLB first-five-innings model graded daily in public: hot-streak hitting, recent starting pitching, and value against live market prices.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css">
+</head>
+<body>
+<script>window.SITE_ROOT = "../";</script>
+<script src="../nav.js"></script>
+
+<div class="wrap">
+  <header style="padding:40px 0 20px;border-bottom:2px solid var(--line)">
+    <p class="eyebrow">MLB · live model · paper units</p>
+    <h1>First <span class="amber">Five</span><span class="sub">Hot Streak Algo</span></h1>
+    <p class="lede" style="margin-top:14px">The bet is the <b>first five innings</b> — the starting pitcher's half of the game, before bullpens turn it into a lottery. The model asks one question: <b>who is hot right now?</b> Batters are graded on their last <b id="tw">14</b> days at the plate, starters on their last <b id="ts">3</b> times out. Every stat is converted to a league percentile, so a 70 means hotter than 70% of MLB at that moment, and each lineup's grade is adjusted for how those hitters fare against the opposing arm's handedness. The result is priced against the market — and a bet only appears when the model's number beats the book's by <b id="edge">3%</b>.</p>
+    <div class="recipe" id="recipe"></div>
+    <p class="stamp" id="stamp">loading…</p>
+  </header>
+
+  <h2>The ledger <small>every graded bet since the freeze</small></h2>
+  <div class="board" id="board"></div>
+
+  <h2>Bankroll line <small>cumulative paper units, 1u per bet</small></h2>
+  <div class="chartbox"><svg class="line" id="chart" viewBox="0 0 800 180" preserveAspectRatio="none" role="img" aria-label="Cumulative units over time"></svg></div>
+
+  <h2>Today's card <small id="cardnote"></small></h2>
+  <div id="bets"></div>
+</div>
+<script>
+(async function(){
+  let d;
+  try{ d = await (await fetch("../data.json?cb="+Date.now())).json(); }
+  catch(e){ document.getElementById("stamp").textContent = "data.json not found — run the export."; return; }
+
+  document.getElementById("stamp").textContent =
+    "slate " + d.slate_date + " · updated " + d.generated_at.replace("T"," ");
+
+  const M = d.model || {}, pctf = v => Math.round(100*v)+"%";
+  if(M.slash_weights){
+    document.getElementById("tw").textContent = M.batting_window_days;
+    document.getElementById("ts").textContent = M.pitcher_starts;
+    document.getElementById("edge").textContent = pctf(M.edge_min);
+    const sw = M.slash_weights, pw = M.pitcher_weights;
+    const names = {runs_thru_5:"runs thru 5", whip:"WHIP", k_pct:"K rate", ip_per_start:"innings/start"};
+    const rank = o => Object.entries(o).filter(([,v])=>v>0)
+      .sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<b>${pctf(v)}</b> ${names[k]||k.toUpperCase()}`).join(" · ");
+    document.getElementById("recipe").innerHTML = `
+      <div class="card"><h3>Batting score</h3><p>${M.hitter_form_weight>=0.999?"hitter form only":pctf(M.hitter_form_weight)+" hitter form · "+pctf(1-M.hitter_form_weight)+" team runs/game"}<br>form = ${rank(sw)}<br><span style="opacity:.7">min ${M.min_pa} PA in the window</span></p></div>
+      <div class="card"><h3>Pitching score</h3><p>last ${M.pitcher_starts} starts<br>${rank(pw)}<br><span style="opacity:.7">3+ starts in 30 days required</span></p></div>`;
+  }
+
+  const L = d.ledger, fmt=(v,f)=>v==null?"—":f(v);
+  const tiles = [
+    ["record", L.bets? (L.wins+"-"+L.losses+"-"+L.pushes) : "0-0-0", null],
+    ["units", fmt(L.units,v=>(v>0?"+":"")+v.toFixed(2)), L.units>0?"pos":L.units<0?"neg":null],
+    ["roi / bet", fmt(L.roi,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"), L.roi>0?"pos":L.roi<0?"neg":null],
+    ["hit rate", fmt(L.hit,v=>(100*v).toFixed(1)+"%"), null],
+    ["claimed", fmt(L.claimed,v=>(100*v).toFixed(1)+"%"), null],
+  ];
+  document.getElementById("board").innerHTML = tiles.map(([k,v,c])=>
+    `<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
+
+  const s = d.series||[]; const svg = document.getElementById("chart");
+  if(s.length<2){ svg.outerHTML = '<div class="empty">The line starts drawing once two days are graded.</div>'; }
+  else{
+    const us = s.map(p=>p.units), min=Math.min(0,...us), max=Math.max(0,...us), pad=(max-min)*0.15||1;
+    const y=u=>170-((u-min+pad*0.5)/(max-min+pad))*160;
+    const x=i=>10+ i*(780/(s.length-1));
+    const pts = s.map((p,i)=>x(i)+","+y(p.units)).join(" ");
+    const zero = y(0);
+    svg.innerHTML =
+      `<line x1="10" y1="${zero}" x2="790" y2="${zero}" stroke="#2C4A38" stroke-dasharray="4 4"/>`+
+      `<polyline points="${pts}" fill="none" stroke="${us[us.length-1]>=0?'#7FBF8E':'#D96A5A'}" stroke-width="2.5" stroke-linejoin="round"/>`+
+      s.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.units)}" r="2.6" fill="#F2B63C"/>`).join("")+
+      `<text class="axis" x="12" y="${zero-6}">0u</text>`+
+      `<text class="axis" x="12" y="16">${s[0].date}</text>`+
+      `<text class="axis" x="700" y="16">${s[s.length-1].date}</text>`;
+  }
+
+  const bets = d.bets_today||[];
+  document.getElementById("cardnote").textContent =
+    bets.length + " bet" + (bets.length===1?"":"s") + " from " + d.evaluated_today + " games evaluated · times local";
+  const box = document.getElementById("bets");
+  if(!bets.length){
+    box.innerHTML = '<div class="empty"><b>No bets today.</b> Nothing on the slate cleared the value threshold — passing is the model working, not resting.</div>';
+  } else {
+    const ml=v=>v==null?"":(v>0?"+":"")+Math.round(v);
+    const clock=t=>{ if(!t) return "TBD";
+      try{ return new Date(t).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
+      catch(e){ return "TBD"; } };
+    box.innerHTML = bets.map(b=>`
+      <div class="bet ${b.tier==="LEAN"?"lean":""}">
+        <div>
+          <div class="top"><span class="time">${clock(b.time)}</span><span>${b.matchup}</span></div>
+          <div class="pick">${b.pick}<span class="chip ${b.tier==="LEAN"?"lean":""}">${b.tier}</span></div>
+        </div>
+        <div class="ml">${ml(b.ml)}</div>
+        <div class="nums">model <b>${(100*b.model_p).toFixed(0)}%</b> · market <b>${(100*b.mkt_p).toFixed(0)}%</b> · edge <b>+${(100*b.value).toFixed(1)}%</b></div>
+      </div>`).join("");
+  }
+})();
+</script>
+</body>
+</html>

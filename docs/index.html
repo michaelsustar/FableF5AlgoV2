@@ -3,151 +3,103 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>First Five Hot Streak Algo</title>
+<title>DocShuuBets — algorithmic sports models</title>
+<meta name="description" content="Every pick on DocShuuBets comes from a statistical model — backtested against real seasons, frozen before publication, and graded in public against live market prices.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --felt:#173425; --felt-deep:#0F2418; --chalk:#EDE8DC; --chalk-dim:#A9B5A6;
-    --bulb:#F2B63C; --loss:#D96A5A; --win:#7FBF8E; --line:#2C4A38;
-  }
-  *{box-sizing:border-box;margin:0}
-  html{scroll-behavior:smooth}
-  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
-  body{background:var(--felt-deep);color:var(--chalk);font:400 16px/1.55 "Barlow",sans-serif}
-  a{color:var(--bulb)}
-  .wrap{max-width:880px;margin:0 auto;padding:0 20px 64px}
-  header{padding:44px 0 20px;border-bottom:2px solid var(--line)}
-  .eyebrow{font:600 12px/1 "IBM Plex Mono",monospace;letter-spacing:.22em;color:var(--bulb);text-transform:uppercase}
-  h1{font:700 clamp(44px,8.5vw,76px)/0.92 "Barlow Condensed",sans-serif;letter-spacing:.01em;text-transform:uppercase;margin:12px 0 4px}
-  h1 .amber{color:var(--bulb)}
-  h1 .sub{display:block;font-size:.52em;letter-spacing:.05em;color:var(--chalk)}
-  .thesis{color:var(--chalk-dim);max-width:64ch;margin:14px 0 0}
-  .thesis b{color:var(--chalk);font-weight:500}
-  .recipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px;margin:16px 0 6px}
-  .card{background:var(--felt);border:1px solid var(--line);border-radius:6px;padding:10px 12px}
-  .card h3{font:600 10px "IBM Plex Mono",monospace;letter-spacing:.18em;color:var(--bulb);text-transform:uppercase;margin-bottom:6px}
-  .card p{font:500 13px/1.5 "IBM Plex Mono",monospace;color:var(--chalk-dim)}
-  .card p b{color:var(--chalk)}
-  .stamp{font:500 12px "IBM Plex Mono",monospace;color:var(--chalk-dim);margin-top:12px}
-  h2{font:700 22px "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.06em;margin:38px 0 14px;display:flex;align-items:baseline;gap:10px}
-  h2 small{font:500 11px "IBM Plex Mono",monospace;color:var(--chalk-dim);letter-spacing:.1em;text-transform:none}
-  .board{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;background:var(--felt);border:1px solid var(--line);border-radius:8px;padding:14px}
-  .tile{padding:10px 12px;border-radius:6px;background:var(--felt-deep)}
-  .tile b{display:block;font:600 30px/1 "IBM Plex Mono",monospace;color:var(--bulb);text-shadow:0 0 14px rgba(242,182,60,.35)}
-  .tile b.neg{color:var(--loss);text-shadow:0 0 14px rgba(217,106,90,.3)}
-  .tile b.pos{color:var(--win);text-shadow:0 0 14px rgba(127,191,142,.3)}
-  .tile span{font:600 10px "IBM Plex Mono",monospace;letter-spacing:.18em;color:var(--chalk-dim);text-transform:uppercase}
-  .chartbox{background:var(--felt);border:1px solid var(--line);border-radius:8px;padding:14px}
-  svg{display:block;width:100%;height:180px}
-  .axis{font:500 10px "IBM Plex Mono",monospace;fill:var(--chalk-dim)}
-  .bet{display:grid;grid-template-columns:1fr auto;gap:4px 16px;background:var(--felt);border:1px solid var(--line);border-left:4px solid var(--bulb);border-radius:8px;padding:14px 16px;margin-bottom:10px}
-  .bet.lean{border-left-color:var(--chalk-dim)}
-  .bet .top{font:500 13px "IBM Plex Mono",monospace;color:var(--chalk-dim);display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
-  .bet .time{color:var(--bulb);font-weight:600}
-  .bet .pick{font:700 26px "Barlow Condensed",sans-serif;text-transform:uppercase;line-height:1.1}
-  .bet .ml{font:600 22px "IBM Plex Mono",monospace;color:var(--bulb);align-self:center}
-  .bet .nums{grid-column:1/-1;font:500 12px "IBM Plex Mono",monospace;color:var(--chalk-dim)}
-  .bet .nums b{color:var(--chalk)}
-  .chip{display:inline-block;font:600 10px "IBM Plex Mono",monospace;letter-spacing:.15em;padding:3px 8px;border-radius:3px;background:var(--bulb);color:var(--felt-deep);vertical-align:middle;margin-left:8px}
-  .chip.lean{background:transparent;border:1px solid var(--chalk-dim);color:var(--chalk-dim)}
-  .empty{background:var(--felt);border:1px dashed var(--line);border-radius:8px;padding:22px;color:var(--chalk-dim);text-align:center}
-  .empty b{color:var(--chalk)}
-  :focus-visible{outline:2px solid var(--bulb);outline-offset:2px}
-</style>
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
+<script>window.SITE_ROOT = "";</script>
+<script src="nav.js"></script>
+
 <div class="wrap">
-  <header>
-    <p class="eyebrow">Live model · paper units only</p>
-    <h1>First <span class="amber">Five</span><span class="sub">Hot Streak Algo</span></h1>
-    <p class="thesis">The bet is the <b>first five innings</b> — the starting pitcher's half of the game, before bullpens turn it into a lottery. The model asks one question: <b>who is hot right now?</b> Batters are graded on their last <b id="tw">14</b> days at the plate, starters on their last <b id="ts">3</b> times out. Every stat is converted to a league percentile, so a 70 means hotter than 70% of MLB at that moment, and each lineup's grade is adjusted for how those hitters fare against the opposing arm's handedness. The result is priced against the market — and a bet only appears when the model's number beats the book's by <b id="edge">3%</b>.</p>
-    <div class="recipe" id="recipe"></div>
-    <p class="stamp" id="stamp">loading…</p>
-  </header>
+  <section class="hero">
+    <p class="eyebrow">Algorithmic sports models</p>
+    <h1>Doc<span class="amber">Shuu</span>Bets</h1>
+    <p class="tag">The math makes the pick. Not a hunch.</p>
+    <p class="lede">Everything published here is the output of a <b>statistical model</b> — no touts, no gut calls, no takes about who wants it more. Each algorithm is built around a specific, testable idea, measured against seasons of real results, then locked down and run every day against live market prices. When a model has an edge, the numbers show it. When it doesn't, the numbers show that too — and both stay posted.</p>
+  </section>
 
-  <h2>The ledger <small>every graded bet since the freeze</small></h2>
-  <div class="board" id="board"></div>
+  <h2>How a model gets here <small>same three gates, every time</small></h2>
+  <div class="steps">
+    <div class="step">
+      <p class="n">01</p>
+      <h3>Built on one idea</h3>
+      <p>Every algorithm starts with a specific claim about what predicts an outcome — recent form, matchup structure, pace, whatever the sport actually rewards — and turns it into numbers a computer can score.</p>
+    </div>
+    <div class="step">
+      <p class="n">02</p>
+      <h3>Backtested, then frozen</h3>
+      <p>The model is fit on past games, then tested against seasons it never saw during development. If it survives that, its settings are locked. Nothing gets quietly retuned after a bad week — that's how a model fools the person who built it.</p>
+    </div>
+    <div class="step">
+      <p class="n">03</p>
+      <h3>Graded in the open</h3>
+      <p>Each day's picks are logged at the price shown and graded automatically once the games finish. Every model page carries its own running ledger: record, units, return, and whether its confidence has held up.</p>
+    </div>
+  </div>
 
-  <h2>Bankroll line <small>cumulative paper units, 1u per bet</small></h2>
-  <div class="chartbox"><svg id="chart" viewBox="0 0 800 180" preserveAspectRatio="none" role="img" aria-label="Cumulative units over time"></svg></div>
+  <h2>Active algo <small>today's board · refreshes daily · paper units</small></h2>
+  <div class="tickerbox">
+    <div class="ticker-label">Today's<br>Board</div>
+    <div class="ticker" aria-label="Today's picks"><div class="track" id="track"></div></div>
+  </div>
+  <p class="stamp" id="tickstamp">loading the board…</p>
 
-  <h2>Today's card <small id="cardnote"></small></h2>
-  <div id="bets"></div>
+  <h2>In the lab <small>next up</small></h2>
+  <div class="models">
+    <div class="model soon">
+      <div class="row"><span class="sport">NBA</span><span class="badge dev">In development</span></div>
+      <h3>Coming soon</h3>
+      <p>Basketball models are in the research stage. Same process, same standard of proof — nothing appears here until it has been tested against seasons it wasn't built on.</p>
+    </div>
+    <div class="model soon">
+      <div class="row"><span class="sport">NFL</span><span class="badge dev">In development</span></div>
+      <h3>Coming soon</h3>
+      <p>Football is next in the queue. New algorithms get added as they clear the bar, so the menu above will keep growing through the year.</p>
+    </div>
+  </div>
+
+  <p class="foot"><b>What these numbers are.</b> Results across this site are tracked in paper units at the prices recorded when each pick was published. These models are experiments, not advice — they're posted so their performance can be judged honestly, wins and losses alike. For entertainment purposes; bet responsibly.</p>
 </div>
 <script>
 (async function(){
-  let d;
-  try{ d = await (await fetch("data.json?cb="+Date.now())).json(); }
-  catch(e){ document.getElementById("stamp").textContent = "data.json not found — run the export."; return; }
+  const track = document.getElementById("track");
+  const stamp = document.getElementById("tickstamp");
+  let d = null;
+  try{ d = await (await fetch("data.json?cb="+Date.now())).json(); }catch(e){}
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const ml = v => v==null ? "" : (v>0?"+":"")+Math.round(v);
+  const clock = t => { if(!t) return "TBD";
+    try{ return new Date(t).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
+    catch(e){ return "TBD"; } };
 
-  document.getElementById("stamp").textContent =
-    "slate " + d.slate_date + " · updated " + d.generated_at.replace("T"," ");
-
-  // ---- model recipe, straight from the frozen params ----
-  const M = d.model || {}, pctf = v => Math.round(100*v)+"%";
-  if(M.slash_weights){
-    document.getElementById("tw").textContent = M.batting_window_days;
-    document.getElementById("ts").textContent = M.pitcher_starts;
-    document.getElementById("edge").textContent = pctf(M.edge_min);
-    const sw = M.slash_weights, pw = M.pitcher_weights;
-    const names = {runs_thru_5:"runs thru 5", whip:"WHIP", k_pct:"K rate", ip_per_start:"innings/start"};
-    const rank = o => Object.entries(o).filter(([,v])=>v>0)
-      .sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<b>${pctf(v)}</b> ${names[k]||k.toUpperCase()}`).join(" · ");
-    document.getElementById("recipe").innerHTML = `
-      <div class="card"><h3>Batting score</h3><p>${M.hitter_form_weight>=0.999?"hitter form only":pctf(M.hitter_form_weight)+" hitter form · "+pctf(1-M.hitter_form_weight)+" team runs/game"}<br>form = ${rank(sw)}<br><span style="opacity:.7">min ${M.min_pa} PA in the window</span></p></div>
-      <div class="card"><h3>Pitching score</h3><p>last ${M.pitcher_starts} starts<br>${rank(pw)}<br><span style="opacity:.7">3+ starts in 30 days required</span></p></div>`;
-  }
-
-  const L = d.ledger, fmt=(v,f)=>v==null?"—":f(v);
-  const tiles = [
-    ["record", L.bets? (L.wins+"-"+L.losses+"-"+L.pushes) : "0-0-0", null],
-    ["units", fmt(L.units,v=>(v>0?"+":"")+v.toFixed(2)), L.units>0?"pos":L.units<0?"neg":null],
-    ["roi / bet", fmt(L.roi,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"), L.roi>0?"pos":L.roi<0?"neg":null],
-    ["hit rate", fmt(L.hit,v=>(100*v).toFixed(1)+"%"), null],
-    ["claimed", fmt(L.claimed,v=>(100*v).toFixed(1)+"%"), null],
-  ];
-  document.getElementById("board").innerHTML = tiles.map(([k,v,c])=>
-    `<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
-
-  const s = d.series||[]; const svg = document.getElementById("chart");
-  if(s.length<2){ svg.outerHTML = '<div class="empty">The line starts drawing once two days are graded.</div>'; }
-  else{
-    const us = s.map(p=>p.units), min=Math.min(0,...us), max=Math.max(0,...us), pad=(max-min)*0.15||1;
-    const y=u=>170-((u-min+pad*0.5)/(max-min+pad))*160;
-    const x=i=>10+ i*(780/(s.length-1));
-    const pts = s.map((p,i)=>x(i)+","+y(p.units)).join(" ");
-    const zero = y(0);
-    svg.innerHTML =
-      `<line x1="10" y1="${zero}" x2="790" y2="${zero}" stroke="#2C4A38" stroke-dasharray="4 4"/>`+
-      `<polyline points="${pts}" fill="none" stroke="${us[us.length-1]>=0?'#7FBF8E':'#D96A5A'}" stroke-width="2.5" stroke-linejoin="round"/>`+
-      s.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.units)}" r="2.6" fill="#F2B63C"/>`).join("")+
-      `<text class="axis" x="12" y="${zero-6}">0u</text>`+
-      `<text class="axis" x="12" y="16">${s[0].date}</text>`+
-      `<text class="axis" x="700" y="16">${s[s.length-1].date}</text>`;
-  }
-
-  const bets = d.bets_today||[];
-  document.getElementById("cardnote").textContent =
-    bets.length + " bet" + (bets.length===1?"":"s") + " from " + d.evaluated_today + " games evaluated · times local";
-  const box = document.getElementById("bets");
-  if(!bets.length){
-    box.innerHTML = '<div class="empty"><b>No bets today.</b> Nothing on the slate cleared the value threshold — passing is the model working, not resting.</div>';
+  let items;
+  if (d && (d.bets_today||[]).length){
+    items = d.bets_today.map(b =>
+      `<span class="t">${clock(b.time)}</span>&nbsp;&nbsp;MLB F5&nbsp;&nbsp;` +
+      `<span class="team">${esc(b.pick).toUpperCase()}</span>&nbsp;` +
+      `<span class="odds">${ml(b.ml)}</span>&nbsp;&nbsp;` +
+      `<span class="edge">EDGE +${(100*b.value).toFixed(1)}%</span>`);
+    stamp.textContent = "slate " + d.slate_date + " \u00b7 " + items.length +
+      " pick" + (items.length===1?"":"s") + " on the board \u00b7 updated " +
+      d.generated_at.replace("T"," ");
+  } else if (d){
+    items = [`<span class="t">${d.slate_date}</span>&nbsp;&nbsp;MLB F5&nbsp;&nbsp;` +
+      `<span class="team">NO QUALIFYING PICKS TODAY</span>&nbsp;&nbsp;` +
+      `<span class="t">PASSING IS THE MODEL WORKING</span>`];
+    stamp.textContent = "slate " + d.slate_date + " \u00b7 board updates daily";
   } else {
-    const ml=v=>v==null?"":(v>0?"+":"")+Math.round(v);
-    const clock=t=>{ if(!t) return "TBD";
-      try{ return new Date(t).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
-      catch(e){ return "TBD"; } };
-    box.innerHTML = bets.map(b=>`
-      <div class="bet ${b.tier==="LEAN"?"lean":""}">
-        <div>
-          <div class="top"><span class="time">${clock(b.time)}</span><span>${b.matchup}</span></div>
-          <div class="pick">${b.pick}<span class="chip ${b.tier==="LEAN"?"lean":""}">${b.tier}</span></div>
-        </div>
-        <div class="ml">${ml(b.ml)}</div>
-        <div class="nums">model <b>${(100*b.model_p).toFixed(0)}%</b> · market <b>${(100*b.mkt_p).toFixed(0)}%</b> · edge <b>+${(100*b.value).toFixed(1)}%</b></div>
-      </div>`).join("");
+    items = [`<span class="team">BOARD WARMING UP</span>&nbsp;&nbsp;` +
+      `<span class="t">PICKS POST DAILY</span>`];
+    stamp.textContent = "";
   }
+
+  const chunk = items.join('<span class="sep">\u25c6</span>') +
+                '<span class="sep">\u25c6</span>';
+  track.innerHTML = chunk + chunk;   // duplicate for a seamless -50% loop
+  track.style.animationDuration = Math.max(24, items.length * 9) + "s";
 })();
 </script>
 </body>
