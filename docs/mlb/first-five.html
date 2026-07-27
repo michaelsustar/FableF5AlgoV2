@@ -74,9 +74,9 @@
     const pts = s.map((p,i)=>x(i)+","+y(p.units)).join(" ");
     const zero = y(0);
     svg.innerHTML =
-      `<line x1="10" y1="${zero}" x2="790" y2="${zero}" stroke="#2C4A38" stroke-dasharray="4 4"/>`+
-      `<polyline points="${pts}" fill="none" stroke="${us[us.length-1]>=0?'#7FBF8E':'#D96A5A'}" stroke-width="2.5" stroke-linejoin="round"/>`+
-      s.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.units)}" r="2.6" fill="#F2B63C"/>`).join("")+
+      `<line x1="10" y1="${zero}" x2="790" y2="${zero}" style="stroke:var(--line)" stroke-dasharray="4 4"/>`+
+      `<polyline points="${pts}" fill="none" style="stroke:var(${us[us.length-1]>=0?'--win':'--loss'})" stroke-width="2.5" stroke-linejoin="round"/>`+
+      s.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.units)}" r="2.6" style="fill:var(--bulb)"/>`).join("")+
       `<text class="axis" x="12" y="${zero-6}">0u</text>`+
       `<text class="axis" x="12" y="16">${s[0].date}</text>`+
       `<text class="axis" x="700" y="16">${s[s.length-1].date}</text>`;

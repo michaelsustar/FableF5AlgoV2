@@ -1,7 +1,8 @@
 :root{
-  --felt:#173425; --felt-deep:#0F2418; --felt-ink:#0A1A11;
-  --chalk:#EDE8DC; --chalk-dim:#A9B5A6;
-  --bulb:#F2B63C; --loss:#D96A5A; --win:#7FBF8E; --line:#2C4A38;
+  /* CLUBHOUSE — deep navy pennant + kelly green + cream */
+  --felt:#18263B; --felt-deep:#101B2D; --felt-ink:#0B1322;
+  --chalk:#F0EADB; --chalk-dim:#A8AFA4;
+  --bulb:#4CAF6E; --loss:#D96A5A; --win:#7FBF8E; --line:#28374E;
 }
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
@@ -72,7 +73,7 @@ h2 small{font:500 11px "IBM Plex Mono",monospace;color:var(--chalk-dim);letter-s
 /* ---------- dashboard ---------- */
 .board{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;background:var(--felt);border:1px solid var(--line);border-radius:8px;padding:14px}
 .tile{padding:10px 12px;border-radius:6px;background:var(--felt-deep)}
-.tile b{display:block;font:600 30px/1 "IBM Plex Mono",monospace;color:var(--bulb);text-shadow:0 0 14px rgba(242,182,60,.35)}
+.tile b{display:block;font:600 30px/1 "IBM Plex Mono",monospace;color:var(--bulb);text-shadow:0 0 14px rgba(76,175,110,.4)}
 .tile b.neg{color:var(--loss);text-shadow:0 0 14px rgba(217,106,90,.3)}
 .tile b.pos{color:var(--win);text-shadow:0 0 14px rgba(127,191,142,.3)}
 .tile span{font:600 10px "IBM Plex Mono",monospace;letter-spacing:.18em;color:var(--chalk-dim);text-transform:uppercase}
@@ -107,10 +108,10 @@ svg.line{display:block;width:100%;height:180px}
 .ticker-label{flex:none;display:flex;align-items:center;background:var(--bulb);color:var(--felt-ink);font:700 13px/1.1 "Barlow Condensed",sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:0 14px;text-align:center}
 .ticker{position:relative;flex:1;overflow:hidden}
 .ticker::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.28) 0 1px,transparent 1px 3px)}
-.ticker .track{display:inline-flex;align-items:center;white-space:nowrap;padding:13px 0;font:600 15px "IBM Plex Mono",monospace;color:var(--bulb);text-shadow:0 0 10px rgba(242,182,60,.5);will-change:transform;animation:tick 40s linear infinite}
+.ticker .track{display:inline-flex;align-items:center;white-space:nowrap;padding:13px 0;font:600 15px "IBM Plex Mono",monospace;color:var(--bulb);text-shadow:0 0 10px rgba(76,175,110,.55);will-change:transform;animation:tick 40s linear infinite}
 .ticker:hover .track{animation-play-state:paused}
 .ticker .t{color:var(--chalk-dim);text-shadow:none;font-weight:500}
-.ticker .team{color:var(--chalk);text-shadow:0 0 8px rgba(237,232,220,.25)}
+.ticker .team{color:var(--chalk);text-shadow:0 0 8px rgba(240,234,219,.25)}
 .ticker .odds{color:var(--bulb)}
 .ticker .edge{color:var(--win);text-shadow:0 0 8px rgba(127,191,142,.4)}
 .ticker .sep{color:var(--line);margin:0 20px;text-shadow:none}
