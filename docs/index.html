@@ -40,12 +40,8 @@
     </div>
   </div>
 
-  <h2>Active algo <small>today's board · refreshes daily · paper units</small></h2>
-  <div class="tickerbox">
-    <div class="ticker-label">Today's<br>Board</div>
-    <div class="ticker" aria-label="Today's picks"><div class="track" id="track"></div></div>
-  </div>
-  <p class="stamp" id="tickstamp">loading the board…</p>
+  <h2>Active Algos <small>today's boards · refresh daily · paper units</small></h2>
+  <div id="algos"></div>
 
   <h2>In the lab <small>next up</small></h2>
   <div class="models">
@@ -64,42 +60,80 @@
   <p class="foot"><b>What these numbers are.</b> Results across this site are tracked in paper units at the prices recorded when each pick was published. These models are experiments, not advice — they're posted so their performance can be judged honestly, wins and losses alike. For entertainment purposes; bet responsibly.</p>
 </div>
 <script>
-(async function(){
-  const track = document.getElementById("track");
-  const stamp = document.getElementById("tickstamp");
-  let d = null;
-  try{ d = await (await fetch("data.json?cb="+Date.now())).json(); }catch(e){}
+/* ------------------------------------------------------------------
+   ACTIVE ALGO TICKERS
+   To add a future algorithm's board: add one entry here. `data` is
+   the JSON its exporter writes; `href` is its page; `plate` is the
+   two-line label on the amber tag; `tag` prefixes each ticker item.
+   ------------------------------------------------------------------ */
+const ALGOS = [
+  {
+    name: "First Five Hot Streak",
+    league: "MLB",
+    plate: "MLB<br>F5",
+    tag: "F5",
+    href: "mlb/first-five.html",
+    data: "data.json"
+  }
+];
+
+(function(){
   const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const ml = v => v==null ? "" : (v>0?"+":"")+Math.round(v);
   const clock = t => { if(!t) return "TBD";
     try{ return new Date(t).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
     catch(e){ return "TBD"; } };
 
-  let items;
-  if (d && (d.bets_today||[]).length){
-    items = d.bets_today.map(b =>
-      `<span class="t">${clock(b.time)}</span>&nbsp;&nbsp;MLB F5&nbsp;&nbsp;` +
-      `<span class="team">${esc(b.pick).toUpperCase()}</span>&nbsp;` +
-      `<span class="odds">${ml(b.ml)}</span>&nbsp;&nbsp;` +
-      `<span class="edge">EDGE +${(100*b.value).toFixed(1)}%</span>`);
-    stamp.textContent = "slate " + d.slate_date + " \u00b7 " + items.length +
-      " pick" + (items.length===1?"":"s") + " on the board \u00b7 updated " +
-      d.generated_at.replace("T"," ");
-  } else if (d){
-    items = [`<span class="t">${d.slate_date}</span>&nbsp;&nbsp;MLB F5&nbsp;&nbsp;` +
-      `<span class="team">NO QUALIFYING PICKS TODAY</span>&nbsp;&nbsp;` +
-      `<span class="t">PASSING IS THE MODEL WORKING</span>`];
-    stamp.textContent = "slate " + d.slate_date + " \u00b7 board updates daily";
-  } else {
-    items = [`<span class="team">BOARD WARMING UP</span>&nbsp;&nbsp;` +
-      `<span class="t">PICKS POST DAILY</span>`];
-    stamp.textContent = "";
-  }
+  const host = document.getElementById("algos");
 
-  const chunk = items.join('<span class="sep">\u25c6</span>') +
-                '<span class="sep">\u25c6</span>';
-  track.innerHTML = chunk + chunk;   // duplicate for a seamless -50% loop
-  track.style.animationDuration = Math.max(24, items.length * 9) + "s";
+  ALGOS.forEach(async (cfg, idx) => {
+    const el = document.createElement("div");
+    el.className = "algo-ticker";
+    el.innerHTML = `
+      <div class="thead">
+        <a class="algoname" href="${cfg.href}">${esc(cfg.name)} →</a>
+        <span class="league">${esc(cfg.league)}</span>
+        <span class="stamp" id="stamp-${idx}">loading the board…</span>
+      </div>
+      <div class="tickerbox">
+        <a class="ticker-label" href="${cfg.href}" aria-label="${esc(cfg.name)}">${cfg.plate}</a>
+        <div class="ticker" aria-label="Today's picks — ${esc(cfg.name)}">
+          <div class="track" id="track-${idx}"></div>
+        </div>
+      </div>`;
+    host.appendChild(el);
+
+    const track = document.getElementById("track-"+idx);
+    const stamp = document.getElementById("stamp-"+idx);
+    let d = null;
+    try{ d = await (await fetch(cfg.data+"?cb="+Date.now())).json(); }catch(e){}
+
+    let items;
+    if (d && (d.bets_today||[]).length){
+      items = d.bets_today.map(b =>
+        `<span class="t">${clock(b.time)}</span>&nbsp;&nbsp;${esc(cfg.tag)}&nbsp;&nbsp;` +
+        `<span class="team">${esc(b.pick).toUpperCase()}</span>&nbsp;` +
+        `<span class="odds">${ml(b.ml)}</span>&nbsp;&nbsp;` +
+        `<span class="edge">EDGE +${(100*b.value).toFixed(1)}%</span>`);
+      stamp.textContent = "slate " + d.slate_date + " \u00b7 " + items.length +
+        " pick" + (items.length===1?"":"s") + " \u00b7 updated " +
+        d.generated_at.replace("T"," ");
+    } else if (d){
+      items = [`<span class="t">${d.slate_date}</span>&nbsp;&nbsp;${esc(cfg.tag)}&nbsp;&nbsp;` +
+        `<span class="team">NO QUALIFYING PICKS TODAY</span>&nbsp;&nbsp;` +
+        `<span class="t">PASSING IS THE MODEL WORKING</span>`];
+      stamp.textContent = "slate " + d.slate_date + " \u00b7 board updates daily";
+    } else {
+      items = [`<span class="team">BOARD WARMING UP</span>&nbsp;&nbsp;` +
+        `<span class="t">PICKS POST DAILY</span>`];
+      stamp.textContent = "";
+    }
+
+    const chunk = items.join('<span class="sep">\u25c6</span>') +
+                  '<span class="sep">\u25c6</span>';
+    track.innerHTML = chunk + chunk;   // duplicate for seamless -50% loop
+    track.style.animationDuration = Math.max(24, items.length * 9) + "s";
+  });
 })();
 </script>
 </body>

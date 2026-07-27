@@ -119,3 +119,14 @@ svg.line{display:block;width:100%;height:180px}
   .ticker .track{animation:none!important}
   .ticker{overflow-x:auto}
 }
+
+/* ---------- per-algo ticker blocks ---------- */
+.algo-ticker{margin-bottom:22px}
+.thead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.algoname{font:700 20px "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--chalk)}
+.algoname:hover{color:var(--bulb);text-decoration:none}
+.thead .league{font:600 10px "IBM Plex Mono",monospace;letter-spacing:.18em;padding:3px 7px;border-radius:3px;background:var(--felt);border:1px solid var(--line);color:var(--chalk-dim)}
+.thead .stamp{margin:0;margin-left:auto}
+a.ticker-label{text-decoration:none}
+a.ticker-label:hover{filter:brightness(1.12);text-decoration:none}
+@media (max-width:640px){.thead .stamp{margin-left:0;width:100%}}
