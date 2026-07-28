@@ -12,6 +12,11 @@ const SPORTS = [
         name: "First Five Hot Streak",
         note: "Live · first 5 innings",
         href: "mlb/first-five.html"
+      },
+      {
+        name: "First Five Totals",
+        note: "Live · F5 over/under",
+        href: "mlb/first-five-totals.html"
       }
     ]
   },

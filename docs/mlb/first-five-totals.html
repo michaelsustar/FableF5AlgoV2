@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>First Five Totals Algo — DocShuuBets</title>
+<meta name="description" content="An MLB first-five-innings totals model graded daily in public: season scoring rates, hot-streak hitting, starting pitching, and park — priced into a full run distribution and bet against the market's over/under.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site-quantlab.css">
+</head>
+<body>
+<script>window.SITE_ROOT = "../";</script>
+<script src="../nav.js"></script>
+
+<div class="wrap">
+  <header style="padding:40px 0 20px;border-bottom:2px solid var(--line)">
+    <p class="eyebrow">MLB · live model · paper units</p>
+    <h1>First <span class="amber">Five</span><span class="sub">Totals Algo</span></h1>
+    <p class="lede" style="margin-top:14px">Same territory as the Hot Streak — the <b>first five innings</b> — but a different question: not who wins them, <b>how many runs get scored</b>. Each offense gets an expected-runs number built from four signals: its <b>season-long F5 scoring rate</b>, its <b>last-<span id="tw">14</span>-day hot streak</b>, the <b>opposing starter's</b> recent runs allowed through five, and the <b>park</b>. How much each signal matters isn't hand-picked — the weights were fit on a full season of reconstructed slates. The two team numbers combine into a full run <b>distribution</b> (runs are streaky, so it's wider than a naive model would draw), which prices any over/under the book posts. A bet appears only when the model's probability beats the market's by <b id="edge">5%</b>.</p>
+    <div class="recipe" id="recipe"></div>
+    <p class="stamp" id="stamp">loading…</p>
+  </header>
+
+  <h2>The ledger <small>every graded bet since the freeze</small></h2>
+  <div class="board" id="board"></div>
+
+  <h2>Bankroll line <small>cumulative paper units, 1u per bet</small></h2>
+  <div class="chartbox"><svg class="line" id="chart" viewBox="0 0 800 180" preserveAspectRatio="none" role="img" aria-label="Cumulative units over time"></svg></div>
+
+  <h2>Today's card <small id="cardnote"></small></h2>
+  <div id="bets"></div>
+</div>
+<script>
+(async function(){
+  let d;
+  try{ d = await (await fetch("../data_totals.json?cb="+Date.now())).json(); }
+  catch(e){ document.getElementById("stamp").textContent = "data_totals.json not found — run the export."; return; }
+
+  document.getElementById("stamp").textContent =
+    "slate " + d.slate_date + " · updated " + d.generated_at.replace("T"," ");
+
+  const M = d.model || {}, pctf = v => Math.round(100*v)+"%";
+  if(M.coefficients){
+    document.getElementById("tw").textContent = M.batting_window_days || 14;
+    document.getElementById("edge").textContent = pctf(M.edge_min);
+    const C = M.coefficients;
+    const names = {f_season:"season F5 rate", f_recent:"14-day hot streak",
+                   f_starter:"opposing starter", log_park:"park factor"};
+    const rank = Object.entries(C).filter(([k])=>k!=="intercept")
+      .sort((a,b)=>Math.abs(b[1])-Math.abs(a[1]))
+      .map(([k,v])=>`<b>${v>=0?"+":""}${v.toFixed(2)}</b> ${names[k]||k}`).join(" · ");
+    document.getElementById("recipe").innerHTML = `
+      <div class="card"><h3>Expected runs — fitted weights</h3><p>${rank}<br><span style="opacity:.7">coefficients on the log-runs scale, fit on season ${M.fit_season||"—"} · first ${M.prior_games} games shrunk toward league average</span></p></div>
+      <div class="card"><h3>From runs to a price</h3><p>per-team distributions combined into one total<br>dispersion <b>α = ${(M.alpha??0).toFixed(2)}</b> — F5 runs are noisier than a coin-flip model assumes<br><span style="opacity:.7">bet only past <b>${pctf(M.edge_min)}</b> edge · STRONG at <b>${pctf(M.edge_strong)}</b></span></p></div>`;
+  }
+
+  const L = d.ledger, fmt=(v,f)=>v==null?"—":f(v);
+  const tiles = [
+    ["record", L.bets? (L.wins+"-"+L.losses+"-"+L.pushes) : "0-0-0", null],
+    ["units", fmt(L.units,v=>(v>0?"+":"")+v.toFixed(2)), L.units>0?"pos":L.units<0?"neg":null],
+    ["roi / bet", fmt(L.roi,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"), L.roi>0?"pos":L.roi<0?"neg":null],
+    ["hit rate", fmt(L.hit,v=>(100*v).toFixed(1)+"%"), null],
+    ["claimed", fmt(L.claimed,v=>(100*v).toFixed(1)+"%"), null],
+  ];
+  document.getElementById("board").innerHTML = tiles.map(([k,v,c])=>
+    `<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
+
+  const s = d.series||[]; const svg = document.getElementById("chart");
+  if(s.length<2){ svg.outerHTML = '<div class="empty">The line starts drawing once two days are graded.</div>'; }
+  else{
+    const us = s.map(p=>p.units), min=Math.min(0,...us), max=Math.max(0,...us), pad=(max-min)*0.15||1;
+    const y=u=>170-((u-min+pad*0.5)/(max-min+pad))*160;
+    const x=i=>10+ i*(780/(s.length-1));
+    const pts = s.map((p,i)=>x(i)+","+y(p.units)).join(" ");
+    const zero = y(0);
+    svg.innerHTML =
+      `<line x1="10" y1="${zero}" x2="790" y2="${zero}" style="stroke:var(--line)" stroke-dasharray="4 4"/>`+
+      `<polyline points="${pts}" fill="none" style="stroke:var(${us[us.length-1]>=0?'--win':'--loss'})" stroke-width="2.5" stroke-linejoin="round"/>`+
+      s.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.units)}" r="2.6" style="fill:var(--bulb)"/>`).join("")+
+      `<text class="axis" x="12" y="${zero-6}">0u</text>`+
+      `<text class="axis" x="12" y="16">${s[0].date}</text>`+
+      `<text class="axis" x="700" y="16">${s[s.length-1].date}</text>`;
+  }
+
+  const bets = d.bets_today||[];
+  document.getElementById("cardnote").textContent =
+    bets.length + " bet" + (bets.length===1?"":"s") + " from " + d.evaluated_today + " games evaluated · times local";
+  const box = document.getElementById("bets");
+  if(!bets.length){
+    box.innerHTML = '<div class="empty"><b>No bets today.</b> Nothing on the slate cleared the value threshold — passing is the model working, not resting. This model is deliberately picky: most totals are priced about right.</div>';
+  } else {
+    const ml=v=>v==null?"":(v>0?"+":"")+Math.round(v);
+    const clock=t=>{ if(!t) return "TBD";
+      try{ return new Date(t).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
+      catch(e){ return "TBD"; } };
+    box.innerHTML = bets.map(b=>`
+      <div class="bet ${b.tier==="LEAN"?"lean":""}">
+        <div>
+          <div class="top"><span class="time">${clock(b.time)}</span><span>${b.matchup}</span></div>
+          <div class="pick">${b.pick}<span class="chip ${b.tier==="LEAN"?"lean":""}">${b.tier}</span></div>
+        </div>
+        <div class="ml">${ml(b.ml)}</div>
+        <div class="nums">model <b>${(100*b.model_p).toFixed(0)}%</b> · market <b>${(100*b.mkt_p).toFixed(0)}%</b> · edge <b>+${(100*b.value).toFixed(1)}%</b>${b.exp_total!=null?` · projected total <b>${b.exp_total.toFixed(1)}</b>`:""}${b.lam_away!=null?` <span style="opacity:.7">(${b.lam_away.toFixed(1)} away / ${b.lam_home.toFixed(1)} home)</span>`:""}</div>
+      </div>`).join("");
+  }
+})();
+</script>
+</body>
+</html>

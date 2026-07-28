@@ -490,7 +490,9 @@
   "away_team": "Seattle Mariners",
   "params": "bd65d255fe",
   "logged_at": "2026-07-27T12:15:08",
-  "graded": false
+  "graded": true,
+  "outcome": "Texas Rangers",
+  "units": 0.0
  },
  "823353": {
   "gamePk": 823353,
@@ -524,7 +526,9 @@
   "away_team": "Philadelphia Phillies",
   "params": "bd65d255fe",
   "logged_at": "2026-07-27T12:15:08",
-  "graded": false
+  "graded": true,
+  "outcome": "Miami Marlins",
+  "units": 1.54
  },
  "824490": {
   "gamePk": 824490,
@@ -592,6 +596,23 @@
   "away_team": "Milwaukee Brewers",
   "params": "bd65d255fe",
   "logged_at": "2026-07-27T12:15:08",
+  "graded": false
+ },
+ "823025": {
+  "gamePk": 823025,
+  "date": "2026-07-27",
+  "game_time": "2026-07-27T23:45:00Z",
+  "matchup": "Chicago Cubs @ St. Louis Cardinals",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.513,
+  "mkt_p_home": 0.5,
+  "pick_ml": null,
+  "value": 0.013,
+  "home_team": "St. Louis Cardinals",
+  "away_team": "Chicago Cubs",
+  "params": "cdce6d9745",
+  "logged_at": "2026-07-27T21:47:45",
   "graded": false
  }
 }

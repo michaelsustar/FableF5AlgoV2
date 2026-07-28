@@ -118,15 +118,15 @@
       "opp_starter": "Zack Wheeler",
       "opp_runs5_pct": 91.9,
       "season_f5_rate": 2.56,
-      "bat_score": 36.8,
-      "lam": 2.0,
+      "bat_score": 40.1,
+      "lam": 2.03,
       "lineup": "CONFIRMED"
     },
     "market": null,
     "prediction": {
-      "lam_home": 2.0,
+      "lam_home": 2.03,
       "lam_away": 2.23,
-      "exp_total": 4.23,
+      "exp_total": 4.26,
       "mode": "no-line",
       "pick": null,
       "tier": "NO LINE"
@@ -144,7 +144,7 @@
       "opp_starter": "Eddy Yean",
       "opp_runs5_pct": null,
       "season_f5_rate": 1.98,
-      "bat_score": 39.8,
+      "bat_score": 39.7,
       "lam": null,
       "lineup": "CONFIRMED"
     },
@@ -318,10 +318,8 @@
       "mkt_p_over": 0.512,
       "value": -0.031,
       "p_push": 0.0,
-      "pick": "Under 4.5",
-      "pick_side": "under",
-      "pick_ml": -108,
-      "tier": "LEAN"
+      "pick": null,
+      "tier": "NO VALUE"
     }
   },
   {
@@ -416,10 +414,8 @@
       "mkt_p_over": 0.492,
       "value": -0.048,
       "p_push": 0.0,
-      "pick": "Under 4.5",
-      "pick_side": "under",
-      "pick_ml": -118,
-      "tier": "LEAN"
+      "pick": null,
+      "tier": "NO VALUE"
     }
   },
   {

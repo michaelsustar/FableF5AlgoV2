@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-07-27T12:15:08",
+ "generated_at": "2026-07-27T21:47:45",
  "slate_date": "2026-07-27",
  "ledger": {
-  "bets": 10,
-  "wins": 1,
+  "bets": 11,
+  "wins": 2,
   "losses": 7,
   "pushes": 2,
-  "units": -5.9,
-  "roi": -0.59,
-  "hit": 0.125,
-  "claimed": 0.5455
+  "units": -4.36,
+  "roi": -0.3964,
+  "hit": 0.2222,
+  "claimed": 0.5464
  },
  "series": [
   {
@@ -23,6 +23,10 @@
   {
    "date": "2026-07-26",
    "units": -5.9
+  },
+  {
+   "date": "2026-07-27",
+   "units": -4.36
   }
  ],
  "bets_today": [
@@ -57,7 +61,7 @@
    "value": 0.14
   }
  ],
- "evaluated_today": 7,
+ "evaluated_today": 8,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

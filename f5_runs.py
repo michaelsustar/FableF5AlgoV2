@@ -980,8 +980,85 @@ def track_safe():
 
 
 # --------------------------------------------------------------------------
-# DAILY — grade, fetch totals odds, score. (No site export until the model
-# earns a page in backtests.)
+# SITE EXPORT — docs/data_totals.json for the First Five Totals dashboard
+# --------------------------------------------------------------------------
+def export_site(slate_date=None):
+    slate_date = slate_date or date.today()
+    site = Path("./docs")
+    site.mkdir(exist_ok=True)
+    log_data = (json.loads(RUNS_FORWARD_LOG.read_text())
+                if RUNS_FORWARD_LOG.exists() else {})
+    graded = [r for r in log_data.values() if r.get("graded")]
+    picks = [r for r in graded if r.get("pick")
+             and r.get("outcome") != "void"]
+    dec = [r for r in picks if r["outcome"] not in ("push", "void")]
+    wins = sum(1 for r in dec if r["pick_side"] == r["outcome"])
+    pushes = sum(1 for r in picks if r["outcome"] == "push")
+    units = sum(r.get("units", 0) for r in picks)
+
+    by_day = {}
+    for r in sorted(picks, key=lambda r: r["date"]):
+        by_day[r["date"]] = by_day.get(r["date"], 0) + r.get("units", 0)
+    cum, series = 0.0, []
+    for d_iso, u in sorted(by_day.items()):
+        cum += u
+        series.append({"date": d_iso, "units": round(cum, 2)})
+
+    todays = [r for r in log_data.values()
+              if r["date"] == slate_date.isoformat()]
+    bets = [{"matchup": r["matchup"], "pick": r["pick"],
+             "ml": r.get("pick_ml"), "tier": r["tier"],
+             "time": r.get("game_time"), "line": r["line"],
+             "exp_total": r.get("exp_total"),
+             "lam_home": r.get("lam_home"), "lam_away": r.get("lam_away"),
+             "model_p": r["p_over"] if r["pick_side"] == "over"
+                        else round(1 - r["p_over"], 3),
+             "mkt_p": r["mkt_p_over"] if r["pick_side"] == "over"
+                      else round(1 - r["mkt_p_over"], 3),
+             "value": abs(r.get("value") or 0)}
+            for r in todays if r.get("pick")]
+    bets.sort(key=lambda b: (b["time"] is None, b["time"] or "",
+                             -b["value"]))
+    params = load_runs_params() or {}
+    beta = params.get("beta", [])
+    coefs = dict(zip(["intercept"] + list(params.get("features", FEATURES)),
+                     beta)) if beta else {}
+
+    data = {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "slate_date": slate_date.isoformat(),
+        "ledger": {
+            "bets": len(picks), "wins": wins,
+            "losses": len(dec) - wins, "pushes": pushes,
+            "units": round(units, 2),
+            "roi": round(units / len(picks), 4) if picks else None,
+            "hit": round(wins / len(dec), 4) if dec else None,
+            "claimed": round(mean(
+                [r["p_over"] if r["pick_side"] == "over"
+                 else 1 - r["p_over"] for r in dec]), 4) if dec else None,
+        },
+        "series": series,
+        "bets_today": bets,
+        "evaluated_today": len(todays),
+        "model": {
+            "coefficients": {k: round(v, 4) for k, v in coefs.items()},
+            "alpha": params.get("alpha"),
+            "prior_games": params.get("prior_games", PRIOR_GAMES),
+            "fit_season": params.get("fit_season"),
+            "edge_min": params.get("edge_min", RUNS_EDGE_MIN),
+            "edge_strong": params.get("edge_strong", RUNS_EDGE_STRONG),
+            "batting_window_days": (fm.load_model_params() or {}).get(
+                "batting_window_days", fm.BATTING_WINDOW_DAYS),
+        },
+    }
+    (site / "data_totals.json").write_text(json.dumps(data, indent=1))
+    print(f"  docs/data_totals.json written — {len(bets)} bet(s) today, "
+          f"ledger {wins}-{len(dec) - wins}-{pushes}, "
+          f"{units:+.2f} units")
+
+
+# --------------------------------------------------------------------------
+# DAILY — grade, fetch totals odds, score, export the dashboard data
 # --------------------------------------------------------------------------
 def daily(slate_date):
     steps = [
@@ -990,6 +1067,7 @@ def daily(slate_date):
          lambda: fetch_odds_day(slate_date)),
         ("Scoring the slate (bets only)",
          lambda: score_slate(slate_date, bets_only=True)),
+        ("Exporting the site data", lambda: export_site(slate_date)),
     ]
     for i, (label, fn) in enumerate(steps, 1):
         print(f"\n{'=' * 70}\n[{i}/{len(steps)}] {label}\n{'=' * 70}")
@@ -1026,6 +1104,9 @@ def main():
     p_fo.add_argument("--start", default=None,
                       help="with --historical: fetch a date range")
     sub.add_parser("track", help="grade forward-test verdicts vs reality")
+    p_ex = sub.add_parser("export",
+                          help="write docs/data_totals.json for the site")
+    p_ex.add_argument("--date", default=None)
     p_dy = sub.add_parser("daily",
                           help="one-shot: grade, fetch totals odds, "
                                "show today's bets")
@@ -1049,6 +1130,8 @@ def main():
             fetch_odds_day(d, historical=args.historical)
     elif args.cmd == "track":
         track()
+    elif args.cmd == "export":
+        export_site(d)
     elif args.cmd == "daily":
         daily(d)
 
