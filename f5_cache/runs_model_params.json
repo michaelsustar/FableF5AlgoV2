@@ -1,0 +1,22 @@
+{
+  "beta": [
+    0.927275,
+    0.149759,
+    0.219084,
+    0.148195,
+    1.777741
+  ],
+  "alpha": 0.496888,
+  "features": [
+    "f_season",
+    "f_recent",
+    "f_starter",
+    "log_park"
+  ],
+  "prior_games": 10,
+  "fit_season": 2026,
+  "fit_games": 487,
+  "edge_min": 0.05,
+  "edge_strong": 0.08,
+  "fitted_at": "2026-07-27T21:32:50"
+}

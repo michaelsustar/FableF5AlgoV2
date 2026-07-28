@@ -1,0 +1,47 @@
+{
+ "2026-07-27|new york yankees|chicago white sox": {
+  "date": "2026-07-27",
+  "home": "Chicago White Sox",
+  "away": "New York Yankees",
+  "line": 7.5,
+  "over_ml": -152,
+  "under_ml": 114,
+  "book": "fanduel"
+ },
+ "2026-07-27|chicago cubs|st. louis cardinals": {
+  "date": "2026-07-27",
+  "home": "St. Louis Cardinals",
+  "away": "Chicago Cubs",
+  "line": 5.5,
+  "over_ml": -102,
+  "under_ml": -128,
+  "book": "fanduel"
+ },
+ "2026-07-27|houston astros|los angeles angels": {
+  "date": "2026-07-27",
+  "home": "Los Angeles Angels",
+  "away": "Houston Astros",
+  "line": 4.5,
+  "over_ml": -120,
+  "under_ml": -108,
+  "book": "fanduel"
+ },
+ "2026-07-27|boston red sox|athletics": {
+  "date": "2026-07-27",
+  "home": "Athletics",
+  "away": "Boston Red Sox",
+  "line": 5.5,
+  "over_ml": 104,
+  "under_ml": -135,
+  "book": "fanduel"
+ },
+ "2026-07-27|milwaukee brewers|san francisco giants": {
+  "date": "2026-07-27",
+  "home": "San Francisco Giants",
+  "away": "Milwaukee Brewers",
+  "line": 4.5,
+  "over_ml": -110,
+  "under_ml": -118,
+  "book": "fanduel"
+ }
+}
