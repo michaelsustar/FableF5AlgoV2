@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "11 15 * * *"   # ~11:11 AM ET — primary
     - cron: "47 15 * * *"   # ~11:47 PM ET — backup
-    
+
   workflow_dispatch: {}     # adds a "Run workflow" button for manual runs
 
 permissions:
@@ -42,10 +42,16 @@ jobs:
             exit 1
           }
 
-      - name: Run the daily pipeline
+      - name: Run the daily pipeline (Hot Streak moneyline)
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python f5_model.py daily
+
+      - name: Run the daily pipeline (F5 Totals runs model)
+        if: hashFiles('f5_cache/runs_model_params.json') != ''
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python f5_runs.py daily
 
       - name: Commit and push results
         run: |
