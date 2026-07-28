@@ -78,9 +78,9 @@
       `<line x1="10" y1="${zero}" x2="790" y2="${zero}" style="stroke:var(--line)" stroke-dasharray="4 4"/>`+
       `<polyline points="${pts}" fill="none" style="stroke:var(${us[us.length-1]>=0?'--win':'--loss'})" stroke-width="2.5" stroke-linejoin="round"/>`+
       s.map((p,i)=>`<circle cx="${x(i)}" cy="${y(p.units)}" r="2.6" style="fill:var(--bulb)"/>`).join("")+
-      `<text class="axis" x="12" y="${zero-6}">0u</text>`+
+      `<text class="axis" x="788" y="${zero<34?zero+14:zero-6}" text-anchor="end">0u</text>`+
       `<text class="axis" x="12" y="16">${s[0].date}</text>`+
-      `<text class="axis" x="700" y="16">${s[s.length-1].date}</text>`;
+      `<text class="axis" x="788" y="16" text-anchor="end">${s[s.length-1].date}</text>`;
   }
 
   const bets = d.bets_today||[];
