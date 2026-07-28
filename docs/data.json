@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-07-27T22:26:50",
- "slate_date": "2026-07-27",
+ "generated_at": "2026-07-28T11:42:13",
+ "slate_date": "2026-07-28",
  "ledger": {
-  "bets": 12,
-  "wins": 2,
+  "bets": 13,
+  "wins": 3,
   "losses": 7,
   "pushes": 3,
-  "units": -4.36,
-  "roi": -0.3633,
-  "hit": 0.2222,
-  "claimed": 0.5464
+  "units": -3.49,
+  "roi": -0.2685,
+  "hit": 0.3,
+  "claimed": 0.5558
  },
  "series": [
   {
@@ -26,42 +26,62 @@
   },
   {
    "date": "2026-07-27",
-   "units": -4.36
+   "units": -3.49
   }
  ],
  "bets_today": [
   {
-   "matchup": "Philadelphia Phillies @ Miami Marlins",
-   "pick": "Miami Marlins",
-   "ml": 154,
+   "matchup": "Baltimore Orioles @ Detroit Tigers",
+   "pick": "Detroit Tigers",
+   "ml": -154,
    "tier": "STRONG",
-   "time": "2026-07-27T22:40:00Z",
-   "model_p": 0.446,
-   "mkt_p": 0.371,
-   "value": 0.075
-  },
-  {
-   "matchup": "Arizona Diamondbacks @ Pittsburgh Pirates",
-   "pick": "Arizona Diamondbacks",
-   "ml": -110,
-   "tier": "STRONG",
-   "time": "2026-07-27T22:40:00Z",
-   "model_p": 0.55,
-   "mkt_p": 0.49,
-   "value": 0.06
-  },
-  {
-   "matchup": "Houston Astros @ Los Angeles Angels",
-   "pick": "Los Angeles Angels",
-   "ml": -115,
-   "tier": "STRONG",
-   "time": "2026-07-28T01:38:00Z",
+   "time": "2026-07-28T22:40:00Z",
    "model_p": 0.64,
-   "mkt_p": 0.5,
-   "value": 0.14
+   "mkt_p": 0.572,
+   "value": 0.068
+  },
+  {
+   "matchup": "Atlanta Braves @ New York Mets",
+   "pick": "New York Mets",
+   "ml": 135,
+   "tier": "STRONG",
+   "time": "2026-07-28T23:10:00Z",
+   "model_p": 0.522,
+   "mkt_p": 0.401,
+   "value": 0.121
+  },
+  {
+   "matchup": "Kansas City Royals @ Minnesota Twins",
+   "pick": "Kansas City Royals",
+   "ml": 130,
+   "tier": "STRONG",
+   "time": "2026-07-28T23:40:00Z",
+   "model_p": 0.537,
+   "mkt_p": 0.411,
+   "value": 0.126
+  },
+  {
+   "matchup": "New York Yankees @ Chicago White Sox",
+   "pick": "Chicago White Sox",
+   "ml": 114,
+   "tier": "STRONG",
+   "time": "2026-07-28T23:40:00Z",
+   "model_p": 0.513,
+   "mkt_p": 0.441,
+   "value": 0.072
+  },
+  {
+   "matchup": "Milwaukee Brewers @ San Francisco Giants",
+   "pick": "San Francisco Giants",
+   "ml": 120,
+   "tier": "STRONG",
+   "time": "2026-07-29T01:45:00Z",
+   "model_p": 0.519,
+   "mkt_p": 0.428,
+   "value": 0.09
   }
  ],
- "evaluated_today": 8,
+ "evaluated_today": 11,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
