@@ -2,8 +2,9 @@ name: Daily F5 run
 
 on:
   schedule:
-    - cron: "11 15 * * *"   # ~11:11 AM ET — primary
-    - cron: "47 15 * * *"   # ~11:47 PM ET — backup
+    - cron: "00 14 * * *"   # ~10:11 AM ET — primary
+    - cron: "30 14 * * *"   # ~10:30 AM ET — backup
+    - cron: "30 3 * * *"    # ~10:30 PM ET
 
   workflow_dispatch: {}     # adds a "Run workflow" button for manual runs
 
