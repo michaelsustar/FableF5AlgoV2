@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-07-27T21:47:45",
+ "generated_at": "2026-07-27T22:26:50",
  "slate_date": "2026-07-27",
  "ledger": {
-  "bets": 11,
+  "bets": 12,
   "wins": 2,
   "losses": 7,
-  "pushes": 2,
+  "pushes": 3,
   "units": -4.36,
-  "roi": -0.3964,
+  "roi": -0.3633,
   "hit": 0.2222,
   "claimed": 0.5464
  },

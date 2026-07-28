@@ -995,7 +995,7 @@
     "game_time": "2026-07-27T23:40:00Z",
     "away": {
       "team": "New York Yankees",
-      "batting_score": 41.9,
+      "batting_score": 36.5,
       "pitcher": "Max Fried",
       "pitcher_score": null,
       "pitcher_metrics": null,
@@ -1044,8 +1044,10 @@
           "platoon_mult": 0.965
         },
         {
-          "name": "Spencer Jones",
-          "pa": 5
+          "name": "Trent Grisham",
+          "pa": 37,
+          "form": 4.6,
+          "platoon_mult": 1.038
         },
         {
           "name": "Ali S\u00e1nchez",
@@ -1055,7 +1057,7 @@
     },
     "home": {
       "team": "Chicago White Sox",
-      "batting_score": 63.6,
+      "batting_score": 53.7,
       "pitcher": "Noah Schultz",
       "pitcher_score": 13.9,
       "pitcher_metrics": {
@@ -1075,8 +1077,10 @@
       "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Randal Grichuk",
-          "pa": 13
+          "name": "Sam Antonacci",
+          "pa": 37,
+          "form": 47.0,
+          "platoon_mult": 0.85
         },
         {
           "name": "Munetaka Murakami",
@@ -1109,8 +1113,10 @@
           "platoon_mult": 1.0
         },
         {
-          "name": "Everson Pereira",
-          "pa": 0
+          "name": "Tristan Peters",
+          "pa": 35,
+          "form": 11.0,
+          "platoon_mult": 1.0
         },
         {
           "name": "Edgar Quero",
@@ -1123,9 +1129,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 11,
+      "qualified": 14,
       "total": 18,
-      "pct": 61.1
+      "pct": 77.8
     },
     "market": {
       "date": "2026-07-27",
@@ -1749,7 +1755,7 @@
     },
     "home": {
       "team": "San Francisco Giants",
-      "batting_score": 42.4,
+      "batting_score": 45.4,
       "pitcher": "Tyler Mahle",
       "pitcher_score": 52.7,
       "pitcher_metrics": {
@@ -1793,10 +1799,8 @@
           "platoon_mult": 1.145
         },
         {
-          "name": "Casey Schmitt",
-          "pa": 38,
-          "form": 24.5,
-          "platoon_mult": 0.973
+          "name": "Christian Koss",
+          "pa": 3
         },
         {
           "name": "Drew Gilbert",
@@ -1821,9 +1825,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 16,
+      "qualified": 15,
       "total": 18,
-      "pct": 88.9
+      "pct": 83.3
     },
     "market": {
       "date": "2026-07-27",
@@ -1834,9 +1838,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.485,
+      "p_home": 0.491,
       "mkt_p_home": 0.469,
-      "value": 0.016,
+      "value": 0.022,
       "mode": "market",
       "pick": null,
       "tier": "NO VALUE"

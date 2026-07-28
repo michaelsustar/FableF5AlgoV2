@@ -200,8 +200,8 @@
       "opp_starter": "Noah Schultz",
       "opp_runs5_pct": 13.2,
       "season_f5_rate": 2.49,
-      "bat_score": 41.9,
-      "lam": 2.76,
+      "bat_score": 36.5,
+      "lam": 2.7,
       "lineup": "CONFIRMED"
     },
     "home": {
@@ -209,7 +209,7 @@
       "opp_starter": "Max Fried",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.85,
-      "bat_score": 63.6,
+      "bat_score": 53.7,
       "lam": null,
       "lineup": "CONFIRMED"
     },
@@ -391,8 +391,8 @@
       "opp_starter": "Brandon Sproat",
       "opp_runs5_pct": 63.5,
       "season_f5_rate": 2.25,
-      "bat_score": 42.4,
-      "lam": 2.15,
+      "bat_score": 45.4,
+      "lam": 2.18,
       "lineup": "CONFIRMED"
     },
     "market": {
@@ -405,14 +405,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.15,
+      "lam_home": 2.18,
       "lam_away": 2.47,
-      "exp_total": 4.62,
+      "exp_total": 4.64,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.444,
+      "p_over": 0.448,
       "mkt_p_over": 0.492,
-      "value": -0.048,
+      "value": -0.044,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
