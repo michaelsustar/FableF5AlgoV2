@@ -8,6 +8,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site-quantlab.css">
+<style>
+/* Active Algos: separate the section header from the algo names below it */
+.algos-head{
+  margin-bottom:22px;padding-bottom:10px;
+  border-bottom:1px solid var(--line);
+}
+.algos-head small{color:var(--bulb);opacity:.8}
+.algos-host .algo-ticker + .algo-ticker{
+  margin-top:26px;padding-top:24px;border-top:1px solid var(--line);
+}
+.algos-host .algoname{
+  font-size:26px;letter-spacing:.05em;
+  padding-left:12px;border-left:3px solid var(--bulb);
+}
+</style>
 </head>
 <body>
 <script>window.SITE_ROOT = "";</script>
@@ -40,8 +55,8 @@
     </div>
   </div>
 
-  <h2>Active Algos <small>today's boards · refresh daily · paper units</small></h2>
-  <div id="algos"></div>
+  <h2 class="algos-head">Active Algos <small>today's boards · refresh daily · paper units</small></h2>
+  <div id="algos" class="algos-host"></div>
 
   <h2>In the lab <small>next up</small></h2>
   <div class="models">
