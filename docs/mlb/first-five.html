@@ -8,6 +8,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../site-quantlab.css">
+<style>
+.viewlog{display:inline-block;margin-top:12px;padding:9px 14px;border-radius:6px;
+  background:var(--felt);border:1px solid var(--line);
+  font:600 11px "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase}
+.viewlog:hover{border-color:var(--bulb);text-decoration:none}
+</style>
 </head>
 <body>
 <script>window.SITE_ROOT = "../";</script>
@@ -24,6 +30,7 @@
 
   <h2>The ledger <small>every graded bet since the freeze</small></h2>
   <div class="board" id="board"></div>
+  <a class="viewlog" href="../past-bets.html?algo=hot-streak">View past bets →</a>
 
   <h2>Bankroll line <small>cumulative paper units, 1u per bet</small></h2>
   <div class="chartbox"><svg class="line" id="chart" viewBox="0 0 800 180" preserveAspectRatio="none" role="img" aria-label="Cumulative units over time"></svg></div>

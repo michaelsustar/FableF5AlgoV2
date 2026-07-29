@@ -1052,9 +1052,43 @@ def export_site(slate_date=None):
         },
     }
     (site / "data_totals.json").write_text(json.dumps(data, indent=1))
+
+    # ---- full bet log for the "past bets" page (newest first) ----
+    history = []
+    for r in sorted(graded,
+                    key=lambda r: (r["date"], r.get("game_time") or ""),
+                    reverse=True):
+        if not r.get("pick"):
+            continue                      # NO VALUE verdicts aren't bets
+        oc = r.get("outcome")
+        result = ("push" if oc == "push" else
+                  "void" if oc == "void" else
+                  "win" if r.get("pick_side") == oc else "loss")
+        history.append({
+            "date": r["date"], "time": r.get("game_time"),
+            "matchup": r["matchup"], "pick": r["pick"],
+            "ml": r.get("pick_ml"), "tier": r["tier"],
+            "line": r.get("line"), "exp_total": r.get("exp_total"),
+            "lam_home": r.get("lam_home"), "lam_away": r.get("lam_away"),
+            "total": r.get("total"),
+            "model_p": r["p_over"] if r["pick_side"] == "over"
+                       else round(1 - r["p_over"], 3),
+            "mkt_p": r["mkt_p_over"] if r["pick_side"] == "over"
+                     else round(1 - r["mkt_p_over"], 3),
+            "value": abs(r.get("value") or 0),
+            "result": result, "units": r.get("units", 0),
+        })
+    (site / "history_totals.json").write_text(json.dumps({
+        "generated_at": data["generated_at"],
+        "algo": "First Five Totals",
+        "ledger": data["ledger"],
+        "bets": history,
+    }, indent=1))
+
     print(f"  docs/data_totals.json written — {len(bets)} bet(s) today, "
           f"ledger {wins}-{len(dec) - wins}-{pushes}, "
           f"{units:+.2f} units")
+    print(f"  docs/history_totals.json written — {len(history)} graded bet(s)")
 
 
 # --------------------------------------------------------------------------

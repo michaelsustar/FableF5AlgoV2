@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Past Bets — DocShuuBets</title>
+<meta name="description" content="Every graded bet, win or loss, since the model was frozen — logged at the price shown when it was published.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site-quantlab.css">
+<style>
+/* result-coded bet cards for the log */
+.bet.win{border-color:var(--win);border-left-color:var(--win)}
+.bet.loss{border-color:var(--loss);border-left-color:var(--loss)}
+.bet.push{border-color:var(--line);border-left-color:var(--chalk-dim)}
+.bet.void{border-color:var(--line);border-left-color:var(--chalk-dim);opacity:.6}
+.chip.win{background:var(--win);color:var(--felt-ink)}
+.chip.loss{background:var(--loss);color:var(--felt-ink)}
+.chip.push,.chip.void{background:transparent;border:1px solid var(--chalk-dim);color:var(--chalk-dim)}
+.bet .u{font-weight:600}
+.bet .u.pos{color:var(--win)}
+.bet .u.neg{color:var(--loss)}
+.daybar{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+  margin:26px 0 10px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+.daybar h3{font:700 19px "Barlow Condensed",sans-serif;text-transform:uppercase;
+  letter-spacing:.05em;padding-left:11px;border-left:3px solid var(--bulb)}
+.daybar .meta{font:500 11px "IBM Plex Mono",monospace;color:var(--chalk-dim);
+  letter-spacing:.08em;margin-left:auto}
+.daybar .meta b.pos{color:var(--win)}
+.daybar .meta b.neg{color:var(--loss)}
+.backlink{display:inline-block;margin-top:14px;font:600 11px "IBM Plex Mono",monospace;
+  letter-spacing:.15em;text-transform:uppercase}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin:16px 0 4px}
+.filters button{font:600 11px "IBM Plex Mono",monospace;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--chalk-dim);background:var(--felt);
+  border:1px solid var(--line);padding:7px 12px;border-radius:5px;cursor:pointer}
+.filters button:hover{color:var(--chalk)}
+.filters button[aria-pressed="true"]{background:var(--bulb);color:var(--felt-ink);border-color:var(--bulb)}
+</style>
+</head>
+<body>
+<script>window.SITE_ROOT = "";</script>
+<script src="nav.js"></script>
+
+<div class="wrap">
+  <header style="padding:40px 0 20px;border-bottom:2px solid var(--line)">
+    <p class="eyebrow">MLB · forward test · paper units</p>
+    <h1>Past <span class="amber">Bets</span><span class="sub" id="algoname">—</span></h1>
+    <p class="lede" style="margin-top:14px">Every bet this model has published since its settings were frozen — <b>wins and losses alike</b>, in the order they were graded. Each card shows the pick exactly as it was posted, at the price available then, with the model's probability next to the market's. Nothing is removed after the fact.</p>
+    <a class="backlink" id="back" href="#">← back to the dashboard</a>
+    <p class="stamp" id="stamp">loading…</p>
+  </header>
+
+  <h2>Running total <small>since the freeze</small></h2>
+  <div class="board" id="board"></div>
+
+  <div class="filters" id="filters">
+    <button data-f="all" aria-pressed="true">All</button>
+    <button data-f="win" aria-pressed="false">Wins</button>
+    <button data-f="loss" aria-pressed="false">Losses</button>
+    <button data-f="STRONG" aria-pressed="false">Strong</button>
+    <button data-f="LEAN" aria-pressed="false">Lean</button>
+  </div>
+
+  <div id="log"></div>
+</div>
+<script>
+/* ------------------------------------------------------------------
+   TO ADD A NEW ALGORITHM'S LOG: add one entry here, keyed by the
+   ?algo= value its dashboard links to.
+   ------------------------------------------------------------------ */
+const ALGOS = {
+  "hot-streak": {
+    name: "First Five Hot Streak",
+    data: "history.json",
+    page: "mlb/first-five.html"
+  },
+  "totals": {
+    name: "First Five Totals",
+    data: "history_totals.json",
+    page: "mlb/first-five-totals.html"
+  }
+};
+
+(async function(){
+  const key = new URLSearchParams(location.search).get("algo") || "hot-streak";
+  const cfg = ALGOS[key] || ALGOS["hot-streak"];
+  document.getElementById("algoname").textContent = cfg.name;
+  document.getElementById("back").href = cfg.page;
+  document.title = "Past Bets — " + cfg.name + " — DocShuuBets";
+
+  let d;
+  try{ d = await (await fetch(cfg.data+"?cb="+Date.now())).json(); }
+  catch(e){
+    document.getElementById("stamp").textContent = cfg.data + " not found — run the export.";
+    document.getElementById("log").innerHTML =
+      '<div class="empty">No log published yet.</div>';
+    return;
+  }
+
+  document.getElementById("stamp").textContent =
+    "updated " + (d.generated_at||"").replace("T"," ");
+
+  const L = d.ledger||{}, fmt=(v,f)=>v==null?"—":f(v);
+  document.getElementById("board").innerHTML = [
+    ["record", L.bets? (L.wins+"-"+L.losses+"-"+L.pushes) : "0-0-0", null],
+    ["units", fmt(L.units,v=>(v>0?"+":"")+v.toFixed(2)), L.units>0?"pos":L.units<0?"neg":null],
+    ["roi / bet", fmt(L.roi,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"), L.roi>0?"pos":L.roi<0?"neg":null],
+    ["hit rate", fmt(L.hit,v=>(100*v).toFixed(1)+"%"), null],
+  ].map(([k,v,c])=>`<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
+
+  const bets = d.bets||[];
+  const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const ml = v => v==null ? "" : (v>0?"+":"")+Math.round(v);
+  const clock = t => { if(!t) return "";
+    try{ return new Date(t).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
+    catch(e){ return ""; } };
+  const RES = {win:"WIN", loss:"LOSS", push:"PUSH", void:"VOID"};
+
+  function card(b){
+    const u = b.units||0;
+    const uc = b.result==="win" ? "pos" : b.result==="loss" ? "neg" : "";
+    const extras =
+      (b.total!=null ? ` · actual <b>${b.total}</b>` : "") +
+      (b.exp_total!=null ? ` · projected <b>${b.exp_total.toFixed(1)}</b>` : "");
+    return `
+      <div class="bet ${b.result}">
+        <div>
+          <div class="top"><span class="time">${clock(b.time)}</span><span>${esc(b.matchup)}</span></div>
+          <div class="pick">${esc(b.pick)}<span class="chip ${b.result}">${RES[b.result]||""}</span><span class="chip ${b.tier==="LEAN"?"lean":""}">${esc(b.tier)}</span></div>
+        </div>
+        <div class="ml">${ml(b.ml)}</div>
+        <div class="nums">model <b>${(100*b.model_p).toFixed(0)}%</b> · market <b>${(100*b.mkt_p).toFixed(0)}%</b> · edge <b>+${(100*b.value).toFixed(1)}%</b>${extras}${b.result!=="void"?` · <span class="u ${uc}">${u>0?"+":""}${u.toFixed(2)}u</span>`:""}</div>
+      </div>`;
+  }
+
+  let filter = "all";
+  function render(){
+    const rows = bets.filter(b =>
+      filter==="all" ? true :
+      (filter==="win"||filter==="loss") ? b.result===filter : b.tier===filter);
+    const host = document.getElementById("log");
+    if(!rows.length){
+      host.innerHTML = '<div class="empty"><b>Nothing here yet.</b> Graded bets appear the morning after they settle.</div>';
+      return;
+    }
+    const days = [];
+    rows.forEach(b => {
+      const last = days[days.length-1];
+      if(last && last.date===b.date) last.rows.push(b);
+      else days.push({date:b.date, rows:[b]});
+    });
+    host.innerHTML = days.map(day => {
+      const u = day.rows.reduce((s,b)=>s+(b.units||0),0);
+      const w = day.rows.filter(b=>b.result==="win").length;
+      const l = day.rows.filter(b=>b.result==="loss").length;
+      return `<div class="daybar"><h3>${day.date}</h3>` +
+             `<span class="meta">${w}-${l} · <b class="${u>0?"pos":u<0?"neg":""}">${u>0?"+":""}${u.toFixed(2)}u</b></span></div>` +
+             day.rows.map(card).join("");
+    }).join("");
+  }
+
+  document.getElementById("filters").addEventListener("click", e => {
+    const btn = e.target.closest("button");
+    if(!btn) return;
+    filter = btn.dataset.f;
+    [...e.currentTarget.querySelectorAll("button")].forEach(b =>
+      b.setAttribute("aria-pressed", b===btn ? "true" : "false"));
+    render();
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
