@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-07-28T22:47:01",
+ "algo": "First Five Totals",
+ "ledger": {
+  "bets": 3,
+  "wins": 1,
+  "losses": 2,
+  "pushes": 0,
+  "units": -1.15,
+  "roi": -0.3843,
+  "hit": 0.3333,
+  "claimed": 0.5627
+ },
+ "bets": [
+  {
+   "date": "2026-07-27",
+   "time": "2026-07-28T01:45:00Z",
+   "matchup": "Milwaukee Brewers @ San Francisco Giants",
+   "pick": "Under 4.5",
+   "ml": -118,
+   "tier": "LEAN",
+   "line": 4.5,
+   "exp_total": 4.62,
+   "lam_home": 2.15,
+   "lam_away": 2.47,
+   "total": 3,
+   "model_p": 0.556,
+   "mkt_p": 0.508,
+   "value": 0.048,
+   "result": "win",
+   "units": 0.847
+  },
+  {
+   "date": "2026-07-27",
+   "time": "2026-07-28T01:38:00Z",
+   "matchup": "Houston Astros @ Los Angeles Angels",
+   "pick": "Under 4.5",
+   "ml": -108,
+   "tier": "LEAN",
+   "line": 4.5,
+   "exp_total": 4.93,
+   "lam_home": 2.67,
+   "lam_away": 2.26,
+   "total": 5,
+   "model_p": 0.518,
+   "mkt_p": 0.488,
+   "value": 0.031,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-07-27",
+   "time": "2026-07-27T23:45:00Z",
+   "matchup": "Chicago Cubs @ St. Louis Cardinals",
+   "pick": "Under 5.5",
+   "ml": -128,
+   "tier": "STRONG",
+   "line": 5.5,
+   "exp_total": 5.1,
+   "lam_home": 2.5,
+   "lam_away": 2.6,
+   "total": 6,
+   "model_p": 0.614,
+   "mkt_p": 0.526,
+   "value": 0.087,
+   "result": "loss",
+   "units": -1.0
+  }
+ ]
+}
