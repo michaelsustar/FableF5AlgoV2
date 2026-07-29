@@ -11,18 +11,18 @@
       "opp_starter": "Ryan Gusto",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.39,
-      "bat_score": 41.0,
+      "bat_score": 46.1,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Miami Marlins",
       "opp_starter": "Jes\u00fas Luzardo",
       "opp_runs5_pct": 91.7,
       "season_f5_rate": 2.57,
-      "bat_score": 42.5,
-      "lam": 2.05,
-      "lineup": "PROJECTED"
+      "bat_score": 43.1,
+      "lam": 2.06,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-29",
@@ -47,18 +47,18 @@
       "opp_starter": "Jared Jones",
       "opp_runs5_pct": 97.9,
       "season_f5_rate": 2.45,
-      "bat_score": 65.6,
-      "lam": 2.22,
-      "lineup": "PROJECTED"
+      "bat_score": 61.1,
+      "lam": 2.17,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Pittsburgh Pirates",
       "opp_starter": "Eduardo Rodriguez",
       "opp_runs5_pct": 22.1,
       "season_f5_rate": 2.87,
-      "bat_score": 48.7,
+      "bat_score": 49.4,
       "lam": 2.64,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-29",
@@ -71,13 +71,13 @@
     },
     "prediction": {
       "lam_home": 2.64,
-      "lam_away": 2.22,
-      "exp_total": 4.85,
+      "lam_away": 2.17,
+      "exp_total": 4.81,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.472,
+      "p_over": 0.468,
       "mkt_p_over": 0.512,
-      "value": -0.04,
+      "value": -0.044,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -95,18 +95,18 @@
       "opp_starter": "Zack Littell",
       "opp_runs5_pct": null,
       "season_f5_rate": 1.99,
-      "bat_score": 36.7,
+      "bat_score": 44.4,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Washington Nationals",
       "opp_starter": "Trey Yesavage",
       "opp_runs5_pct": 32.4,
       "season_f5_rate": 3.11,
-      "bat_score": 62.6,
-      "lam": 2.9,
-      "lineup": "PROJECTED"
+      "bat_score": 67.0,
+      "lam": 2.96,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-29",
@@ -131,18 +131,18 @@
       "opp_starter": "Tarik Skubal",
       "opp_runs5_pct": 91.7,
       "season_f5_rate": 2.48,
-      "bat_score": 37.7,
-      "lam": 2.04,
-      "lineup": "PROJECTED"
+      "bat_score": 46.8,
+      "lam": 2.12,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Detroit Tigers",
       "opp_starter": "Trevor Rogers",
       "opp_runs5_pct": 91.7,
       "season_f5_rate": 2.56,
-      "bat_score": 60.7,
-      "lam": 2.26,
-      "lineup": "PROJECTED"
+      "bat_score": 53.0,
+      "lam": 2.19,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-29",
@@ -154,14 +154,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.26,
-      "lam_away": 2.04,
-      "exp_total": 4.3,
+      "lam_home": 2.19,
+      "lam_away": 2.12,
+      "exp_total": 4.31,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.404,
+      "p_over": 0.405,
       "mkt_p_over": 0.474,
-      "value": -0.07,
+      "value": -0.069,
       "p_push": 0.0,
       "pick": "Under 4.5",
       "pick_side": "under",
@@ -181,18 +181,18 @@
       "opp_starter": "Sean Manaea",
       "opp_runs5_pct": 42.4,
       "season_f5_rate": 2.69,
-      "bat_score": 57.7,
-      "lam": 2.56,
-      "lineup": "PROJECTED"
+      "bat_score": 61.2,
+      "lam": 2.6,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "New York Mets",
       "opp_starter": "AJ Smith-Shawver",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.22,
-      "bat_score": 65.4,
+      "bat_score": 58.8,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-29",
