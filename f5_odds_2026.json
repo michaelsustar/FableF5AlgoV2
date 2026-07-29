@@ -9214,5 +9214,125 @@
   "home_ml": -180,
   "away_ml": 140,
   "book": "draftkings"
+ },
+ "2026-07-29|philadelphia phillies|miami marlins": {
+  "date": "2026-07-29",
+  "home": "Miami Marlins",
+  "away": "Philadelphia Phillies",
+  "home_ml": 148,
+  "away_ml": -188,
+  "book": "fanduel"
+ },
+ "2026-07-29|arizona diamondbacks|pittsburgh pirates": {
+  "date": "2026-07-29",
+  "home": "Pittsburgh Pirates",
+  "away": "Arizona Diamondbacks",
+  "home_ml": -150,
+  "away_ml": 120,
+  "book": "fanduel"
+ },
+ "2026-07-29|toronto blue jays|washington nationals": {
+  "date": "2026-07-29",
+  "home": "Washington Nationals",
+  "away": "Toronto Blue Jays",
+  "home_ml": 102,
+  "away_ml": -128,
+  "book": "fanduel"
+ },
+ "2026-07-29|atlanta braves|new york mets": {
+  "date": "2026-07-29",
+  "home": "New York Mets",
+  "away": "Atlanta Braves",
+  "home_ml": -110,
+  "away_ml": -114,
+  "book": "fanduel"
+ },
+ "2026-07-29|baltimore orioles|detroit tigers": {
+  "date": "2026-07-29",
+  "home": "Detroit Tigers",
+  "away": "Baltimore Orioles",
+  "home_ml": -200,
+  "away_ml": 158,
+  "book": "fanduel"
+ },
+ "2026-07-29|milwaukee brewers|san francisco giants": {
+  "date": "2026-07-29",
+  "home": "San Francisco Giants",
+  "away": "Milwaukee Brewers",
+  "home_ml": -108,
+  "away_ml": -116,
+  "book": "fanduel"
+ },
+ "2026-07-29|colorado rockies|san diego padres": {
+  "date": "2026-07-29",
+  "home": "San Diego Padres",
+  "away": "Colorado Rockies",
+  "home_ml": -135,
+  "away_ml": 105,
+  "book": "bovada"
+ },
+ "2026-07-29|texas rangers|tampa bay rays": {
+  "date": "2026-07-29",
+  "home": "Tampa Bay Rays",
+  "away": "Texas Rangers",
+  "home_ml": -145,
+  "away_ml": 116,
+  "book": "fanduel"
+ },
+ "2026-07-29|cleveland guardians|cincinnati reds": {
+  "date": "2026-07-29",
+  "home": "Cincinnati Reds",
+  "away": "Cleveland Guardians",
+  "home_ml": -104,
+  "away_ml": -120,
+  "book": "fanduel"
+ },
+ "2026-07-29|new york yankees|chicago white sox": {
+  "date": "2026-07-29",
+  "home": "Chicago White Sox",
+  "away": "New York Yankees",
+  "home_ml": 144,
+  "away_ml": -182,
+  "book": "fanduel"
+ },
+ "2026-07-29|kansas city royals|minnesota twins": {
+  "date": "2026-07-29",
+  "home": "Minnesota Twins",
+  "away": "Kansas City Royals",
+  "home_ml": -184,
+  "away_ml": 146,
+  "book": "fanduel"
+ },
+ "2026-07-29|chicago cubs|st. louis cardinals": {
+  "date": "2026-07-29",
+  "home": "St. Louis Cardinals",
+  "away": "Chicago Cubs",
+  "home_ml": -106,
+  "away_ml": -118,
+  "book": "fanduel"
+ },
+ "2026-07-29|houston astros|los angeles angels": {
+  "date": "2026-07-29",
+  "home": "Los Angeles Angels",
+  "away": "Houston Astros",
+  "home_ml": 112,
+  "away_ml": -140,
+  "book": "fanduel"
+ },
+ "2026-07-29|boston red sox|athletics": {
+  "date": "2026-07-29",
+  "home": "Athletics",
+  "away": "Boston Red Sox",
+  "home_ml": 132,
+  "away_ml": -166,
+  "book": "fanduel"
+ },
+ "2026-07-29|seattle mariners|los angeles dodgers": {
+  "date": "2026-07-29",
+  "home": "Los Angeles Dodgers",
+  "away": "Seattle Mariners",
+  "home_ml": -124,
+  "away_ml": 100,
+  "book": "fanduel"
  }
 }

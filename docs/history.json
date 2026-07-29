@@ -1,17 +1,69 @@
 {
- "generated_at": "2026-07-28T22:46:52",
+ "generated_at": "2026-07-29T02:14:57",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 13,
-  "wins": 3,
-  "losses": 7,
+  "bets": 17,
+  "wins": 4,
+  "losses": 10,
   "pushes": 3,
-  "units": -3.49,
-  "roi": -0.2685,
-  "hit": 0.3,
-  "claimed": 0.5558
+  "units": -5.84,
+  "roi": -0.3436,
+  "hit": 0.2857,
+  "claimed": 0.5548
  },
  "bets": [
+  {
+   "date": "2026-07-28",
+   "time": "2026-07-29T01:45:00Z",
+   "matchup": "Milwaukee Brewers @ San Francisco Giants",
+   "pick": "San Francisco Giants",
+   "ml": 120,
+   "tier": "STRONG",
+   "model_p": 0.519,
+   "mkt_p": 0.428,
+   "value": 0.09,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-07-28",
+   "time": "2026-07-28T23:40:00Z",
+   "matchup": "Kansas City Royals @ Minnesota Twins",
+   "pick": "Kansas City Royals",
+   "ml": 130,
+   "tier": "STRONG",
+   "model_p": 0.537,
+   "mkt_p": 0.411,
+   "value": 0.126,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-07-28",
+   "time": "2026-07-28T23:40:00Z",
+   "matchup": "New York Yankees @ Chicago White Sox",
+   "pick": "Chicago White Sox",
+   "ml": 114,
+   "tier": "STRONG",
+   "model_p": 0.513,
+   "mkt_p": 0.441,
+   "value": 0.072,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-07-28",
+   "time": "2026-07-28T22:40:00Z",
+   "matchup": "Baltimore Orioles @ Detroit Tigers",
+   "pick": "Detroit Tigers",
+   "ml": -154,
+   "tier": "STRONG",
+   "model_p": 0.64,
+   "mkt_p": 0.572,
+   "value": 0.068,
+   "result": "win",
+   "units": 0.649
+  },
   {
    "date": "2026-07-27",
    "time": "2026-07-28T01:38:00Z",

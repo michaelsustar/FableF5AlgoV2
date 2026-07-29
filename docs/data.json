@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-07-28T22:46:52",
- "slate_date": "2026-07-28",
+ "generated_at": "2026-07-29T02:14:57",
+ "slate_date": "2026-07-29",
  "ledger": {
-  "bets": 13,
-  "wins": 3,
-  "losses": 7,
+  "bets": 17,
+  "wins": 4,
+  "losses": 10,
   "pushes": 3,
-  "units": -3.49,
-  "roi": -0.2685,
-  "hit": 0.3,
-  "claimed": 0.5558
+  "units": -5.84,
+  "roi": -0.3436,
+  "hit": 0.2857,
+  "claimed": 0.5548
  },
  "series": [
   {
@@ -27,61 +27,65 @@
   {
    "date": "2026-07-27",
    "units": -3.49
+  },
+  {
+   "date": "2026-07-28",
+   "units": -5.84
   }
  ],
  "bets_today": [
   {
    "matchup": "Baltimore Orioles @ Detroit Tigers",
-   "pick": "Detroit Tigers",
-   "ml": -154,
+   "pick": "Baltimore Orioles",
+   "ml": 158,
    "tier": "STRONG",
-   "time": "2026-07-28T22:40:00Z",
-   "model_p": 0.64,
-   "mkt_p": 0.572,
-   "value": 0.068
+   "time": "2026-07-29T17:10:00Z",
+   "model_p": 0.43,
+   "mkt_p": 0.368,
+   "value": 0.063
   },
   {
-   "matchup": "Atlanta Braves @ New York Mets",
-   "pick": "New York Mets",
-   "ml": 135,
+   "matchup": "Cleveland Guardians @ Cincinnati Reds",
+   "pick": "Cincinnati Reds",
+   "ml": -104,
    "tier": "STRONG",
-   "time": "2026-07-28T23:10:00Z",
-   "model_p": 0.522,
-   "mkt_p": 0.401,
-   "value": 0.121
-  },
-  {
-   "matchup": "Kansas City Royals @ Minnesota Twins",
-   "pick": "Kansas City Royals",
-   "ml": 130,
-   "tier": "STRONG",
-   "time": "2026-07-28T23:40:00Z",
-   "model_p": 0.537,
-   "mkt_p": 0.411,
-   "value": 0.126
+   "time": "2026-07-29T23:10:00Z",
+   "model_p": 0.595,
+   "mkt_p": 0.483,
+   "value": 0.112
   },
   {
    "matchup": "New York Yankees @ Chicago White Sox",
    "pick": "Chicago White Sox",
-   "ml": 114,
+   "ml": 144,
    "tier": "STRONG",
-   "time": "2026-07-28T23:40:00Z",
-   "model_p": 0.513,
-   "mkt_p": 0.441,
-   "value": 0.072
+   "time": "2026-07-29T23:40:00Z",
+   "model_p": 0.514,
+   "mkt_p": 0.388,
+   "value": 0.125
   },
   {
-   "matchup": "Milwaukee Brewers @ San Francisco Giants",
-   "pick": "San Francisco Giants",
-   "ml": 120,
+   "matchup": "Chicago Cubs @ St. Louis Cardinals",
+   "pick": "Chicago Cubs",
+   "ml": -118,
    "tier": "STRONG",
-   "time": "2026-07-29T01:45:00Z",
-   "model_p": 0.519,
-   "mkt_p": 0.428,
-   "value": 0.09
+   "time": "2026-07-29T23:45:00Z",
+   "model_p": 0.583,
+   "mkt_p": 0.513,
+   "value": 0.07
+  },
+  {
+   "matchup": "Boston Red Sox @ Athletics",
+   "pick": "Athletics",
+   "ml": 132,
+   "tier": "STRONG",
+   "time": "2026-07-30T01:40:00Z",
+   "model_p": 0.541,
+   "mkt_p": 0.409,
+   "value": 0.133
   }
  ],
- "evaluated_today": 11,
+ "evaluated_today": 8,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
