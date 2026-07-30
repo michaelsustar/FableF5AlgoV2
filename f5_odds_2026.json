@@ -9398,5 +9398,21 @@
   "home_ml": -142,
   "away_ml": 114,
   "book": "fanduel"
+ },
+ "2026-07-30|boston red sox|athletics": {
+  "date": "2026-07-30",
+  "home": "Athletics",
+  "away": "Boston Red Sox",
+  "home_ml": 124,
+  "away_ml": -160,
+  "book": "draftkings"
+ },
+ "2026-07-30|san francisco giants|san diego padres": {
+  "date": "2026-07-30",
+  "home": "San Diego Padres",
+  "away": "San Francisco Giants",
+  "home_ml": -145,
+  "away_ml": 114,
+  "book": "draftkings"
  }
 }

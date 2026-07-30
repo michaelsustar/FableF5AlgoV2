@@ -385,5 +385,23 @@
   "over_ml": -118,
   "under_ml": -110,
   "book": "fanduel"
+ },
+ "2026-07-30|boston red sox|athletics": {
+  "date": "2026-07-30",
+  "home": "Athletics",
+  "away": "Boston Red Sox",
+  "line": 5.5,
+  "over_ml": -118,
+  "under_ml": -110,
+  "book": "fanduel"
+ },
+ "2026-07-30|san francisco giants|san diego padres": {
+  "date": "2026-07-30",
+  "home": "San Diego Padres",
+  "away": "San Francisco Giants",
+  "line": 4.5,
+  "over_ml": -122,
+  "under_ml": -106,
+  "book": "fanduel"
  }
 }

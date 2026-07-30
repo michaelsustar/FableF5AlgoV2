@@ -11,18 +11,18 @@
       "opp_starter": "Shane McClanahan",
       "opp_runs5_pct": 39.9,
       "season_f5_rate": 2.52,
-      "bat_score": 66.3,
-      "lam": 2.65,
-      "lineup": "PROJECTED"
+      "bat_score": 58.3,
+      "lam": 2.56,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Tampa Bay Rays",
       "opp_starter": "Cole Winn",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.46,
-      "bat_score": 56.5,
+      "bat_score": 45.6,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-30",
@@ -47,18 +47,18 @@
       "opp_starter": "Bailey Ober",
       "opp_runs5_pct": 52.8,
       "season_f5_rate": 2.23,
-      "bat_score": 47.2,
-      "lam": 2.39,
-      "lineup": "PROJECTED"
+      "bat_score": 57.1,
+      "lam": 2.49,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Minnesota Twins",
       "opp_starter": "Noah Cameron",
       "opp_runs5_pct": 7.7,
       "season_f5_rate": 2.97,
-      "bat_score": 33.1,
-      "lam": 2.68,
-      "lineup": "PROJECTED"
+      "bat_score": 43.2,
+      "lam": 2.8,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-30",
@@ -70,14 +70,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.68,
-      "lam_away": 2.39,
-      "exp_total": 5.07,
+      "lam_home": 2.8,
+      "lam_away": 2.49,
+      "exp_total": 5.29,
       "mode": "market",
       "line": 5.5,
-      "p_over": 0.382,
+      "p_over": 0.408,
       "mkt_p_over": 0.46,
-      "value": -0.078,
+      "value": -0.053,
       "p_push": 0.0,
       "pick": "Under 5.5",
       "pick_side": "under",
@@ -97,18 +97,18 @@
       "opp_starter": "Sean Burke",
       "opp_runs5_pct": 99.7,
       "season_f5_rate": 2.52,
-      "bat_score": 38.1,
-      "lam": 2.11,
-      "lineup": "PROJECTED"
+      "bat_score": 40.7,
+      "lam": 2.13,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Chicago White Sox",
       "opp_starter": "Ryan Weathers",
       "opp_runs5_pct": 39.9,
       "season_f5_rate": 2.81,
-      "bat_score": 58.1,
-      "lam": 2.79,
-      "lineup": "PROJECTED"
+      "bat_score": 64.7,
+      "lam": 2.88,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-30",
@@ -120,14 +120,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.79,
-      "lam_away": 2.11,
-      "exp_total": 4.9,
+      "lam_home": 2.88,
+      "lam_away": 2.13,
+      "exp_total": 5.01,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.478,
+      "p_over": 0.49,
       "mkt_p_over": 0.447,
-      "value": 0.031,
+      "value": 0.043,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -145,18 +145,18 @@
       "opp_starter": "Andre Pallante",
       "opp_runs5_pct": 52.8,
       "season_f5_rate": 2.74,
-      "bat_score": 59.2,
+      "bat_score": 59.1,
       "lam": 2.55,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "St. Louis Cardinals",
       "opp_starter": "Javier Assad",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.42,
-      "bat_score": 34.6,
+      "bat_score": 35.5,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-07-30",
@@ -298,10 +298,10 @@
     "park_factor": 1.04,
     "away": {
       "team": "Boston Red Sox",
-      "opp_starter": null,
+      "opp_starter": "Mason Barnett",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.36,
-      "bat_score": 56.7,
+      "bat_score": 53.4,
       "lam": null,
       "lineup": "PROJECTED"
     },
@@ -314,7 +314,15 @@
       "lam": 2.81,
       "lineup": "PROJECTED"
     },
-    "market": null,
+    "market": {
+      "date": "2026-07-30",
+      "home": "Athletics",
+      "away": "Boston Red Sox",
+      "line": 5.5,
+      "over_ml": -118,
+      "under_ml": -110,
+      "book": "fanduel"
+    },
     "prediction": null
   },
   {
@@ -342,7 +350,15 @@
       "lam": null,
       "lineup": "PROJECTED"
     },
-    "market": null,
+    "market": {
+      "date": "2026-07-30",
+      "home": "San Diego Padres",
+      "away": "San Francisco Giants",
+      "line": 4.5,
+      "over_ml": -122,
+      "under_ml": -106,
+      "book": "fanduel"
+    },
     "prediction": null
   },
   {
