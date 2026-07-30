@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-07-29T12:01:23",
- "slate_date": "2026-07-29",
+ "generated_at": "2026-07-30T01:11:58",
+ "slate_date": "2026-07-30",
  "ledger": {
-  "bets": 8,
-  "wins": 3,
-  "losses": 5,
+  "bets": 13,
+  "wins": 7,
+  "losses": 6,
   "pushes": 0,
-  "units": -2.39,
-  "roi": -0.299,
-  "hit": 0.375,
-  "claimed": 0.5719
+  "units": -0.3,
+  "roi": -0.0234,
+  "hit": 0.5385,
+  "claimed": 0.5938
  },
  "series": [
   {
@@ -19,81 +19,29 @@
   {
    "date": "2026-07-28",
    "units": -2.39
+  },
+  {
+   "date": "2026-07-29",
+   "units": -0.3
   }
  ],
  "bets_today": [
   {
-   "matchup": "Baltimore Orioles @ Detroit Tigers",
-   "pick": "Under 4.5",
-   "ml": -128,
-   "tier": "LEAN",
-   "time": "2026-07-29T17:10:00Z",
-   "line": 4.5,
-   "exp_total": 4.3,
-   "lam_home": 2.26,
-   "lam_away": 2.04,
-   "model_p": 0.596,
-   "mkt_p": 0.526,
-   "value": 0.07
-  },
-  {
-   "matchup": "Milwaukee Brewers @ San Francisco Giants",
-   "pick": "Over 3.5",
-   "ml": -146,
-   "tier": "STRONG",
-   "time": "2026-07-29T19:45:00Z",
-   "line": 3.5,
-   "exp_total": 5.17,
-   "lam_home": 2.48,
-   "lam_away": 2.69,
-   "model_p": 0.638,
-   "mkt_p": 0.557,
-   "value": 0.081
-  },
-  {
-   "matchup": "New York Yankees @ Chicago White Sox",
-   "pick": "Over 3.5",
-   "ml": -152,
-   "tier": "LEAN",
-   "time": "2026-07-29T23:40:00Z",
-   "line": 3.5,
-   "exp_total": 5.02,
-   "lam_home": 2.54,
-   "lam_away": 2.48,
-   "model_p": 0.623,
-   "mkt_p": 0.566,
-   "value": 0.057
-  },
-  {
-   "matchup": "Boston Red Sox @ Athletics",
+   "matchup": "Kansas City Royals @ Minnesota Twins",
    "pick": "Under 5.5",
-   "ml": 106,
-   "tier": "STRONG",
-   "time": "2026-07-30T01:40:00Z",
+   "ml": -135,
+   "tier": "LEAN",
+   "time": "2026-07-30T17:40:00Z",
    "line": 5.5,
-   "exp_total": 4.97,
-   "lam_home": 2.54,
-   "lam_away": 2.44,
-   "model_p": 0.629,
-   "mkt_p": 0.456,
-   "value": 0.173
-  },
-  {
-   "matchup": "Seattle Mariners @ Los Angeles Dodgers",
-   "pick": "Under 5.5",
-   "ml": -146,
-   "tier": "STRONG",
-   "time": "2026-07-30T02:10:00Z",
-   "line": 5.5,
-   "exp_total": 4.72,
-   "lam_home": 2.26,
-   "lam_away": 2.46,
-   "model_p": 0.658,
-   "mkt_p": 0.557,
-   "value": 0.101
+   "exp_total": 5.07,
+   "lam_home": 2.68,
+   "lam_away": 2.39,
+   "model_p": 0.618,
+   "mkt_p": 0.54,
+   "value": 0.078
   }
  ],
- "evaluated_today": 8,
+ "evaluated_today": 4,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

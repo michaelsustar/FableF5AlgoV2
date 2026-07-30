@@ -224,7 +224,10 @@
   "exp_total": 4.6,
   "params": "0112c6bd34",
   "logged_at": "2026-07-28T11:43:11",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 0,
+  "units": 0.0
  },
  "823676": {
   "gamePk": 823676,
@@ -382,7 +385,10 @@
   "exp_total": 4.85,
   "params": "0112c6bd34",
   "logged_at": "2026-07-29T02:16:11",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": 0.0
  },
  "824242": {
   "gamePk": 824242,
@@ -402,7 +408,10 @@
   "exp_total": 4.3,
   "params": "0112c6bd34",
   "logged_at": "2026-07-29T02:16:11",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 5,
+  "units": -1.0
  },
  "823192": {
   "gamePk": 823192,
@@ -422,7 +431,10 @@
   "exp_total": 5.17,
   "params": "0112c6bd34",
   "logged_at": "2026-07-29T02:16:11",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 5,
+  "units": 0.685
  },
  "824487": {
   "gamePk": 824487,
@@ -442,7 +454,10 @@
   "exp_total": 5.48,
   "params": "0112c6bd34",
   "logged_at": "2026-07-29T02:16:11",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 4,
+  "units": 0.0
  },
  "824567": {
   "gamePk": 824567,
@@ -462,7 +477,10 @@
   "exp_total": 5.02,
   "params": "0112c6bd34",
   "logged_at": "2026-07-29T02:16:11",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 4,
+  "units": 0.658
  },
  "823022": {
   "gamePk": 823022,
@@ -482,7 +500,10 @@
   "exp_total": 4.97,
   "params": "0112c6bd34",
   "logged_at": "2026-07-29T02:16:11",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 0,
+  "units": 0.0
  },
  "824973": {
   "gamePk": 824973,
@@ -502,7 +523,10 @@
   "exp_total": 4.97,
   "params": "0112c6bd34",
   "logged_at": "2026-07-29T02:16:11",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": 1.06
  },
  "823924": {
   "gamePk": 823924,
@@ -522,6 +546,89 @@
   "exp_total": 4.72,
   "params": "0112c6bd34",
   "logged_at": "2026-07-29T02:16:11",
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": 0.685
+ },
+ "823674": {
+  "gamePk": 823674,
+  "date": "2026-07-30",
+  "game_time": "2026-07-30T17:40:00Z",
+  "matchup": "Kansas City Royals @ Minnesota Twins",
+  "line": 5.5,
+  "pick": "Under 5.5",
+  "pick_side": "under",
+  "pick_ml": -135,
+  "tier": "LEAN",
+  "p_over": 0.382,
+  "mkt_p_over": 0.46,
+  "value": -0.078,
+  "lam_home": 2.68,
+  "lam_away": 2.39,
+  "exp_total": 5.07,
+  "params": "0112c6bd34",
+  "logged_at": "2026-07-30T01:11:58",
+  "graded": false
+ },
+ "824568": {
+  "gamePk": 824568,
+  "date": "2026-07-30",
+  "game_time": "2026-07-30T18:10:00Z",
+  "matchup": "New York Yankees @ Chicago White Sox",
+  "line": 4.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.478,
+  "mkt_p_over": 0.447,
+  "value": 0.031,
+  "lam_home": 2.79,
+  "lam_away": 2.11,
+  "exp_total": 4.9,
+  "params": "0112c6bd34",
+  "logged_at": "2026-07-30T01:11:58",
+  "graded": false
+ },
+ "823595": {
+  "gamePk": 823595,
+  "date": "2026-07-30",
+  "game_time": "2026-07-30T23:10:00Z",
+  "matchup": "Miami Marlins @ New York Mets",
+  "line": 3.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.57,
+  "mkt_p_over": 0.521,
+  "value": 0.048,
+  "lam_home": 2.23,
+  "lam_away": 2.31,
+  "exp_total": 4.54,
+  "params": "0112c6bd34",
+  "logged_at": "2026-07-30T01:11:58",
+  "graded": false
+ },
+ "823921": {
+  "gamePk": 823921,
+  "date": "2026-07-30",
+  "game_time": "2026-07-31T02:10:00Z",
+  "matchup": "Seattle Mariners @ Los Angeles Dodgers",
+  "line": 4.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.506,
+  "mkt_p_over": 0.508,
+  "value": -0.003,
+  "lam_home": 2.88,
+  "lam_away": 2.26,
+  "exp_total": 5.14,
+  "params": "0112c6bd34",
+  "logged_at": "2026-07-30T01:11:58",
   "graded": false
  }
 }
