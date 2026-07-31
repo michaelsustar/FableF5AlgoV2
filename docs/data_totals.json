@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-07-30T12:05:36",
- "slate_date": "2026-07-30",
+ "generated_at": "2026-07-31T12:02:26",
+ "slate_date": "2026-07-31",
  "ledger": {
-  "bets": 13,
-  "wins": 7,
+  "bets": 14,
+  "wins": 8,
   "losses": 6,
   "pushes": 0,
-  "units": -0.3,
-  "roi": -0.0234,
-  "hit": 0.5385,
-  "claimed": 0.5938
+  "units": 0.44,
+  "roi": 0.0312,
+  "hit": 0.5714,
+  "claimed": 0.5955
  },
  "series": [
   {
@@ -23,25 +23,57 @@
   {
    "date": "2026-07-29",
    "units": -0.3
+  },
+  {
+   "date": "2026-07-30",
+   "units": 0.44
   }
  ],
  "bets_today": [
   {
-   "matchup": "Kansas City Royals @ Minnesota Twins",
-   "pick": "Under 5.5",
-   "ml": -135,
+   "matchup": "Pittsburgh Pirates @ Cincinnati Reds",
+   "pick": "Over 3.5",
+   "ml": -130,
+   "tier": "STRONG",
+   "time": "2026-07-31T22:10:00Z",
+   "line": 3.5,
+   "exp_total": 5.4,
+   "lam_home": 2.85,
+   "lam_away": 2.56,
+   "model_p": 0.66,
+   "mkt_p": 0.531,
+   "value": 0.13
+  },
+  {
+   "matchup": "Arizona Diamondbacks @ Cleveland Guardians",
+   "pick": "Under 4.5",
+   "ml": 106,
    "tier": "LEAN",
-   "time": "2026-07-30T17:40:00Z",
-   "line": 5.5,
-   "exp_total": 5.07,
-   "lam_home": 2.68,
-   "lam_away": 2.39,
-   "model_p": 0.618,
-   "mkt_p": 0.54,
-   "value": 0.078
+   "time": "2026-07-31T23:10:00Z",
+   "line": 4.5,
+   "exp_total": 4.87,
+   "lam_home": 2.57,
+   "lam_away": 2.29,
+   "model_p": 0.526,
+   "mkt_p": 0.456,
+   "value": 0.07
+  },
+  {
+   "matchup": "Texas Rangers @ Houston Astros",
+   "pick": "Over 3.5",
+   "ml": -146,
+   "tier": "STRONG",
+   "time": "2026-08-01T00:15:00Z",
+   "line": 3.5,
+   "exp_total": 5.17,
+   "lam_home": 2.56,
+   "lam_away": 2.61,
+   "model_p": 0.638,
+   "mkt_p": 0.557,
+   "value": 0.081
   }
  ],
- "evaluated_today": 4,
+ "evaluated_today": 9,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

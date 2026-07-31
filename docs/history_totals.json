@@ -1,17 +1,35 @@
 {
- "generated_at": "2026-07-30T12:05:36",
+ "generated_at": "2026-07-31T12:02:26",
  "algo": "First Five Totals",
  "ledger": {
-  "bets": 13,
-  "wins": 7,
+  "bets": 14,
+  "wins": 8,
   "losses": 6,
   "pushes": 0,
-  "units": -0.3,
-  "roi": -0.0234,
-  "hit": 0.5385,
-  "claimed": 0.5938
+  "units": 0.44,
+  "roi": 0.0312,
+  "hit": 0.5714,
+  "claimed": 0.5955
  },
  "bets": [
+  {
+   "date": "2026-07-30",
+   "time": "2026-07-30T17:40:00Z",
+   "matchup": "Kansas City Royals @ Minnesota Twins",
+   "pick": "Under 5.5",
+   "ml": -135,
+   "tier": "LEAN",
+   "line": 5.5,
+   "exp_total": 5.07,
+   "lam_home": 2.68,
+   "lam_away": 2.39,
+   "total": 3,
+   "model_p": 0.618,
+   "mkt_p": 0.54,
+   "value": 0.078,
+   "result": "win",
+   "units": 0.741
+  },
   {
    "date": "2026-07-29",
    "time": "2026-07-30T02:10:00Z",
