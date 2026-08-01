@@ -1,17 +1,69 @@
 {
- "generated_at": "2026-07-31T12:15:53",
+ "generated_at": "2026-08-01T10:59:09",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 25,
-  "wins": 6,
-  "losses": 13,
+  "bets": 29,
+  "wins": 8,
+  "losses": 15,
   "pushes": 6,
-  "units": -6.82,
-  "roi": -0.2727,
-  "hit": 0.3158,
-  "claimed": 0.5582
+  "units": -6.32,
+  "roi": -0.2178,
+  "hit": 0.3478,
+  "claimed": 0.5617
  },
  "bets": [
+  {
+   "date": "2026-07-31",
+   "time": "2026-08-01T01:38:00Z",
+   "matchup": "Milwaukee Brewers @ Los Angeles Angels",
+   "pick": "Los Angeles Angels",
+   "ml": 130,
+   "tier": "STRONG",
+   "model_p": 0.477,
+   "mkt_p": 0.411,
+   "value": 0.067,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-07-31",
+   "time": "2026-07-31T23:07:00Z",
+   "matchup": "St. Louis Cardinals @ Toronto Blue Jays",
+   "pick": "St. Louis Cardinals",
+   "ml": 150,
+   "tier": "STRONG",
+   "model_p": 0.479,
+   "mkt_p": 0.377,
+   "value": 0.102,
+   "result": "win",
+   "units": 1.5
+  },
+  {
+   "date": "2026-07-31",
+   "time": "2026-07-31T22:10:00Z",
+   "matchup": "Pittsburgh Pirates @ Cincinnati Reds",
+   "pick": "Cincinnati Reds",
+   "ml": 100,
+   "tier": "STRONG",
+   "model_p": 0.576,
+   "mkt_p": 0.469,
+   "value": 0.107,
+   "result": "win",
+   "units": 1.0
+  },
+  {
+   "date": "2026-07-31",
+   "time": "2026-07-31T18:20:00Z",
+   "matchup": "New York Yankees @ Chicago Cubs",
+   "pick": "Chicago Cubs",
+   "ml": -145,
+   "tier": "STRONG",
+   "model_p": 0.694,
+   "mkt_p": 0.559,
+   "value": 0.135,
+   "result": "loss",
+   "units": -1.0
+  },
   {
    "date": "2026-07-30",
    "time": "2026-07-31T02:10:00Z",
