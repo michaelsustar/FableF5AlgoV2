@@ -1,17 +1,56 @@
 {
- "generated_at": "2026-08-01T11:35:11",
+ "generated_at": "2026-08-02T11:00:46",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 29,
+  "bets": 32,
   "wins": 8,
-  "losses": 15,
+  "losses": 18,
   "pushes": 6,
-  "units": -6.32,
-  "roi": -0.2178,
-  "hit": 0.3478,
-  "claimed": 0.5617
+  "units": -9.32,
+  "roi": -0.2912,
+  "hit": 0.3077,
+  "claimed": 0.5606
  },
  "bets": [
+  {
+   "date": "2026-08-01",
+   "time": "2026-08-02T00:40:00Z",
+   "matchup": "San Francisco Giants @ San Diego Padres",
+   "pick": "San Francisco Giants",
+   "ml": 105,
+   "tier": "STRONG",
+   "model_p": 0.525,
+   "mkt_p": 0.459,
+   "value": 0.066,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-08-01",
+   "time": "2026-08-02T00:10:00Z",
+   "matchup": "Kansas City Royals @ Colorado Rockies",
+   "pick": "Kansas City Royals",
+   "ml": -105,
+   "tier": "STRONG",
+   "model_p": 0.547,
+   "mkt_p": 0.48,
+   "value": 0.068,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-08-01",
+   "time": "2026-08-01T22:40:00Z",
+   "matchup": "Pittsburgh Pirates @ Cincinnati Reds",
+   "pick": "Cincinnati Reds",
+   "ml": 100,
+   "tier": "STRONG",
+   "model_p": 0.583,
+   "mkt_p": 0.469,
+   "value": 0.114,
+   "result": "loss",
+   "units": -1.0
+  },
   {
    "date": "2026-07-31",
    "time": "2026-08-01T01:38:00Z",
