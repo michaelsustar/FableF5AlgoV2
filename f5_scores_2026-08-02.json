@@ -1042,7 +1042,7 @@
     "game_time": "2026-08-02T17:40:00Z",
     "away": {
       "team": "Miami Marlins",
-      "batting_score": 54.2,
+      "batting_score": 53.4,
       "pitcher": "Sandy Alcantara",
       "pitcher_score": 83.3,
       "pitcher_metrics": {
@@ -1059,37 +1059,13 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 3.692,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
-        {
-          "name": "Otto Lopez",
-          "pa": 49,
-          "form": 24.8,
-          "platoon_mult": 0.945
-        },
-        {
-          "name": "Heriberto Hern\u00e1ndez",
-          "pa": 55,
-          "form": 49.6,
-          "platoon_mult": 0.909
-        },
         {
           "name": "Liam Hicks",
           "pa": 55,
           "form": 52.3,
           "platoon_mult": 1.086
-        },
-        {
-          "name": "Xavier Edwards",
-          "pa": 55,
-          "form": 26.1,
-          "platoon_mult": 1.0
-        },
-        {
-          "name": "Jakob Marsee",
-          "pa": 38,
-          "form": 47.4,
-          "platoon_mult": 0.99
         },
         {
           "name": "Kyle Stowers",
@@ -1098,22 +1074,44 @@
           "platoon_mult": 1.081
         },
         {
-          "name": "Javier Sanoja",
-          "pa": 44,
-          "form": 42.6,
-          "platoon_mult": 0.921
+          "name": "Otto Lopez",
+          "pa": 49,
+          "form": 24.8,
+          "platoon_mult": 0.945
         },
         {
-          "name": "Esteury Ruiz",
-          "pa": 26,
-          "form": 75.2,
-          "platoon_mult": 0.89
+          "name": "Xavier Edwards",
+          "pa": 55,
+          "form": 26.1,
+          "platoon_mult": 1.0
         },
         {
           "name": "Griffin Conine",
           "pa": 44,
           "form": 85.2,
           "platoon_mult": 1.101
+        },
+        {
+          "name": "Owen Caissie",
+          "pa": 0
+        },
+        {
+          "name": "Jakob Marsee",
+          "pa": 38,
+          "form": 47.4,
+          "platoon_mult": 0.99
+        },
+        {
+          "name": "Joe Mack",
+          "pa": 32,
+          "form": 64.2,
+          "platoon_mult": 1.067
+        },
+        {
+          "name": "Javier Sanoja",
+          "pa": 44,
+          "form": 42.6,
+          "platoon_mult": 0.921
         }
       ]
     },
@@ -1184,9 +1182,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 18,
+      "qualified": 17,
       "total": 18,
-      "pct": 100.0
+      "pct": 94.4
     },
     "market": {
       "date": "2026-08-02",
@@ -1204,7 +1202,7 @@
     "game_time": "2026-08-02T18:10:00Z",
     "away": {
       "team": "Texas Rangers",
-      "batting_score": 49.4,
+      "batting_score": 61.2,
       "pitcher": "Kumar Rocker",
       "pitcher_score": 31.3,
       "pitcher_metrics": {
@@ -1221,13 +1219,13 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 4.231,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Jake Burger",
-          "pa": 47,
-          "form": 49.4,
-          "platoon_mult": 0.964
+          "name": "Joc Pederson",
+          "pa": 37,
+          "form": 94.4,
+          "platoon_mult": 1.006
         },
         {
           "name": "Wyatt Langford",
@@ -1246,6 +1244,12 @@
           "platoon_mult": 0.952
         },
         {
+          "name": "Jake Burger",
+          "pa": 47,
+          "form": 49.4,
+          "platoon_mult": 0.964
+        },
+        {
           "name": "Evan Carter",
           "pa": 37,
           "form": 72.9,
@@ -1258,22 +1262,16 @@
           "platoon_mult": 0.984
         },
         {
-          "name": "Alejandro Osuna",
-          "pa": 26,
-          "form": 48.3,
-          "platoon_mult": 0.976
-        },
-        {
           "name": "Elias D\u00edaz",
           "pa": 30,
           "form": 26.5,
           "platoon_mult": 0.85
         },
         {
-          "name": "Justin Foscue",
-          "pa": 18,
-          "form": 3.1,
-          "platoon_mult": 0.85
+          "name": "Cam Cauley",
+          "pa": 23,
+          "form": 51.3,
+          "platoon_mult": 1.0
         }
       ]
     },
@@ -1366,13 +1364,12 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.602,
+      "p_home": 0.581,
       "mkt_p_home": 0.541,
-      "value": 0.062,
+      "value": 0.04,
       "mode": "market",
-      "pick": "Houston Astros",
-      "pick_ml": -135,
-      "tier": "STRONG"
+      "pick": null,
+      "tier": "NO VALUE"
     }
   },
   {

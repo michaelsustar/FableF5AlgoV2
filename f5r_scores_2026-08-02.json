@@ -281,9 +281,9 @@
       "opp_starter": "Robert Stock",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.58,
-      "bat_score": 54.2,
+      "bat_score": 53.4,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "New York Mets",
@@ -317,9 +317,9 @@
       "opp_starter": "Peter Lambert",
       "opp_runs5_pct": 63.9,
       "season_f5_rate": 2.5,
-      "bat_score": 49.4,
-      "lam": 2.38,
-      "lineup": "PROJECTED"
+      "bat_score": 61.2,
+      "lam": 2.5,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Houston Astros",
@@ -341,13 +341,13 @@
     },
     "prediction": {
       "lam_home": 2.99,
-      "lam_away": 2.38,
-      "exp_total": 5.36,
+      "lam_away": 2.5,
+      "exp_total": 5.49,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.53,
+      "p_over": 0.544,
       "mkt_p_over": 0.526,
-      "value": 0.004,
+      "value": 0.017,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -365,9 +365,9 @@
       "opp_starter": "Colin Rea",
       "opp_runs5_pct": 19.3,
       "season_f5_rate": 2.48,
-      "bat_score": 40.1,
-      "lam": 2.65,
-      "lineup": "PROJECTED"
+      "bat_score": 42.3,
+      "lam": 2.67,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Chicago Cubs",
@@ -389,13 +389,13 @@
     },
     "prediction": {
       "lam_home": 2.37,
-      "lam_away": 2.65,
-      "exp_total": 5.02,
+      "lam_away": 2.67,
+      "exp_total": 5.04,
       "mode": "market",
       "line": 3.5,
-      "p_over": 0.622,
+      "p_over": 0.625,
       "mkt_p_over": 0.474,
-      "value": 0.149,
+      "value": 0.151,
       "p_push": 0.0,
       "pick": "Over 3.5",
       "pick_side": "over",
