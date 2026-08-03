@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-02T11:36:02",
- "slate_date": "2026-08-02",
+ "generated_at": "2026-08-03T12:22:31",
+ "slate_date": "2026-08-03",
  "ledger": {
-  "bets": 32,
-  "wins": 8,
-  "losses": 18,
+  "bets": 39,
+  "wins": 11,
+  "losses": 22,
   "pushes": 6,
-  "units": -9.32,
-  "roi": -0.2912,
-  "hit": 0.3077,
-  "claimed": 0.5606
+  "units": -9.18,
+  "roi": -0.2353,
+  "hit": 0.3333,
+  "claimed": 0.5558
  },
  "series": [
   {
@@ -47,81 +47,25 @@
   {
    "date": "2026-08-01",
    "units": -9.32
+  },
+  {
+   "date": "2026-08-02",
+   "units": -9.18
   }
  ],
  "bets_today": [
   {
-   "matchup": "Philadelphia Phillies @ Baltimore Orioles",
-   "pick": "Baltimore Orioles",
-   "ml": 124,
+   "matchup": "Tampa Bay Rays @ Colorado Rockies",
+   "pick": "Colorado Rockies",
+   "ml": 120,
    "tier": "STRONG",
-   "time": "2026-08-02T17:35:00Z",
-   "model_p": 0.531,
-   "mkt_p": 0.42,
-   "value": 0.11
-  },
-  {
-   "matchup": "Pittsburgh Pirates @ Cincinnati Reds",
-   "pick": "Pittsburgh Pirates",
-   "ml": 130,
-   "tier": "STRONG",
-   "time": "2026-08-02T17:40:00Z",
-   "model_p": 0.536,
-   "mkt_p": 0.411,
-   "value": 0.126
-  },
-  {
-   "matchup": "Arizona Diamondbacks @ Cleveland Guardians",
-   "pick": "Arizona Diamondbacks",
-   "ml": 145,
-   "tier": "STRONG",
-   "time": "2026-08-02T17:40:00Z",
-   "model_p": 0.45,
-   "mkt_p": 0.385,
+   "time": "2026-08-04T00:40:00Z",
+   "model_p": 0.494,
+   "mkt_p": 0.428,
    "value": 0.065
-  },
-  {
-   "matchup": "Texas Rangers @ Houston Astros",
-   "pick": "Houston Astros",
-   "ml": -135,
-   "tier": "STRONG",
-   "time": "2026-08-02T18:10:00Z",
-   "model_p": 0.602,
-   "mkt_p": 0.541,
-   "value": 0.062
-  },
-  {
-   "matchup": "Milwaukee Brewers @ Los Angeles Angels",
-   "pick": "Los Angeles Angels",
-   "ml": 200,
-   "tier": "STRONG",
-   "time": "2026-08-02T19:15:00Z",
-   "model_p": 0.524,
-   "mkt_p": 0.314,
-   "value": 0.21
-  },
-  {
-   "matchup": "San Francisco Giants @ San Diego Padres",
-   "pick": "San Francisco Giants",
-   "ml": 114,
-   "tier": "STRONG",
-   "time": "2026-08-02T20:10:00Z",
-   "model_p": 0.515,
-   "mkt_p": 0.441,
-   "value": 0.074
-  },
-  {
-   "matchup": "Boston Red Sox @ Los Angeles Dodgers",
-   "pick": "Boston Red Sox",
-   "ml": 140,
-   "tier": "STRONG",
-   "time": "2026-08-02T23:20:00Z",
-   "model_p": 0.509,
-   "mkt_p": 0.393,
-   "value": 0.115
   }
  ],
- "evaluated_today": 11,
+ "evaluated_today": 4,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

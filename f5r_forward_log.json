@@ -1052,7 +1052,10 @@
   "exp_total": 5.39,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 5,
+  "units": 0.649
  },
  "824404": {
   "gamePk": 824404,
@@ -1072,7 +1075,10 @@
   "exp_total": 4.65,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 5,
+  "units": 0.0
  },
  "824483": {
   "gamePk": 824483,
@@ -1092,7 +1098,10 @@
   "exp_total": 5.69,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 10,
+  "units": 0.833
  },
  "822943": {
   "gamePk": 822943,
@@ -1112,7 +1121,10 @@
   "exp_total": 4.97,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": -1.0
  },
  "824163": {
   "gamePk": 824163,
@@ -1132,7 +1144,10 @@
   "exp_total": 5.36,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 5,
+  "units": 0.0
  },
  "824648": {
   "gamePk": 824648,
@@ -1152,7 +1167,10 @@
   "exp_total": 5.02,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": -1.0
  },
  "824323": {
   "gamePk": 824323,
@@ -1172,7 +1190,10 @@
   "exp_total": 6.12,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": 0.781
  },
  "823996": {
   "gamePk": 823996,
@@ -1192,7 +1213,10 @@
   "exp_total": 4.95,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": -1.0
  },
  "823270": {
   "gamePk": 823270,
@@ -1212,7 +1236,10 @@
   "exp_total": 4.52,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 8,
+  "units": 0.0
  },
  "823107": {
   "gamePk": 823107,
@@ -1232,7 +1259,10 @@
   "exp_total": 4.58,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": 0.0
  },
  "823919": {
   "gamePk": 823919,
@@ -1252,6 +1282,89 @@
   "exp_total": 4.82,
   "params": "0112c6bd34",
   "logged_at": "2026-08-02T11:01:35",
+  "graded": true,
+  "outcome": "over",
+  "total": 8,
+  "units": 0.0
+ },
+ "823520": {
+  "gamePk": 823520,
+  "date": "2026-08-03",
+  "game_time": "2026-08-03T23:05:00Z",
+  "matchup": "St. Louis Cardinals @ New York Yankees",
+  "line": 4.5,
+  "pick": "Over 4.5",
+  "pick_side": "over",
+  "pick_ml": 108,
+  "tier": "LEAN",
+  "p_over": 0.504,
+  "mkt_p_over": 0.452,
+  "value": 0.052,
+  "lam_home": 2.88,
+  "lam_away": 2.25,
+  "exp_total": 5.13,
+  "params": "0112c6bd34",
+  "logged_at": "2026-08-03T12:23:12",
+  "graded": false
+ },
+ "823757": {
+  "gamePk": 823757,
+  "date": "2026-08-03",
+  "game_time": "2026-08-03T23:40:00Z",
+  "matchup": "Pittsburgh Pirates @ Milwaukee Brewers",
+  "line": 4.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.523,
+  "mkt_p_over": 0.5,
+  "value": 0.023,
+  "lam_home": 2.71,
+  "lam_away": 2.58,
+  "exp_total": 5.28,
+  "params": "0112c6bd34",
+  "logged_at": "2026-08-03T12:23:12",
+  "graded": false
+ },
+ "824324": {
+  "gamePk": 824324,
+  "date": "2026-08-03",
+  "game_time": "2026-08-04T00:40:00Z",
+  "matchup": "Tampa Bay Rays @ Colorado Rockies",
+  "line": 6.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.463,
+  "mkt_p_over": 0.452,
+  "value": 0.011,
+  "lam_home": 3.35,
+  "lam_away": 3.5,
+  "exp_total": 6.82,
+  "params": "0112c6bd34",
+  "logged_at": "2026-08-03T12:23:12",
+  "graded": false
+ },
+ "825095": {
+  "gamePk": 825095,
+  "date": "2026-08-03",
+  "game_time": "2026-08-04T01:40:00Z",
+  "matchup": "San Diego Padres @ Arizona Diamondbacks",
+  "line": 4.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.508,
+  "mkt_p_over": 0.512,
+  "value": -0.005,
+  "lam_home": 2.71,
+  "lam_away": 2.44,
+  "exp_total": 5.15,
+  "params": "0112c6bd34",
+  "logged_at": "2026-08-03T12:23:12",
   "graded": false
  }
 }
