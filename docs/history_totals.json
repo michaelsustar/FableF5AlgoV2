@@ -1,17 +1,35 @@
 {
- "generated_at": "2026-08-03T12:45:31",
+ "generated_at": "2026-08-04T12:12:17",
  "algo": "First Five Totals",
  "ledger": {
-  "bets": 26,
-  "wins": 14,
+  "bets": 27,
+  "wins": 15,
   "losses": 12,
   "pushes": 0,
-  "units": -0.79,
-  "roi": -0.0302,
-  "hit": 0.5385,
-  "claimed": 0.5988
+  "units": 0.29,
+  "roi": 0.0109,
+  "hit": 0.5556,
+  "claimed": 0.5953
  },
  "bets": [
+  {
+   "date": "2026-08-03",
+   "time": "2026-08-03T23:05:00Z",
+   "matchup": "St. Louis Cardinals @ New York Yankees",
+   "pick": "Over 4.5",
+   "ml": 108,
+   "tier": "LEAN",
+   "line": 4.5,
+   "exp_total": 5.13,
+   "lam_home": 2.88,
+   "lam_away": 2.25,
+   "total": 9,
+   "model_p": 0.504,
+   "mkt_p": 0.452,
+   "value": 0.052,
+   "result": "win",
+   "units": 1.08
+  },
   {
    "date": "2026-08-02",
    "time": "2026-08-02T19:15:00Z",

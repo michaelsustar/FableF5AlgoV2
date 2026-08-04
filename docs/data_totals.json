@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-03T12:45:31",
- "slate_date": "2026-08-03",
+ "generated_at": "2026-08-04T12:12:17",
+ "slate_date": "2026-08-04",
  "ledger": {
-  "bets": 26,
-  "wins": 14,
+  "bets": 27,
+  "wins": 15,
   "losses": 12,
   "pushes": 0,
-  "units": -0.79,
-  "roi": -0.0302,
-  "hit": 0.5385,
-  "claimed": 0.5988
+  "units": 0.29,
+  "roi": 0.0109,
+  "hit": 0.5556,
+  "claimed": 0.5953
  },
  "series": [
   {
@@ -39,25 +39,43 @@
   {
    "date": "2026-08-02",
    "units": -0.79
+  },
+  {
+   "date": "2026-08-03",
+   "units": 0.29
   }
  ],
  "bets_today": [
   {
-   "matchup": "St. Louis Cardinals @ New York Yankees",
+   "matchup": "Athletics @ Cincinnati Reds",
    "pick": "Over 4.5",
-   "ml": 108,
+   "ml": -128,
    "tier": "LEAN",
-   "time": "2026-08-03T23:05:00Z",
+   "time": "2026-08-04T22:40:00Z",
    "line": 4.5,
-   "exp_total": 5.13,
-   "lam_home": 2.88,
-   "lam_away": 2.25,
-   "model_p": 0.504,
-   "mkt_p": 0.452,
-   "value": 0.052
+   "exp_total": 6.0,
+   "lam_home": 3.08,
+   "lam_away": 2.93,
+   "model_p": 0.595,
+   "mkt_p": 0.526,
+   "value": 0.069
+  },
+  {
+   "matchup": "Los Angeles Dodgers @ Chicago Cubs",
+   "pick": "Under 4.5",
+   "ml": 102,
+   "tier": "LEAN",
+   "time": "2026-08-05T00:05:00Z",
+   "line": 4.5,
+   "exp_total": 4.81,
+   "lam_home": 2.35,
+   "lam_away": 2.46,
+   "model_p": 0.532,
+   "mkt_p": 0.465,
+   "value": 0.067
   }
  ],
- "evaluated_today": 4,
+ "evaluated_today": 7,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

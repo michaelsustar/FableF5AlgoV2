@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-03T12:45:11",
- "slate_date": "2026-08-03",
+ "generated_at": "2026-08-04T12:11:23",
+ "slate_date": "2026-08-04",
  "ledger": {
-  "bets": 39,
+  "bets": 40,
   "wins": 11,
-  "losses": 22,
+  "losses": 23,
   "pushes": 6,
-  "units": -9.18,
-  "roi": -0.2353,
-  "hit": 0.3333,
-  "claimed": 0.5558
+  "units": -10.18,
+  "roi": -0.2544,
+  "hit": 0.3235,
+  "claimed": 0.5544
  },
  "series": [
   {
@@ -51,21 +51,55 @@
   {
    "date": "2026-08-02",
    "units": -9.18
+  },
+  {
+   "date": "2026-08-03",
+   "units": -10.18
   }
  ],
  "bets_today": [
+  {
+   "matchup": "New York Mets @ Cleveland Guardians",
+   "pick": "New York Mets",
+   "ml": 124,
+   "tier": "STRONG",
+   "time": "2026-08-04T22:40:00Z",
+   "model_p": 0.544,
+   "mkt_p": 0.42,
+   "value": 0.124
+  },
+  {
+   "matchup": "Minnesota Twins @ Kansas City Royals",
+   "pick": "Kansas City Royals",
+   "ml": 130,
+   "tier": "STRONG",
+   "time": "2026-08-04T23:40:00Z",
+   "model_p": 0.637,
+   "mkt_p": 0.411,
+   "value": 0.227
+  },
+  {
+   "matchup": "Los Angeles Dodgers @ Chicago Cubs",
+   "pick": "Chicago Cubs",
+   "ml": 165,
+   "tier": "STRONG",
+   "time": "2026-08-05T00:05:00Z",
+   "model_p": 0.491,
+   "mkt_p": 0.356,
+   "value": 0.135
+  },
   {
    "matchup": "Tampa Bay Rays @ Colorado Rockies",
    "pick": "Colorado Rockies",
    "ml": 120,
    "tier": "STRONG",
-   "time": "2026-08-04T00:40:00Z",
-   "model_p": 0.494,
+   "time": "2026-08-05T00:40:00Z",
+   "model_p": 0.619,
    "mkt_p": 0.428,
-   "value": 0.065
+   "value": 0.19
   }
  ],
- "evaluated_today": 4,
+ "evaluated_today": 7,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
