@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-04T12:26:30",
- "slate_date": "2026-08-04",
+ "generated_at": "2026-08-05T12:01:25",
+ "slate_date": "2026-08-05",
  "ledger": {
-  "bets": 40,
-  "wins": 11,
+  "bets": 44,
+  "wins": 14,
   "losses": 23,
-  "pushes": 6,
-  "units": -10.18,
-  "roi": -0.2544,
-  "hit": 0.3235,
-  "claimed": 0.5544
+  "pushes": 7,
+  "units": -6.44,
+  "roi": -0.1463,
+  "hit": 0.3784,
+  "claimed": 0.5581
  },
  "series": [
   {
@@ -55,51 +55,55 @@
   {
    "date": "2026-08-03",
    "units": -10.18
+  },
+  {
+   "date": "2026-08-04",
+   "units": -6.44
   }
  ],
  "bets_today": [
   {
-   "matchup": "New York Mets @ Cleveland Guardians",
-   "pick": "New York Mets",
-   "ml": 124,
-   "tier": "STRONG",
-   "time": "2026-08-04T22:40:00Z",
-   "model_p": 0.544,
-   "mkt_p": 0.42,
-   "value": 0.124
-  },
-  {
-   "matchup": "Minnesota Twins @ Kansas City Royals",
-   "pick": "Kansas City Royals",
-   "ml": 130,
-   "tier": "STRONG",
-   "time": "2026-08-04T23:40:00Z",
-   "model_p": 0.637,
-   "mkt_p": 0.411,
-   "value": 0.227
-  },
-  {
-   "matchup": "Los Angeles Dodgers @ Chicago Cubs",
-   "pick": "Chicago Cubs",
-   "ml": 165,
-   "tier": "STRONG",
-   "time": "2026-08-05T00:05:00Z",
-   "model_p": 0.491,
-   "mkt_p": 0.356,
-   "value": 0.135
-  },
-  {
    "matchup": "Tampa Bay Rays @ Colorado Rockies",
    "pick": "Colorado Rockies",
+   "ml": 124,
+   "tier": "STRONG",
+   "time": "2026-08-05T19:10:00Z",
+   "model_p": 0.561,
+   "mkt_p": 0.42,
+   "value": 0.141
+  },
+  {
+   "matchup": "Los Angeles Angels @ Baltimore Orioles",
+   "pick": "Los Angeles Angels",
+   "ml": 105,
+   "tier": "STRONG",
+   "time": "2026-08-05T22:35:00Z",
+   "model_p": 0.541,
+   "mkt_p": 0.459,
+   "value": 0.082
+  },
+  {
+   "matchup": "Athletics @ Cincinnati Reds",
+   "pick": "Athletics",
+   "ml": 114,
+   "tier": "STRONG",
+   "time": "2026-08-05T22:40:00Z",
+   "model_p": 0.54,
+   "mkt_p": 0.441,
+   "value": 0.098
+  },
+  {
+   "matchup": "St. Louis Cardinals @ New York Yankees",
+   "pick": "St. Louis Cardinals",
    "ml": 120,
    "tier": "STRONG",
-   "time": "2026-08-05T00:40:00Z",
-   "model_p": 0.619,
+   "time": "2026-08-05T23:05:00Z",
+   "model_p": 0.581,
    "mkt_p": 0.428,
-   "value": 0.19
+   "value": 0.152
   }
  ],
- "evaluated_today": 7,
+ "evaluated_today": 10,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

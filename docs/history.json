@@ -1,17 +1,69 @@
 {
- "generated_at": "2026-08-04T12:26:30",
+ "generated_at": "2026-08-05T12:01:25",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 40,
-  "wins": 11,
+  "bets": 44,
+  "wins": 14,
   "losses": 23,
-  "pushes": 6,
-  "units": -10.18,
-  "roi": -0.2544,
-  "hit": 0.3235,
-  "claimed": 0.5544
+  "pushes": 7,
+  "units": -6.44,
+  "roi": -0.1463,
+  "hit": 0.3784,
+  "claimed": 0.5581
  },
  "bets": [
+  {
+   "date": "2026-08-04",
+   "time": "2026-08-05T00:40:00Z",
+   "matchup": "Tampa Bay Rays @ Colorado Rockies",
+   "pick": "Colorado Rockies",
+   "ml": 120,
+   "tier": "STRONG",
+   "model_p": 0.619,
+   "mkt_p": 0.428,
+   "value": 0.19,
+   "result": "win",
+   "units": 1.2
+  },
+  {
+   "date": "2026-08-04",
+   "time": "2026-08-05T00:05:00Z",
+   "matchup": "Los Angeles Dodgers @ Chicago Cubs",
+   "pick": "Chicago Cubs",
+   "ml": 165,
+   "tier": "STRONG",
+   "model_p": 0.491,
+   "mkt_p": 0.356,
+   "value": 0.135,
+   "result": "push",
+   "units": 0.0
+  },
+  {
+   "date": "2026-08-04",
+   "time": "2026-08-04T23:40:00Z",
+   "matchup": "Minnesota Twins @ Kansas City Royals",
+   "pick": "Kansas City Royals",
+   "ml": 130,
+   "tier": "STRONG",
+   "model_p": 0.637,
+   "mkt_p": 0.411,
+   "value": 0.227,
+   "result": "win",
+   "units": 1.3
+  },
+  {
+   "date": "2026-08-04",
+   "time": "2026-08-04T22:40:00Z",
+   "matchup": "New York Mets @ Cleveland Guardians",
+   "pick": "New York Mets",
+   "ml": 124,
+   "tier": "STRONG",
+   "model_p": 0.544,
+   "mkt_p": 0.42,
+   "value": 0.124,
+   "result": "win",
+   "units": 1.24
+  },
   {
    "date": "2026-08-03",
    "time": "2026-08-04T00:40:00Z",
