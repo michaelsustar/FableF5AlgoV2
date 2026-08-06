@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-05T12:15:27",
- "slate_date": "2026-08-05",
+ "generated_at": "2026-08-06T14:34:56",
+ "slate_date": "2026-08-06",
  "ledger": {
-  "bets": 29,
-  "wins": 17,
-  "losses": 12,
+  "bets": 33,
+  "wins": 18,
+  "losses": 15,
   "pushes": 0,
-  "units": 2.1,
-  "roi": 0.0722,
-  "hit": 0.5862,
-  "claimed": 0.5931
+  "units": -0.12,
+  "roi": -0.0038,
+  "hit": 0.5455,
+  "claimed": 0.595
  },
  "series": [
   {
@@ -47,67 +47,14 @@
   {
    "date": "2026-08-04",
    "units": 2.1
+  },
+  {
+   "date": "2026-08-05",
+   "units": -0.12
   }
  ],
- "bets_today": [
-  {
-   "matchup": "Los Angeles Dodgers @ Chicago Cubs",
-   "pick": "Under 5.5",
-   "ml": -114,
-   "tier": "STRONG",
-   "time": "2026-08-05T18:20:00Z",
-   "line": 5.5,
-   "exp_total": 4.92,
-   "lam_home": 2.58,
-   "lam_away": 2.34,
-   "model_p": 0.634,
-   "mkt_p": 0.5,
-   "value": 0.134
-  },
-  {
-   "matchup": "Tampa Bay Rays @ Colorado Rockies",
-   "pick": "Under 6.5",
-   "ml": -128,
-   "tier": "STRONG",
-   "time": "2026-08-05T19:10:00Z",
-   "line": 6.5,
-   "exp_total": 5.81,
-   "lam_home": 3.06,
-   "lam_away": 2.75,
-   "model_p": 0.637,
-   "mkt_p": 0.526,
-   "value": 0.11
-  },
-  {
-   "matchup": "Chicago White Sox @ Boston Red Sox",
-   "pick": "Over 4.5",
-   "ml": -106,
-   "tier": "LEAN",
-   "time": "2026-08-05T23:10:00Z",
-   "line": 4.5,
-   "exp_total": 5.57,
-   "lam_home": 2.47,
-   "lam_away": 3.1,
-   "model_p": 0.552,
-   "mkt_p": 0.484,
-   "value": 0.069
-  },
-  {
-   "matchup": "Minnesota Twins @ Kansas City Royals",
-   "pick": "Over 4.5",
-   "ml": -138,
-   "tier": "LEAN",
-   "time": "2026-08-05T23:40:00Z",
-   "line": 4.5,
-   "exp_total": 6.19,
-   "lam_home": 3.1,
-   "lam_away": 3.1,
-   "model_p": 0.613,
-   "mkt_p": 0.544,
-   "value": 0.068
-  }
- ],
- "evaluated_today": 10,
+ "bets_today": [],
+ "evaluated_today": 0,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

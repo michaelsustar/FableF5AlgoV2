@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-05T12:14:42",
- "slate_date": "2026-08-05",
+ "generated_at": "2026-08-06T14:34:05",
+ "slate_date": "2026-08-06",
  "ledger": {
-  "bets": 44,
-  "wins": 14,
-  "losses": 23,
+  "bets": 48,
+  "wins": 15,
+  "losses": 26,
   "pushes": 7,
-  "units": -6.44,
-  "roi": -0.1463,
-  "hit": 0.3784,
-  "claimed": 0.5581
+  "units": -8.24,
+  "roi": -0.1716,
+  "hit": 0.3659,
+  "claimed": 0.5578
  },
  "series": [
   {
@@ -59,51 +59,65 @@
   {
    "date": "2026-08-04",
    "units": -6.44
+  },
+  {
+   "date": "2026-08-05",
+   "units": -8.24
   }
  ],
  "bets_today": [
   {
-   "matchup": "Tampa Bay Rays @ Colorado Rockies",
-   "pick": "Colorado Rockies",
-   "ml": 124,
+   "matchup": "New York Mets @ Cleveland Guardians",
+   "pick": "Cleveland Guardians",
+   "ml": 2000,
    "tier": "STRONG",
-   "time": "2026-08-05T19:10:00Z",
-   "model_p": 0.561,
-   "mkt_p": 0.42,
-   "value": 0.141
+   "time": "2026-08-06T17:10:00Z",
+   "model_p": 0.496,
+   "mkt_p": 0.046,
+   "value": 0.451
   },
   {
-   "matchup": "Los Angeles Angels @ Baltimore Orioles",
-   "pick": "Los Angeles Angels",
-   "ml": 105,
+   "matchup": "Pittsburgh Pirates @ Milwaukee Brewers",
+   "pick": "Pittsburgh Pirates",
+   "ml": 235,
    "tier": "STRONG",
-   "time": "2026-08-05T22:35:00Z",
-   "model_p": 0.541,
-   "mkt_p": 0.459,
-   "value": 0.082
+   "time": "2026-08-06T18:10:00Z",
+   "model_p": 0.424,
+   "mkt_p": 0.282,
+   "value": 0.142
   },
   {
-   "matchup": "Athletics @ Cincinnati Reds",
-   "pick": "Athletics",
-   "ml": 114,
+   "matchup": "Toronto Blue Jays @ Chicago Cubs",
+   "pick": "Chicago Cubs",
+   "ml": 100,
    "tier": "STRONG",
-   "time": "2026-08-05T22:40:00Z",
-   "model_p": 0.54,
-   "mkt_p": 0.441,
-   "value": 0.098
+   "time": "2026-08-06T18:20:00Z",
+   "model_p": 0.57,
+   "mkt_p": 0.469,
+   "value": 0.1
   },
   {
-   "matchup": "St. Louis Cardinals @ New York Yankees",
-   "pick": "St. Louis Cardinals",
-   "ml": 120,
+   "matchup": "Miami Marlins @ Atlanta Braves",
+   "pick": "Atlanta Braves",
+   "ml": -135,
    "tier": "STRONG",
-   "time": "2026-08-05T23:05:00Z",
-   "model_p": 0.581,
-   "mkt_p": 0.428,
-   "value": 0.152
+   "time": "2026-08-06T23:15:00Z",
+   "model_p": 0.607,
+   "mkt_p": 0.541,
+   "value": 0.066
+  },
+  {
+   "matchup": "San Diego Padres @ Arizona Diamondbacks",
+   "pick": "Arizona Diamondbacks",
+   "ml": -125,
+   "tier": "STRONG",
+   "time": "2026-08-07T01:40:00Z",
+   "model_p": 0.582,
+   "mkt_p": 0.52,
+   "value": 0.061
   }
  ],
- "evaluated_today": 10,
+ "evaluated_today": 7,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

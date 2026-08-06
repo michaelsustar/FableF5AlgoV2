@@ -1,17 +1,69 @@
 {
- "generated_at": "2026-08-05T12:14:42",
+ "generated_at": "2026-08-06T14:34:05",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 44,
-  "wins": 14,
-  "losses": 23,
+  "bets": 48,
+  "wins": 15,
+  "losses": 26,
   "pushes": 7,
-  "units": -6.44,
-  "roi": -0.1463,
-  "hit": 0.3784,
-  "claimed": 0.5581
+  "units": -8.24,
+  "roi": -0.1716,
+  "hit": 0.3659,
+  "claimed": 0.5578
  },
  "bets": [
+  {
+   "date": "2026-08-05",
+   "time": "2026-08-05T23:05:00Z",
+   "matchup": "St. Louis Cardinals @ New York Yankees",
+   "pick": "St. Louis Cardinals",
+   "ml": 120,
+   "tier": "STRONG",
+   "model_p": 0.581,
+   "mkt_p": 0.428,
+   "value": 0.152,
+   "result": "win",
+   "units": 1.2
+  },
+  {
+   "date": "2026-08-05",
+   "time": "2026-08-05T22:40:00Z",
+   "matchup": "Athletics @ Cincinnati Reds",
+   "pick": "Athletics",
+   "ml": 114,
+   "tier": "STRONG",
+   "model_p": 0.54,
+   "mkt_p": 0.441,
+   "value": 0.098,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-08-05",
+   "time": "2026-08-05T22:35:00Z",
+   "matchup": "Los Angeles Angels @ Baltimore Orioles",
+   "pick": "Los Angeles Angels",
+   "ml": 105,
+   "tier": "STRONG",
+   "model_p": 0.541,
+   "mkt_p": 0.459,
+   "value": 0.082,
+   "result": "loss",
+   "units": -1.0
+  },
+  {
+   "date": "2026-08-05",
+   "time": "2026-08-05T19:10:00Z",
+   "matchup": "Tampa Bay Rays @ Colorado Rockies",
+   "pick": "Colorado Rockies",
+   "ml": 124,
+   "tier": "STRONG",
+   "model_p": 0.561,
+   "mkt_p": 0.42,
+   "value": 0.141,
+   "result": "loss",
+   "units": -1.0
+  },
   {
    "date": "2026-08-04",
    "time": "2026-08-05T00:40:00Z",

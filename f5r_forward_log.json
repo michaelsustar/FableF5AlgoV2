@@ -1558,7 +1558,10 @@
   "exp_total": 4.92,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 7,
+  "units": -1.0
  },
  "824322": {
   "gamePk": 824322,
@@ -1578,7 +1581,10 @@
   "exp_total": 5.81,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": 0.781
  },
  "824806": {
   "gamePk": 824806,
@@ -1598,7 +1604,10 @@
   "exp_total": 4.79,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": 0.0
  },
  "824402": {
   "gamePk": 824402,
@@ -1618,7 +1627,10 @@
   "exp_total": 4.22,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 6,
+  "units": 0.0
  },
  "824482": {
   "gamePk": 824482,
@@ -1638,7 +1650,10 @@
   "exp_total": 5.66,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": 0.0
  },
  "823516": {
   "gamePk": 823516,
@@ -1658,7 +1673,10 @@
   "exp_total": 4.92,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": 0.0
  },
  "824728": {
   "gamePk": 824728,
@@ -1678,7 +1696,10 @@
   "exp_total": 5.57,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": -1.0
  },
  "824889": {
   "gamePk": 824889,
@@ -1698,7 +1719,10 @@
   "exp_total": 4.72,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 5,
+  "units": 0.0
  },
  "824082": {
   "gamePk": 824082,
@@ -1718,7 +1742,10 @@
   "exp_total": 6.19,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": -1.0
  },
  "825052": {
   "gamePk": 825052,
@@ -1738,6 +1765,9 @@
   "exp_total": 5.83,
   "params": "0112c6bd34",
   "logged_at": "2026-08-05T12:02:16",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 8,
+  "units": 0.0
  }
 }

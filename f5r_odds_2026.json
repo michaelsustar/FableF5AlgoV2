@@ -1150,5 +1150,86 @@
   "over_ml": 108,
   "under_ml": -140,
   "book": "fanduel"
+ },
+ "2026-08-06|new york mets|cleveland guardians": {
+  "date": "2026-08-06",
+  "home": "Cleveland Guardians",
+  "away": "New York Mets",
+  "line": 7.5,
+  "over_ml": 116,
+  "under_ml": -154,
+  "book": "fanduel"
+ },
+ "2026-08-06|pittsburgh pirates|milwaukee brewers": {
+  "date": "2026-08-06",
+  "home": "Milwaukee Brewers",
+  "away": "Pittsburgh Pirates",
+  "line": 3.5,
+  "over_ml": -125,
+  "under_ml": -106,
+  "book": "fanduel"
+ },
+ "2026-08-06|toronto blue jays|chicago cubs": {
+  "date": "2026-08-06",
+  "home": "Chicago Cubs",
+  "away": "Toronto Blue Jays",
+  "line": 3.5,
+  "over_ml": -160,
+  "under_ml": 120,
+  "book": "fanduel"
+ },
+ "2026-08-06|detroit tigers|seattle mariners": {
+  "date": "2026-08-06",
+  "home": "Seattle Mariners",
+  "away": "Detroit Tigers",
+  "line": 4.5,
+  "over_ml": 108,
+  "under_ml": -140,
+  "book": "fanduel"
+ },
+ "2026-08-06|washington nationals|philadelphia phillies": {
+  "date": "2026-08-06",
+  "home": "Philadelphia Phillies",
+  "away": "Washington Nationals",
+  "line": 4.5,
+  "over_ml": -135,
+  "under_ml": 104,
+  "book": "fanduel"
+ },
+ "2026-08-06|chicago white sox|boston red sox": {
+  "date": "2026-08-06",
+  "home": "Boston Red Sox",
+  "away": "Chicago White Sox",
+  "line": 4.5,
+  "over_ml": -125,
+  "under_ml": -104,
+  "book": "fanduel"
+ },
+ "2026-08-06|miami marlins|atlanta braves": {
+  "date": "2026-08-06",
+  "home": "Atlanta Braves",
+  "away": "Miami Marlins",
+  "line": 5.5,
+  "over_ml": 112,
+  "under_ml": -146,
+  "book": "fanduel"
+ },
+ "2026-08-06|minnesota twins|kansas city royals": {
+  "date": "2026-08-06",
+  "home": "Kansas City Royals",
+  "away": "Minnesota Twins",
+  "line": 4.5,
+  "over_ml": -138,
+  "under_ml": 106,
+  "book": "fanduel"
+ },
+ "2026-08-06|san diego padres|arizona diamondbacks": {
+  "date": "2026-08-06",
+  "home": "Arizona Diamondbacks",
+  "away": "San Diego Padres",
+  "line": 5.5,
+  "over_ml": 108,
+  "under_ml": -140,
+  "book": "fanduel"
  }
 }
