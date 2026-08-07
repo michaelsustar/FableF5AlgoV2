@@ -341,10 +341,10 @@
     "away": {
       "team": "Cincinnati Reds",
       "batting_score": 52.7,
-      "pitcher": null,
+      "pitcher": "Chase Petty",
       "pitcher_score": null,
       "pitcher_metrics": null,
-      "pitcher_hand": null,
+      "pitcher_hand": "R",
       "rpg_14d": 4.077,
       "lineup": "PROJECTED",
       "batters": [
@@ -404,7 +404,7 @@
     },
     "home": {
       "team": "Washington Nationals",
-      "batting_score": 41.2,
+      "batting_score": 40.1,
       "pitcher": "Cade Cavalli",
       "pitcher_score": 56.4,
       "pitcher_metrics": {
@@ -426,8 +426,8 @@
         {
           "name": "Dylan Crews",
           "pa": 54,
-          "form": 60.8,
-          "platoon_mult": 1.0
+          "form": 51.7,
+          "platoon_mult": 0.85
         },
         {
           "name": "Abimelec Ortiz",
@@ -436,14 +436,14 @@
         {
           "name": "Brady House",
           "pa": 36,
-          "form": 49.4,
-          "platoon_mult": 1.0
+          "form": 42.0,
+          "platoon_mult": 0.85
         },
         {
           "name": "CJ Abrams",
           "pa": 61,
-          "form": 83.6,
-          "platoon_mult": 1.0
+          "form": 91.3,
+          "platoon_mult": 1.092
         },
         {
           "name": "Harry Ford",
@@ -454,26 +454,26 @@
         {
           "name": "Daylen Lile",
           "pa": 48,
-          "form": 51.5,
-          "platoon_mult": 1.0
+          "form": 54.2,
+          "platoon_mult": 1.053
         },
         {
           "name": "Jos\u00e9 Tena",
           "pa": 25,
-          "form": 11.2,
-          "platoon_mult": 1.0
+          "form": 10.8,
+          "platoon_mult": 0.967
         },
         {
           "name": "Nasim Nu\u00f1ez",
           "pa": 51,
-          "form": 5.2,
-          "platoon_mult": 1.0
+          "form": 5.0,
+          "platoon_mult": 0.954
         },
         {
           "name": "Keibert Ruiz",
           "pa": 36,
-          "form": 44.0,
-          "platoon_mult": 1.0
+          "form": 41.9,
+          "platoon_mult": 0.954
         }
       ]
     },

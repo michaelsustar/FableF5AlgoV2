@@ -103,10 +103,10 @@
     },
     "home": {
       "team": "Washington Nationals",
-      "opp_starter": null,
+      "opp_starter": "Chase Petty",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.99,
-      "bat_score": 41.2,
+      "bat_score": 40.1,
       "lam": null,
       "lineup": "PROJECTED"
     },
