@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-06T14:34:05",
- "slate_date": "2026-08-06",
+ "generated_at": "2026-08-07T10:52:06",
+ "slate_date": "2026-08-07",
  "ledger": {
-  "bets": 48,
-  "wins": 15,
-  "losses": 26,
+  "bets": 53,
+  "wins": 16,
+  "losses": 30,
   "pushes": 7,
-  "units": -8.24,
-  "roi": -0.1716,
-  "hit": 0.3659,
-  "claimed": 0.5578
+  "units": -11.49,
+  "roi": -0.2169,
+  "hit": 0.3478,
+  "claimed": 0.5589
  },
  "series": [
   {
@@ -63,61 +63,75 @@
   {
    "date": "2026-08-05",
    "units": -8.24
+  },
+  {
+   "date": "2026-08-06",
+   "units": -11.5
   }
  ],
  "bets_today": [
   {
-   "matchup": "New York Mets @ Cleveland Guardians",
-   "pick": "Cleveland Guardians",
-   "ml": 2000,
+   "matchup": "Toronto Blue Jays @ Philadelphia Phillies",
+   "pick": "Toronto Blue Jays",
+   "ml": 170,
    "tier": "STRONG",
-   "time": "2026-08-06T17:10:00Z",
-   "model_p": 0.496,
-   "mkt_p": 0.046,
-   "value": 0.451
+   "time": "2026-08-07T22:40:00Z",
+   "model_p": 0.476,
+   "mkt_p": 0.35,
+   "value": 0.126
   },
   {
-   "matchup": "Pittsburgh Pirates @ Milwaukee Brewers",
-   "pick": "Pittsburgh Pirates",
-   "ml": 235,
-   "tier": "STRONG",
-   "time": "2026-08-06T18:10:00Z",
-   "model_p": 0.424,
-   "mkt_p": 0.282,
-   "value": 0.142
-  },
-  {
-   "matchup": "Toronto Blue Jays @ Chicago Cubs",
-   "pick": "Chicago Cubs",
-   "ml": 100,
-   "tier": "STRONG",
-   "time": "2026-08-06T18:20:00Z",
-   "model_p": 0.57,
-   "mkt_p": 0.469,
-   "value": 0.1
-  },
-  {
-   "matchup": "Miami Marlins @ Atlanta Braves",
+   "matchup": "Atlanta Braves @ New York Yankees",
    "pick": "Atlanta Braves",
-   "ml": -135,
+   "ml": 124,
    "tier": "STRONG",
-   "time": "2026-08-06T23:15:00Z",
-   "model_p": 0.607,
-   "mkt_p": 0.541,
-   "value": 0.066
+   "time": "2026-08-07T23:05:00Z",
+   "model_p": 0.492,
+   "mkt_p": 0.42,
+   "value": 0.072
   },
   {
-   "matchup": "San Diego Padres @ Arizona Diamondbacks",
-   "pick": "Arizona Diamondbacks",
-   "ml": -125,
+   "matchup": "Athletics @ Boston Red Sox",
+   "pick": "Athletics",
+   "ml": 195,
    "tier": "STRONG",
-   "time": "2026-08-07T01:40:00Z",
-   "model_p": 0.582,
-   "mkt_p": 0.52,
-   "value": 0.061
+   "time": "2026-08-07T23:10:00Z",
+   "model_p": 0.417,
+   "mkt_p": 0.319,
+   "value": 0.097
+  },
+  {
+   "matchup": "Baltimore Orioles @ Texas Rangers",
+   "pick": "Baltimore Orioles",
+   "ml": 120,
+   "tier": "STRONG",
+   "time": "2026-08-08T00:15:00Z",
+   "model_p": 0.526,
+   "mkt_p": 0.428,
+   "value": 0.097
+  },
+  {
+   "matchup": "Houston Astros @ San Diego Padres",
+   "pick": "San Diego Padres",
+   "ml": -120,
+   "tier": "STRONG",
+   "time": "2026-08-08T01:40:00Z",
+   "model_p": 0.583,
+   "mkt_p": 0.51,
+   "value": 0.073
+  },
+  {
+   "matchup": "Tampa Bay Rays @ Seattle Mariners",
+   "pick": "Tampa Bay Rays",
+   "ml": -105,
+   "tier": "STRONG",
+   "time": "2026-08-08T01:45:00Z",
+   "model_p": 0.543,
+   "mkt_p": 0.48,
+   "value": 0.064
   }
  ],
- "evaluated_today": 7,
+ "evaluated_today": 10,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
