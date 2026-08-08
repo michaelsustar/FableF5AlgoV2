@@ -1,0 +1,664 @@
+[
+  {
+    "gamePk": 823514,
+    "matchup": "Atlanta Braves @ New York Yankees",
+    "game_time": "2026-08-08T19:05:00Z",
+    "home_team": "New York Yankees",
+    "away_team": "Atlanta Braves",
+    "park_factor": 1.02,
+    "away": {
+      "team": "Atlanta Braves",
+      "opp_starter": "Gerrit Cole",
+      "opp_runs5_pct": 85.6,
+      "season_f5_rate": 2.62,
+      "bat_score": 53.1,
+      "lam": 2.41,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "New York Yankees",
+      "opp_starter": "Chris Sale",
+      "opp_runs5_pct": 85.6,
+      "season_f5_rate": 2.44,
+      "bat_score": 49.9,
+      "lam": 2.35,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "New York Yankees",
+      "away": "Atlanta Braves",
+      "line": 3.5,
+      "over_ml": -140,
+      "under_ml": 108,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.35,
+      "lam_away": 2.41,
+      "exp_total": 4.75,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.594,
+      "mkt_p_over": 0.548,
+      "value": 0.045,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 824726,
+    "matchup": "Athletics @ Boston Red Sox",
+    "game_time": "2026-08-08T20:10:00Z",
+    "home_team": "Boston Red Sox",
+    "away_team": "Athletics",
+    "park_factor": 1.07,
+    "away": {
+      "team": "Athletics",
+      "opp_starter": "Jake Bennett",
+      "opp_runs5_pct": 50.7,
+      "season_f5_rate": 2.39,
+      "bat_score": 38.4,
+      "lam": 2.69,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Boston Red Sox",
+      "opp_starter": "Gage Jump",
+      "opp_runs5_pct": 22.3,
+      "season_f5_rate": 2.5,
+      "bat_score": 67.5,
+      "lam": 3.34,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Boston Red Sox",
+      "away": "Athletics",
+      "line": 4.5,
+      "over_ml": -140,
+      "under_ml": 108,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 3.34,
+      "lam_away": 2.69,
+      "exp_total": 6.01,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.596,
+      "mkt_p_over": 0.548,
+      "value": 0.048,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823834,
+    "matchup": "Los Angeles Angels @ Miami Marlins",
+    "game_time": "2026-08-08T20:10:00Z",
+    "home_team": "Miami Marlins",
+    "away_team": "Los Angeles Angels",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Los Angeles Angels",
+      "opp_starter": "Sandy Alcantara",
+      "opp_runs5_pct": 92.5,
+      "season_f5_rate": 2.52,
+      "bat_score": 38.4,
+      "lam": 2.01,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Miami Marlins",
+      "opp_starter": "Walbert Ure\u00f1a",
+      "opp_runs5_pct": 92.5,
+      "season_f5_rate": 2.5,
+      "bat_score": 45.6,
+      "lam": 2.07,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Miami Marlins",
+      "away": "Los Angeles Angels",
+      "line": 3.5,
+      "over_ml": -146,
+      "under_ml": 112,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.07,
+      "lam_away": 2.01,
+      "exp_total": 4.08,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.511,
+      "mkt_p_over": 0.557,
+      "value": -0.046,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823426,
+    "matchup": "Toronto Blue Jays @ Philadelphia Phillies",
+    "game_time": "2026-08-08T22:05:00Z",
+    "home_team": "Philadelphia Phillies",
+    "away_team": "Toronto Blue Jays",
+    "park_factor": 1.03,
+    "away": {
+      "team": "Toronto Blue Jays",
+      "opp_starter": "Aaron Nola",
+      "opp_runs5_pct": 39.4,
+      "season_f5_rate": 1.94,
+      "bat_score": 50.6,
+      "lam": 2.65,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Philadelphia Phillies",
+      "opp_starter": "Max Scherzer",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.43,
+      "bat_score": 67.5,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Philadelphia Phillies",
+      "away": "Toronto Blue Jays",
+      "line": 5.5,
+      "over_ml": -108,
+      "under_ml": -120,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823348,
+    "matchup": "New York Mets @ Pittsburgh Pirates",
+    "game_time": "2026-08-08T22:40:00Z",
+    "home_team": "Pittsburgh Pirates",
+    "away_team": "New York Mets",
+    "park_factor": 0.97,
+    "away": {
+      "team": "New York Mets",
+      "opp_starter": "Bubba Chandler",
+      "opp_runs5_pct": 50.7,
+      "season_f5_rate": 2.24,
+      "bat_score": 51.3,
+      "lam": 2.36,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Pittsburgh Pirates",
+      "opp_starter": "Robert Stock",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.77,
+      "bat_score": 48.3,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Pittsburgh Pirates",
+      "away": "New York Mets",
+      "line": 4.5,
+      "over_ml": -132,
+      "under_ml": 102,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 822701,
+    "matchup": "Cincinnati Reds @ Washington Nationals",
+    "game_time": "2026-08-08T22:45:00Z",
+    "home_team": "Washington Nationals",
+    "away_team": "Cincinnati Reds",
+    "park_factor": 1.0,
+    "away": {
+      "team": "Cincinnati Reds",
+      "opp_starter": "Andrew Alvarez",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.56,
+      "bat_score": 58.9,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Washington Nationals",
+      "opp_starter": "Chase Burns",
+      "opp_runs5_pct": 50.7,
+      "season_f5_rate": 3.01,
+      "bat_score": 47.0,
+      "lam": 2.56,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Washington Nationals",
+      "away": "Cincinnati Reds",
+      "line": 4.5,
+      "over_ml": -102,
+      "under_ml": -128,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 824079,
+    "matchup": "Chicago Cubs @ Kansas City Royals",
+    "game_time": "2026-08-08T23:10:00Z",
+    "home_team": "Kansas City Royals",
+    "away_team": "Chicago Cubs",
+    "park_factor": 1.04,
+    "away": {
+      "team": "Chicago Cubs",
+      "opp_starter": "Seth Lugo",
+      "opp_runs5_pct": 85.6,
+      "season_f5_rate": 2.71,
+      "bat_score": 62.5,
+      "lam": 2.61,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Kansas City Royals",
+      "opp_starter": "Clay Holmes",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.23,
+      "bat_score": 50.6,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Kansas City Royals",
+      "away": "Chicago Cubs",
+      "line": 4.5,
+      "over_ml": -146,
+      "under_ml": 112,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823752,
+    "matchup": "Minnesota Twins @ Milwaukee Brewers",
+    "game_time": "2026-08-08T23:10:00Z",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Minnesota Twins",
+    "park_factor": 0.99,
+    "away": {
+      "team": "Minnesota Twins",
+      "opp_starter": "Robert Gasser",
+      "opp_runs5_pct": 74.7,
+      "season_f5_rate": 2.87,
+      "bat_score": 54.8,
+      "lam": 2.41,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Taj Bradley",
+      "opp_runs5_pct": 85.6,
+      "season_f5_rate": 2.64,
+      "bat_score": 57.6,
+      "lam": 2.33,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Milwaukee Brewers",
+      "away": "Minnesota Twins",
+      "line": 4.5,
+      "over_ml": -102,
+      "under_ml": -128,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.33,
+      "lam_away": 2.41,
+      "exp_total": 4.73,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.459,
+      "mkt_p_over": 0.474,
+      "value": -0.015,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823267,
+    "matchup": "Houston Astros @ San Diego Padres",
+    "game_time": "2026-08-08T23:15:00Z",
+    "home_team": "San Diego Padres",
+    "away_team": "Houston Astros",
+    "park_factor": 0.96,
+    "away": {
+      "team": "Houston Astros",
+      "opp_starter": "Michael King",
+      "opp_runs5_pct": 31.8,
+      "season_f5_rate": 2.71,
+      "bat_score": 71.6,
+      "lam": 2.76,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "San Diego Padres",
+      "opp_starter": "Peter Lambert",
+      "opp_runs5_pct": 50.7,
+      "season_f5_rate": 2.2,
+      "bat_score": 63.2,
+      "lam": 2.44,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "San Diego Padres",
+      "away": "Houston Astros",
+      "line": 4.5,
+      "over_ml": -106,
+      "under_ml": -122,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.44,
+      "lam_away": 2.76,
+      "exp_total": 5.2,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.513,
+      "mkt_p_over": 0.484,
+      "value": 0.029,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823188,
+    "matchup": "Detroit Tigers @ San Francisco Giants",
+    "game_time": "2026-08-08T23:15:00Z",
+    "home_team": "San Francisco Giants",
+    "away_team": "Detroit Tigers",
+    "park_factor": 0.96,
+    "away": {
+      "team": "Detroit Tigers",
+      "opp_starter": "Landen Roupp",
+      "opp_runs5_pct": 39.4,
+      "season_f5_rate": 2.61,
+      "bat_score": 75.0,
+      "lam": 2.72,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "San Francisco Giants",
+      "opp_starter": "Jackson Jobe",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.24,
+      "bat_score": 52.0,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "San Francisco Giants",
+      "away": "Detroit Tigers",
+      "line": 4.5,
+      "over_ml": 108,
+      "under_ml": -140,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823021,
+    "matchup": "Colorado Rockies @ St. Louis Cardinals",
+    "game_time": "2026-08-08T23:15:00Z",
+    "home_team": "St. Louis Cardinals",
+    "away_team": "Colorado Rockies",
+    "park_factor": 0.98,
+    "away": {
+      "team": "Colorado Rockies",
+      "opp_starter": "Matthew Liberatore",
+      "opp_runs5_pct": 31.8,
+      "season_f5_rate": 2.7,
+      "bat_score": 59.0,
+      "lam": 2.71,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "St. Louis Cardinals",
+      "opp_starter": "Kyle Freeland",
+      "opp_runs5_pct": 39.4,
+      "season_f5_rate": 2.38,
+      "bat_score": 48.0,
+      "lam": 2.48,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "St. Louis Cardinals",
+      "away": "Colorado Rockies",
+      "line": 4.5,
+      "over_ml": -128,
+      "under_ml": -102,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.48,
+      "lam_away": 2.71,
+      "exp_total": 5.18,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.511,
+      "mkt_p_over": 0.526,
+      "value": -0.015,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 822864,
+    "matchup": "Baltimore Orioles @ Texas Rangers",
+    "game_time": "2026-08-08T23:15:00Z",
+    "home_team": "Texas Rangers",
+    "away_team": "Baltimore Orioles",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Baltimore Orioles",
+      "opp_starter": "Jacob deGrom",
+      "opp_runs5_pct": 12.3,
+      "season_f5_rate": 2.42,
+      "bat_score": 39.6,
+      "lam": 2.73,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Texas Rangers",
+      "opp_starter": "Kyle Bradish",
+      "opp_runs5_pct": 31.8,
+      "season_f5_rate": 2.47,
+      "bat_score": 54.1,
+      "lam": 2.76,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Texas Rangers",
+      "away": "Baltimore Orioles",
+      "line": 3.5,
+      "over_ml": -140,
+      "under_ml": 108,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.76,
+      "lam_away": 2.73,
+      "exp_total": 5.49,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.668,
+      "mkt_p_over": 0.548,
+      "value": 0.12,
+      "p_push": 0.0,
+      "pick": "Over 3.5",
+      "pick_side": "over",
+      "pick_ml": -140,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 824565,
+    "matchup": "Cleveland Guardians @ Chicago White Sox",
+    "game_time": "2026-08-08T23:15:00Z",
+    "home_team": "Chicago White Sox",
+    "away_team": "Cleveland Guardians",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Anthony Kay",
+      "opp_runs5_pct": 63.0,
+      "season_f5_rate": 2.29,
+      "bat_score": 39.3,
+      "lam": 2.33,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Gavin Williams",
+      "opp_runs5_pct": 92.5,
+      "season_f5_rate": 2.76,
+      "bat_score": 47.5,
+      "lam": 2.28,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Chicago White Sox",
+      "away": "Cleveland Guardians",
+      "line": 3.5,
+      "over_ml": -130,
+      "under_ml": 100,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.28,
+      "lam_away": 2.33,
+      "exp_total": 4.61,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.577,
+      "mkt_p_over": 0.531,
+      "value": 0.047,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 825049,
+    "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks",
+    "game_time": "2026-08-09T00:10:00Z",
+    "home_team": "Arizona Diamondbacks",
+    "away_team": "Los Angeles Dodgers",
+    "park_factor": 1.04,
+    "away": {
+      "team": "Los Angeles Dodgers",
+      "opp_starter": "Brandon Pfaadt",
+      "opp_runs5_pct": 92.5,
+      "season_f5_rate": 2.81,
+      "bat_score": 56.3,
+      "lam": 2.5,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Arizona Diamondbacks",
+      "opp_starter": "Yoshinobu Yamamoto",
+      "opp_runs5_pct": 74.7,
+      "season_f5_rate": 2.42,
+      "bat_score": 54.5,
+      "lam": 2.56,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Arizona Diamondbacks",
+      "away": "Los Angeles Dodgers",
+      "line": 4.5,
+      "over_ml": -114,
+      "under_ml": -114,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.56,
+      "lam_away": 2.5,
+      "exp_total": 5.05,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.497,
+      "mkt_p_over": 0.5,
+      "value": -0.003,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823102,
+    "matchup": "Tampa Bay Rays @ Seattle Mariners",
+    "game_time": "2026-08-09T01:50:00Z",
+    "home_team": "Seattle Mariners",
+    "away_team": "Tampa Bay Rays",
+    "park_factor": 0.92,
+    "away": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "George Kirby",
+      "opp_runs5_pct": 39.4,
+      "season_f5_rate": 2.47,
+      "bat_score": 46.8,
+      "lam": 2.21,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Seattle Mariners",
+      "opp_starter": "Griffin Jax",
+      "opp_runs5_pct": 50.7,
+      "season_f5_rate": 2.19,
+      "bat_score": 52.0,
+      "lam": 2.15,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-08-08",
+      "home": "Seattle Mariners",
+      "away": "Tampa Bay Rays",
+      "line": 3.5,
+      "over_ml": -135,
+      "under_ml": 104,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.15,
+      "lam_away": 2.21,
+      "exp_total": 4.36,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.548,
+      "mkt_p_over": 0.54,
+      "value": 0.008,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  }
+]
