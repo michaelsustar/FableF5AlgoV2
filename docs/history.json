@@ -1,17 +1,30 @@
 {
- "generated_at": "2026-08-09T10:59:54",
+ "generated_at": "2026-08-09T16:36:20",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 64,
-  "wins": 21,
+  "bets": 65,
+  "wins": 22,
   "losses": 33,
   "pushes": 10,
-  "units": -8.09,
-  "roi": -0.1265,
-  "hit": 0.3889,
-  "claimed": 0.5561
+  "units": -6.89,
+  "roi": -0.106,
+  "hit": 0.4,
+  "claimed": 0.5551
  },
  "bets": [
+  {
+   "date": "2026-08-09",
+   "time": "2026-08-09T17:35:00Z",
+   "matchup": "New York Mets @ Pittsburgh Pirates",
+   "pick": "New York Mets",
+   "ml": 120,
+   "tier": "STRONG",
+   "model_p": 0.497,
+   "mkt_p": 0.428,
+   "value": 0.068,
+   "result": "win",
+   "units": 1.2
+  },
   {
    "date": "2026-08-08",
    "time": "2026-08-09T00:10:00Z",

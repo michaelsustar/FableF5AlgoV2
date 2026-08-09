@@ -1,17 +1,35 @@
 {
- "generated_at": "2026-08-09T11:00:33",
+ "generated_at": "2026-08-09T16:36:53",
  "algo": "First Five Totals",
  "ledger": {
-  "bets": 38,
+  "bets": 39,
   "wins": 21,
-  "losses": 17,
+  "losses": 18,
   "pushes": 0,
-  "units": 0.77,
-  "roi": 0.0202,
-  "hit": 0.5526,
-  "claimed": 0.5955
+  "units": -0.23,
+  "roi": -0.006,
+  "hit": 0.5385,
+  "claimed": 0.5958
  },
  "bets": [
+  {
+   "date": "2026-08-09",
+   "time": "2026-08-09T17:35:00Z",
+   "matchup": "New York Mets @ Pittsburgh Pirates",
+   "pick": "Under 4.5",
+   "ml": -128,
+   "tier": "LEAN",
+   "line": 4.5,
+   "exp_total": 4.23,
+   "lam_home": 2.09,
+   "lam_away": 2.14,
+   "total": 11,
+   "model_p": 0.606,
+   "mkt_p": 0.526,
+   "value": 0.079,
+   "result": "loss",
+   "units": -1.0
+  },
   {
    "date": "2026-08-08",
    "time": "2026-08-08T23:15:00Z",
