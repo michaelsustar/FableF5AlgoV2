@@ -92,7 +92,39 @@ SPLITS_CACHE_DIR = CACHE_DIR / "splits"
 BATSTATS_CACHE_DIR = CACHE_DIR / "batstats"
 LEAGUE_BAT_CACHE_DIR = CACHE_DIR / "league_bat"
 MODEL_PARAMS_FILE = CACHE_DIR / "model_params.json"
-FORWARD_LOG = Path("./f5_forward_log.json")
+# --------------------------------------------------------------------------
+# REPO LAYOUT -- where generated JSON lives
+#
+# Dated run artifacts go under data/ instead of piling up in the repo root.
+# resolve_path() prefers the organized location but falls back to the old
+# root-level file when it has not been moved yet, so a scheduled run firing
+# mid-migration still finds the forward-test ledger instead of quietly
+# starting an empty one.
+# --------------------------------------------------------------------------
+DATA_DIR = Path("./data")
+SCORES_DIR = DATA_DIR / "scores"       # per-slate detail, write-only
+ODDS_ARCHIVE_DIR = DATA_DIR / "odds"   # season odds archives
+LEDGER_DIR = DATA_DIR / "ledger"       # forward-test logs -- the record
+ARTIFACT_DIR = Path("./artifacts")     # regenerable backtest rows
+
+
+def resolve_path(new_path, legacy_name):
+    """Organized path, unless only the pre-reorg root file exists."""
+    legacy = Path("./" + legacy_name)
+    if not new_path.exists() and legacy.exists():
+        return legacy
+    return new_path
+
+
+def write_json(path, obj, indent=2):
+    """Write JSON, creating the parent folder if the reorg hasn't yet."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(obj, indent=indent))
+    return path
+
+
+FORWARD_LOG = resolve_path(LEDGER_DIR / "f5_forward_log.json",
+                           "f5_forward_log.json")
 
 # ---- market / odds (The Odds API) ----
 ODDS_API_BASE = "https://api.the-odds-api.com/v4"
@@ -105,14 +137,17 @@ ODDS_DIR = CACHE_DIR / "odds"
 
 
 def odds_archive_file(season):
-    return Path(f"./f5_odds_{season}.json")
+    name = f"f5_odds_{season}.json"
+    return resolve_path(ODDS_ARCHIVE_DIR / name, name)
 
 
 def rows_path(season):
     """Backtest rows file; window-tagged so 7d/14d universes never collide."""
     if BATTING_WINDOW_DAYS == 14:
-        return Path(f"./f5_backtest_rows_{season}.json")   # back-compat
-    return Path(f"./f5_backtest_rows_{season}_w{BATTING_WINDOW_DAYS}.json")
+        name = f"f5_backtest_rows_{season}.json"           # back-compat
+    else:
+        name = f"f5_backtest_rows_{season}_w{BATTING_WINDOW_DAYS}.json"
+    return resolve_path(ARTIFACT_DIR / name, name)
 
 
 # --------------------------------------------------------------------------
@@ -536,7 +571,7 @@ def load_odds_archive(season):
 
 
 def save_odds_archive(season, archive):
-    odds_archive_file(season).write_text(json.dumps(archive, indent=1))
+    write_json(odds_archive_file(season), archive, indent=1)
 
 
 def _extract_f5_market(event_odds):
@@ -919,8 +954,8 @@ def score_slate(slate_date: date, bets_only=False):
         results.append(entry)
 
     print_slate(results, slate_date, bets_only=bets_only)
-    out_file = Path(f"./f5_scores_{slate_date.isoformat()}.json")
-    out_file.write_text(json.dumps(results, indent=2))
+    out_file = write_json(
+        SCORES_DIR / f"f5_scores_{slate_date.isoformat()}.json", results)
     print(f"\nFull detail written to {out_file}")
     n_logged = log_forward(results, slate_date)
     if n_logged:
@@ -1252,7 +1287,7 @@ def backtest(end_date, start_date=None, season=None):
           f"(short/insufficient data)")
 
     rows_file = rows_path(season)
-    rows_file.write_text(json.dumps(rows, indent=2))
+    write_json(rows_file, rows)
     if season != end_date.year:
         # PAST-SEASON MODE: rows only. Never fit or touch the frozen params —
         # that would contaminate the out-of-sample experiment.
@@ -1982,7 +2017,7 @@ def log_forward(results, slate_date):
         }
         added += 1
     if added:
-        FORWARD_LOG.write_text(json.dumps(log, indent=1))
+        write_json(FORWARD_LOG, log, indent=1)
     return added
 
 
@@ -2027,7 +2062,7 @@ def track():
         rec.update({"graded": True, "outcome": outcome,
                     "units": round(units, 3)})
         newly += 1
-    FORWARD_LOG.write_text(json.dumps(log, indent=1))
+    write_json(FORWARD_LOG, log, indent=1)
 
     graded = [r for r in log.values() if r["graded"]]
     picks = [r for r in graded if r["pick"] and r["outcome"] != "void"]

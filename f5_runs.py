@@ -88,7 +88,8 @@ RUNS_EDGE_STRONG = 0.08
 
 ODDS_TOTALS_MARKET_KEY = "totals_1st_5_innings"
 RUNS_PARAMS_FILE = fm.CACHE_DIR / "runs_model_params.json"
-RUNS_FORWARD_LOG = Path("./f5r_forward_log.json")
+RUNS_FORWARD_LOG = fm.resolve_path(fm.LEDGER_DIR / "f5r_forward_log.json",
+                                   "f5r_forward_log.json")
 SEASON_INDEX_DIR = fm.CACHE_DIR / "runs_index"
 
 FEATURES = ("f_season", "f_recent", "f_starter", "log_park")  # after intercept
@@ -135,7 +136,8 @@ def park_factor(home_team_id):
 
 
 def runs_odds_archive_file(season):
-    return Path(f"./f5r_odds_{season}.json")
+    name = f"f5r_odds_{season}.json"
+    return fm.resolve_path(fm.ODDS_ARCHIVE_DIR / name, name)
 
 
 # --------------------------------------------------------------------------
@@ -609,7 +611,7 @@ def fetch_odds_day(d, historical=False):
         archive[key] = {"date": ev_date, "home": ev.get("home_team"),
                         "away": ev.get("away_team"), **mkt}
         got += 1
-    runs_odds_archive_file(season).write_text(json.dumps(archive, indent=1))
+    fm.write_json(runs_odds_archive_file(season), archive, indent=1)
     rem = getattr(_odds_http, "remaining", "?")
     note = f", {skipped} already archived" if skipped else ""
     print(f"  {d}: stored F5 totals for {got}/{len(events) - skipped} "
@@ -775,8 +777,8 @@ def score_slate(slate_date, bets_only=False):
         results.append(entry)
 
     print_slate(results, slate_date, bets_only=bets_only)
-    out_file = Path(f"./f5r_scores_{slate_date.isoformat()}.json")
-    out_file.write_text(json.dumps(results, indent=2))
+    out_file = fm.write_json(
+        fm.SCORES_DIR / f"f5r_scores_{slate_date.isoformat()}.json", results)
     print(f"\nFull detail written to {out_file}")
     n_logged = log_forward(results, slate_date)
     if n_logged:
@@ -875,7 +877,7 @@ def log_forward(results, slate_date):
         }
         added += 1
     if added:
-        RUNS_FORWARD_LOG.write_text(json.dumps(log_data, indent=1))
+        fm.write_json(RUNS_FORWARD_LOG, log_data, indent=1)
     return added
 
 
@@ -919,7 +921,7 @@ def track():
         rec.update({"graded": True, "outcome": outcome, "total": total,
                     "units": round(units, 3)})
         newly += 1
-    RUNS_FORWARD_LOG.write_text(json.dumps(log_data, indent=1))
+    fm.write_json(RUNS_FORWARD_LOG, log_data, indent=1)
 
     graded = [r for r in log_data.values() if r["graded"]]
     picks = [r for r in graded if r.get("pick")
