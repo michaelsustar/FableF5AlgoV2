@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-07-28T22:46:52",
- "slate_date": "2026-07-28",
+ "generated_at": "2026-08-09T10:59:54",
+ "slate_date": "2026-08-09",
  "ledger": {
-  "bets": 13,
-  "wins": 3,
-  "losses": 7,
-  "pushes": 3,
-  "units": -3.49,
-  "roi": -0.2685,
-  "hit": 0.3,
-  "claimed": 0.5558
+  "bets": 64,
+  "wins": 21,
+  "losses": 33,
+  "pushes": 10,
+  "units": -8.09,
+  "roi": -0.1265,
+  "hit": 0.3889,
+  "claimed": 0.5561
  },
  "series": [
   {
@@ -27,61 +27,119 @@
   {
    "date": "2026-07-27",
    "units": -3.49
+  },
+  {
+   "date": "2026-07-28",
+   "units": -5.84
+  },
+  {
+   "date": "2026-07-29",
+   "units": -7.52
+  },
+  {
+   "date": "2026-07-30",
+   "units": -6.82
+  },
+  {
+   "date": "2026-07-31",
+   "units": -6.32
+  },
+  {
+   "date": "2026-08-01",
+   "units": -9.32
+  },
+  {
+   "date": "2026-08-02",
+   "units": -9.18
+  },
+  {
+   "date": "2026-08-03",
+   "units": -10.18
+  },
+  {
+   "date": "2026-08-04",
+   "units": -6.44
+  },
+  {
+   "date": "2026-08-05",
+   "units": -8.24
+  },
+  {
+   "date": "2026-08-06",
+   "units": -11.5
+  },
+  {
+   "date": "2026-08-07",
+   "units": -9.64
+  },
+  {
+   "date": "2026-08-08",
+   "units": -8.09
   }
  ],
  "bets_today": [
   {
-   "matchup": "Baltimore Orioles @ Detroit Tigers",
-   "pick": "Detroit Tigers",
-   "ml": -154,
+   "matchup": "New York Mets @ Pittsburgh Pirates",
+   "pick": "New York Mets",
+   "ml": 120,
    "tier": "STRONG",
-   "time": "2026-07-28T22:40:00Z",
-   "model_p": 0.64,
-   "mkt_p": 0.572,
+   "time": "2026-08-09T17:35:00Z",
+   "model_p": 0.497,
+   "mkt_p": 0.428,
    "value": 0.068
   },
   {
-   "matchup": "Atlanta Braves @ New York Mets",
-   "pick": "New York Mets",
-   "ml": 135,
-   "tier": "STRONG",
-   "time": "2026-07-28T23:10:00Z",
-   "model_p": 0.522,
-   "mkt_p": 0.401,
-   "value": 0.121
-  },
-  {
-   "matchup": "Kansas City Royals @ Minnesota Twins",
+   "matchup": "Chicago Cubs @ Kansas City Royals",
    "pick": "Kansas City Royals",
-   "ml": 130,
+   "ml": 124,
    "tier": "STRONG",
-   "time": "2026-07-28T23:40:00Z",
-   "model_p": 0.537,
-   "mkt_p": 0.411,
-   "value": 0.126
+   "time": "2026-08-09T18:10:00Z",
+   "model_p": 0.536,
+   "mkt_p": 0.42,
+   "value": 0.115
   },
   {
-   "matchup": "New York Yankees @ Chicago White Sox",
-   "pick": "Chicago White Sox",
-   "ml": 114,
+   "matchup": "Colorado Rockies @ St. Louis Cardinals",
+   "pick": "Colorado Rockies",
+   "ml": 124,
    "tier": "STRONG",
-   "time": "2026-07-28T23:40:00Z",
-   "model_p": 0.513,
-   "mkt_p": 0.441,
-   "value": 0.072
+   "time": "2026-08-09T18:15:00Z",
+   "model_p": 0.51,
+   "mkt_p": 0.42,
+   "value": 0.089
   },
   {
-   "matchup": "Milwaukee Brewers @ San Francisco Giants",
-   "pick": "San Francisco Giants",
-   "ml": 120,
+   "matchup": "Detroit Tigers @ San Francisco Giants",
+   "pick": "Detroit Tigers",
+   "ml": -135,
    "tier": "STRONG",
-   "time": "2026-07-29T01:45:00Z",
-   "model_p": 0.519,
-   "mkt_p": 0.428,
-   "value": 0.09
+   "time": "2026-08-09T20:05:00Z",
+   "model_p": 0.61,
+   "mkt_p": 0.541,
+   "value": 0.069
+  },
+  {
+   "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks",
+   "pick": "Arizona Diamondbacks",
+   "ml": 105,
+   "tier": "STRONG",
+   "time": "2026-08-09T20:10:00Z",
+   "model_p": 0.556,
+   "mkt_p": 0.459,
+   "value": 0.096
+  },
+  {
+   "matchup": "Tampa Bay Rays @ Seattle Mariners",
+   "pick": "Seattle Mariners",
+   "ml": 100,
+   "tier": "STRONG",
+   "time": "2026-08-09T20:10:00Z",
+   "model_p": 0.543,
+   "mkt_p": 0.469,
+   "value": 0.074
   }
  ],
- "evaluated_today": 11,
+ "evaluated_today": 10,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
