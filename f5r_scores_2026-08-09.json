@@ -47,9 +47,9 @@
       "opp_starter": "Erik Miller",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.39,
-      "bat_score": 47.7,
+      "bat_score": 47.4,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Boston Red Sox",
@@ -190,9 +190,9 @@
       "opp_starter": "Grant Holmes",
       "opp_runs5_pct": 50.3,
       "season_f5_rate": 2.44,
-      "bat_score": 49.9,
-      "lam": 2.61,
-      "lineup": "PROJECTED"
+      "bat_score": 53.8,
+      "lam": 2.65,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-09",
@@ -204,14 +204,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.61,
+      "lam_home": 2.65,
       "lam_away": 2.55,
-      "exp_total": 5.16,
+      "exp_total": 5.2,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.508,
+      "p_over": 0.513,
       "mkt_p_over": 0.498,
-      "value": 0.01,
+      "value": 0.015,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -229,9 +229,9 @@
       "opp_starter": "Ryan Gusto",
       "opp_runs5_pct": 38.9,
       "season_f5_rate": 2.5,
-      "bat_score": 33.7,
-      "lam": 2.3,
-      "lineup": "PROJECTED"
+      "bat_score": 37.6,
+      "lam": 2.34,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Miami Marlins",
@@ -240,7 +240,7 @@
       "season_f5_rate": 2.54,
       "bat_score": 50.7,
       "lam": 2.63,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-09",
@@ -253,13 +253,13 @@
     },
     "prediction": {
       "lam_home": 2.63,
-      "lam_away": 2.3,
-      "exp_total": 4.93,
+      "lam_away": 2.34,
+      "exp_total": 4.97,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.482,
+      "p_over": 0.487,
       "mkt_p_over": 0.512,
-      "value": -0.03,
+      "value": -0.026,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -286,9 +286,9 @@
       "opp_starter": "Matthew Boyd",
       "opp_runs5_pct": 63.8,
       "season_f5_rate": 2.24,
-      "bat_score": 44.4,
-      "lam": 2.5,
-      "lineup": "PROJECTED"
+      "bat_score": 53.9,
+      "lam": 2.6,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-09",
@@ -300,14 +300,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.5,
+      "lam_home": 2.6,
       "lam_away": 2.47,
-      "exp_total": 4.97,
+      "exp_total": 5.07,
       "mode": "market",
       "line": 5.5,
-      "p_over": 0.371,
+      "p_over": 0.383,
       "mkt_p_over": 0.492,
-      "value": -0.121,
+      "value": -0.109,
       "p_push": 0.0,
       "pick": "Under 5.5",
       "pick_side": "under",
@@ -336,9 +336,9 @@
       "opp_starter": "Joey Cantillo",
       "opp_runs5_pct": 11.7,
       "season_f5_rate": 2.74,
-      "bat_score": 47.4,
-      "lam": 2.89,
-      "lineup": "PROJECTED"
+      "bat_score": 50.4,
+      "lam": 2.93,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-09",
@@ -350,14 +350,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.89,
+      "lam_home": 2.93,
       "lam_away": 2.88,
-      "exp_total": 5.76,
+      "exp_total": 5.8,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.572,
+      "p_over": 0.576,
       "mkt_p_over": 0.479,
-      "value": 0.094,
+      "value": 0.098,
       "p_push": 0.0,
       "pick": "Over 4.5",
       "pick_side": "over",
@@ -415,16 +415,16 @@
       "season_f5_rate": 2.72,
       "bat_score": 67.6,
       "lam": 3.05,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "St. Louis Cardinals",
       "opp_starter": "Michael Lorenzen",
       "opp_runs5_pct": 1.7,
       "season_f5_rate": 2.39,
-      "bat_score": 48.0,
-      "lam": 2.77,
-      "lineup": "PROJECTED"
+      "bat_score": 46.5,
+      "lam": 2.75,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-09",
@@ -436,14 +436,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.77,
+      "lam_home": 2.75,
       "lam_away": 3.05,
-      "exp_total": 5.82,
+      "exp_total": 5.8,
       "mode": "market",
       "line": 5.5,
-      "p_over": 0.465,
+      "p_over": 0.463,
       "mkt_p_over": 0.447,
-      "value": 0.018,
+      "value": 0.016,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
