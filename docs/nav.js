@@ -3,16 +3,15 @@
    TO ADD A NEW ALGORITHM: add one entry to the sport's `algos` array
    below. Every page picks it up automatically — no other edits.
    `href` is relative to the site root (docs/).
+
+   TO RETIRE ONE: move its entry into the Archived list and repoint
+   `href` at archive/. The model keeps running and grading — this file
+   only controls where the site links to it.
    ------------------------------------------------------------------ */
 const SPORTS = [
   {
     name: "MLB",
     algos: [
-      {
-        name: "First Five Hot Streak",
-        note: "Live · first 5 innings",
-        href: "mlb/first-five.html"
-      },
       {
         name: "First Five Totals",
         note: "Live · F5 over/under",
@@ -21,7 +20,17 @@ const SPORTS = [
     ]
   },
   { name: "NBA", algos: [] },
-  { name: "NFL", algos: [] }
+  { name: "NFL", algos: [] },
+  {
+    name: "Archived",
+    algos: [
+      {
+        name: "First Five Hot Streak",
+        note: "Off the board · still graded",
+        href: "archive/first-five.html"
+      }
+    ]
+  }
 ];
 
 (function () {
