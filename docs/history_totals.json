@@ -1,17 +1,35 @@
 {
- "generated_at": "2026-08-08T10:57:09",
+ "generated_at": "2026-08-09T10:33:46",
  "algo": "First Five Totals",
  "ledger": {
-  "bets": 37,
+  "bets": 38,
   "wins": 21,
-  "losses": 16,
+  "losses": 17,
   "pushes": 0,
-  "units": 1.77,
-  "roi": 0.0478,
-  "hit": 0.5676,
-  "claimed": 0.5936
+  "units": 0.77,
+  "roi": 0.0202,
+  "hit": 0.5526,
+  "claimed": 0.5955
  },
  "bets": [
+  {
+   "date": "2026-08-08",
+   "time": "2026-08-08T23:15:00Z",
+   "matchup": "Baltimore Orioles @ Texas Rangers",
+   "pick": "Over 3.5",
+   "ml": -140,
+   "tier": "STRONG",
+   "line": 3.5,
+   "exp_total": 5.49,
+   "lam_home": 2.76,
+   "lam_away": 2.73,
+   "total": 3,
+   "model_p": 0.668,
+   "mkt_p": 0.548,
+   "value": 0.12,
+   "result": "loss",
+   "units": -1.0
+  },
   {
    "date": "2026-08-07",
    "time": "2026-08-08T00:15:00Z",
