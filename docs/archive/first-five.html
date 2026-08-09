@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>First Five Hot Streak Algo — DocShuuBets</title>
-<meta name="description" content="An MLB first-five-innings model graded daily in public: hot-streak hitting, recent starting pitching, and value against live market prices.">
+<title>First Five Hot Streak Algo (archived) — DocShuuBets</title>
+<meta name="description" content="Archived MLB first-five-innings model — retired from the active board, still running and still graded in public. Hot-streak hitting, recent starting pitching, and value against live market prices.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../site-quantlab.css">
@@ -13,6 +13,13 @@
   background:var(--felt);border:1px solid var(--line);
   font:600 11px "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase}
 .viewlog:hover{border-color:var(--bulb);text-decoration:none}
+/* archived-model notice — muted, so the live ledger stays the loudest thing */
+.archived{margin:22px 0 4px;padding:15px 18px;border-radius:7px;
+  background:var(--felt);border:1px solid var(--line);border-left:3px solid var(--bulb)}
+.archived .label{font:600 11px "IBM Plex Mono",monospace;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--bulb);margin-bottom:7px}
+.archived p:last-child{margin:0;color:var(--chalk-dim);font-size:15px;line-height:1.55}
+.archived b{color:var(--chalk)}
 </style>
 </head>
 <body>
@@ -23,6 +30,10 @@
   <header style="padding:40px 0 20px;border-bottom:2px solid var(--line)">
     <p class="eyebrow">MLB · live model · paper units</p>
     <h1>First <span class="amber">Five</span><span class="sub">Hot Streak Algo</span></h1>
+    <div class="archived" role="note">
+      <p class="label">Archived model</p>
+      <p>This model is off the active board while its replacement is built — but it <b>has not been switched off</b>. It still scores every slate, still posts picks, and every bet is still graded at the price it was published. The ledger and bankroll line below keep updating, and the forward test runs to the end of <b>September 2026</b> as planned. Nothing here was retuned or removed on the way in.</p>
+    </div>
     <p class="lede" style="margin-top:14px">The bet is the <b>first five innings</b> — the starting pitcher's half of the game, before bullpens turn it into a lottery. The model asks one question: <b>who is hot right now?</b> Batters are graded on their last <b id="tw">14</b> days at the plate, starters on their last <b id="ts">3</b> times out. Every stat is converted to a league percentile, so a 70 means hotter than 70% of MLB at that moment, and each lineup's grade is adjusted for how those hitters fare against the opposing arm's handedness. The result is priced against the market — and a bet only appears when the model's number beats the book's by <b id="edge">3%</b>.</p>
     <div class="recipe" id="recipe"></div>
     <p class="stamp" id="stamp">loading…</p>

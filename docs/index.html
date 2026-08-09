@@ -80,16 +80,12 @@
    To add a future algorithm's board: add one entry here. `data` is
    the JSON its exporter writes; `href` is its page; `plate` is the
    two-line label on the amber tag; `tag` prefixes each ticker item.
+
+   Retiring an algorithm: remove its entry here and move its page under
+   archive/. The model keeps running and grading either way -- this list
+   only controls what shows on the front page.
    ------------------------------------------------------------------ */
 const ALGOS = [
-  {
-    name: "First Five Hot Streak",
-    league: "MLB",
-    plate: "MLB<br>F5",
-    tag: "F5",
-    href: "mlb/first-five.html",
-    data: "data.json"
-  },
   {
     name: "First Five Totals",
     league: "MLB",
