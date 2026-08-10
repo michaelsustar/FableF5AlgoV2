@@ -1636,5 +1636,95 @@
   "over_ml": 104,
   "under_ml": -135,
   "book": "fanduel"
+ },
+ "2026-08-10|boston red sox|toronto blue jays": {
+  "date": "2026-08-10",
+  "home": "Toronto Blue Jays",
+  "away": "Boston Red Sox",
+  "line": 4.5,
+  "over_ml": -118,
+  "under_ml": -110,
+  "book": "fanduel"
+ },
+ "2026-08-10|new york mets|atlanta braves": {
+  "date": "2026-08-10",
+  "home": "Atlanta Braves",
+  "away": "New York Mets",
+  "line": 4.5,
+  "over_ml": -120,
+  "under_ml": -108,
+  "book": "fanduel"
+ },
+ "2026-08-10|baltimore orioles|minnesota twins": {
+  "date": "2026-08-10",
+  "home": "Minnesota Twins",
+  "away": "Baltimore Orioles",
+  "line": 4.5,
+  "over_ml": -118,
+  "under_ml": -110,
+  "book": "fanduel"
+ },
+ "2026-08-10|philadelphia phillies|st. louis cardinals": {
+  "date": "2026-08-10",
+  "home": "St. Louis Cardinals",
+  "away": "Philadelphia Phillies",
+  "line": 5.5,
+  "over_ml": 108,
+  "under_ml": -140,
+  "book": "fanduel"
+ },
+ "2026-08-10|texas rangers|los angeles angels": {
+  "date": "2026-08-10",
+  "home": "Los Angeles Angels",
+  "away": "Texas Rangers",
+  "line": 4.5,
+  "over_ml": 104,
+  "under_ml": -135,
+  "book": "fanduel"
+ },
+ "2026-08-10|colorado rockies|arizona diamondbacks": {
+  "date": "2026-08-10",
+  "home": "Arizona Diamondbacks",
+  "away": "Colorado Rockies",
+  "line": 4.5,
+  "over_ml": -122,
+  "under_ml": -106,
+  "book": "fanduel"
+ },
+ "2026-08-10|tampa bay rays|athletics": {
+  "date": "2026-08-10",
+  "home": "Athletics",
+  "away": "Tampa Bay Rays",
+  "line": 5.5,
+  "over_ml": 110,
+  "under_ml": -144,
+  "book": "fanduel"
+ },
+ "2026-08-10|milwaukee brewers|san diego padres": {
+  "date": "2026-08-10",
+  "home": "San Diego Padres",
+  "away": "Milwaukee Brewers",
+  "line": 3.5,
+  "over_ml": -148,
+  "under_ml": 114,
+  "book": "fanduel"
+ },
+ "2026-08-10|houston astros|san francisco giants": {
+  "date": "2026-08-10",
+  "home": "San Francisco Giants",
+  "away": "Houston Astros",
+  "line": 4.5,
+  "over_ml": -128,
+  "under_ml": -102,
+  "book": "fanduel"
+ },
+ "2026-08-10|kansas city royals|los angeles dodgers": {
+  "date": "2026-08-10",
+  "home": "Los Angeles Dodgers",
+  "away": "Kansas City Royals",
+  "line": 3.5,
+  "over_ml": -148,
+  "under_ml": 114,
+  "book": "fanduel"
  }
 }

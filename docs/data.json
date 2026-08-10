@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-09T16:36:20",
- "slate_date": "2026-08-09",
+ "generated_at": "2026-08-10T10:55:48",
+ "slate_date": "2026-08-10",
  "ledger": {
-  "bets": 65,
-  "wins": 22,
-  "losses": 33,
-  "pushes": 10,
-  "units": -6.89,
-  "roi": -0.106,
-  "hit": 0.4,
-  "claimed": 0.5551
+  "bets": 70,
+  "wins": 23,
+  "losses": 36,
+  "pushes": 11,
+  "units": -8.84,
+  "roi": -0.1263,
+  "hit": 0.3898,
+  "claimed": 0.5538
  },
  "series": [
   {
@@ -78,72 +78,32 @@
   },
   {
    "date": "2026-08-09",
-   "units": -6.89
+   "units": -8.84
   }
  ],
  "bets_today": [
   {
-   "matchup": "New York Mets @ Pittsburgh Pirates",
-   "pick": "New York Mets",
+   "matchup": "Tampa Bay Rays @ Athletics",
+   "pick": "Athletics",
    "ml": 120,
    "tier": "STRONG",
-   "time": "2026-08-09T17:35:00Z",
-   "model_p": 0.497,
-   "mkt_p": 0.428,
-   "value": 0.068
-  },
-  {
-   "matchup": "Chicago Cubs @ Kansas City Royals",
-   "pick": "Kansas City Royals",
-   "ml": 124,
-   "tier": "STRONG",
-   "time": "2026-08-09T18:10:00Z",
-   "model_p": 0.536,
-   "mkt_p": 0.42,
-   "value": 0.115
-  },
-  {
-   "matchup": "Colorado Rockies @ St. Louis Cardinals",
-   "pick": "Colorado Rockies",
-   "ml": 124,
-   "tier": "STRONG",
-   "time": "2026-08-09T18:15:00Z",
-   "model_p": 0.51,
-   "mkt_p": 0.42,
-   "value": 0.089
-  },
-  {
-   "matchup": "Detroit Tigers @ San Francisco Giants",
-   "pick": "Detroit Tigers",
-   "ml": -135,
-   "tier": "STRONG",
-   "time": "2026-08-09T20:05:00Z",
+   "time": "2026-08-11T01:40:00Z",
    "model_p": 0.61,
-   "mkt_p": 0.541,
-   "value": 0.069
+   "mkt_p": 0.428,
+   "value": 0.182
   },
   {
-   "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks",
-   "pick": "Arizona Diamondbacks",
-   "ml": 105,
+   "matchup": "Kansas City Royals @ Los Angeles Dodgers",
+   "pick": "Kansas City Royals",
+   "ml": 190,
    "tier": "STRONG",
-   "time": "2026-08-09T20:10:00Z",
-   "model_p": 0.556,
-   "mkt_p": 0.459,
-   "value": 0.096
-  },
-  {
-   "matchup": "Tampa Bay Rays @ Seattle Mariners",
-   "pick": "Seattle Mariners",
-   "ml": 100,
-   "tier": "STRONG",
-   "time": "2026-08-09T20:10:00Z",
-   "model_p": 0.543,
-   "mkt_p": 0.469,
-   "value": 0.074
+   "time": "2026-08-11T02:10:00Z",
+   "model_p": 0.422,
+   "mkt_p": 0.326,
+   "value": 0.097
   }
  ],
- "evaluated_today": 10,
+ "evaluated_today": 7,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
