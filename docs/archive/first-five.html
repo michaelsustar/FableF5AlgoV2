@@ -13,6 +13,8 @@
   background:var(--felt);border:1px solid var(--line);
   font:600 11px "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase}
 .viewlog:hover{border-color:var(--bulb);text-decoration:none}
+.boardnote{margin-top:10px;font:400 13px/1.5 "Barlow",sans-serif;color:var(--chalk-dim);max-width:74ch}
+.boardnote b{color:var(--chalk);font-weight:500}
 </style>
 </head>
 <body>
@@ -30,6 +32,7 @@
 
   <h2>The ledger <small>every graded bet since the freeze</small></h2>
   <div class="board" id="board"></div>
+  <p class="boardnote" id="clvnote"></p>
   <a class="viewlog" href="../past-bets.html?algo=hot-streak">View past bets →</a>
 
   <h2>Bankroll line <small>cumulative paper units, 1u per bet</small></h2>
@@ -68,9 +71,22 @@
     ["roi / bet", fmt(L.roi,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"), L.roi>0?"pos":L.roi<0?"neg":null],
     ["hit rate", fmt(L.hit,v=>(100*v).toFixed(1)+"%"), null],
     ["claimed", fmt(L.claimed,v=>(100*v).toFixed(1)+"%"), null],
+    ["beat close", L.clv_bets? (L.clv_beat+"/"+L.clv_bets) : "—",
+      L.clv_bets? (L.clv_beat/L.clv_bets>0.5?"pos":L.clv_beat/L.clv_bets<0.5?"neg":null) : null],
+    ["avg clv", fmt(L.clv_avg,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"),
+      L.clv_avg>0?"pos":L.clv_avg<0?"neg":null],
   ];
   document.getElementById("board").innerHTML = tiles.map(([k,v,c])=>
     `<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
+  const clvnote = document.getElementById("clvnote");
+  if(clvnote){
+    clvnote.innerHTML = !L.clv_bets
+      ? "<b>Beat close</b> compares each bet's price to the market's final number before first pitch. Bets get priced against the close the morning after they settle."
+      : "<b>Beat close</b> is how often this model's price was better than the market's final number — a read on edge that doesn't depend on whether the bet won. "
+        + (L.clv_bets < 30
+           ? "<b>Only " + L.clv_bets + " bet" + (L.clv_bets===1?"":"s") + " so far</b>, so treat it as early noise; the number needs 30+ to hint at a trend and a few hundred to be solid."
+           : "Beating it more than 55% of the time is the bar for a real edge.");
+  }
 
   const s = d.series||[]; const svg = document.getElementById("chart");
   if(s.length<2){ svg.outerHTML = '<div class="empty">The line starts drawing once two days are graded.</div>'; }
@@ -101,10 +117,10 @@
       try{ return new Date(t).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
       catch(e){ return "TBD"; } };
     box.innerHTML = bets.map(b=>`
-      <div class="bet ${b.tier==="LEAN"?"lean":""}">
+      <div class="bet">
         <div>
           <div class="top"><span class="time">${clock(b.time)}</span><span>${b.matchup}</span></div>
-          <div class="pick">${b.pick}<span class="chip ${b.tier==="LEAN"?"lean":""}">${b.tier}</span></div>
+          <div class="pick">${b.pick}</div>
         </div>
         <div class="ml">${ml(b.ml)}</div>
         <div class="nums">model <b>${(100*b.model_p).toFixed(0)}%</b> · market <b>${(100*b.mkt_p).toFixed(0)}%</b> · edge <b>+${(100*b.value).toFixed(1)}%</b></div>

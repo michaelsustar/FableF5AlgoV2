@@ -46,7 +46,7 @@
   <header style="padding:40px 0 20px;border-bottom:2px solid var(--line)">
     <p class="eyebrow">MLB · forward test · paper units</p>
     <h1>Past <span class="amber">Bets</span><span class="sub" id="algoname">—</span></h1>
-    <p class="lede" style="margin-top:14px">Every bet this model has published since its settings were frozen — <b>wins and losses alike</b>, in the order they were graded. Each card shows the pick exactly as it was posted, at the price available then, with the model's probability next to the market's. Nothing is removed after the fact.</p>
+    <p class="lede" style="margin-top:14px">Every bet this model has published since its settings were frozen — <b>wins and losses alike</b>, in the order they were graded. Each card shows the pick exactly as it was posted, at the price available then, with the model's probability next to the market's, and — once the game settles — how that price compared to the market's <b>final number before first pitch</b>. Nothing is removed after the fact.</p>
     <a class="backlink" id="back" href="#">← back to the dashboard</a>
     <p class="stamp" id="stamp">loading…</p>
   </header>
@@ -58,8 +58,7 @@
     <button data-f="all" aria-pressed="true">All</button>
     <button data-f="win" aria-pressed="false">Wins</button>
     <button data-f="loss" aria-pressed="false">Losses</button>
-    <button data-f="STRONG" aria-pressed="false">Strong</button>
-    <button data-f="LEAN" aria-pressed="false">Lean</button>
+    <button data-f="beat" aria-pressed="false">Beat the close</button>
   </div>
 
   <div id="log"></div>
@@ -107,6 +106,10 @@ const ALGOS = {
     ["units", fmt(L.units,v=>(v>0?"+":"")+v.toFixed(2)), L.units>0?"pos":L.units<0?"neg":null],
     ["roi / bet", fmt(L.roi,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"), L.roi>0?"pos":L.roi<0?"neg":null],
     ["hit rate", fmt(L.hit,v=>(100*v).toFixed(1)+"%"), null],
+    ["beat close", L.clv_bets? (L.clv_beat+"/"+L.clv_bets) : "—",
+      L.clv_bets? (L.clv_beat/L.clv_bets>0.5?"pos":L.clv_beat/L.clv_bets<0.5?"neg":null) : null],
+    ["avg clv", fmt(L.clv_avg,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"),
+      L.clv_avg>0?"pos":L.clv_avg<0?"neg":null],
   ].map(([k,v,c])=>`<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
 
   const bets = d.bets||[];
@@ -123,14 +126,17 @@ const ALGOS = {
     const extras =
       (b.total!=null ? ` · actual <b>${b.total}</b>` : "") +
       (b.exp_total!=null ? ` · projected <b>${b.exp_total.toFixed(1)}</b>` : "");
+    const clv = b.clv==null ? "" :
+      ` · <span class="u ${b.clv>0?"pos":b.clv<0?"neg":""}" title="How this bet's price compared to the market's final number">`
+      + `close ${b.close_ml!=null?ml(b.close_ml):""} (${b.clv>0?"+":""}${(100*b.clv).toFixed(1)}%)</span>`;
     return `
       <div class="bet ${b.result}">
         <div>
           <div class="top"><span class="time">${clock(b.time)}</span><span>${esc(b.matchup)}</span></div>
-          <div class="pick">${esc(b.pick)}<span class="chip ${b.result}">${RES[b.result]||""}</span><span class="chip ${b.tier==="LEAN"?"lean":""}">${esc(b.tier)}</span></div>
+          <div class="pick">${esc(b.pick)}<span class="chip ${b.result}">${RES[b.result]||""}</span></div>
         </div>
         <div class="ml">${ml(b.ml)}</div>
-        <div class="nums">model <b>${(100*b.model_p).toFixed(0)}%</b> · market <b>${(100*b.mkt_p).toFixed(0)}%</b> · edge <b>+${(100*b.value).toFixed(1)}%</b>${extras}${b.result!=="void"?` · <span class="u ${uc}">${u>0?"+":""}${u.toFixed(2)}u</span>`:""}</div>
+        <div class="nums">model <b>${(100*b.model_p).toFixed(0)}%</b> · market <b>${(100*b.mkt_p).toFixed(0)}%</b> · edge <b>+${(100*b.value).toFixed(1)}%</b>${extras}${b.result!=="void"?` · <span class="u ${uc}">${u>0?"+":""}${u.toFixed(2)}u</span>`:""}${clv}</div>
       </div>`;
   }
 
@@ -138,7 +144,8 @@ const ALGOS = {
   function render(){
     const rows = bets.filter(b =>
       filter==="all" ? true :
-      (filter==="win"||filter==="loss") ? b.result===filter : b.tier===filter);
+      filter==="beat" ? (b.clv != null && b.clv > 0) :
+      b.result===filter);
     const host = document.getElementById("log");
     if(!rows.length){
       host.innerHTML = '<div class="empty"><b>Nothing here yet.</b> Graded bets appear the morning after they settle.</div>';
