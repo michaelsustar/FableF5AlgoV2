@@ -1,71 +1,36 @@
 {
- "generated_at": "2026-08-10T11:30:14",
- "slate_date": "2026-08-10",
+ "generated_at": "2026-08-11T10:57:42",
+ "slate_date": "2026-08-11",
  "ledger": {
-  "bets": 41,
-  "wins": 22,
-  "losses": 19,
+  "bets": 0,
+  "wins": 0,
+  "losses": 0,
   "pushes": 0,
-  "units": -0.27,
-  "roi": -0.0066,
-  "hit": 0.5366,
-  "claimed": 0.596
+  "units": 0,
+  "roi": null,
+  "hit": null,
+  "claimed": null,
+  "clv_bets": 0,
+  "clv_beat": 0,
+  "clv_avg": null
  },
- "series": [
+ "series": [],
+ "bets_today": [
   {
-   "date": "2026-07-27",
-   "units": -1.15
-  },
-  {
-   "date": "2026-07-28",
-   "units": -2.39
-  },
-  {
-   "date": "2026-07-29",
-   "units": -0.3
-  },
-  {
-   "date": "2026-07-30",
-   "units": 0.44
-  },
-  {
-   "date": "2026-07-31",
-   "units": 2.95
-  },
-  {
-   "date": "2026-08-01",
-   "units": -0.05
-  },
-  {
-   "date": "2026-08-02",
-   "units": -0.79
-  },
-  {
-   "date": "2026-08-03",
-   "units": 0.29
-  },
-  {
-   "date": "2026-08-04",
-   "units": 2.1
-  },
-  {
-   "date": "2026-08-05",
-   "units": -0.12
-  },
-  {
-   "date": "2026-08-07",
-   "units": 1.77
-  },
-  {
-   "date": "2026-08-08",
-   "units": 0.77
-  },
-  {
-   "date": "2026-08-09",
-   "units": -0.27
+   "matchup": "Pittsburgh Pirates @ Miami Marlins",
+   "pick": "Over 3.5",
+   "ml": -114,
+   "tier": "STRONG",
+   "time": "2026-08-11T22:40:00Z",
+   "line": 3.5,
+   "exp_total": 5.04,
+   "lam_home": 2.69,
+   "lam_away": 2.35,
+   "model_p": 0.625,
+   "mkt_p": 0.5,
+   "value": 0.125
   }
  ],
- "bets_today": [],
  "evaluated_today": 7,
  "model": {
   "coefficients": {
