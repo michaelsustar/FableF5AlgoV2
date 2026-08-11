@@ -106,11 +106,12 @@ const ALGOS = {
     ["units", fmt(L.units,v=>(v>0?"+":"")+v.toFixed(2)), L.units>0?"pos":L.units<0?"neg":null],
     ["roi / bet", fmt(L.roi,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"), L.roi>0?"pos":L.roi<0?"neg":null],
     ["hit rate", fmt(L.hit,v=>(100*v).toFixed(1)+"%"), null],
+    ["claimed", fmt(L.claimed,v=>(100*v).toFixed(1)+"%"), null],
     ["beat close", L.clv_bets? (L.clv_beat+"/"+L.clv_bets) : "—",
       L.clv_bets? (L.clv_beat/L.clv_bets>0.5?"pos":L.clv_beat/L.clv_bets<0.5?"neg":null) : null],
     ["avg clv", fmt(L.clv_avg,v=>(v>0?"+":"")+(100*v).toFixed(1)+"%"),
       L.clv_avg>0?"pos":L.clv_avg<0?"neg":null],
-  ].map(([k,v,c])=>`<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
+  ].map(([k,v,c])=>`<div class="tile${k==="record"?" wide":""}"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
 
   const bets = d.bets||[];
   const esc = s => String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));

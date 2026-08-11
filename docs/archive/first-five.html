@@ -77,7 +77,7 @@
       L.clv_avg>0?"pos":L.clv_avg<0?"neg":null],
   ];
   document.getElementById("board").innerHTML = tiles.map(([k,v,c])=>
-    `<div class="tile"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
+    `<div class="tile${k==="record"?" wide":""}"><b class="${c||""}">${v}</b><span>${k}</span></div>`).join("");
   const clvnote = document.getElementById("clvnote");
   if(clvnote){
     clvnote.innerHTML = !L.clv_bets
