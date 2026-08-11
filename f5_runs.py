@@ -88,8 +88,7 @@ RUNS_EDGE_STRONG = 0.08
 
 ODDS_TOTALS_MARKET_KEY = "totals_1st_5_innings"
 RUNS_PARAMS_FILE = fm.CACHE_DIR / "runs_model_params.json"
-RUNS_FORWARD_LOG = fm.resolve_path(fm.LEDGER_DIR / "f5r_forward_log.json",
-                                   "f5r_forward_log.json")
+RUNS_FORWARD_LOG = Path("./f5r_forward_log.json")
 SEASON_INDEX_DIR = fm.CACHE_DIR / "runs_index"
 
 FEATURES = ("f_season", "f_recent", "f_starter", "log_park")  # after intercept
@@ -136,8 +135,7 @@ def park_factor(home_team_id):
 
 
 def runs_odds_archive_file(season):
-    name = f"f5r_odds_{season}.json"
-    return fm.resolve_path(fm.ODDS_ARCHIVE_DIR / name, name)
+    return Path(f"./f5r_odds_{season}.json")
 
 
 # --------------------------------------------------------------------------
@@ -611,7 +609,7 @@ def fetch_odds_day(d, historical=False):
         archive[key] = {"date": ev_date, "home": ev.get("home_team"),
                         "away": ev.get("away_team"), **mkt}
         got += 1
-    fm.write_json(runs_odds_archive_file(season), archive, indent=1)
+    runs_odds_archive_file(season).write_text(json.dumps(archive, indent=1))
     rem = getattr(_odds_http, "remaining", "?")
     note = f", {skipped} already archived" if skipped else ""
     print(f"  {d}: stored F5 totals for {got}/{len(events) - skipped} "
@@ -777,8 +775,8 @@ def score_slate(slate_date, bets_only=False):
         results.append(entry)
 
     print_slate(results, slate_date, bets_only=bets_only)
-    out_file = fm.write_json(
-        fm.SCORES_DIR / f"f5r_scores_{slate_date.isoformat()}.json", results)
+    out_file = Path(f"./f5r_scores_{slate_date.isoformat()}.json")
+    out_file.write_text(json.dumps(results, indent=2))
     print(f"\nFull detail written to {out_file}")
     n_logged = log_forward(results, slate_date)
     if n_logged:
@@ -847,6 +845,117 @@ def print_slate(results, slate_date, bets_only=False):
 # --------------------------------------------------------------------------
 # FORWARD LEDGER — first log wins, graded against actual F5 totals
 # --------------------------------------------------------------------------
+def fetch_clv():
+    """Backfill closing lines onto logged totals bets, and score CLV.
+
+    Totals move in TWO dimensions — the line itself (4.5 -> 5.0) and the
+    price (-110 -> -125) — so both are recorded:
+
+      clv        probability CLV on our side, only when the line is
+                 unchanged (otherwise it isn't an apples-to-apples price)
+      line_move  signed runs, positive = market moved toward the over
+      our_way    signed runs from OUR side's view, positive = good for us
+
+    A line that moves toward our side is a strong signal even when the
+    price CLV can't be computed, so both get reported."""
+    api_key = os.environ.get("ODDS_API_KEY")
+    if not api_key:
+        sys.exit("Set the ODDS_API_KEY environment variable.")
+    if not RUNS_FORWARD_LOG.exists():
+        print("  No forward log yet — nothing to price against the close.")
+        return 0
+    log = json.loads(RUNS_FORWARD_LOG.read_text())
+    groups = fm.clv_pending(log)
+    if not groups:
+        print("  Every logged bet already has its closing line.")
+        return 0
+
+    total = sum(len(v) for v in groups.values())
+    print(f"  {total} bet(s) across {len(groups)} first-pitch time(s) "
+          f"need closing lines.")
+    done = 0
+    for snap in sorted(groups):
+        recs = groups[snap]
+        try:
+            events = fm.historical_events(snap, api_key)
+        except SystemExit:
+            raise
+        except Exception as e:
+            print(f"    {snap}: events lookup failed ({e}) — skipping")
+            continue
+        by_key = {}
+        for ev in events:
+            ct = ev.get("commence_time")
+            ev_date = ((datetime.fromisoformat(ct.replace("Z", "+00:00"))
+                        - timedelta(hours=4)).date().isoformat()
+                       if ct else None)
+            by_key[odds_key(ev_date, ev.get("away_team"),
+                            ev.get("home_team"))] = ev
+        for key, rec in recs:
+            away, home = _teams_from_record(rec)
+            ev = by_key.get(odds_key(rec["date"], away, home))
+            if not ev:
+                print(f"    no closing event for {rec['matchup']} — skipping")
+                continue
+            try:
+                payload = fm.historical_event_odds(
+                    ev["id"], snap, ODDS_TOTALS_MARKET_KEY, api_key)
+            except Exception as e:
+                print(f"    odds fetch failed for {rec['matchup']}: {e}")
+                continue
+            mkt = _extract_totals_market(payload)
+            if not mkt:
+                continue
+            on_over = rec["pick_side"] == "over"
+            close_p_over = fm.devig(mkt["over_ml"], mkt["under_ml"])
+            close_p = close_p_over if on_over else 1 - close_p_over
+            bet_p = (rec["mkt_p_over"] if on_over
+                     else 1 - rec["mkt_p_over"])
+            line_move = mkt["line"] - rec["line"]
+            same_line = abs(line_move) < 1e-9
+            rec["close"] = {
+                "snapshot": snap, "book": mkt.get("book"),
+                "line": mkt["line"], "over_ml": mkt["over_ml"],
+                "under_ml": mkt["under_ml"],
+                "pick_ml": mkt["over_ml"] if on_over else mkt["under_ml"],
+                "mkt_p": round(close_p, 4),
+                "clv": round(close_p - bet_p, 4) if same_line else None,
+                "line_move": round(line_move, 2),
+                "our_way": round(line_move if on_over else -line_move, 2),
+            }
+            done += 1
+    RUNS_FORWARD_LOG.write_text(json.dumps(log, indent=1))
+    rem = getattr(fm._odds_http, "remaining", "?")
+    print(f"  priced {done}/{total} bet(s) against the close "
+          f"(API credits left: {rem})")
+    closed = [r for r in log.values() if r.get("close")]
+    if closed:
+        print()
+        fm.clv_summary([{"clv": r["close"]["clv"], "tier": r.get("tier")}
+                        for r in closed], label="CLOSING LINE VALUE")
+        moved = [r for r in closed if r["close"]["line_move"]]
+        if moved:
+            ours = [r["close"]["our_way"] for r in moved]
+            good = sum(1 for v in ours if v > 0)
+            print(f"  line movement: {len(moved)}/{len(closed)} bets saw the "
+                  f"number move — {good} toward our side, "
+                  f"{len(moved) - good} against "
+                  f"(avg {mean(ours):+.2f} runs our way)")
+        else:
+            print("  line movement: none — every bet closed on its "
+                  "original number")
+    return done
+
+
+def _teams_from_record(rec):
+    """(away, home) for a logged bet. Newer records store them; older ones
+    only have the 'Away @ Home' matchup string."""
+    if rec.get("away_team") and rec.get("home_team"):
+        return rec["away_team"], rec["home_team"]
+    parts = str(rec.get("matchup", "")).split(" @ ")
+    return (parts[0], parts[1]) if len(parts) == 2 else (None, None)
+
+
 def log_forward(results, slate_date):
     log_data = (json.loads(RUNS_FORWARD_LOG.read_text())
                 if RUNS_FORWARD_LOG.exists() else {})
@@ -864,6 +973,7 @@ def log_forward(results, slate_date):
         log_data[key] = {
             "gamePk": r["gamePk"], "date": slate_date.isoformat(),
             "game_time": r.get("game_time"), "matchup": r["matchup"],
+            "home_team": r.get("home_team"), "away_team": r.get("away_team"),
             "line": pred["line"], "pick": pred.get("pick"),
             "pick_side": pred.get("pick_side"),
             "pick_ml": pred.get("pick_ml"), "tier": pred["tier"],
@@ -877,7 +987,7 @@ def log_forward(results, slate_date):
         }
         added += 1
     if added:
-        fm.write_json(RUNS_FORWARD_LOG, log_data, indent=1)
+        RUNS_FORWARD_LOG.write_text(json.dumps(log_data, indent=1))
     return added
 
 
@@ -921,7 +1031,7 @@ def track():
         rec.update({"graded": True, "outcome": outcome, "total": total,
                     "units": round(units, 3)})
         newly += 1
-    fm.write_json(RUNS_FORWARD_LOG, log_data, indent=1)
+    RUNS_FORWARD_LOG.write_text(json.dumps(log_data, indent=1))
 
     graded = [r for r in log_data.values() if r["graded"]]
     picks = [r for r in graded if r.get("pick")
@@ -969,6 +1079,12 @@ def track():
                          if r["pick_side"] == r["outcome"]) / len(dec)
             print(f"\n  calibration in the wild: model claimed "
                   f"{claimed:.1%} on its picks, delivered {actual:.1%}")
+        closed = [r for r in log_data.values() if r.get("close")]
+        if closed:
+            print()
+            fm.clv_summary([{"clv": r["close"]["clv"], "tier": r.get("tier")}
+                          for r in closed], label="CLOSING LINE VALUE")
+
     else:
         print("\n  No graded bets yet — verdicts grade automatically once "
               "games go final.")
@@ -1038,6 +1154,14 @@ def export_site(slate_date=None):
             "claimed": round(mean(
                 [r["p_over"] if r["pick_side"] == "over"
                  else 1 - r["p_over"] for r in dec]), 4) if dec else None,
+            "clv_bets": len([r for r in picks
+                             if (r.get("close") or {}).get("clv") is not None]),
+            "clv_beat": len([r for r in picks
+                             if ((r.get("close") or {}).get("clv") or 0) > 0]),
+            "clv_avg": (round(mean([r["close"]["clv"] for r in picks
+                              if (r.get("close") or {}).get("clv") is not None]), 4)
+                        if any((r.get("close") or {}).get("clv") is not None
+                               for r in picks) else None)
         },
         "series": series,
         "bets_today": bets,
@@ -1079,6 +1203,8 @@ def export_site(slate_date=None):
                      else round(1 - r["mkt_p_over"], 3),
             "value": abs(r.get("value") or 0),
             "result": result, "units": r.get("units", 0),
+            "clv": (r.get("close") or {}).get("clv"),
+            "close_ml": (r.get("close") or {}).get("pick_ml"),
         })
     (site / "history_totals.json").write_text(json.dumps({
         "generated_at": data["generated_at"],
@@ -1099,6 +1225,7 @@ def export_site(slate_date=None):
 def daily(slate_date):
     steps = [
         ("Grading yesterday's totals verdicts", lambda: track_safe()),
+        ("Pricing settled bets against the close", lambda: fetch_clv()),
         ("Fetching today's F5 totals odds",
          lambda: fetch_odds_day(slate_date)),
         ("Scoring the slate (bets only)",
@@ -1140,6 +1267,8 @@ def main():
     p_fo.add_argument("--start", default=None,
                       help="with --historical: fetch a date range")
     sub.add_parser("track", help="grade forward-test verdicts vs reality")
+    sub.add_parser("clv",
+                   help="price settled bets against the closing line")
     p_ex = sub.add_parser("export",
                           help="write docs/data_totals.json for the site")
     p_ex.add_argument("--date", default=None)
@@ -1166,6 +1295,8 @@ def main():
             fetch_odds_day(d, historical=args.historical)
     elif args.cmd == "track":
         track()
+    elif args.cmd == "clv":
+        fetch_clv()
     elif args.cmd == "export":
         export_site(d)
     elif args.cmd == "daily":

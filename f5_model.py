@@ -48,7 +48,7 @@ import os
 import sys
 import time
 from bisect import bisect_left, bisect_right
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import statsapi
@@ -92,39 +92,7 @@ SPLITS_CACHE_DIR = CACHE_DIR / "splits"
 BATSTATS_CACHE_DIR = CACHE_DIR / "batstats"
 LEAGUE_BAT_CACHE_DIR = CACHE_DIR / "league_bat"
 MODEL_PARAMS_FILE = CACHE_DIR / "model_params.json"
-# --------------------------------------------------------------------------
-# REPO LAYOUT -- where generated JSON lives
-#
-# Dated run artifacts go under data/ instead of piling up in the repo root.
-# resolve_path() prefers the organized location but falls back to the old
-# root-level file when it has not been moved yet, so a scheduled run firing
-# mid-migration still finds the forward-test ledger instead of quietly
-# starting an empty one.
-# --------------------------------------------------------------------------
-DATA_DIR = Path("./data")
-SCORES_DIR = DATA_DIR / "scores"       # per-slate detail, write-only
-ODDS_ARCHIVE_DIR = DATA_DIR / "odds"   # season odds archives
-LEDGER_DIR = DATA_DIR / "ledger"       # forward-test logs -- the record
-ARTIFACT_DIR = Path("./artifacts")     # regenerable backtest rows
-
-
-def resolve_path(new_path, legacy_name):
-    """Organized path, unless only the pre-reorg root file exists."""
-    legacy = Path("./" + legacy_name)
-    if not new_path.exists() and legacy.exists():
-        return legacy
-    return new_path
-
-
-def write_json(path, obj, indent=2):
-    """Write JSON, creating the parent folder if the reorg hasn't yet."""
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, indent=indent))
-    return path
-
-
-FORWARD_LOG = resolve_path(LEDGER_DIR / "f5_forward_log.json",
-                           "f5_forward_log.json")
+FORWARD_LOG = Path("./f5_forward_log.json")
 
 # ---- market / odds (The Odds API) ----
 ODDS_API_BASE = "https://api.the-odds-api.com/v4"
@@ -137,17 +105,14 @@ ODDS_DIR = CACHE_DIR / "odds"
 
 
 def odds_archive_file(season):
-    name = f"f5_odds_{season}.json"
-    return resolve_path(ODDS_ARCHIVE_DIR / name, name)
+    return Path(f"./f5_odds_{season}.json")
 
 
 def rows_path(season):
     """Backtest rows file; window-tagged so 7d/14d universes never collide."""
     if BATTING_WINDOW_DAYS == 14:
-        name = f"f5_backtest_rows_{season}.json"           # back-compat
-    else:
-        name = f"f5_backtest_rows_{season}_w{BATTING_WINDOW_DAYS}.json"
-    return resolve_path(ARTIFACT_DIR / name, name)
+        return Path(f"./f5_backtest_rows_{season}.json")   # back-compat
+    return Path(f"./f5_backtest_rows_{season}_w{BATTING_WINDOW_DAYS}.json")
 
 
 # --------------------------------------------------------------------------
@@ -553,6 +518,94 @@ def odds_key(d_iso, away, home):
     return f"{d_iso}|{norm_team(away)}|{norm_team(home)}"
 
 
+# --------------------------------------------------------------------------
+# CLOSING LINE VALUE — shared snapshot plumbing (used by both models)
+#
+# The closing line is the sharpest number the market produces: by first pitch
+# every lineup, scratch and weather report is priced in. Comparing the price
+# we took against that close measures our EDGE without waiting on the game's
+# outcome — which is the noisiest thing in the ledger. CLV converges in weeks
+# where ROI takes seasons.
+#
+# Requires a paid Odds API plan (historical endpoints).
+# --------------------------------------------------------------------------
+CLV_MINUTES_BEFORE = 10      # snapshot this far before first pitch
+
+
+def _iso_z(dt):
+    return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def closing_snapshot_time(game_time_iso, minutes_before=CLV_MINUTES_BEFORE):
+    """Timestamp we treat as 'the close' for one game. Backing off a few
+    minutes from first pitch avoids catching in-play prices."""
+    dt = datetime.fromisoformat(str(game_time_iso).replace("Z", "+00:00"))
+    return _iso_z(dt - timedelta(minutes=minutes_before))
+
+
+def historical_events(snapshot_iso, api_key):
+    """Every event live in the historical snapshot nearest snapshot_iso."""
+    resp = _odds_http("/historical/sports/baseball_mlb/events",
+                      {"apiKey": api_key, "date": snapshot_iso})
+    return resp.get("data", [])
+
+
+def historical_event_odds(event_id, snapshot_iso, market_key, api_key):
+    """One event's odds at a historical snapshot."""
+    payload = _odds_http(
+        f"/historical/sports/baseball_mlb/events/{event_id}/odds",
+        {"apiKey": api_key, "regions": ODDS_REGIONS, "markets": market_key,
+         "oddsFormat": "american", "date": snapshot_iso})
+    return payload.get("data", {})
+
+
+def clv_pending(log, now=None):
+    """Logged bets that are past first pitch and still have no closing line.
+    Grouped by snapshot time so one events call can serve several games."""
+    now = now or datetime.now(timezone.utc)
+    groups = {}
+    for key, rec in log.items():
+        if not rec.get("pick") or rec.get("close") is not None:
+            continue
+        gt = rec.get("game_time")
+        if not gt:
+            continue
+        try:
+            start = datetime.fromisoformat(str(gt).replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if start > now:
+            continue                      # hasn't closed yet; try tomorrow
+        groups.setdefault(closing_snapshot_time(gt), []).append((key, rec))
+    return groups
+
+
+def clv_summary(rows, label="CLV"):
+    """Print the beat-rate / average-CLV block shared by both models.
+    rows: dicts with 'clv' (probability points, our side) and 'tier'."""
+    scored = [r for r in rows if r.get("clv") is not None]
+    if not scored:
+        print(f"  {label}: no closing lines fetched yet "
+              f"(run `clv` after games start).")
+        return
+    beat = sum(1 for r in scored if r["clv"] > 0)
+    avg = mean([r["clv"] for r in scored])
+    print(f"  {label}: {len(scored)} bets priced vs close \u2014 "
+          f"beat the close {beat}/{len(scored)} ({beat / len(scored):.1%}), "
+          f"average {avg:+.2%}")
+    for tier in ("STRONG", "LEAN"):
+        t = [r for r in scored if r.get("tier") == tier]
+        if t:
+            tb = sum(1 for r in t if r["clv"] > 0)
+            print(f"      {tier:<7} {tb}/{len(t)} ({tb / len(t):.0%}), "
+                  f"avg {mean([r['clv'] for r in t]):+.2%}")
+    if len(scored) < 30:
+        print("      (still early \u2014 CLV needs ~30+ bets for a trend, "
+              "a few hundred to be solid)")
+    elif beat / len(scored) >= 0.55:
+        print("      55%+ beat rate is the bar for a real edge.")
+
+
 def ml_to_prob(ml):
     ml = float(ml)
     return (-ml / (-ml + 100.0)) if ml < 0 else (100.0 / (ml + 100.0))
@@ -571,7 +624,7 @@ def load_odds_archive(season):
 
 
 def save_odds_archive(season, archive):
-    write_json(odds_archive_file(season), archive, indent=1)
+    odds_archive_file(season).write_text(json.dumps(archive, indent=1))
 
 
 def _extract_f5_market(event_odds):
@@ -954,8 +1007,8 @@ def score_slate(slate_date: date, bets_only=False):
         results.append(entry)
 
     print_slate(results, slate_date, bets_only=bets_only)
-    out_file = write_json(
-        SCORES_DIR / f"f5_scores_{slate_date.isoformat()}.json", results)
+    out_file = Path(f"./f5_scores_{slate_date.isoformat()}.json")
+    out_file.write_text(json.dumps(results, indent=2))
     print(f"\nFull detail written to {out_file}")
     n_logged = log_forward(results, slate_date)
     if n_logged:
@@ -1287,7 +1340,7 @@ def backtest(end_date, start_date=None, season=None):
           f"(short/insufficient data)")
 
     rows_file = rows_path(season)
-    write_json(rows_file, rows)
+    rows_file.write_text(json.dumps(rows, indent=2))
     if season != end_date.year:
         # PAST-SEASON MODE: rows only. Never fit or touch the frozen params —
         # that would contaminate the out-of-sample experiment.
@@ -1986,6 +2039,91 @@ def _params_hash():
     return hashlib.md5(MODEL_PARAMS_FILE.read_bytes()).hexdigest()[:10]
 
 
+def fetch_clv():
+    """Backfill closing lines onto logged bets, and score CLV.
+
+    For each bet past first pitch with no closing line yet, pull the
+    historical snapshot 10 minutes before its own start time and record the
+    de-vigged market probability of THE SIDE WE BET. CLV is that closing
+    probability minus the one we got: positive means we bought our side
+    cheaper than the market's final word.
+
+    Costs one events call per distinct first-pitch time plus one odds call
+    per bet, and only ever fetches a given bet once."""
+    api_key = os.environ.get("ODDS_API_KEY")
+    if not api_key:
+        sys.exit("Set the ODDS_API_KEY environment variable.")
+    if not FORWARD_LOG.exists():
+        print("  No forward log yet — nothing to price against the close.")
+        return 0
+    log = json.loads(FORWARD_LOG.read_text())
+    groups = clv_pending(log)
+    if not groups:
+        print("  Every logged bet already has its closing line.")
+        return 0
+
+    total = sum(len(v) for v in groups.values())
+    print(f"  {total} bet(s) across {len(groups)} first-pitch time(s) "
+          f"need closing lines.")
+    done = 0
+    for snap in sorted(groups):
+        recs = groups[snap]
+        try:
+            events = historical_events(snap, api_key)
+        except SystemExit:
+            raise
+        except Exception as e:
+            print(f"    {snap}: events lookup failed ({e}) — skipping")
+            continue
+        by_key = {}
+        for ev in events:
+            ct = ev.get("commence_time")
+            ev_date = ((datetime.fromisoformat(ct.replace("Z", "+00:00"))
+                        - timedelta(hours=4)).date().isoformat()
+                       if ct else None)
+            by_key[odds_key(ev_date, ev.get("away_team"),
+                            ev.get("home_team"))] = ev
+        for key, rec in recs:
+            k = odds_key(rec["date"], rec.get("away_team"),
+                         rec.get("home_team"))
+            ev = by_key.get(k)
+            if not ev:
+                print(f"    no closing event for {rec['matchup']} — skipping")
+                continue
+            try:
+                payload = historical_event_odds(ev["id"], snap,
+                                                ODDS_MARKET_KEY, api_key)
+            except Exception as e:
+                print(f"    odds fetch failed for {rec['matchup']}: {e}")
+                continue
+            mkt = _extract_f5_market(payload)
+            if not mkt:
+                continue
+            close_p_home = devig(mkt["home_ml"], mkt["away_ml"])
+            on_home = rec["pick"] == rec.get("home_team")
+            close_p = close_p_home if on_home else 1 - close_p_home
+            bet_p = (rec["mkt_p_home"] if on_home
+                     else 1 - rec["mkt_p_home"])
+            rec["close"] = {
+                "snapshot": snap, "book": mkt.get("book"),
+                "home_ml": mkt["home_ml"], "away_ml": mkt["away_ml"],
+                "pick_ml": mkt["home_ml"] if on_home else mkt["away_ml"],
+                "mkt_p": round(close_p, 4),
+                "clv": round(close_p - bet_p, 4),
+            }
+            done += 1
+    FORWARD_LOG.write_text(json.dumps(log, indent=1))
+    rem = getattr(_odds_http, "remaining", "?")
+    print(f"  priced {done}/{total} bet(s) against the close "
+          f"(API credits left: {rem})")
+    rows = [{"clv": r["close"]["clv"], "tier": r.get("tier")}
+            for r in log.values() if r.get("close")]
+    if rows:
+        print()
+        clv_summary(rows, label="CLOSING LINE VALUE")
+    return done
+
+
 def log_forward(results, slate_date):
     """Record today's market-mode verdicts. First log wins: re-running score
     later (with moved lines) never rewrites the bet you'd have placed."""
@@ -2017,7 +2155,7 @@ def log_forward(results, slate_date):
         }
         added += 1
     if added:
-        write_json(FORWARD_LOG, log, indent=1)
+        FORWARD_LOG.write_text(json.dumps(log, indent=1))
     return added
 
 
@@ -2062,7 +2200,7 @@ def track():
         rec.update({"graded": True, "outcome": outcome,
                     "units": round(units, 3)})
         newly += 1
-    write_json(FORWARD_LOG, log, indent=1)
+    FORWARD_LOG.write_text(json.dumps(log, indent=1))
 
     graded = [r for r in log.values() if r["graded"]]
     picks = [r for r in graded if r["pick"] and r["outcome"] != "void"]
@@ -2105,6 +2243,12 @@ def track():
             actual = sum(1 for r in dec if r["pick"] == r["outcome"]) / len(dec)
             print(f"\n  calibration in the wild: model claimed "
                   f"{claimed:.1%} on its picks, delivered {actual:.1%}")
+        closed = [r for r in log.values() if r.get("close")]
+        if closed:
+            print()
+            clv_summary([{"clv": r["close"]["clv"], "tier": r.get("tier")}
+                          for r in closed], label="CLOSING LINE VALUE")
+
     else:
         print("\n  No graded bets yet — verdicts grade automatically once "
               "games go final.")
@@ -2118,6 +2262,8 @@ def track():
 def daily(slate_date):
     steps = [
         ("Grading yesterday's verdicts", lambda: track_safe()),
+        ("Pricing settled bets against the close",
+         lambda: fetch_clv()),
         ("Fetching today's F5 odds", lambda: fetch_odds_day(slate_date)),
         ("Scoring the slate (bets only)",
          lambda: score_slate(slate_date, bets_only=True)),
@@ -2197,6 +2343,14 @@ def export_site(slate_date=None):
             "hit": round(wins / len(dec), 4) if dec else None,
             "claimed": round(mean([max(r["p_home"], 1 - r["p_home"])
                                    for r in dec]), 4) if dec else None,
+            "clv_bets": len([r for r in picks
+                             if (r.get("close") or {}).get("clv") is not None]),
+            "clv_beat": len([r for r in picks
+                             if ((r.get("close") or {}).get("clv") or 0) > 0]),
+            "clv_avg": (round(mean([r["close"]["clv"] for r in picks
+                              if (r.get("close") or {}).get("clv") is not None]), 4)
+                        if any((r.get("close") or {}).get("clv") is not None
+                               for r in picks) else None)
         },
         "series": series,
         "bets_today": bets,
@@ -2236,6 +2390,8 @@ def export_site(slate_date=None):
                      else round(1 - r["mkt_p_home"], 3),
             "value": abs(r.get("value") or 0),
             "result": result, "units": r.get("units", 0),
+            "clv": (r.get("close") or {}).get("clv"),
+            "close_ml": (r.get("close") or {}).get("pick_ml"),
         })
     (site / "history.json").write_text(json.dumps({
         "generated_at": data["generated_at"],
@@ -2308,6 +2464,7 @@ def main():
     p_cf.add_argument("--seasons", default="2025,2026")
     p_cf.add_argument("--apply", action="store_true")
     sub.add_parser("track", help="grade forward-test verdicts vs reality")
+    sub.add_parser("clv", help="price settled bets against the closing line")
     p_ex = sub.add_parser("export", help="write site/data.json for the dashboard")
     p_ex.add_argument("--date", default=None)
     p_dy = sub.add_parser("daily",
@@ -2350,6 +2507,8 @@ def main():
         evaluate(args.season)
     elif args.cmd == "track":
         track()
+    elif args.cmd == "clv":
+        fetch_clv()
     elif args.cmd == "export":
         export_site(d)
     elif args.cmd == "daily":
