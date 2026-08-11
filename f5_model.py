@@ -75,6 +75,15 @@ PITCHER_WEIGHTS = {               # must sum to 1.0
 }
 PITCHER_LOWER_IS_BETTER = {"runs_thru_5", "whip"}
 
+# --- repo layout (generated JSON lives under data/ and artifacts/) ---
+LEDGER_DIR = Path("./data/ledger")
+ODDS_ARCHIVE_DIR = Path("./data/odds")
+SCORES_DIR = Path("./data/scores")
+ARTIFACTS_DIR = Path("./artifacts")
+SITE_DIR = Path("./docs")
+for _d in (LEDGER_DIR, ODDS_ARCHIVE_DIR, SCORES_DIR, ARTIFACTS_DIR):
+    _d.mkdir(parents=True, exist_ok=True)
+
 CACHE_DIR = Path("./f5_cache")
 GAME_CACHE_DIR = CACHE_DIR / "games"
 SNAPSHOT_FILE = CACHE_DIR / "league_snapshot.json"
@@ -92,7 +101,7 @@ SPLITS_CACHE_DIR = CACHE_DIR / "splits"
 BATSTATS_CACHE_DIR = CACHE_DIR / "batstats"
 LEAGUE_BAT_CACHE_DIR = CACHE_DIR / "league_bat"
 MODEL_PARAMS_FILE = CACHE_DIR / "model_params.json"
-FORWARD_LOG = Path("./f5_forward_log.json")
+FORWARD_LOG = LEDGER_DIR / "f5_forward_log.json"
 
 # ---- market / odds (The Odds API) ----
 ODDS_API_BASE = "https://api.the-odds-api.com/v4"
@@ -105,14 +114,14 @@ ODDS_DIR = CACHE_DIR / "odds"
 
 
 def odds_archive_file(season):
-    return Path(f"./f5_odds_{season}.json")
+    return ODDS_ARCHIVE_DIR / f"f5_odds_{season}.json"
 
 
 def rows_path(season):
     """Backtest rows file; window-tagged so 7d/14d universes never collide."""
     if BATTING_WINDOW_DAYS == 14:
-        return Path(f"./f5_backtest_rows_{season}.json")   # back-compat
-    return Path(f"./f5_backtest_rows_{season}_w{BATTING_WINDOW_DAYS}.json")
+        return ARTIFACTS_DIR / f"f5_backtest_rows_{season}.json"
+    return ARTIFACTS_DIR / f"f5_backtest_rows_{season}_w{BATTING_WINDOW_DAYS}.json"
 
 
 # --------------------------------------------------------------------------
@@ -1007,7 +1016,7 @@ def score_slate(slate_date: date, bets_only=False):
         results.append(entry)
 
     print_slate(results, slate_date, bets_only=bets_only)
-    out_file = Path(f"./f5_scores_{slate_date.isoformat()}.json")
+    out_file = SCORES_DIR / f"f5_scores_{slate_date.isoformat()}.json"
     out_file.write_text(json.dumps(results, indent=2))
     print(f"\nFull detail written to {out_file}")
     n_logged = log_forward(results, slate_date)
@@ -2296,7 +2305,7 @@ def track_safe():
 # --------------------------------------------------------------------------
 def export_site(slate_date=None):
     slate_date = slate_date or date.today()
-    site = Path("./docs")          # GitHub Pages serves / or /docs only
+    site = SITE_DIR                # GitHub Pages serves / or /docs only
     site.mkdir(exist_ok=True)
     log = (json.loads(FORWARD_LOG.read_text())
            if FORWARD_LOG.exists() else {})

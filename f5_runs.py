@@ -88,7 +88,7 @@ RUNS_EDGE_STRONG = 0.08
 
 ODDS_TOTALS_MARKET_KEY = "totals_1st_5_innings"
 RUNS_PARAMS_FILE = fm.CACHE_DIR / "runs_model_params.json"
-RUNS_FORWARD_LOG = Path("./f5r_forward_log.json")
+RUNS_FORWARD_LOG = fm.LEDGER_DIR / "f5r_forward_log.json"
 SEASON_INDEX_DIR = fm.CACHE_DIR / "runs_index"
 
 FEATURES = ("f_season", "f_recent", "f_starter", "log_park")  # after intercept
@@ -135,7 +135,7 @@ def park_factor(home_team_id):
 
 
 def runs_odds_archive_file(season):
-    return Path(f"./f5r_odds_{season}.json")
+    return fm.ODDS_ARCHIVE_DIR / f"f5r_odds_{season}.json"
 
 
 # --------------------------------------------------------------------------
@@ -775,7 +775,7 @@ def score_slate(slate_date, bets_only=False):
         results.append(entry)
 
     print_slate(results, slate_date, bets_only=bets_only)
-    out_file = Path(f"./f5r_scores_{slate_date.isoformat()}.json")
+    out_file = fm.SCORES_DIR / f"f5r_scores_{slate_date.isoformat()}.json"
     out_file.write_text(json.dumps(results, indent=2))
     print(f"\nFull detail written to {out_file}")
     n_logged = log_forward(results, slate_date)
@@ -1102,7 +1102,7 @@ def track_safe():
 # --------------------------------------------------------------------------
 def export_site(slate_date=None):
     slate_date = slate_date or date.today()
-    site = Path("./docs")
+    site = fm.SITE_DIR
     site.mkdir(exist_ok=True)
     log_data = (json.loads(RUNS_FORWARD_LOG.read_text())
                 if RUNS_FORWARD_LOG.exists() else {})
