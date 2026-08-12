@@ -340,7 +340,16 @@
   "logged_at": "2026-07-26T00:21:08",
   "graded": true,
   "outcome": "Tampa Bay Rays",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-26T16:05:00Z",
+   "book": "draftkings",
+   "home_ml": -130,
+   "away_ml": 100,
+   "pick_ml": 100,
+   "mkt_p": 0.4694,
+   "clv": 0.0384
+  }
  },
  "824810": {
   "gamePk": 824810,
@@ -378,7 +387,16 @@
   "logged_at": "2026-07-26T00:21:08",
   "graded": true,
   "outcome": "Detroit Tigers",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-26T17:30:00Z",
+   "book": "draftkings",
+   "home_ml": -195,
+   "away_ml": 150,
+   "pick_ml": 150,
+   "mkt_p": 0.377,
+   "clv": -0.005
+  }
  },
  "823599": {
   "gamePk": 823599,
@@ -416,7 +434,16 @@
   "logged_at": "2026-07-26T00:21:08",
   "graded": true,
   "outcome": "Milwaukee Brewers",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-26T18:00:00Z",
+   "book": "draftkings",
+   "home_ml": -345,
+   "away_ml": 250,
+   "pick_ml": 250,
+   "mkt_p": 0.2693,
+   "clv": 0.0133
+  }
  },
  "823028": {
   "gamePk": 823028,
@@ -473,7 +500,16 @@
   "logged_at": "2026-07-26T00:21:08",
   "graded": true,
   "outcome": "Philadelphia Phillies",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-26T23:10:00Z",
+   "book": "draftkings",
+   "home_ml": -238,
+   "away_ml": 180,
+   "pick_ml": 180,
+   "mkt_p": 0.3365,
+   "clv": -0.0585
+  }
  },
  "822868": {
   "gamePk": 822868,
@@ -511,7 +547,16 @@
   "logged_at": "2026-07-27T12:15:08",
   "graded": true,
   "outcome": "tie",
-  "units": 0.0
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-07-27T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": -120,
+   "away_ml": -110,
+   "pick_ml": -110,
+   "mkt_p": 0.4899,
+   "clv": -0.0001
+  }
  },
  "823839": {
   "gamePk": 823839,
@@ -530,7 +575,16 @@
   "logged_at": "2026-07-27T12:15:08",
   "graded": true,
   "outcome": "Miami Marlins",
-  "units": 1.54
+  "units": 1.54,
+  "close": {
+   "snapshot": "2026-07-27T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": 175,
+   "away_ml": -230,
+   "pick_ml": 175,
+   "mkt_p": 0.3429,
+   "clv": -0.0281
+  }
  },
  "824490": {
   "gamePk": 824490,
@@ -568,7 +622,16 @@
   "logged_at": "2026-07-27T12:15:08",
   "graded": true,
   "outcome": "Los Angeles Angels",
-  "units": 0.87
+  "units": 0.87,
+  "close": {
+   "snapshot": "2026-07-28T01:28:00Z",
+   "book": "draftkings",
+   "home_ml": -115,
+   "away_ml": -115,
+   "pick_ml": -115,
+   "mkt_p": 0.5,
+   "clv": 0.0
+  }
  },
  "824977": {
   "gamePk": 824977,
@@ -644,7 +707,16 @@
   "logged_at": "2026-07-28T11:42:13",
   "graded": true,
   "outcome": "Detroit Tigers",
-  "units": 0.649
+  "units": 0.649,
+  "close": {
+   "snapshot": "2026-07-28T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": -160,
+   "away_ml": 124,
+   "pick_ml": -160,
+   "mkt_p": 0.5796,
+   "clv": 0.0076
+  }
  },
  "823350": {
   "gamePk": 823350,
@@ -739,7 +811,16 @@
   "logged_at": "2026-07-28T11:42:13",
   "graded": true,
   "outcome": "Minnesota Twins",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-28T23:30:00Z",
+   "book": "draftkings",
+   "home_ml": -195,
+   "away_ml": 150,
+   "pick_ml": 150,
+   "mkt_p": 0.377,
+   "clv": -0.034
+  }
  },
  "824569": {
   "gamePk": 824569,
@@ -758,7 +839,16 @@
   "logged_at": "2026-07-28T11:42:13",
   "graded": true,
   "outcome": "New York Yankees",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-28T23:30:00Z",
+   "book": "draftkings",
+   "home_ml": 105,
+   "away_ml": -135,
+   "pick_ml": 105,
+   "mkt_p": 0.4592,
+   "clv": 0.0182
+  }
  },
  "824003": {
   "gamePk": 824003,
@@ -834,7 +924,16 @@
   "logged_at": "2026-07-28T11:42:13",
   "graded": true,
   "outcome": "Milwaukee Brewers",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-29T01:35:00Z",
+   "book": "draftkings",
+   "home_ml": 120,
+   "away_ml": -154,
+   "pick_ml": 120,
+   "mkt_p": 0.4285,
+   "clv": 0.0005
+  }
  },
  "823351": {
   "gamePk": 823351,
@@ -872,7 +971,16 @@
   "logged_at": "2026-07-29T02:14:57",
   "graded": true,
   "outcome": "Detroit Tigers",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-29T17:00:00Z",
+   "book": "draftkings",
+   "home_ml": -238,
+   "away_ml": 180,
+   "pick_ml": 180,
+   "mkt_p": 0.3365,
+   "clv": -0.0315
+  }
  },
  "823192": {
   "gamePk": 823192,
@@ -910,7 +1018,16 @@
   "logged_at": "2026-07-29T02:14:57",
   "graded": true,
   "outcome": "Cleveland Guardians",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-29T23:00:00Z",
+   "book": "draftkings",
+   "home_ml": 100,
+   "away_ml": -130,
+   "pick_ml": 100,
+   "mkt_p": 0.4694,
+   "clv": -0.0136
+  }
  },
  "824567": {
   "gamePk": 824567,
@@ -929,7 +1046,16 @@
   "logged_at": "2026-07-29T02:14:57",
   "graded": true,
   "outcome": "New York Yankees",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-29T23:30:00Z",
+   "book": "draftkings",
+   "home_ml": 130,
+   "away_ml": -166,
+   "pick_ml": 130,
+   "mkt_p": 0.4106,
+   "clv": 0.0226
+  }
  },
  "823022": {
   "gamePk": 823022,
@@ -948,7 +1074,16 @@
   "logged_at": "2026-07-29T02:14:57",
   "graded": true,
   "outcome": "tie",
-  "units": 0.0
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-07-29T23:35:00Z",
+   "book": "draftkings",
+   "home_ml": -135,
+   "away_ml": 105,
+   "pick_ml": 105,
+   "mkt_p": 0.4592,
+   "clv": -0.0538
+  }
  },
  "824973": {
   "gamePk": 824973,
@@ -967,7 +1102,16 @@
   "logged_at": "2026-07-29T02:14:57",
   "graded": true,
   "outcome": "Athletics",
-  "units": 1.32
+  "units": 1.32,
+  "close": {
+   "snapshot": "2026-07-30T01:30:00Z",
+   "book": "draftkings",
+   "home_ml": 105,
+   "away_ml": -135,
+   "pick_ml": 105,
+   "mkt_p": 0.4592,
+   "clv": 0.0502
+  }
  },
  "823924": {
   "gamePk": 823924,
@@ -1024,7 +1168,16 @@
   "logged_at": "2026-07-30T01:11:06",
   "graded": true,
   "outcome": "tie",
-  "units": 0.0
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-07-30T18:00:00Z",
+   "book": "draftkings",
+   "home_ml": -130,
+   "away_ml": 100,
+   "pick_ml": -130,
+   "mkt_p": 0.5306,
+   "clv": -0.0004
+  }
  },
  "823595": {
   "gamePk": 823595,
@@ -1062,7 +1215,16 @@
   "logged_at": "2026-07-30T01:11:06",
   "graded": true,
   "outcome": "Los Angeles Dodgers",
-  "units": 0.704
+  "units": 0.704,
+  "close": {
+   "snapshot": "2026-07-31T02:00:00Z",
+   "book": "draftkings",
+   "home_ml": -154,
+   "away_ml": 120,
+   "pick_ml": -154,
+   "mkt_p": 0.5715,
+   "clv": 0.0145
+  }
  },
  "824651": {
   "gamePk": 824651,
@@ -1081,7 +1243,16 @@
   "logged_at": "2026-07-31T12:01:31",
   "graded": true,
   "outcome": "New York Yankees",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-07-31T18:10:00Z",
+   "book": "draftkings",
+   "home_ml": -166,
+   "away_ml": 130,
+   "pick_ml": -166,
+   "mkt_p": 0.5894,
+   "clv": 0.0304
+  }
  },
  "824486": {
   "gamePk": 824486,
@@ -1100,7 +1271,16 @@
   "logged_at": "2026-07-31T12:01:31",
   "graded": true,
   "outcome": "Cincinnati Reds",
-  "units": 1.0
+  "units": 1.0,
+  "close": {
+   "snapshot": "2026-07-31T22:00:00Z",
+   "book": "draftkings",
+   "home_ml": 114,
+   "away_ml": -145,
+   "pick_ml": 114,
+   "mkt_p": 0.4412,
+   "clv": -0.0278
+  }
  },
  "822782": {
   "gamePk": 822782,
@@ -1119,7 +1299,16 @@
   "logged_at": "2026-07-31T12:01:31",
   "graded": true,
   "outcome": "St. Louis Cardinals",
-  "units": 1.5
+  "units": 1.5,
+  "close": {
+   "snapshot": "2026-07-31T22:57:00Z",
+   "book": "draftkings",
+   "home_ml": -210,
+   "away_ml": 160,
+   "pick_ml": 160,
+   "mkt_p": 0.3621,
+   "clv": -0.0149
+  }
  },
  "824407": {
   "gamePk": 824407,
@@ -1214,7 +1403,16 @@
   "logged_at": "2026-07-31T12:01:31",
   "graded": true,
   "outcome": "Milwaukee Brewers",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-01T01:28:00Z",
+   "book": "draftkings",
+   "home_ml": 140,
+   "away_ml": -180,
+   "pick_ml": 140,
+   "mkt_p": 0.3933,
+   "clv": -0.0177
+  }
  },
  "823111": {
   "gamePk": 823111,
@@ -1271,7 +1469,16 @@
   "logged_at": "2026-08-01T10:59:09",
   "graded": true,
   "outcome": "Pittsburgh Pirates",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-01T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": 100,
+   "away_ml": -130,
+   "pick_ml": 100,
+   "mkt_p": 0.4694,
+   "clv": 0.0004
+  }
  },
  "824808": {
   "gamePk": 824808,
@@ -1309,7 +1516,16 @@
   "logged_at": "2026-08-01T10:59:09",
   "graded": true,
   "outcome": "Colorado Rockies",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-02T00:00:00Z",
+   "book": "draftkings",
+   "home_ml": -125,
+   "away_ml": -105,
+   "pick_ml": -105,
+   "mkt_p": 0.4797,
+   "clv": -0.0003
+  }
  },
  "823269": {
   "gamePk": 823269,
@@ -1328,7 +1544,16 @@
   "logged_at": "2026-08-01T10:59:09",
   "graded": true,
   "outcome": "San Diego Padres",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-02T00:30:00Z",
+   "book": "draftkings",
+   "home_ml": -130,
+   "away_ml": 100,
+   "pick_ml": 100,
+   "mkt_p": 0.4694,
+   "clv": 0.0104
+  }
  },
  "823920": {
   "gamePk": 823920,
@@ -1404,7 +1629,16 @@
   "logged_at": "2026-08-02T11:00:46",
   "graded": true,
   "outcome": "Philadelphia Phillies",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-02T17:25:00Z",
+   "book": "draftkings",
+   "home_ml": 120,
+   "away_ml": -154,
+   "pick_ml": 120,
+   "mkt_p": 0.4285,
+   "clv": 0.0085
+  }
  },
  "824404": {
   "gamePk": 824404,
@@ -1423,7 +1657,16 @@
   "logged_at": "2026-08-02T11:00:46",
   "graded": true,
   "outcome": "Cleveland Guardians",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-02T17:30:00Z",
+   "book": "draftkings",
+   "home_ml": -210,
+   "away_ml": 160,
+   "pick_ml": 160,
+   "mkt_p": 0.3621,
+   "clv": -0.0229
+  }
  },
  "824483": {
   "gamePk": 824483,
@@ -1442,7 +1685,16 @@
   "logged_at": "2026-08-02T11:00:46",
   "graded": true,
   "outcome": "Cincinnati Reds",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-02T17:30:00Z",
+   "book": "draftkings",
+   "home_ml": -175,
+   "away_ml": 135,
+   "pick_ml": 135,
+   "mkt_p": 0.4007,
+   "clv": -0.0103
+  }
  },
  "822943": {
   "gamePk": 822943,
@@ -1480,7 +1732,16 @@
   "logged_at": "2026-08-02T11:00:46",
   "graded": true,
   "outcome": "Houston Astros",
-  "units": 0.741
+  "units": 0.741,
+  "close": {
+   "snapshot": "2026-08-02T18:00:00Z",
+   "book": "draftkings",
+   "home_ml": -140,
+   "away_ml": 110,
+   "pick_ml": -140,
+   "mkt_p": 0.5506,
+   "clv": 0.0096
+  }
  },
  "824648": {
   "gamePk": 824648,
@@ -1537,7 +1798,16 @@
   "logged_at": "2026-08-02T11:00:46",
   "graded": true,
   "outcome": "Los Angeles Angels",
-  "units": 2.0
+  "units": 2.0,
+  "close": {
+   "snapshot": "2026-08-02T19:05:00Z",
+   "book": "draftkings",
+   "home_ml": 210,
+   "away_ml": -280,
+   "pick_ml": 210,
+   "mkt_p": 0.3045,
+   "clv": -0.0095
+  }
  },
  "823270": {
   "gamePk": 823270,
@@ -1556,7 +1826,16 @@
   "logged_at": "2026-08-02T11:00:46",
   "graded": true,
   "outcome": "San Diego Padres",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-02T20:00:00Z",
+   "book": "draftkings",
+   "home_ml": -125,
+   "away_ml": -105,
+   "pick_ml": -105,
+   "mkt_p": 0.4797,
+   "clv": 0.0387
+  }
  },
  "823107": {
   "gamePk": 823107,
@@ -1594,7 +1873,16 @@
   "logged_at": "2026-08-02T11:00:46",
   "graded": true,
   "outcome": "Boston Red Sox",
-  "units": 1.4
+  "units": 1.4,
+  "close": {
+   "snapshot": "2026-08-02T23:10:00Z",
+   "book": "draftkings",
+   "home_ml": -180,
+   "away_ml": 140,
+   "pick_ml": 140,
+   "mkt_p": 0.3933,
+   "clv": 0.0003
+  }
  },
  "823520": {
   "gamePk": 823520,
@@ -1651,7 +1939,16 @@
   "logged_at": "2026-08-03T12:22:31",
   "graded": true,
   "outcome": "Tampa Bay Rays",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-04T00:30:00Z",
+   "book": "draftkings",
+   "home_ml": 140,
+   "away_ml": -180,
+   "pick_ml": 140,
+   "mkt_p": 0.3933,
+   "clv": -0.0347
+  }
  },
  "825095": {
   "gamePk": 825095,
@@ -1689,7 +1986,16 @@
   "logged_at": "2026-08-04T12:11:23",
   "graded": true,
   "outcome": "New York Mets",
-  "units": 1.24
+  "units": 1.24,
+  "close": {
+   "snapshot": "2026-08-04T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": -140,
+   "away_ml": 110,
+   "pick_ml": 110,
+   "mkt_p": 0.4494,
+   "clv": 0.0294
+  }
  },
  "824484": {
   "gamePk": 824484,
@@ -1746,7 +2052,16 @@
   "logged_at": "2026-08-04T12:11:23",
   "graded": true,
   "outcome": "Kansas City Royals",
-  "units": 1.3
+  "units": 1.3,
+  "close": {
+   "snapshot": "2026-08-04T23:30:00Z",
+   "book": "draftkings",
+   "home_ml": 120,
+   "away_ml": -154,
+   "pick_ml": 120,
+   "mkt_p": 0.4285,
+   "clv": 0.0175
+  }
  },
  "823756": {
   "gamePk": 823756,
@@ -1784,7 +2099,16 @@
   "logged_at": "2026-08-04T12:11:23",
   "graded": true,
   "outcome": "tie",
-  "units": 0.0
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-04T23:55:00Z",
+   "book": "draftkings",
+   "home_ml": 170,
+   "away_ml": -220,
+   "pick_ml": 170,
+   "mkt_p": 0.3501,
+   "clv": -0.0059
+  }
  },
  "824321": {
   "gamePk": 824321,
@@ -1803,7 +2127,16 @@
   "logged_at": "2026-08-04T12:11:23",
   "graded": true,
   "outcome": "Colorado Rockies",
-  "units": 1.2
+  "units": 1.2,
+  "close": {
+   "snapshot": "2026-08-05T00:30:00Z",
+   "book": "draftkings",
+   "home_ml": 124,
+   "away_ml": -160,
+   "pick_ml": 124,
+   "mkt_p": 0.4204,
+   "clv": -0.0076
+  }
  },
  "824646": {
   "gamePk": 824646,
@@ -1841,7 +2174,16 @@
   "logged_at": "2026-08-05T12:01:25",
   "graded": true,
   "outcome": "Tampa Bay Rays",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-05T19:00:00Z",
+   "book": "draftkings",
+   "home_ml": 130,
+   "away_ml": -166,
+   "pick_ml": 130,
+   "mkt_p": 0.4106,
+   "clv": -0.0094
+  }
  },
  "824806": {
   "gamePk": 824806,
@@ -1860,7 +2202,16 @@
   "logged_at": "2026-08-05T12:01:25",
   "graded": true,
   "outcome": "Baltimore Orioles",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-05T22:25:00Z",
+   "book": "draftkings",
+   "home_ml": -140,
+   "away_ml": 110,
+   "pick_ml": 110,
+   "mkt_p": 0.4494,
+   "clv": -0.0096
+  }
  },
  "824402": {
   "gamePk": 824402,
@@ -1898,7 +2249,16 @@
   "logged_at": "2026-08-05T12:01:25",
   "graded": true,
   "outcome": "Cincinnati Reds",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-05T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": -160,
+   "away_ml": 124,
+   "pick_ml": 124,
+   "mkt_p": 0.4204,
+   "clv": -0.0206
+  }
  },
  "823516": {
   "gamePk": 823516,
@@ -1917,7 +2277,16 @@
   "logged_at": "2026-08-05T12:01:25",
   "graded": true,
   "outcome": "St. Louis Cardinals",
-  "units": 1.2
+  "units": 1.2,
+  "close": {
+   "snapshot": "2026-08-05T22:55:00Z",
+   "book": "draftkings",
+   "home_ml": -160,
+   "away_ml": 124,
+   "pick_ml": 124,
+   "mkt_p": 0.4204,
+   "clv": -0.0076
+  }
  },
  "824728": {
   "gamePk": 824728,
@@ -2012,7 +2381,16 @@
   "logged_at": "2026-08-06T14:34:05",
   "graded": true,
   "outcome": "New York Mets",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-06T17:00:00Z",
+   "book": "draftkings",
+   "home_ml": -125,
+   "away_ml": -105,
+   "pick_ml": -125,
+   "mkt_p": 0.5203,
+   "clv": 0.4743
+  }
  },
  "823754": {
   "gamePk": 823754,
@@ -2031,7 +2409,16 @@
   "logged_at": "2026-08-06T14:34:05",
   "graded": true,
   "outcome": "Milwaukee Brewers",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-06T18:00:00Z",
+   "book": "draftkings",
+   "home_ml": -130,
+   "away_ml": 100,
+   "pick_ml": 100,
+   "mkt_p": 0.4694,
+   "clv": 0.1874
+  }
  },
  "824664": {
   "gamePk": 824664,
@@ -2050,7 +2437,16 @@
   "logged_at": "2026-08-06T14:34:05",
   "graded": true,
   "outcome": "Toronto Blue Jays",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-06T18:10:00Z",
+   "book": "draftkings",
+   "home_ml": 105,
+   "away_ml": -135,
+   "pick_ml": 105,
+   "mkt_p": 0.4592,
+   "clv": -0.0098
+  }
  },
  "823105": {
   "gamePk": 823105,
@@ -2088,7 +2484,16 @@
   "logged_at": "2026-08-06T14:34:05",
   "graded": true,
   "outcome": "Atlanta Braves",
-  "units": 0.741
+  "units": 0.741,
+  "close": {
+   "snapshot": "2026-08-06T23:05:00Z",
+   "book": "draftkings",
+   "home_ml": -160,
+   "away_ml": 124,
+   "pick_ml": -160,
+   "mkt_p": 0.5796,
+   "clv": 0.0386
+  }
  },
  "824080": {
   "gamePk": 824080,
@@ -2126,7 +2531,16 @@
   "logged_at": "2026-08-06T14:34:05",
   "graded": true,
   "outcome": "San Diego Padres",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-07T01:30:00Z",
+   "book": "draftkings",
+   "home_ml": -125,
+   "away_ml": -105,
+   "pick_ml": -125,
+   "mkt_p": 0.5203,
+   "clv": 0.0003
+  }
  },
  "823428": {
   "gamePk": 823428,
@@ -2145,7 +2559,16 @@
   "logged_at": "2026-08-07T10:52:06",
   "graded": true,
   "outcome": "Toronto Blue Jays",
-  "units": 1.7
+  "units": 1.7,
+  "close": {
+   "snapshot": "2026-08-07T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": -238,
+   "away_ml": 180,
+   "pick_ml": 180,
+   "mkt_p": 0.3365,
+   "clv": -0.0135
+  }
  },
  "823515": {
   "gamePk": 823515,
@@ -2164,7 +2587,16 @@
   "logged_at": "2026-08-07T10:52:06",
   "graded": true,
   "outcome": "tie",
-  "units": 0.0
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-07T22:55:00Z",
+   "book": "draftkings",
+   "home_ml": -140,
+   "away_ml": 110,
+   "pick_ml": 110,
+   "mkt_p": 0.4494,
+   "clv": 0.0294
+  }
  },
  "824727": {
   "gamePk": 824727,
@@ -2183,7 +2615,16 @@
   "logged_at": "2026-08-07T10:52:06",
   "graded": true,
   "outcome": "Boston Red Sox",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-07T23:00:00Z",
+   "book": "draftkings",
+   "home_ml": -260,
+   "away_ml": 195,
+   "pick_ml": 195,
+   "mkt_p": 0.3194,
+   "clv": 0.0004
+  }
  },
  "824566": {
   "gamePk": 824566,
@@ -2259,7 +2700,16 @@
   "logged_at": "2026-08-07T10:52:06",
   "graded": true,
   "outcome": "Baltimore Orioles",
-  "units": 1.2
+  "units": 1.2,
+  "close": {
+   "snapshot": "2026-08-08T00:05:00Z",
+   "book": "draftkings",
+   "home_ml": -154,
+   "away_ml": 120,
+   "pick_ml": 120,
+   "mkt_p": 0.4285,
+   "clv": 0.0005
+  }
  },
  "825051": {
   "gamePk": 825051,
@@ -2297,7 +2747,16 @@
   "logged_at": "2026-08-07T10:52:06",
   "graded": true,
   "outcome": "Houston Astros",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-08T01:30:00Z",
+   "book": "draftkings",
+   "home_ml": -115,
+   "away_ml": -115,
+   "pick_ml": -115,
+   "mkt_p": 0.5,
+   "clv": -0.01
+  }
  },
  "823103": {
   "gamePk": 823103,
@@ -2316,7 +2775,16 @@
   "logged_at": "2026-08-07T10:52:06",
   "graded": true,
   "outcome": "Tampa Bay Rays",
-  "units": 0.952
+  "units": 0.952,
+  "close": {
+   "snapshot": "2026-08-08T01:35:00Z",
+   "book": "draftkings",
+   "home_ml": -125,
+   "away_ml": -105,
+   "pick_ml": -105,
+   "mkt_p": 0.4797,
+   "clv": -0.0003
+  }
  },
  "823514": {
   "gamePk": 823514,
@@ -2335,7 +2803,16 @@
   "logged_at": "2026-08-08T10:30:34",
   "graded": true,
   "outcome": "New York Yankees",
-  "units": 1.35
+  "units": 1.35,
+  "close": {
+   "snapshot": "2026-08-08T18:55:00Z",
+   "book": "draftkings",
+   "home_ml": 145,
+   "away_ml": -188,
+   "pick_ml": 145,
+   "mkt_p": 0.3847,
+   "clv": -0.0163
+  }
  },
  "824726": {
   "gamePk": 824726,
@@ -2430,7 +2907,16 @@
   "logged_at": "2026-08-08T10:30:34",
   "graded": true,
   "outcome": "Colorado Rockies",
-  "units": 1.2
+  "units": 1.2,
+  "close": {
+   "snapshot": "2026-08-08T23:05:00Z",
+   "book": "draftkings",
+   "home_ml": -154,
+   "away_ml": 120,
+   "pick_ml": 120,
+   "mkt_p": 0.4285,
+   "clv": 0.0005
+  }
  },
  "822864": {
   "gamePk": 822864,
@@ -2449,7 +2935,16 @@
   "logged_at": "2026-08-08T10:30:34",
   "graded": true,
   "outcome": "Texas Rangers",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-08T23:05:00Z",
+   "book": "draftkings",
+   "home_ml": -160,
+   "away_ml": 124,
+   "pick_ml": 124,
+   "mkt_p": 0.4204,
+   "clv": 0.0094
+  }
  },
  "824565": {
   "gamePk": 824565,
@@ -2468,7 +2963,16 @@
   "logged_at": "2026-08-08T10:30:34",
   "graded": true,
   "outcome": "tie",
-  "units": 0.0
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-08T23:05:00Z",
+   "book": "draftkings",
+   "home_ml": 135,
+   "away_ml": -175,
+   "pick_ml": 135,
+   "mkt_p": 0.4007,
+   "clv": -0.0103
+  }
  },
  "825049": {
   "gamePk": 825049,
@@ -2487,7 +2991,16 @@
   "logged_at": "2026-08-08T10:30:34",
   "graded": true,
   "outcome": "tie",
-  "units": 0.0
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-09T00:00:00Z",
+   "book": "draftkings",
+   "home_ml": 154,
+   "away_ml": -200,
+   "pick_ml": 154,
+   "mkt_p": 0.3713,
+   "clv": -0.0297
+  }
  },
  "823102": {
   "gamePk": 823102,
@@ -2525,7 +3038,16 @@
   "logged_at": "2026-08-09T10:32:31",
   "graded": true,
   "outcome": "New York Mets",
-  "units": 1.2
+  "units": 1.2,
+  "close": {
+   "snapshot": "2026-08-09T17:25:00Z",
+   "book": "draftkings",
+   "home_ml": -154,
+   "away_ml": 120,
+   "pick_ml": 120,
+   "mkt_p": 0.4285,
+   "clv": 0.0005
+  }
  },
  "823425": {
   "gamePk": 823425,
@@ -2601,7 +3123,16 @@
   "logged_at": "2026-08-09T10:32:31",
   "graded": true,
   "outcome": "Chicago Cubs",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-09T18:00:00Z",
+   "book": "draftkings",
+   "home_ml": 124,
+   "away_ml": -160,
+   "pick_ml": 124,
+   "mkt_p": 0.4204,
+   "clv": 0.0004
+  }
  },
  "824564": {
   "gamePk": 824564,
@@ -2639,7 +3170,16 @@
   "logged_at": "2026-08-09T10:32:31",
   "graded": true,
   "outcome": "St. Louis Cardinals",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-09T18:05:00Z",
+   "book": "draftkings",
+   "home_ml": -166,
+   "away_ml": 130,
+   "pick_ml": 130,
+   "mkt_p": 0.4106,
+   "clv": -0.0094
+  }
  },
  "823190": {
   "gamePk": 823190,
@@ -2658,7 +3198,16 @@
   "logged_at": "2026-08-09T10:32:31",
   "graded": true,
   "outcome": "tie",
-  "units": 0.0
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-09T19:55:00Z",
+   "book": "draftkings",
+   "home_ml": 100,
+   "away_ml": -130,
+   "pick_ml": -130,
+   "mkt_p": 0.5306,
+   "clv": -0.0104
+  }
  },
  "825050": {
   "gamePk": 825050,
@@ -2677,7 +3226,16 @@
   "logged_at": "2026-08-09T10:32:31",
   "graded": true,
   "outcome": "Arizona Diamondbacks",
-  "units": 1.05
+  "units": 1.05,
+  "close": {
+   "snapshot": "2026-08-09T20:00:00Z",
+   "book": "draftkings",
+   "home_ml": 105,
+   "away_ml": -135,
+   "pick_ml": 105,
+   "mkt_p": 0.4592,
+   "clv": 0.0002
+  }
  },
  "823104": {
   "gamePk": 823104,
@@ -2696,7 +3254,16 @@
   "logged_at": "2026-08-09T10:32:31",
   "graded": true,
   "outcome": "Tampa Bay Rays",
-  "units": -1.0
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-09T20:00:00Z",
+   "book": "draftkings",
+   "home_ml": -105,
+   "away_ml": -125,
+   "pick_ml": -105,
+   "mkt_p": 0.4797,
+   "clv": 0.0107
+  }
  },
  "822780": {
   "gamePk": 822780,
@@ -2713,7 +3280,9 @@
   "away_team": "Boston Red Sox",
   "params": "bd65d255fe",
   "logged_at": "2026-08-10T10:55:48",
-  "graded": false
+  "graded": true,
+  "outcome": "Toronto Blue Jays",
+  "units": 0.0
  },
  "824887": {
   "gamePk": 824887,
@@ -2730,7 +3299,9 @@
   "away_team": "New York Mets",
   "params": "bd65d255fe",
   "logged_at": "2026-08-10T10:55:48",
-  "graded": false
+  "graded": true,
+  "outcome": "New York Mets",
+  "units": 0.0
  },
  "823675": {
   "gamePk": 823675,
@@ -2747,7 +3318,9 @@
   "away_team": "Baltimore Orioles",
   "params": "bd65d255fe",
   "logged_at": "2026-08-10T10:55:48",
-  "graded": false
+  "graded": true,
+  "outcome": "Minnesota Twins",
+  "units": 0.0
  },
  "823998": {
   "gamePk": 823998,
@@ -2764,7 +3337,9 @@
   "away_team": "Texas Rangers",
   "params": "bd65d255fe",
   "logged_at": "2026-08-10T10:55:48",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0
  },
  "824969": {
   "gamePk": 824969,
@@ -2781,7 +3356,18 @@
   "away_team": "Tampa Bay Rays",
   "params": "bd65d255fe",
   "logged_at": "2026-08-10T10:55:48",
-  "graded": false
+  "graded": true,
+  "outcome": "Athletics",
+  "units": 1.2,
+  "close": {
+   "snapshot": "2026-08-11T01:30:00Z",
+   "book": "draftkings",
+   "home_ml": 114,
+   "away_ml": -145,
+   "pick_ml": 114,
+   "mkt_p": 0.4412,
+   "clv": 0.0132
+  }
  },
  "823265": {
   "gamePk": 823265,
@@ -2798,7 +3384,9 @@
   "away_team": "Milwaukee Brewers",
   "params": "bd65d255fe",
   "logged_at": "2026-08-10T10:55:48",
-  "graded": false
+  "graded": true,
+  "outcome": "Milwaukee Brewers",
+  "units": 0.0
  },
  "823918": {
   "gamePk": 823918,
@@ -2815,7 +3403,18 @@
   "away_team": "Kansas City Royals",
   "params": "bd65d255fe",
   "logged_at": "2026-08-10T10:55:48",
-  "graded": false
+  "graded": true,
+  "outcome": "Kansas City Royals",
+  "units": 1.9,
+  "close": {
+   "snapshot": "2026-08-11T02:00:00Z",
+   "book": "draftkings",
+   "home_ml": -250,
+   "away_ml": 190,
+   "pick_ml": 190,
+   "mkt_p": 0.3256,
+   "clv": -0.0004
+  }
  },
  "823832": {
   "gamePk": 823832,
@@ -2832,7 +3431,18 @@
   "away_team": "Pittsburgh Pirates",
   "params": "bd65d255fe",
   "logged_at": "2026-08-11T10:56:14",
-  "graded": false
+  "graded": true,
+  "outcome": "Miami Marlins",
+  "units": 1.05,
+  "close": {
+   "snapshot": "2026-08-11T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": -105,
+   "away_ml": -125,
+   "pick_ml": -105,
+   "mkt_p": 0.4797,
+   "clv": 0.0207
+  }
  },
  "823512": {
   "gamePk": 823512,
@@ -2849,7 +3459,18 @@
   "away_team": "Seattle Mariners",
   "params": "bd65d255fe",
   "logged_at": "2026-08-11T10:56:14",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-11T22:55:00Z",
+   "book": "draftkings",
+   "home_ml": -145,
+   "away_ml": 114,
+   "pick_ml": -145,
+   "mkt_p": 0.5588,
+   "clv": 0.0278
+  }
  },
  "822778": {
   "gamePk": 822778,
@@ -2866,7 +3487,18 @@
   "away_team": "Boston Red Sox",
   "params": "bd65d255fe",
   "logged_at": "2026-08-11T10:56:14",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-11T22:57:00Z",
+   "book": "draftkings",
+   "home_ml": -188,
+   "away_ml": 145,
+   "pick_ml": 145,
+   "mkt_p": 0.3847,
+   "clv": -0.0003
+  }
  },
  "824886": {
   "gamePk": 824886,
@@ -2883,7 +3515,18 @@
   "away_team": "New York Mets",
   "params": "bd65d255fe",
   "logged_at": "2026-08-11T10:56:14",
-  "graded": false
+  "graded": true,
+  "outcome": "Atlanta Braves",
+  "units": 0.8,
+  "close": {
+   "snapshot": "2026-08-11T23:05:00Z",
+   "book": "draftkings",
+   "home_ml": -115,
+   "away_ml": -115,
+   "pick_ml": -115,
+   "mkt_p": 0.5,
+   "clv": -0.02
+  }
  },
  "823673": {
   "gamePk": 823673,
@@ -2900,7 +3543,9 @@
   "away_team": "Baltimore Orioles",
   "params": "bd65d255fe",
   "logged_at": "2026-08-11T10:56:14",
-  "graded": false
+  "graded": true,
+  "outcome": "Baltimore Orioles",
+  "units": 0.0
  },
  "823019": {
   "gamePk": 823019,
@@ -2917,7 +3562,18 @@
   "away_team": "Philadelphia Phillies",
   "params": "bd65d255fe",
   "logged_at": "2026-08-11T10:56:14",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-11T23:35:00Z",
+   "book": "draftkings",
+   "home_ml": 135,
+   "away_ml": -175,
+   "pick_ml": 135,
+   "mkt_p": 0.4007,
+   "clv": -0.0103
+  }
  },
  "825046": {
   "gamePk": 825046,
@@ -2934,6 +3590,187 @@
   "away_team": "Colorado Rockies",
   "params": "bd65d255fe",
   "logged_at": "2026-08-11T10:56:14",
+  "graded": true,
+  "outcome": "Arizona Diamondbacks",
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-12T01:30:00Z",
+   "book": "draftkings",
+   "home_ml": -160,
+   "away_ml": 124,
+   "pick_ml": 124,
+   "mkt_p": 0.4204,
+   "clv": 0.0194
+  }
+ },
+ "823672": {
+  "gamePk": 823672,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T17:40:00Z",
+  "matchup": "Baltimore Orioles @ Minnesota Twins",
+  "pick": "Baltimore Orioles",
+  "tier": "STRONG",
+  "p_home": 0.393,
+  "mkt_p_home": 0.51,
+  "pick_ml": -110,
+  "value": -0.117,
+  "home_team": "Minnesota Twins",
+  "away_team": "Baltimore Orioles",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "823017": {
+  "gamePk": 823017,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T18:15:00Z",
+  "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+  "pick": "St. Louis Cardinals",
+  "tier": "STRONG",
+  "p_home": 0.597,
+  "mkt_p_home": 0.401,
+  "pick_ml": 135,
+  "value": 0.196,
+  "home_team": "St. Louis Cardinals",
+  "away_team": "Philadelphia Phillies",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "824967": {
+  "gamePk": 824967,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T19:05:00Z",
+  "matchup": "Tampa Bay Rays @ Athletics",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.387,
+  "mkt_p_home": 0.377,
+  "pick_ml": null,
+  "value": 0.01,
+  "home_team": "Athletics",
+  "away_team": "Tampa Bay Rays",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "825047": {
+  "gamePk": 825047,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T19:40:00Z",
+  "matchup": "Colorado Rockies @ Arizona Diamondbacks",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.577,
+  "mkt_p_home": 0.615,
+  "pick_ml": null,
+  "value": -0.039,
+  "home_team": "Arizona Diamondbacks",
+  "away_team": "Colorado Rockies",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "823263": {
+  "gamePk": 823263,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T20:10:00Z",
+  "matchup": "Milwaukee Brewers @ San Diego Padres",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.506,
+  "mkt_p_home": 0.48,
+  "pick_ml": null,
+  "value": 0.026,
+  "home_team": "San Diego Padres",
+  "away_team": "Milwaukee Brewers",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "824241": {
+  "gamePk": 824241,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T22:40:00Z",
+  "matchup": "Cleveland Guardians @ Detroit Tigers",
+  "pick": "Detroit Tigers",
+  "tier": "STRONG",
+  "p_home": 0.607,
+  "mkt_p_home": 0.541,
+  "pick_ml": -135,
+  "value": 0.067,
+  "home_team": "Detroit Tigers",
+  "away_team": "Cleveland Guardians",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "823511": {
+  "gamePk": 823511,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T23:05:00Z",
+  "matchup": "Seattle Mariners @ New York Yankees",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.564,
+  "mkt_p_home": 0.551,
+  "pick_ml": null,
+  "value": 0.013,
+  "home_team": "New York Yankees",
+  "away_team": "Seattle Mariners",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "822779": {
+  "gamePk": 822779,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T23:07:00Z",
+  "matchup": "Boston Red Sox @ Toronto Blue Jays",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.505,
+  "mkt_p_home": 0.49,
+  "pick_ml": null,
+  "value": 0.016,
+  "home_team": "Toronto Blue Jays",
+  "away_team": "Boston Red Sox",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "824883": {
+  "gamePk": 824883,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T23:15:00Z",
+  "matchup": "New York Mets @ Atlanta Braves",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.576,
+  "mkt_p_home": 0.599,
+  "pick_ml": null,
+  "value": -0.023,
+  "home_team": "Atlanta Braves",
+  "away_team": "New York Mets",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
+  "graded": false
+ },
+ "824562": {
+  "gamePk": 824562,
+  "date": "2026-08-12",
+  "game_time": "2026-08-12T23:40:00Z",
+  "matchup": "Cincinnati Reds @ Chicago White Sox",
+  "pick": "Cincinnati Reds",
+  "tier": "STRONG",
+  "p_home": 0.417,
+  "mkt_p_home": 0.541,
+  "pick_ml": 105,
+  "value": -0.124,
+  "home_team": "Chicago White Sox",
+  "away_team": "Cincinnati Reds",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-12T10:57:56",
   "graded": false
  }
 }

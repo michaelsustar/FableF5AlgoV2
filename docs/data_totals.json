@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-11T12:55:57",
- "slate_date": "2026-08-11",
+ "generated_at": "2026-08-12T11:00:23",
+ "slate_date": "2026-08-12",
  "ledger": {
-  "bets": 41,
+  "bets": 42,
   "wins": 22,
-  "losses": 19,
+  "losses": 20,
   "pushes": 0,
-  "units": -0.27,
-  "roi": -0.0066,
-  "hit": 0.5366,
-  "claimed": 0.596,
-  "clv_bets": 0,
-  "clv_beat": 0,
-  "clv_avg": null
+  "units": -1.27,
+  "roi": -0.0303,
+  "hit": 0.5238,
+  "claimed": 0.5967,
+  "clv_bets": 39,
+  "clv_beat": 22,
+  "clv_avg": -0.0007
  },
  "series": [
   {
@@ -66,25 +66,43 @@
   {
    "date": "2026-08-09",
    "units": -0.27
+  },
+  {
+   "date": "2026-08-11",
+   "units": -1.27
   }
  ],
  "bets_today": [
   {
-   "matchup": "Pittsburgh Pirates @ Miami Marlins",
-   "pick": "Over 3.5",
-   "ml": -114,
+   "matchup": "Milwaukee Brewers @ San Diego Padres",
+   "pick": "Under 4.5",
+   "ml": -118,
    "tier": "STRONG",
-   "time": "2026-08-11T22:40:00Z",
+   "time": "2026-08-12T20:10:00Z",
+   "line": 4.5,
+   "exp_total": 4.29,
+   "lam_home": 2.09,
+   "lam_away": 2.21,
+   "model_p": 0.597,
+   "mkt_p": 0.508,
+   "value": 0.089
+  },
+  {
+   "matchup": "Boston Red Sox @ Toronto Blue Jays",
+   "pick": "Over 3.5",
+   "ml": -144,
+   "tier": "LEAN",
+   "time": "2026-08-12T23:07:00Z",
    "line": 3.5,
-   "exp_total": 5.04,
-   "lam_home": 2.69,
-   "lam_away": 2.35,
-   "model_p": 0.625,
-   "mkt_p": 0.5,
-   "value": 0.125
+   "exp_total": 5.01,
+   "lam_home": 2.38,
+   "lam_away": 2.63,
+   "model_p": 0.621,
+   "mkt_p": 0.553,
+   "value": 0.068
   }
  ],
- "evaluated_today": 7,
+ "evaluated_today": 10,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

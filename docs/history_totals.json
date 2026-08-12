@@ -1,20 +1,40 @@
 {
- "generated_at": "2026-08-11T12:55:57",
+ "generated_at": "2026-08-12T11:00:23",
  "algo": "First Five Totals",
  "ledger": {
-  "bets": 41,
+  "bets": 42,
   "wins": 22,
-  "losses": 19,
+  "losses": 20,
   "pushes": 0,
-  "units": -0.27,
-  "roi": -0.0066,
-  "hit": 0.5366,
-  "claimed": 0.596,
-  "clv_bets": 0,
-  "clv_beat": 0,
-  "clv_avg": null
+  "units": -1.27,
+  "roi": -0.0303,
+  "hit": 0.5238,
+  "claimed": 0.5967,
+  "clv_bets": 39,
+  "clv_beat": 22,
+  "clv_avg": -0.0007
  },
  "bets": [
+  {
+   "date": "2026-08-11",
+   "time": "2026-08-11T22:40:00Z",
+   "matchup": "Pittsburgh Pirates @ Miami Marlins",
+   "pick": "Over 3.5",
+   "ml": -114,
+   "tier": "STRONG",
+   "line": 3.5,
+   "exp_total": 5.04,
+   "lam_home": 2.69,
+   "lam_away": 2.35,
+   "total": 2,
+   "model_p": 0.625,
+   "mkt_p": 0.5,
+   "value": 0.125,
+   "result": "loss",
+   "units": -1.0,
+   "clv": 0.0,
+   "close_ml": -114
+  },
   {
    "date": "2026-08-09",
    "time": "2026-08-09T18:10:00Z",
@@ -32,8 +52,8 @@
    "value": 0.121,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0002,
+   "close_ml": -118
   },
   {
    "date": "2026-08-09",
@@ -52,8 +72,8 @@
    "value": 0.094,
    "result": "win",
    "units": 0.962,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0046,
+   "close_ml": -106
   },
   {
    "date": "2026-08-09",
@@ -72,8 +92,8 @@
    "value": 0.079,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0005,
+   "close_ml": -128
   },
   {
    "date": "2026-08-08",
@@ -92,8 +112,8 @@
    "value": 0.12,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0002,
+   "close_ml": -140
   },
   {
    "date": "2026-08-07",
@@ -112,8 +132,8 @@
    "value": 0.109,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0042,
+   "close_ml": -146
   },
   {
    "date": "2026-08-07",
@@ -132,8 +152,8 @@
    "value": 0.067,
    "result": "win",
    "units": 0.926,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0003,
+   "close_ml": -108
   },
   {
    "date": "2026-08-07",
@@ -152,8 +172,8 @@
    "value": 0.079,
    "result": "win",
    "units": 0.885,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0144,
+   "close_ml": -106
   },
   {
    "date": "2026-08-07",
@@ -172,8 +192,8 @@
    "value": 0.081,
    "result": "win",
    "units": 1.08,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0054,
+   "close_ml": 110
   },
   {
    "date": "2026-08-05",
@@ -192,8 +212,8 @@
    "value": 0.068,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0358,
+   "close_ml": -118
   },
   {
    "date": "2026-08-05",
@@ -212,8 +232,8 @@
    "value": 0.069,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0004,
+   "close_ml": -106
   },
   {
    "date": "2026-08-05",
@@ -232,8 +252,8 @@
    "value": 0.11,
    "result": "win",
    "units": 0.781,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0136,
+   "close_ml": -135
   },
   {
    "date": "2026-08-05",
@@ -252,8 +272,8 @@
    "value": 0.134,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0164,
+   "close_ml": -122
   },
   {
    "date": "2026-08-04",
@@ -272,8 +292,8 @@
    "value": 0.067,
    "result": "win",
    "units": 1.02,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0044,
+   "close_ml": 100
   },
   {
    "date": "2026-08-04",
@@ -292,8 +312,8 @@
    "value": 0.069,
    "result": "win",
    "units": 0.781,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0046,
+   "close_ml": -130
   },
   {
    "date": "2026-08-03",
@@ -312,8 +332,8 @@
    "value": 0.052,
    "result": "win",
    "units": 1.08,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0002,
+   "close_ml": 108
   },
   {
    "date": "2026-08-02",
@@ -332,8 +352,8 @@
    "value": 0.099,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.018,
+   "close_ml": -113
   },
   {
    "date": "2026-08-02",
@@ -352,8 +372,8 @@
    "value": 0.078,
    "result": "win",
    "units": 0.781,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0005,
+   "close_ml": -128
   },
   {
    "date": "2026-08-02",
@@ -372,8 +392,8 @@
    "value": 0.149,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0096,
+   "close_ml": -106
   },
   {
    "date": "2026-08-02",
@@ -392,8 +412,8 @@
    "value": 0.052,
    "result": "win",
    "units": 0.833,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0038,
+   "close_ml": -118
   },
   {
    "date": "2026-08-02",
@@ -412,8 +432,8 @@
    "value": 0.064,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0004,
+   "close_ml": -144
   },
   {
    "date": "2026-08-02",
@@ -433,7 +453,7 @@
    "result": "win",
    "units": 0.649,
    "clv": null,
-   "close_ml": null
+   "close_ml": 112
   },
   {
    "date": "2026-08-01",
@@ -452,8 +472,8 @@
    "value": 0.065,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0005,
+   "close_ml": -102
   },
   {
    "date": "2026-08-01",
@@ -472,8 +492,8 @@
    "value": 0.166,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0133,
+   "close_ml": 102
   },
   {
    "date": "2026-08-01",
@@ -492,8 +512,8 @@
    "value": 0.125,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0127,
+   "close_ml": 106
   },
   {
    "date": "2026-07-31",
@@ -512,8 +532,8 @@
    "value": 0.081,
    "result": "win",
    "units": 0.685,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0038,
+   "close_ml": -148
   },
   {
    "date": "2026-07-31",
@@ -532,8 +552,8 @@
    "value": 0.07,
    "result": "win",
    "units": 1.06,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0003,
+   "close_ml": 106
   },
   {
    "date": "2026-07-31",
@@ -552,8 +572,8 @@
    "value": 0.13,
    "result": "win",
    "units": 0.769,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0045,
+   "close_ml": -128
   },
   {
    "date": "2026-07-30",
@@ -572,8 +592,8 @@
    "value": 0.078,
    "result": "win",
    "units": 0.741,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0172,
+   "close_ml": -146
   },
   {
    "date": "2026-07-29",
@@ -592,8 +612,8 @@
    "value": 0.101,
    "result": "win",
    "units": 0.685,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0355,
+   "close_ml": -125
   },
   {
    "date": "2026-07-29",
@@ -612,8 +632,8 @@
    "value": 0.173,
    "result": "win",
    "units": 1.06,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0134,
+   "close_ml": 100
   },
   {
    "date": "2026-07-29",
@@ -632,8 +652,8 @@
    "value": 0.057,
    "result": "win",
    "units": 0.658,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0052,
+   "close_ml": -148
   },
   {
    "date": "2026-07-29",
@@ -653,7 +673,7 @@
    "result": "win",
    "units": 0.685,
    "clv": null,
-   "close_ml": null
+   "close_ml": 114
   },
   {
    "date": "2026-07-29",
@@ -673,7 +693,7 @@
    "result": "loss",
    "units": -1.0,
    "clv": null,
-   "close_ml": null
+   "close_ml": -108
   },
   {
    "date": "2026-07-28",
@@ -692,8 +712,8 @@
    "value": 0.062,
    "result": "win",
    "units": 0.781,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.024,
+   "close_ml": -115
   },
   {
    "date": "2026-07-28",
@@ -712,8 +732,8 @@
    "value": 0.064,
    "result": "win",
    "units": 0.98,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0087,
+   "close_ml": 102
   },
   {
    "date": "2026-07-28",
@@ -732,8 +752,8 @@
    "value": 0.091,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0053,
+   "close_ml": 102
   },
   {
    "date": "2026-07-28",
@@ -752,8 +772,8 @@
    "value": 0.085,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0002,
+   "close_ml": -146
   },
   {
    "date": "2026-07-28",
@@ -772,8 +792,8 @@
    "value": 0.12,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0048,
+   "close_ml": 108
   },
   {
    "date": "2026-07-27",
@@ -792,8 +812,8 @@
    "value": 0.048,
    "result": "win",
    "units": 0.847,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0002,
+   "close_ml": -118
   },
   {
    "date": "2026-07-27",
@@ -812,8 +832,8 @@
    "value": 0.031,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": -0.0003,
+   "close_ml": -108
   },
   {
    "date": "2026-07-27",
@@ -832,8 +852,8 @@
    "value": 0.087,
    "result": "loss",
    "units": -1.0,
-   "clv": null,
-   "close_ml": null
+   "clv": 0.0005,
+   "close_ml": -128
   }
  ]
 }

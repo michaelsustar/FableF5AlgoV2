@@ -10590,5 +10590,125 @@
   "home_ml": -250,
   "away_ml": 190,
   "book": "draftkings"
+ },
+ "2026-08-12|baltimore orioles|minnesota twins": {
+  "date": "2026-08-12",
+  "home": "Minnesota Twins",
+  "away": "Baltimore Orioles",
+  "home_ml": -120,
+  "away_ml": -110,
+  "book": "draftkings"
+ },
+ "2026-08-12|philadelphia phillies|st. louis cardinals": {
+  "date": "2026-08-12",
+  "home": "St. Louis Cardinals",
+  "away": "Philadelphia Phillies",
+  "home_ml": 135,
+  "away_ml": -175,
+  "book": "draftkings"
+ },
+ "2026-08-12|tampa bay rays|athletics": {
+  "date": "2026-08-12",
+  "home": "Athletics",
+  "away": "Tampa Bay Rays",
+  "home_ml": 150,
+  "away_ml": -195,
+  "book": "draftkings"
+ },
+ "2026-08-12|colorado rockies|arizona diamondbacks": {
+  "date": "2026-08-12",
+  "home": "Arizona Diamondbacks",
+  "away": "Colorado Rockies",
+  "home_ml": -188,
+  "away_ml": 145,
+  "book": "draftkings"
+ },
+ "2026-08-12|houston astros|san francisco giants": {
+  "date": "2026-08-12",
+  "home": "San Francisco Giants",
+  "away": "Houston Astros",
+  "home_ml": 105,
+  "away_ml": -135,
+  "book": "draftkings"
+ },
+ "2026-08-12|milwaukee brewers|san diego padres": {
+  "date": "2026-08-12",
+  "home": "San Diego Padres",
+  "away": "Milwaukee Brewers",
+  "home_ml": -105,
+  "away_ml": -125,
+  "book": "draftkings"
+ },
+ "2026-08-12|cleveland guardians|detroit tigers": {
+  "date": "2026-08-12",
+  "home": "Detroit Tigers",
+  "away": "Cleveland Guardians",
+  "home_ml": -135,
+  "away_ml": 105,
+  "book": "draftkings"
+ },
+ "2026-08-12|pittsburgh pirates|miami marlins": {
+  "date": "2026-08-12",
+  "home": "Miami Marlins",
+  "away": "Pittsburgh Pirates",
+  "home_ml": -120,
+  "away_ml": -110,
+  "book": "draftkings"
+ },
+ "2026-08-12|chicago cubs|washington nationals": {
+  "date": "2026-08-12",
+  "home": "Washington Nationals",
+  "away": "Chicago Cubs",
+  "home_ml": 120,
+  "away_ml": -154,
+  "book": "draftkings"
+ },
+ "2026-08-12|seattle mariners|new york yankees": {
+  "date": "2026-08-12",
+  "home": "New York Yankees",
+  "away": "Seattle Mariners",
+  "home_ml": -140,
+  "away_ml": 110,
+  "book": "draftkings"
+ },
+ "2026-08-12|boston red sox|toronto blue jays": {
+  "date": "2026-08-12",
+  "home": "Toronto Blue Jays",
+  "away": "Boston Red Sox",
+  "home_ml": -110,
+  "away_ml": -120,
+  "book": "draftkings"
+ },
+ "2026-08-12|new york mets|atlanta braves": {
+  "date": "2026-08-12",
+  "home": "Atlanta Braves",
+  "away": "New York Mets",
+  "home_ml": -175,
+  "away_ml": 135,
+  "book": "draftkings"
+ },
+ "2026-08-12|cincinnati reds|chicago white sox": {
+  "date": "2026-08-12",
+  "home": "Chicago White Sox",
+  "away": "Cincinnati Reds",
+  "home_ml": -135,
+  "away_ml": 105,
+  "book": "draftkings"
+ },
+ "2026-08-12|kansas city royals|los angeles dodgers": {
+  "date": "2026-08-12",
+  "home": "Los Angeles Dodgers",
+  "away": "Kansas City Royals",
+  "home_ml": -188,
+  "away_ml": 145,
+  "book": "draftkings"
+ },
+ "2026-08-12|texas rangers|los angeles angels": {
+  "date": "2026-08-12",
+  "home": "Los Angeles Angels",
+  "away": "Texas Rangers",
+  "home_ml": 100,
+  "away_ml": -130,
+  "book": "draftkings"
  }
 }
