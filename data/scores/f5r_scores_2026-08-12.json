@@ -68,9 +68,9 @@
       "opp_starter": "Zack Wheeler",
       "opp_runs5_pct": 29.5,
       "season_f5_rate": 2.36,
-      "bat_score": 63.0,
-      "lam": 2.72,
-      "lineup": "PROJECTED"
+      "bat_score": 54.9,
+      "lam": 2.63,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-12",
@@ -82,14 +82,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.72,
+      "lam_home": 2.63,
       "lam_away": 2.33,
-      "exp_total": 5.05,
+      "exp_total": 4.95,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.496,
+      "p_over": 0.485,
       "mkt_p_over": 0.447,
-      "value": 0.049,
+      "value": 0.038,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -200,10 +200,10 @@
     "park_factor": 0.96,
     "away": {
       "team": "Houston Astros",
-      "opp_starter": null,
+      "opp_starter": "Adrian Houser",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.66,
-      "bat_score": 69.2,
+      "bat_score": 70.3,
       "lam": null,
       "lineup": "PROJECTED"
     },

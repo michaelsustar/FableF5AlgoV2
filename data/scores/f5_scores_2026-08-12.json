@@ -259,7 +259,7 @@
     },
     "home": {
       "team": "St. Louis Cardinals",
-      "batting_score": 63.0,
+      "batting_score": 54.9,
       "pitcher": "Kyle Leahy",
       "pitcher_score": 69.7,
       "pitcher_metrics": {
@@ -276,7 +276,7 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 3.923,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "JJ Wetherholt",
@@ -291,16 +291,16 @@
           "platoon_mult": 0.961
         },
         {
-          "name": "Jordan Walker",
-          "pa": 49,
-          "form": 53.4,
-          "platoon_mult": 0.968
-        },
-        {
           "name": "Alec Burleson",
           "pa": 55,
           "form": 100.0,
           "platoon_mult": 1.15
+        },
+        {
+          "name": "Jordan Walker",
+          "pa": 49,
+          "form": 53.4,
+          "platoon_mult": 0.968
         },
         {
           "name": "Nathan Church",
@@ -315,25 +315,27 @@
           "platoon_mult": 0.932
         },
         {
-          "name": "Blaze Jordan",
-          "pa": 32,
-          "form": 66.5,
-          "platoon_mult": 0.915
-        },
-        {
-          "name": "Everson Pereira",
-          "pa": 8
-        },
-        {
-          "name": "Pedro Pag\u00e9s",
+          "name": "C\u00e9sar Prieto",
           "pa": 9
+        },
+        {
+          "name": "Jos\u00e9 Ferm\u00edn",
+          "pa": 43,
+          "form": 36.6,
+          "platoon_mult": 0.895
+        },
+        {
+          "name": "Jimmy Crooks",
+          "pa": 27,
+          "form": 27.5,
+          "platoon_mult": 0.933
         }
       ]
     },
     "batters_available": {
-      "qualified": 16,
+      "qualified": 17,
       "total": 18,
-      "pct": 88.9
+      "pct": 94.4
     },
     "market": {
       "date": "2026-08-12",
@@ -344,9 +346,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.597,
+      "p_home": 0.582,
       "mkt_p_home": 0.401,
-      "value": 0.196,
+      "value": 0.181,
       "mode": "market",
       "pick": "St. Louis Cardinals",
       "pick_ml": 135,
@@ -709,7 +711,7 @@
     "game_time": "2026-08-12T19:45:00Z",
     "away": {
       "team": "Houston Astros",
-      "batting_score": 69.2,
+      "batting_score": 70.3,
       "pitcher": "Bryan King",
       "pitcher_score": null,
       "pitcher_metrics": null,
@@ -720,20 +722,20 @@
         {
           "name": "Jeremy Pe\u00f1a",
           "pa": 59,
-          "form": 39.0,
-          "platoon_mult": 1.0
+          "form": 39.6,
+          "platoon_mult": 1.014
         },
         {
           "name": "Yordan Alvarez",
           "pa": 57,
-          "form": 73.7,
-          "platoon_mult": 1.0
+          "form": 78.9,
+          "platoon_mult": 1.07
         },
         {
           "name": "Isaac Paredes",
           "pa": 51,
-          "form": 62.9,
-          "platoon_mult": 1.0
+          "form": 63.8,
+          "platoon_mult": 1.015
         },
         {
           "name": "Nick Allen",
@@ -742,42 +744,42 @@
         {
           "name": "Christian Walker",
           "pa": 53,
-          "form": 60.5,
-          "platoon_mult": 1.0
+          "form": 61.0,
+          "platoon_mult": 1.008
         },
         {
           "name": "LaMonte Wade Jr.",
           "pa": 17,
-          "form": 96.8,
-          "platoon_mult": 1.0
+          "form": 91.8,
+          "platoon_mult": 0.948
         },
         {
           "name": "Daulton Varsho",
           "pa": 16,
-          "form": 38.7,
-          "platoon_mult": 1.0
+          "form": 37.9,
+          "platoon_mult": 0.981
         },
         {
           "name": "Cam Smith",
           "pa": 43,
-          "form": 97.5,
-          "platoon_mult": 1.0
+          "form": 99.6,
+          "platoon_mult": 1.022
         },
         {
           "name": "Yainer Diaz",
           "pa": 39,
-          "form": 84.6,
-          "platoon_mult": 1.0
+          "form": 89.3,
+          "platoon_mult": 1.057
         }
       ]
     },
     "home": {
       "team": "San Francisco Giants",
       "batting_score": 41.7,
-      "pitcher": null,
+      "pitcher": "Adrian Houser",
       "pitcher_score": null,
       "pitcher_metrics": null,
-      "pitcher_hand": null,
+      "pitcher_hand": "R",
       "rpg_14d": 3.923,
       "lineup": "PROJECTED",
       "batters": [
