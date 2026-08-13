@@ -48,6 +48,56 @@
     }
   },
   {
+    "gamePk": 824561,
+    "matchup": "Cincinnati Reds @ Chicago White Sox",
+    "game_time": "2026-08-13T17:10:00Z",
+    "home_team": "Chicago White Sox",
+    "away_team": "Cincinnati Reds",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Cincinnati Reds",
+      "opp_starter": "Davis Martin",
+      "opp_runs5_pct": 4.6,
+      "season_f5_rate": 2.5,
+      "bat_score": 41.4,
+      "lam": 2.83,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Andrew Abbott",
+      "opp_runs5_pct": 28.5,
+      "season_f5_rate": 2.75,
+      "bat_score": 53.4,
+      "lam": 2.82,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-08-13",
+      "home": "Chicago White Sox",
+      "away": "Cincinnati Reds",
+      "line": 4.5,
+      "over_ml": -113,
+      "under_ml": -115,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.82,
+      "lam_away": 2.83,
+      "exp_total": 5.65,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.561,
+      "mkt_p_over": 0.498,
+      "value": 0.063,
+      "p_push": 0.0,
+      "pick": "Over 4.5",
+      "pick_side": "over",
+      "pick_ml": -113,
+      "tier": "LEAN"
+    }
+  },
+  {
     "gamePk": 823829,
     "matchup": "Pittsburgh Pirates @ Miami Marlins",
     "game_time": "2026-08-13T17:10:00Z",
@@ -107,9 +157,9 @@
       "opp_starter": "Max Fried",
       "opp_runs5_pct": 74.5,
       "season_f5_rate": 2.18,
-      "bat_score": 44.7,
+      "bat_score": 44.5,
       "lam": 2.33,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "New York Yankees",
@@ -142,56 +192,6 @@
       "pick": "Over 3.5",
       "pick_side": "over",
       "pick_ml": -140,
-      "tier": "LEAN"
-    }
-  },
-  {
-    "gamePk": 824561,
-    "matchup": "Cincinnati Reds @ Chicago White Sox",
-    "game_time": "2026-08-13T18:10:00Z",
-    "home_team": "Chicago White Sox",
-    "away_team": "Cincinnati Reds",
-    "park_factor": 1.01,
-    "away": {
-      "team": "Cincinnati Reds",
-      "opp_starter": "Davis Martin",
-      "opp_runs5_pct": 4.6,
-      "season_f5_rate": 2.5,
-      "bat_score": 41.4,
-      "lam": 2.83,
-      "lineup": "CONFIRMED"
-    },
-    "home": {
-      "team": "Chicago White Sox",
-      "opp_starter": "Andrew Abbott",
-      "opp_runs5_pct": 28.5,
-      "season_f5_rate": 2.75,
-      "bat_score": 48.3,
-      "lam": 2.76,
-      "lineup": "PROJECTED"
-    },
-    "market": {
-      "date": "2026-08-13",
-      "home": "Chicago White Sox",
-      "away": "Cincinnati Reds",
-      "line": 4.5,
-      "over_ml": -113,
-      "under_ml": -115,
-      "book": "fanduel"
-    },
-    "prediction": {
-      "lam_home": 2.76,
-      "lam_away": 2.83,
-      "exp_total": 5.59,
-      "mode": "market",
-      "line": 4.5,
-      "p_over": 0.555,
-      "mkt_p_over": 0.498,
-      "value": 0.057,
-      "p_push": 0.0,
-      "pick": "Over 4.5",
-      "pick_side": "over",
-      "pick_ml": -113,
       "tier": "LEAN"
     }
   },
