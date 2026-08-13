@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-12T11:28:45",
- "slate_date": "2026-08-12",
+ "generated_at": "2026-08-13T10:56:16",
+ "slate_date": "2026-08-13",
  "ledger": {
-  "bets": 42,
-  "wins": 22,
-  "losses": 20,
+  "bets": 44,
+  "wins": 23,
+  "losses": 21,
   "pushes": 0,
-  "units": -1.27,
-  "roi": -0.0303,
-  "hit": 0.5238,
-  "claimed": 0.5967,
-  "clv_bets": 39,
-  "clv_beat": 22,
-  "clv_avg": -0.0007
+  "units": -1.42,
+  "roi": -0.0324,
+  "hit": 0.5227,
+  "claimed": 0.5973,
+  "clv_bets": 41,
+  "clv_beat": 23,
+  "clv_avg": -0.0008
  },
  "series": [
   {
@@ -70,39 +70,57 @@
   {
    "date": "2026-08-11",
    "units": -1.27
+  },
+  {
+   "date": "2026-08-12",
+   "units": -1.42
   }
  ],
  "bets_today": [
   {
-   "matchup": "Milwaukee Brewers @ San Diego Padres",
-   "pick": "Under 4.5",
-   "ml": -118,
-   "tier": "STRONG",
-   "time": "2026-08-12T20:10:00Z",
-   "line": 4.5,
-   "exp_total": 4.29,
-   "lam_home": 2.09,
-   "lam_away": 2.21,
-   "model_p": 0.597,
-   "mkt_p": 0.508,
-   "value": 0.089
+   "matchup": "Seattle Mariners @ New York Yankees",
+   "pick": "Over 3.5",
+   "ml": -140,
+   "tier": "LEAN",
+   "time": "2026-08-13T17:35:00Z",
+   "line": 3.5,
+   "exp_total": 4.92,
+   "lam_home": 2.6,
+   "lam_away": 2.33,
+   "model_p": 0.612,
+   "mkt_p": 0.548,
+   "value": 0.064
   },
   {
-   "matchup": "Boston Red Sox @ Toronto Blue Jays",
-   "pick": "Over 3.5",
-   "ml": -144,
+   "matchup": "Cincinnati Reds @ Chicago White Sox",
+   "pick": "Over 4.5",
+   "ml": -113,
    "tier": "LEAN",
-   "time": "2026-08-12T23:07:00Z",
-   "line": 3.5,
-   "exp_total": 5.01,
-   "lam_home": 2.38,
-   "lam_away": 2.63,
-   "model_p": 0.621,
-   "mkt_p": 0.553,
-   "value": 0.068
+   "time": "2026-08-13T18:10:00Z",
+   "line": 4.5,
+   "exp_total": 5.59,
+   "lam_home": 2.76,
+   "lam_away": 2.83,
+   "model_p": 0.555,
+   "mkt_p": 0.498,
+   "value": 0.057
+  },
+  {
+   "matchup": "Chicago Cubs @ Washington Nationals",
+   "pick": "Over 4.5",
+   "ml": -106,
+   "tier": "LEAN",
+   "time": "2026-08-13T20:05:00Z",
+   "line": 4.5,
+   "exp_total": 5.47,
+   "lam_home": 2.5,
+   "lam_away": 2.97,
+   "model_p": 0.542,
+   "mkt_p": 0.485,
+   "value": 0.056
   }
  ],
- "evaluated_today": 10,
+ "evaluated_today": 9,
  "model": {
   "coefficients": {
    "intercept": 0.9273,
