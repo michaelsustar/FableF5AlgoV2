@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-13T11:29:15",
- "slate_date": "2026-08-13",
+ "generated_at": "2026-08-14T10:48:25",
+ "slate_date": "2026-08-14",
  "ledger": {
-  "bets": 82,
-  "wins": 28,
-  "losses": 40,
+  "bets": 86,
+  "wins": 29,
+  "losses": 43,
   "pushes": 14,
-  "units": -6.54,
-  "roi": -0.0798,
-  "hit": 0.4118,
-  "claimed": 0.5592,
-  "clv_bets": 75,
-  "clv_beat": 35,
-  "clv_avg": 0.0076
+  "units": -8.3,
+  "roi": -0.0965,
+  "hit": 0.4028,
+  "claimed": 0.5596,
+  "clv_bets": 79,
+  "clv_beat": 38,
+  "clv_avg": 0.0073
  },
  "series": [
   {
@@ -94,51 +94,35 @@
   {
    "date": "2026-08-12",
    "units": -6.54
+  },
+  {
+   "date": "2026-08-13",
+   "units": -8.3
   }
  ],
  "bets_today": [
   {
-   "matchup": "Pittsburgh Pirates @ Miami Marlins",
+   "matchup": "Miami Marlins @ Cincinnati Reds",
    "pick": "Miami Marlins",
-   "ml": 105,
+   "ml": 100,
    "tier": "STRONG",
-   "time": "2026-08-13T17:10:00Z",
-   "model_p": 0.599,
-   "mkt_p": 0.459,
-   "value": 0.14
+   "time": "2026-08-14T22:10:00Z",
+   "model_p": 0.564,
+   "mkt_p": 0.469,
+   "value": 0.094
   },
   {
-   "matchup": "Boston Red Sox @ Toronto Blue Jays",
-   "pick": "Toronto Blue Jays",
-   "ml": 145,
+   "matchup": "Colorado Rockies @ San Francisco Giants",
+   "pick": "Colorado Rockies",
+   "ml": 100,
    "tier": "STRONG",
-   "time": "2026-08-13T19:07:00Z",
-   "model_p": 0.497,
-   "mkt_p": 0.385,
-   "value": 0.113
-  },
-  {
-   "matchup": "Texas Rangers @ Los Angeles Angels",
-   "pick": "Los Angeles Angels",
-   "ml": 124,
-   "tier": "STRONG",
-   "time": "2026-08-14T02:07:00Z",
-   "model_p": 0.54,
-   "mkt_p": 0.42,
-   "value": 0.12
-  },
-  {
-   "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
-   "pick": "Los Angeles Dodgers",
-   "ml": -145,
-   "tier": "STRONG",
-   "time": "2026-08-14T02:10:00Z",
-   "model_p": 0.626,
-   "mkt_p": 0.559,
-   "value": 0.067
+   "time": "2026-08-15T02:15:00Z",
+   "model_p": 0.563,
+   "mkt_p": 0.469,
+   "value": 0.094
   }
  ],
- "evaluated_today": 9,
+ "evaluated_today": 8,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
