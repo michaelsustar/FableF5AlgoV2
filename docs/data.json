@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-14T11:14:14",
- "slate_date": "2026-08-14",
+ "generated_at": "2026-08-15T10:20:24",
+ "slate_date": "2026-08-15",
  "ledger": {
-  "bets": 86,
-  "wins": 29,
+  "bets": 88,
+  "wins": 30,
   "losses": 43,
-  "pushes": 14,
-  "units": -8.3,
-  "roi": -0.0965,
-  "hit": 0.4028,
+  "pushes": 15,
+  "units": -7.3,
+  "roi": -0.083,
+  "hit": 0.411,
   "claimed": 0.5596,
-  "clv_bets": 79,
-  "clv_beat": 38,
-  "clv_avg": 0.0073
+  "clv_bets": 81,
+  "clv_beat": 39,
+  "clv_avg": 0.0068
  },
  "series": [
   {
@@ -98,31 +98,35 @@
   {
    "date": "2026-08-13",
    "units": -8.3
+  },
+  {
+   "date": "2026-08-14",
+   "units": -7.3
   }
  ],
  "bets_today": [
   {
-   "matchup": "Miami Marlins @ Cincinnati Reds",
-   "pick": "Miami Marlins",
-   "ml": 100,
+   "matchup": "Kansas City Royals @ Los Angeles Angels",
+   "pick": "Kansas City Royals",
+   "ml": 124,
    "tier": "STRONG",
-   "time": "2026-08-14T22:10:00Z",
-   "model_p": 0.564,
-   "mkt_p": 0.469,
-   "value": 0.094
+   "time": "2026-08-16T01:38:00Z",
+   "model_p": 0.493,
+   "mkt_p": 0.42,
+   "value": 0.073
   },
   {
-   "matchup": "Colorado Rockies @ San Francisco Giants",
-   "pick": "Colorado Rockies",
-   "ml": 100,
+   "matchup": "Texas Rangers @ Athletics",
+   "pick": "Athletics",
+   "ml": 105,
    "tier": "STRONG",
-   "time": "2026-08-15T02:15:00Z",
-   "model_p": 0.563,
-   "mkt_p": 0.469,
-   "value": 0.094
+   "time": "2026-08-16T01:40:00Z",
+   "model_p": 0.527,
+   "mkt_p": 0.459,
+   "value": 0.068
   }
  ],
- "evaluated_today": 8,
+ "evaluated_today": 12,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
