@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-15T10:46:34",
- "slate_date": "2026-08-15",
+ "generated_at": "2026-08-16T10:21:28",
+ "slate_date": "2026-08-16",
  "ledger": {
-  "bets": 48,
-  "wins": 25,
-  "losses": 23,
+  "bets": 53,
+  "wins": 27,
+  "losses": 26,
   "pushes": 0,
-  "units": -1.6,
-  "roi": -0.0332,
-  "hit": 0.5208,
-  "claimed": 0.5967,
-  "clv_bets": 44,
-  "clv_beat": 24,
-  "clv_avg": -0.0011
+  "units": -2.76,
+  "roi": -0.0521,
+  "hit": 0.5094,
+  "claimed": 0.5948,
+  "clv_bets": 48,
+  "clv_beat": 27,
+  "clv_avg": -0.001
  },
  "series": [
   {
@@ -82,81 +82,57 @@
   {
    "date": "2026-08-14",
    "units": -1.6
+  },
+  {
+   "date": "2026-08-15",
+   "units": -2.76
   }
  ],
  "bets_today": [
   {
    "matchup": "Baltimore Orioles @ Tampa Bay Rays",
-   "pick": "Over 3.5",
-   "ml": -144,
-   "tier": "STRONG",
-   "time": "2026-08-15T22:10:00Z",
-   "line": 3.5,
-   "exp_total": 5.23,
-   "lam_home": 2.77,
-   "lam_away": 2.46,
-   "model_p": 0.644,
-   "mkt_p": 0.553,
-   "value": 0.09
-  },
-  {
-   "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
-   "pick": "Over 3.5",
-   "ml": -140,
-   "tier": "LEAN",
-   "time": "2026-08-15T23:15:00Z",
-   "line": 3.5,
-   "exp_total": 5.05,
-   "lam_home": 2.3,
-   "lam_away": 2.75,
-   "model_p": 0.625,
-   "mkt_p": 0.548,
-   "value": 0.077
-  },
-  {
-   "matchup": "Arizona Diamondbacks @ Atlanta Braves",
-   "pick": "Under 5.5",
-   "ml": -135,
-   "tier": "LEAN",
-   "time": "2026-08-15T23:15:00Z",
-   "line": 5.5,
-   "exp_total": 5.15,
-   "lam_home": 2.76,
-   "lam_away": 2.38,
-   "model_p": 0.609,
-   "mkt_p": 0.54,
-   "value": 0.069
-  },
-  {
-   "matchup": "Boston Red Sox @ Pittsburgh Pirates",
    "pick": "Over 4.5",
    "ml": 114,
-   "tier": "LEAN",
-   "time": "2026-08-15T23:15:00Z",
+   "tier": "STRONG",
+   "time": "2026-08-16T16:15:00Z",
    "line": 4.5,
-   "exp_total": 5.14,
-   "lam_home": 2.35,
+   "exp_total": 5.31,
+   "lam_home": 2.51,
    "lam_away": 2.8,
-   "model_p": 0.506,
+   "model_p": 0.525,
    "mkt_p": 0.439,
-   "value": 0.067
+   "value": 0.086
   },
   {
-   "matchup": "Texas Rangers @ Athletics",
-   "pick": "Under 4.5",
-   "ml": 112,
+   "matchup": "New York Yankees @ Toronto Blue Jays",
+   "pick": "Over 3.5",
+   "ml": -106,
    "tier": "LEAN",
-   "time": "2026-08-16T01:40:00Z",
+   "time": "2026-08-16T17:37:00Z",
+   "line": 3.5,
+   "exp_total": 4.36,
+   "lam_home": 2.08,
+   "lam_away": 2.29,
+   "model_p": 0.547,
+   "mkt_p": 0.484,
+   "value": 0.064
+  },
+  {
+   "matchup": "Kansas City Royals @ Los Angeles Angels",
+   "pick": "Under 4.5",
+   "ml": 108,
+   "tier": "STRONG",
+   "time": "2026-08-16T20:07:00Z",
    "line": 4.5,
-   "exp_total": 5.09,
-   "lam_home": 2.55,
-   "lam_away": 2.54,
-   "model_p": 0.499,
-   "mkt_p": 0.443,
-   "value": 0.056
+   "exp_total": 4.63,
+   "lam_home": 2.31,
+   "lam_away": 2.32,
+   "model_p": 0.555,
+   "mkt_p": 0.452,
+   "value": 0.103
   }
  ],
- "evaluated_today": 12,
+ "evaluated_today": 8,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-15T10:45:51",
- "slate_date": "2026-08-15",
+ "generated_at": "2026-08-16T10:20:22",
+ "slate_date": "2026-08-16",
  "ledger": {
-  "bets": 88,
-  "wins": 30,
+  "bets": 90,
+  "wins": 31,
   "losses": 43,
-  "pushes": 15,
-  "units": -7.3,
-  "roi": -0.083,
-  "hit": 0.411,
-  "claimed": 0.5596,
-  "clv_bets": 81,
+  "pushes": 16,
+  "units": -6.25,
+  "roi": -0.0695,
+  "hit": 0.4189,
+  "claimed": 0.5592,
+  "clv_bets": 83,
   "clv_beat": 39,
-  "clv_avg": 0.0068
+  "clv_avg": 0.0062
  },
  "series": [
   {
@@ -102,31 +102,55 @@
   {
    "date": "2026-08-14",
    "units": -7.3
+  },
+  {
+   "date": "2026-08-15",
+   "units": -6.25
   }
  ],
  "bets_today": [
   {
-   "matchup": "Kansas City Royals @ Los Angeles Angels",
-   "pick": "Kansas City Royals",
-   "ml": 124,
-   "tier": "STRONG",
-   "time": "2026-08-16T01:38:00Z",
-   "model_p": 0.493,
-   "mkt_p": 0.42,
-   "value": 0.073
-  },
-  {
-   "matchup": "Texas Rangers @ Athletics",
-   "pick": "Athletics",
+   "matchup": "Baltimore Orioles @ Tampa Bay Rays",
+   "pick": "Baltimore Orioles",
    "ml": 105,
    "tier": "STRONG",
-   "time": "2026-08-16T01:40:00Z",
-   "model_p": 0.527,
+   "time": "2026-08-16T16:15:00Z",
+   "model_p": 0.53,
    "mkt_p": 0.459,
-   "value": 0.068
+   "value": 0.071
+  },
+  {
+   "matchup": "New York Yankees @ Toronto Blue Jays",
+   "pick": "New York Yankees",
+   "ml": 114,
+   "tier": "STRONG",
+   "time": "2026-08-16T17:37:00Z",
+   "model_p": 0.502,
+   "mkt_p": 0.441,
+   "value": 0.061
+  },
+  {
+   "matchup": "Philadelphia Phillies @ Minnesota Twins",
+   "pick": "Philadelphia Phillies",
+   "ml": -110,
+   "tier": "STRONG",
+   "time": "2026-08-16T18:10:00Z",
+   "model_p": 0.562,
+   "mkt_p": 0.49,
+   "value": 0.072
+  },
+  {
+   "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
+   "pick": "Milwaukee Brewers",
+   "ml": 160,
+   "tier": "STRONG",
+   "time": "2026-08-16T20:10:00Z",
+   "model_p": 0.47,
+   "mkt_p": 0.362,
+   "value": 0.108
   }
  ],
- "evaluated_today": 12,
+ "evaluated_today": 8,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
