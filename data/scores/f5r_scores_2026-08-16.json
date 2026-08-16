@@ -11,9 +11,9 @@
       "opp_starter": "Freddy Peralta",
       "opp_runs5_pct": 5.3,
       "season_f5_rate": 2.45,
-      "bat_score": 56.1,
-      "lam": 2.8,
-      "lineup": "PROJECTED"
+      "bat_score": 61.0,
+      "lam": 2.86,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Tampa Bay Rays",
@@ -35,13 +35,13 @@
     },
     "prediction": {
       "lam_home": 2.51,
-      "lam_away": 2.8,
-      "exp_total": 5.31,
+      "lam_away": 2.86,
+      "exp_total": 5.37,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.525,
+      "p_over": 0.532,
       "mkt_p_over": 0.439,
-      "value": 0.086,
+      "value": 0.093,
       "p_push": 0.0,
       "pick": "Over 4.5",
       "pick_side": "over",
@@ -106,9 +106,9 @@
       "opp_starter": "Michael Soroka",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.58,
-      "bat_score": 52.7,
+      "bat_score": 54.0,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-16",
@@ -142,9 +142,9 @@
       "opp_starter": "Ryan Weathers",
       "opp_runs5_pct": 98.0,
       "season_f5_rate": 1.9,
-      "bat_score": 46.8,
-      "lam": 2.08,
-      "lineup": "PROJECTED"
+      "bat_score": 51.7,
+      "lam": 2.12,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-16",
@@ -156,14 +156,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.08,
+      "lam_home": 2.12,
       "lam_away": 2.29,
-      "exp_total": 4.36,
+      "exp_total": 4.41,
       "mode": "market",
       "line": 3.5,
-      "p_over": 0.547,
+      "p_over": 0.553,
       "mkt_p_over": 0.484,
-      "value": 0.064,
+      "value": 0.07,
       "p_push": 0.0,
       "pick": "Over 3.5",
       "pick_side": "over",
@@ -231,18 +231,18 @@
       "opp_starter": "Tanner Bibee",
       "opp_runs5_pct": 38.5,
       "season_f5_rate": 2.26,
-      "bat_score": 61.4,
-      "lam": 2.57,
-      "lineup": "PROJECTED"
+      "bat_score": 55.0,
+      "lam": 2.5,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Cleveland Guardians",
       "opp_starter": "Casey Mize",
       "opp_runs5_pct": 29.3,
       "season_f5_rate": 2.28,
-      "bat_score": 59.2,
-      "lam": 2.61,
-      "lineup": "PROJECTED"
+      "bat_score": 45.8,
+      "lam": 2.47,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-16",
@@ -254,14 +254,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.61,
-      "lam_away": 2.57,
-      "exp_total": 5.18,
+      "lam_home": 2.47,
+      "lam_away": 2.5,
+      "exp_total": 4.96,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.511,
+      "p_over": 0.486,
       "mkt_p_over": 0.488,
-      "value": 0.023,
+      "value": -0.002,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -279,18 +279,18 @@
       "opp_starter": "Drew Anderson",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.79,
-      "bat_score": 61.8,
+      "bat_score": 57.9,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Detroit Tigers",
       "opp_starter": "Sean Burke",
       "opp_runs5_pct": 83.6,
       "season_f5_rate": 2.58,
-      "bat_score": 56.4,
-      "lam": 2.28,
-      "lineup": "PROJECTED"
+      "bat_score": 52.1,
+      "lam": 2.24,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-16",
@@ -324,9 +324,9 @@
       "opp_starter": "Eury P\u00e9rez",
       "opp_runs5_pct": 71.7,
       "season_f5_rate": 2.53,
-      "bat_score": 41.9,
-      "lam": 2.54,
-      "lineup": "PROJECTED"
+      "bat_score": 49.5,
+      "lam": 2.63,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-16",
