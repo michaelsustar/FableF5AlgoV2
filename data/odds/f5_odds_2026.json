@@ -11134,5 +11134,85 @@
   "home_ml": -130,
   "away_ml": 100,
   "book": "draftkings"
+ },
+ "2026-08-17|st. louis cardinals|cincinnati reds": {
+  "date": "2026-08-17",
+  "home": "Cincinnati Reds",
+  "away": "St. Louis Cardinals",
+  "home_ml": -105,
+  "away_ml": -125,
+  "book": "draftkings"
+ },
+ "2026-08-17|baltimore orioles|tampa bay rays": {
+  "date": "2026-08-17",
+  "home": "Tampa Bay Rays",
+  "away": "Baltimore Orioles",
+  "home_ml": -166,
+  "away_ml": 130,
+  "book": "draftkings"
+ },
+ "2026-08-17|miami marlins|philadelphia phillies": {
+  "date": "2026-08-17",
+  "home": "Philadelphia Phillies",
+  "away": "Miami Marlins",
+  "home_ml": -270,
+  "away_ml": 200,
+  "book": "draftkings"
+ },
+ "2026-08-17|detroit tigers|pittsburgh pirates": {
+  "date": "2026-08-17",
+  "home": "Pittsburgh Pirates",
+  "away": "Detroit Tigers",
+  "home_ml": -110,
+  "away_ml": -120,
+  "book": "draftkings"
+ },
+ "2026-08-17|arizona diamondbacks|boston red sox": {
+  "date": "2026-08-17",
+  "home": "Boston Red Sox",
+  "away": "Arizona Diamondbacks",
+  "home_ml": -145,
+  "away_ml": 114,
+  "book": "draftkings"
+ },
+ "2026-08-17|san diego padres|new york mets": {
+  "date": "2026-08-17",
+  "home": "New York Mets",
+  "away": "San Diego Padres",
+  "home_ml": -160,
+  "away_ml": 124,
+  "book": "draftkings"
+ },
+ "2026-08-17|athletics|kansas city royals": {
+  "date": "2026-08-17",
+  "home": "Kansas City Royals",
+  "away": "Athletics",
+  "home_ml": -195,
+  "away_ml": 150,
+  "book": "draftkings"
+ },
+ "2026-08-17|atlanta braves|minnesota twins": {
+  "date": "2026-08-17",
+  "home": "Minnesota Twins",
+  "away": "Atlanta Braves",
+  "home_ml": 100,
+  "away_ml": -130,
+  "book": "draftkings"
+ },
+ "2026-08-17|chicago white sox|chicago cubs": {
+  "date": "2026-08-17",
+  "home": "Chicago Cubs",
+  "away": "Chicago White Sox",
+  "home_ml": -160,
+  "away_ml": 124,
+  "book": "draftkings"
+ },
+ "2026-08-17|los angeles dodgers|colorado rockies": {
+  "date": "2026-08-17",
+  "home": "Colorado Rockies",
+  "away": "Los Angeles Dodgers",
+  "home_ml": 175,
+  "away_ml": -230,
+  "book": "draftkings"
  }
 }
