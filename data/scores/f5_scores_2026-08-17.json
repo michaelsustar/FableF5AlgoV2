@@ -5,19 +5,17 @@
     "game_time": "2026-08-17T17:40:00Z",
     "away": {
       "team": "St. Louis Cardinals",
-      "batting_score": 61.4,
+      "batting_score": 68.2,
       "pitcher": "Quinn Mathews",
       "pitcher_score": null,
       "pitcher_metrics": null,
       "pitcher_hand": "L",
       "rpg_14d": 5.417,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "JJ Wetherholt",
-          "pa": 56,
-          "form": 35.6,
-          "platoon_mult": 0.967
+          "name": "Joshua B\u00e1ez",
+          "pa": 9
         },
         {
           "name": "Iv\u00e1n Herrera",
@@ -26,26 +24,22 @@
           "platoon_mult": 1.095
         },
         {
-          "name": "Alec Burleson",
-          "pa": 49,
-          "form": 80.3,
-          "platoon_mult": 0.85
-        },
-        {
           "name": "Jordan Walker",
           "pa": 42,
           "form": 84.2,
           "platoon_mult": 1.094
         },
         {
-          "name": "Everson Pereira",
-          "pa": 12
+          "name": "Alec Burleson",
+          "pa": 49,
+          "form": 80.3,
+          "platoon_mult": 0.85
         },
         {
-          "name": "Nathan Church",
-          "pa": 43,
-          "form": 55.6,
-          "platoon_mult": 1.039
+          "name": "Jos\u00e9 Ferm\u00edn",
+          "pa": 35,
+          "form": 57.5,
+          "platoon_mult": 1.105
         },
         {
           "name": "Masyn Winn",
@@ -54,16 +48,18 @@
           "platoon_mult": 1.15
         },
         {
-          "name": "Jimmy Crooks",
-          "pa": 29,
-          "form": 48.2,
-          "platoon_mult": 1.0
-        },
-        {
           "name": "Blaze Jordan",
           "pa": 27,
           "form": 74.2,
           "platoon_mult": 1.0
+        },
+        {
+          "name": "Everson Pereira",
+          "pa": 12
+        },
+        {
+          "name": "Pedro Pag\u00e9s",
+          "pa": 10
         }
       ]
     },
@@ -132,9 +128,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 16,
+      "qualified": 14,
       "total": 18,
-      "pct": 88.9
+      "pct": 77.8
     },
     "market": {
       "date": "2026-08-17",
