@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-17T10:51:52",
- "slate_date": "2026-08-17",
+ "generated_at": "2026-08-18T10:31:30",
+ "slate_date": "2026-08-18",
  "ledger": {
-  "bets": 94,
+  "bets": 95,
   "wins": 33,
-  "losses": 44,
+  "losses": 45,
   "pushes": 17,
-  "units": -4.6,
-  "roi": -0.049,
-  "hit": 0.4286,
-  "claimed": 0.5585,
-  "clv_bets": 87,
+  "units": -5.6,
+  "roi": -0.059,
+  "hit": 0.4231,
+  "claimed": 0.5586,
+  "clv_bets": 88,
   "clv_beat": 42,
-  "clv_avg": 0.006
+  "clv_avg": 0.0059
  },
  "series": [
   {
@@ -110,21 +110,55 @@
   {
    "date": "2026-08-16",
    "units": -4.6
+  },
+  {
+   "date": "2026-08-17",
+   "units": -5.6
   }
  ],
  "bets_today": [
   {
-   "matchup": "Miami Marlins @ Philadelphia Phillies",
-   "pick": "Miami Marlins",
-   "ml": 200,
+   "matchup": "San Francisco Giants @ Cleveland Guardians",
+   "pick": "San Francisco Giants",
+   "ml": 140,
    "tier": "STRONG",
-   "time": "2026-08-17T22:40:00Z",
-   "model_p": 0.434,
-   "mkt_p": 0.314,
-   "value": 0.12
+   "time": "2026-08-18T22:40:00Z",
+   "model_p": 0.479,
+   "mkt_p": 0.393,
+   "value": 0.086
+  },
+  {
+   "matchup": "St. Louis Cardinals @ Cincinnati Reds",
+   "pick": "St. Louis Cardinals",
+   "ml": -120,
+   "tier": "STRONG",
+   "time": "2026-08-18T22:40:00Z",
+   "model_p": 0.596,
+   "mkt_p": 0.51,
+   "value": 0.086
+  },
+  {
+   "matchup": "Detroit Tigers @ Pittsburgh Pirates",
+   "pick": "Detroit Tigers",
+   "ml": 130,
+   "tier": "STRONG",
+   "time": "2026-08-18T22:40:00Z",
+   "model_p": 0.482,
+   "mkt_p": 0.411,
+   "value": 0.071
+  },
+  {
+   "matchup": "Los Angeles Dodgers @ Colorado Rockies",
+   "pick": "Colorado Rockies",
+   "ml": 130,
+   "tier": "STRONG",
+   "time": "2026-08-19T00:40:00Z",
+   "model_p": 0.508,
+   "mkt_p": 0.411,
+   "value": 0.097
   }
  ],
- "evaluated_today": 7,
+ "evaluated_today": 8,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

@@ -1,20 +1,35 @@
 {
- "generated_at": "2026-08-17T10:51:52",
+ "generated_at": "2026-08-18T10:31:30",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 94,
+  "bets": 95,
   "wins": 33,
-  "losses": 44,
+  "losses": 45,
   "pushes": 17,
-  "units": -4.6,
-  "roi": -0.049,
-  "hit": 0.4286,
-  "claimed": 0.5585,
-  "clv_bets": 87,
+  "units": -5.6,
+  "roi": -0.059,
+  "hit": 0.4231,
+  "claimed": 0.5586,
+  "clv_bets": 88,
   "clv_beat": 42,
-  "clv_avg": 0.006
+  "clv_avg": 0.0059
  },
  "bets": [
+  {
+   "date": "2026-08-17",
+   "time": "2026-08-17T22:40:00Z",
+   "matchup": "Miami Marlins @ Philadelphia Phillies",
+   "pick": "Miami Marlins",
+   "ml": 200,
+   "tier": "STRONG",
+   "model_p": 0.434,
+   "mkt_p": 0.314,
+   "value": 0.12,
+   "result": "loss",
+   "units": -1.0,
+   "clv": -0.0004,
+   "close_ml": 200
+  },
   {
    "date": "2026-08-16",
    "time": "2026-08-16T20:10:00Z",

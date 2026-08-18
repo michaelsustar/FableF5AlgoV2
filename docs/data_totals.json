@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-17T10:52:19",
- "slate_date": "2026-08-17",
+ "generated_at": "2026-08-18T10:32:29",
+ "slate_date": "2026-08-18",
  "ledger": {
-  "bets": 56,
-  "wins": 28,
-  "losses": 28,
+  "bets": 59,
+  "wins": 30,
+  "losses": 29,
   "pushes": 0,
-  "units": -3.68,
-  "roi": -0.0657,
-  "hit": 0.5,
-  "claimed": 0.592,
-  "clv_bets": 50,
+  "units": -2.67,
+  "roi": -0.0453,
+  "hit": 0.5085,
+  "claimed": 0.5906,
+  "clv_bets": 53,
   "clv_beat": 28,
-  "clv_avg": -0.0003
+  "clv_avg": -0.0004
  },
  "series": [
   {
@@ -90,53 +90,14 @@
   {
    "date": "2026-08-16",
    "units": -3.68
-  }
- ],
- "bets_today": [
-  {
-   "matchup": "St. Louis Cardinals @ Cincinnati Reds",
-   "pick": "Under 4.5",
-   "ml": 110,
-   "tier": "LEAN",
-   "time": "2026-08-17T22:40:00Z",
-   "line": 4.5,
-   "exp_total": 5.04,
-   "lam_home": 2.4,
-   "lam_away": 2.63,
-   "model_p": 0.505,
-   "mkt_p": 0.447,
-   "value": 0.059
   },
   {
-   "matchup": "Atlanta Braves @ Minnesota Twins",
-   "pick": "Under 5.5",
-   "ml": -130,
-   "tier": "STRONG",
-   "time": "2026-08-17T23:40:00Z",
-   "line": 5.5,
-   "exp_total": 5.02,
-   "lam_home": 2.27,
-   "lam_away": 2.76,
-   "model_p": 0.623,
-   "mkt_p": 0.531,
-   "value": 0.093
-  },
-  {
-   "matchup": "Chicago White Sox @ Chicago Cubs",
-   "pick": "Over 4.5",
-   "ml": -110,
-   "tier": "LEAN",
-   "time": "2026-08-18T00:05:00Z",
-   "line": 4.5,
-   "exp_total": 5.72,
-   "lam_home": 2.94,
-   "lam_away": 2.79,
-   "model_p": 0.569,
-   "mkt_p": 0.492,
-   "value": 0.077
+   "date": "2026-08-17",
+   "units": -2.67
   }
  ],
- "evaluated_today": 7,
+ "bets_today": [],
+ "evaluated_today": 0,
  "model": {
   "coefficients": {
    "intercept": 0.9273,
