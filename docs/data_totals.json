@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-18T11:00:49",
- "slate_date": "2026-08-18",
+ "generated_at": "2026-08-19T10:31:54",
+ "slate_date": "2026-08-19",
  "ledger": {
-  "bets": 59,
-  "wins": 30,
-  "losses": 29,
+  "bets": 61,
+  "wins": 31,
+  "losses": 30,
   "pushes": 0,
-  "units": -2.67,
-  "roi": -0.0453,
-  "hit": 0.5085,
-  "claimed": 0.5906,
-  "clv_bets": 53,
-  "clv_beat": 28,
-  "clv_avg": -0.0004
+  "units": -2.71,
+  "roi": -0.0444,
+  "hit": 0.5082,
+  "claimed": 0.5905,
+  "clv_bets": 55,
+  "clv_beat": 29,
+  "clv_avg": 0.0
  },
  "series": [
   {
@@ -94,36 +94,68 @@
   {
    "date": "2026-08-17",
    "units": -2.67
+  },
+  {
+   "date": "2026-08-18",
+   "units": -2.71
   }
  ],
  "bets_today": [
   {
-   "matchup": "St. Louis Cardinals @ Cincinnati Reds",
-   "pick": "Over 4.5",
-   "ml": -114,
-   "tier": "LEAN",
-   "time": "2026-08-18T22:40:00Z",
-   "line": 4.5,
-   "exp_total": 5.66,
-   "lam_home": 2.42,
-   "lam_away": 3.25,
-   "model_p": 0.561,
-   "mkt_p": 0.5,
-   "value": 0.061
-  },
-  {
    "matchup": "Arizona Diamondbacks @ Boston Red Sox",
    "pick": "Over 4.5",
-   "ml": -104,
-   "tier": "STRONG",
-   "time": "2026-08-18T23:10:00Z",
+   "ml": 108,
+   "tier": "LEAN",
+   "time": "2026-08-19T20:10:00Z",
    "line": 4.5,
-   "exp_total": 6.21,
-   "lam_home": 3.3,
-   "lam_away": 2.92,
-   "model_p": 0.614,
-   "mkt_p": 0.479,
-   "value": 0.136
+   "exp_total": 5.22,
+   "lam_home": 2.53,
+   "lam_away": 2.69,
+   "model_p": 0.515,
+   "mkt_p": 0.452,
+   "value": 0.064
+  },
+  {
+   "matchup": "St. Louis Cardinals @ Cincinnati Reds",
+   "pick": "Over 4.5",
+   "ml": 106,
+   "tier": "LEAN",
+   "time": "2026-08-19T22:40:00Z",
+   "line": 4.5,
+   "exp_total": 5.22,
+   "lam_home": 2.58,
+   "lam_away": 2.65,
+   "model_p": 0.516,
+   "mkt_p": 0.456,
+   "value": 0.06
+  },
+  {
+   "matchup": "Washington Nationals @ Texas Rangers",
+   "pick": "Over 4.5",
+   "ml": 114,
+   "tier": "STRONG",
+   "time": "2026-08-20T00:05:00Z",
+   "line": 4.5,
+   "exp_total": 5.41,
+   "lam_home": 2.45,
+   "lam_away": 2.96,
+   "model_p": 0.535,
+   "mkt_p": 0.439,
+   "value": 0.096
+  },
+  {
+   "matchup": "Los Angeles Dodgers @ Colorado Rockies",
+   "pick": "Under 5.5",
+   "ml": 106,
+   "tier": "LEAN",
+   "time": "2026-08-20T00:40:00Z",
+   "line": 5.5,
+   "exp_total": 6.02,
+   "lam_home": 3.05,
+   "lam_away": 2.99,
+   "model_p": 0.514,
+   "mkt_p": 0.456,
+   "value": 0.058
   }
  ],
  "evaluated_today": 8,
