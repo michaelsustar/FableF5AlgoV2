@@ -56,9 +56,9 @@
       "opp_starter": "Michael King",
       "opp_runs5_pct": 41.5,
       "season_f5_rate": 2.27,
-      "bat_score": 61.4,
-      "lam": 2.54,
-      "lineup": "PROJECTED"
+      "bat_score": 62.2,
+      "lam": 2.55,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-19",
@@ -70,14 +70,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.54,
+      "lam_home": 2.55,
       "lam_away": 2.76,
-      "exp_total": 5.3,
+      "exp_total": 5.31,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.524,
+      "p_over": 0.525,
       "mkt_p_over": 0.531,
-      "value": -0.007,
+      "value": -0.006,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
