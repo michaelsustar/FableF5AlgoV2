@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T10:34:01",
+ "generated_at": "2026-08-20T11:03:08",
  "slate_date": "2026-08-20",
  "ledger": {
   "bets": 65,
@@ -104,8 +104,23 @@
    "units": -4.63
   }
  ],
- "bets_today": [],
- "evaluated_today": 0,
+ "bets_today": [
+  {
+   "matchup": "San Francisco Giants @ Cleveland Guardians",
+   "pick": "Over 3.5",
+   "ml": -125,
+   "tier": "LEAN",
+   "time": "2026-08-20T17:10:00Z",
+   "line": 3.5,
+   "exp_total": 4.61,
+   "lam_home": 2.38,
+   "lam_away": 2.23,
+   "model_p": 0.578,
+   "mkt_p": 0.521,
+   "value": 0.056
+  }
+ ],
+ "evaluated_today": 9,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

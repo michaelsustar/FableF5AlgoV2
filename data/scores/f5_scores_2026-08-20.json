@@ -615,7 +615,7 @@
     },
     "home": {
       "team": "Kansas City Royals",
-      "batting_score": 31.7,
+      "batting_score": 45.1,
       "pitcher": "Randy Dobnak",
       "pitcher_score": 58.6,
       "pitcher_metrics": {
@@ -632,13 +632,13 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 4.462,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Isaac Collins",
-          "pa": 40,
-          "form": 2.7,
-          "platoon_mult": 0.85
+          "name": "Nick Loftin",
+          "pa": 45,
+          "form": 10.3,
+          "platoon_mult": 1.062
         },
         {
           "name": "Bobby Witt Jr.",
@@ -647,18 +647,8 @@
           "platoon_mult": 1.109
         },
         {
-          "name": "John Rave",
-          "pa": 24,
-          "form": 1.9,
-          "platoon_mult": 1.0
-        },
-        {
           "name": "Maikel Garcia",
           "pa": 14
-        },
-        {
-          "name": "Vinnie Pasquantino",
-          "pa": 13
         },
         {
           "name": "Salvador Perez",
@@ -667,10 +657,14 @@
           "platoon_mult": 1.15
         },
         {
-          "name": "Carter Jensen",
-          "pa": 48,
-          "form": 25.8,
-          "platoon_mult": 1.003
+          "name": "Vinnie Pasquantino",
+          "pa": 13
+        },
+        {
+          "name": "Isaac Collins",
+          "pa": 40,
+          "form": 2.7,
+          "platoon_mult": 0.85
         },
         {
           "name": "Tyler Tolbert",
@@ -679,17 +673,21 @@
           "platoon_mult": 1.0
         },
         {
-          "name": "Kyle Isbel",
-          "pa": 38,
-          "form": 10.6,
-          "platoon_mult": 0.85
+          "name": "Michael Massey",
+          "pa": 44,
+          "form": 76.7,
+          "platoon_mult": 1.009
+        },
+        {
+          "name": "Luke Maile",
+          "pa": 6
         }
       ]
     },
     "batters_available": {
-      "qualified": 16,
+      "qualified": 15,
       "total": 18,
-      "pct": 88.9
+      "pct": 83.3
     },
     "market": {
       "date": "2026-08-20",
@@ -700,9 +698,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.492,
+      "p_home": 0.518,
       "mkt_p_home": 0.531,
-      "value": -0.038,
+      "value": -0.013,
       "mode": "market",
       "pick": null,
       "tier": "NO VALUE"
@@ -791,7 +789,7 @@
     },
     "home": {
       "team": "Chicago White Sox",
-      "batting_score": 67.0,
+      "batting_score": 65.2,
       "pitcher": "Anthony Kay",
       "pitcher_score": 81.9,
       "pitcher_metrics": {
@@ -808,13 +806,13 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 5.538,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Brenton Doyle",
-          "pa": 29,
-          "form": 30.1,
-          "platoon_mult": 0.954
+          "name": "Sam Antonacci",
+          "pa": 53,
+          "form": 64.9,
+          "platoon_mult": 1.094
         },
         {
           "name": "Munetaka Murakami",
@@ -829,10 +827,10 @@
           "platoon_mult": 0.933
         },
         {
-          "name": "Randal Grichuk",
-          "pa": 28,
-          "form": 80.1,
-          "platoon_mult": 0.85
+          "name": "Andrew Benintendi",
+          "pa": 35,
+          "form": 58.6,
+          "platoon_mult": 1.063
         },
         {
           "name": "Braden Montgomery",
@@ -859,15 +857,17 @@
           "platoon_mult": 1.067
         },
         {
-          "name": "Jake Rogers",
-          "pa": 12
+          "name": "Drew Romo",
+          "pa": 23,
+          "form": 36.8,
+          "platoon_mult": 0.92
         }
       ]
     },
     "batters_available": {
-      "qualified": 17,
+      "qualified": 18,
       "total": 18,
-      "pct": 94.4
+      "pct": 100.0
     },
     "market": {
       "date": "2026-08-20",
@@ -878,9 +878,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.604,
+      "p_home": 0.601,
       "mkt_p_home": 0.51,
-      "value": 0.094,
+      "value": 0.09,
       "mode": "market",
       "pick": "Chicago White Sox",
       "pick_ml": -120,
