@@ -2779,5 +2779,140 @@
   "over_ml": -120,
   "under_ml": -108,
   "book": "fanduel"
+ },
+ "2026-08-21|atlanta braves|milwaukee brewers": {
+  "date": "2026-08-21",
+  "home": "Milwaukee Brewers",
+  "away": "Atlanta Braves",
+  "line": 2.5,
+  "over_ml": -160,
+  "under_ml": 122,
+  "book": "fanduel"
+ },
+ "2026-08-21|st. louis cardinals|philadelphia phillies": {
+  "date": "2026-08-21",
+  "home": "Philadelphia Phillies",
+  "away": "St. Louis Cardinals",
+  "line": 4.5,
+  "over_ml": 100,
+  "under_ml": -130,
+  "book": "fanduel"
+ },
+ "2026-08-21|toronto blue jays|new york yankees": {
+  "date": "2026-08-21",
+  "home": "New York Yankees",
+  "away": "Toronto Blue Jays",
+  "line": 3.5,
+  "over_ml": -140,
+  "under_ml": 108,
+  "book": "fanduel"
+ },
+ "2026-08-21|san francisco giants|boston red sox": {
+  "date": "2026-08-21",
+  "home": "Boston Red Sox",
+  "away": "San Francisco Giants",
+  "line": 3.5,
+  "over_ml": -152,
+  "under_ml": 116,
+  "book": "fanduel"
+ },
+ "2026-08-21|washington nationals|miami marlins": {
+  "date": "2026-08-21",
+  "home": "Miami Marlins",
+  "away": "Washington Nationals",
+  "line": 4.5,
+  "over_ml": 108,
+  "under_ml": -140,
+  "book": "fanduel"
+ },
+ "2026-08-21|tampa bay rays|baltimore orioles": {
+  "date": "2026-08-21",
+  "home": "Baltimore Orioles",
+  "away": "Tampa Bay Rays",
+  "line": 4.5,
+  "over_ml": 108,
+  "under_ml": -140,
+  "book": "fanduel"
+ },
+ "2026-08-21|new york mets|chicago white sox": {
+  "date": "2026-08-21",
+  "home": "Chicago White Sox",
+  "away": "New York Mets",
+  "line": 4.5,
+  "over_ml": 112,
+  "under_ml": -146,
+  "book": "fanduel"
+ },
+ "2026-08-21|athletics|houston astros": {
+  "date": "2026-08-21",
+  "home": "Houston Astros",
+  "away": "Athletics",
+  "line": 4.5,
+  "over_ml": -114,
+  "under_ml": -114,
+  "book": "fanduel"
+ },
+ "2026-08-21|detroit tigers|kansas city royals": {
+  "date": "2026-08-21",
+  "home": "Kansas City Royals",
+  "away": "Detroit Tigers",
+  "line": 4.5,
+  "over_ml": -102,
+  "under_ml": -128,
+  "book": "fanduel"
+ },
+ "2026-08-21|los angeles angels|texas rangers": {
+  "date": "2026-08-21",
+  "home": "Texas Rangers",
+  "away": "Los Angeles Angels",
+  "line": 3.5,
+  "over_ml": -132,
+  "under_ml": 102,
+  "book": "fanduel"
+ },
+ "2026-08-21|cleveland guardians|colorado rockies": {
+  "date": "2026-08-21",
+  "home": "Colorado Rockies",
+  "away": "Cleveland Guardians",
+  "line": 5.5,
+  "over_ml": -122,
+  "under_ml": -106,
+  "book": "fanduel"
+ },
+ "2026-08-21|cincinnati reds|arizona diamondbacks": {
+  "date": "2026-08-21",
+  "home": "Arizona Diamondbacks",
+  "away": "Cincinnati Reds",
+  "line": 4.5,
+  "over_ml": -114,
+  "under_ml": -114,
+  "book": "fanduel"
+ },
+ "2026-08-21|minnesota twins|san diego padres": {
+  "date": "2026-08-21",
+  "home": "San Diego Padres",
+  "away": "Minnesota Twins",
+  "line": 4.5,
+  "over_ml": -120,
+  "under_ml": -108,
+  "book": "fanduel"
+ },
+ "2026-08-21|chicago cubs|seattle mariners": {
+  "date": "2026-08-21",
+  "home": "Seattle Mariners",
+  "away": "Chicago Cubs",
+  "line": 4.5,
+  "over_ml": 110,
+  "under_ml": -144,
+  "book": "fanduel"
+ },
+ "2026-08-21|pittsburgh pirates|los angeles dodgers": {
+  "date": "2026-08-21",
+  "home": "Los Angeles Dodgers",
+  "away": "Pittsburgh Pirates",
+  "line": 4.5,
+  "over_ml": 100,
+  "under_ml": -130,
+  "book": "fanduel"
  }
 }

@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-20T11:02:31",
- "slate_date": "2026-08-20",
+ "generated_at": "2026-08-21T10:32:59",
+ "slate_date": "2026-08-21",
  "ledger": {
-  "bets": 104,
+  "bets": 108,
   "wins": 37,
-  "losses": 50,
+  "losses": 54,
   "pushes": 17,
-  "units": -6.06,
-  "roi": -0.0583,
-  "hit": 0.4253,
-  "claimed": 0.5562,
-  "clv_bets": 97,
-  "clv_beat": 45,
-  "clv_avg": 0.005
+  "units": -10.06,
+  "roi": -0.0932,
+  "hit": 0.4066,
+  "claimed": 0.5571,
+  "clv_bets": 101,
+  "clv_beat": 47,
+  "clv_avg": 0.0049
  },
  "series": [
   {
@@ -122,48 +122,62 @@
   {
    "date": "2026-08-19",
    "units": -6.06
+  },
+  {
+   "date": "2026-08-20",
+   "units": -10.06
   }
  ],
  "bets_today": [
   {
-   "matchup": "San Francisco Giants @ Cleveland Guardians",
+   "matchup": "San Francisco Giants @ Boston Red Sox",
    "pick": "San Francisco Giants",
-   "ml": 160,
-   "tier": "STRONG",
-   "time": "2026-08-20T17:10:00Z",
-   "model_p": 0.445,
-   "mkt_p": 0.362,
-   "value": 0.083
-  },
-  {
-   "matchup": "Atlanta Braves @ Chicago White Sox",
-   "pick": "Chicago White Sox",
-   "ml": -120,
-   "tier": "STRONG",
-   "time": "2026-08-20T18:10:00Z",
-   "model_p": 0.604,
-   "mkt_p": 0.51,
-   "value": 0.094
-  },
-  {
-   "matchup": "New York Yankees @ Baltimore Orioles",
-   "pick": "Baltimore Orioles",
-   "ml": 100,
-   "tier": "STRONG",
-   "time": "2026-08-20T22:35:00Z",
-   "model_p": 0.532,
-   "mkt_p": 0.469,
-   "value": 0.062
-  },
-  {
-   "matchup": "Washington Nationals @ Texas Rangers",
-   "pick": "Washington Nationals",
    "ml": 140,
    "tier": "STRONG",
-   "time": "2026-08-21T00:05:00Z",
-   "model_p": 0.609,
+   "time": "2026-08-21T23:10:00Z",
+   "model_p": 0.453,
    "mkt_p": 0.393,
-   "value": 0.216
+   "value": 0.06
+  },
+  {
+   "matchup": "New York Mets @ Chicago White Sox",
+   "pick": "New York Mets",
+   "ml": 120,
+   "tier": "STRONG",
+   "time": "2026-08-21T23:40:00Z",
+   "model_p": 0.533,
+   "mkt_p": 0.428,
+   "value": 0.105
+  },
+  {
+   "matchup": "Athletics @ Houston Astros",
+   "pick": "Athletics",
+   "ml": 140,
+   "tier": "STRONG",
+   "time": "2026-08-22T00:10:00Z",
+   "model_p": 0.531,
+   "mkt_p": 0.393,
+   "value": 0.138
+  },
+  {
+   "matchup": "Los Angeles Angels @ Texas Rangers",
+   "pick": "Los Angeles Angels",
+   "ml": 120,
+   "tier": "STRONG",
+   "time": "2026-08-22T00:15:00Z",
+   "model_p": 0.503,
+   "mkt_p": 0.428,
+   "value": 0.074
+  },
+  {
+   "matchup": "Pittsburgh Pirates @ Los Angeles Dodgers",
+   "pick": "Pittsburgh Pirates",
+   "ml": 195,
+   "tier": "STRONG",
+   "time": "2026-08-22T02:10:00Z",
+   "model_p": 0.483,
+   "mkt_p": 0.319,
+   "value": 0.163
   }
  ],
  "evaluated_today": 9,
