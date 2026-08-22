@@ -80,7 +80,7 @@
     },
     "home": {
       "team": "New York Yankees",
-      "batting_score": 48.1,
+      "batting_score": 43.3,
       "pitcher": "Ryan Weathers",
       "pitcher_score": 96.1,
       "pitcher_metrics": {
@@ -97,21 +97,13 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 3.583,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Paul Goldschmidt",
-          "pa": 10
-        },
-        {
-          "name": "Jazz Chisholm Jr.",
-          "pa": 39,
-          "form": 33.0,
-          "platoon_mult": 1.063
-        },
-        {
-          "name": "Max Schuemann",
-          "pa": 0
+          "name": "Trent Grisham",
+          "pa": 51,
+          "form": 89.3,
+          "platoon_mult": 0.986
         },
         {
           "name": "Ben Rice",
@@ -120,16 +112,16 @@
           "platoon_mult": 1.06
         },
         {
-          "name": "George Lombard Jr.",
-          "pa": 46,
-          "form": 60.4,
-          "platoon_mult": 1.0
+          "name": "Heliot Ramos",
+          "pa": 44,
+          "form": 4.6,
+          "platoon_mult": 0.946
         },
         {
-          "name": "Trent Grisham",
-          "pa": 51,
-          "form": 89.3,
-          "platoon_mult": 0.986
+          "name": "Luis Garc\u00eda Jr.",
+          "pa": 43,
+          "form": 48.8,
+          "platoon_mult": 1.045
         },
         {
           "name": "Spencer Jones",
@@ -138,23 +130,35 @@
           "platoon_mult": 0.973
         },
         {
-          "name": "Jos\u00e9 Caballero",
-          "pa": 20,
-          "form": 7.2,
-          "platoon_mult": 1.018
+          "name": "George Lombard Jr.",
+          "pa": 46,
+          "form": 60.4,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "pa": 39,
+          "form": 33.0,
+          "platoon_mult": 1.063
         },
         {
           "name": "Austin Wells",
           "pa": 30,
           "form": 33.2,
           "platoon_mult": 1.117
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "pa": 20,
+          "form": 7.2,
+          "platoon_mult": 1.018
         }
       ]
     },
     "batters_available": {
-      "qualified": 15,
+      "qualified": 17,
       "total": 18,
-      "pct": 83.3
+      "pct": 94.4
     },
     "market": {
       "date": "2026-08-22",
@@ -165,13 +169,12 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.54,
+      "p_home": 0.531,
       "mkt_p_home": 0.48,
-      "value": 0.06,
+      "value": 0.051,
       "mode": "market",
-      "pick": "New York Yankees",
-      "pick_ml": -105,
-      "tier": "STRONG"
+      "pick": null,
+      "tier": "NO VALUE"
     }
   },
   {

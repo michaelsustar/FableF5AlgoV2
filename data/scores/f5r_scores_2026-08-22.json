@@ -20,9 +20,9 @@
       "opp_starter": "Dylan Cease",
       "opp_runs5_pct": 73.9,
       "season_f5_rate": 2.37,
-      "bat_score": 48.1,
-      "lam": 2.4,
-      "lineup": "PROJECTED"
+      "bat_score": 43.3,
+      "lam": 2.35,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-22",
@@ -34,14 +34,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.4,
+      "lam_home": 2.35,
       "lam_away": 2.23,
-      "exp_total": 4.63,
+      "exp_total": 4.58,
       "mode": "market",
       "line": 3.5,
-      "p_over": 0.58,
+      "p_over": 0.574,
       "mkt_p_over": 0.474,
-      "value": 0.106,
+      "value": 0.1,
       "p_push": 0.0,
       "pick": "Over 3.5",
       "pick_side": "over",
