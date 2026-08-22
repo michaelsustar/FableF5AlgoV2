@@ -5389,7 +5389,9 @@
   "away_team": "Atlanta Braves",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
-  "graded": false
+  "graded": true,
+  "outcome": "Milwaukee Brewers",
+  "units": 0.0
  },
  "824721": {
   "gamePk": 824721,
@@ -5406,7 +5408,18 @@
   "away_team": "San Francisco Giants",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
-  "graded": false
+  "graded": true,
+  "outcome": "Boston Red Sox",
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-21T23:00:00Z",
+   "book": "draftkings",
+   "home_ml": -180,
+   "away_ml": 140,
+   "pick_ml": 140,
+   "mkt_p": 0.3933,
+   "clv": 0.0003
+  }
  },
  "824800": {
   "gamePk": 824800,
@@ -5423,7 +5436,9 @@
   "away_team": "Tampa Bay Rays",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
-  "graded": false
+  "graded": true,
+  "outcome": "Baltimore Orioles",
+  "units": 0.0
  },
  "824559": {
   "gamePk": 824559,
@@ -5440,7 +5455,18 @@
   "away_team": "New York Mets",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
-  "graded": false
+  "graded": true,
+  "outcome": "New York Mets",
+  "units": 1.2,
+  "close": {
+   "snapshot": "2026-08-21T23:30:00Z",
+   "book": "draftkings",
+   "home_ml": -135,
+   "away_ml": 105,
+   "pick_ml": 105,
+   "mkt_p": 0.4592,
+   "clv": 0.0312
+  }
  },
  "824072": {
   "gamePk": 824072,
@@ -5457,7 +5483,9 @@
   "away_team": "Detroit Tigers",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
-  "graded": false
+  "graded": true,
+  "outcome": "Kansas City Royals",
+  "units": 0.0
  },
  "824152": {
   "gamePk": 824152,
@@ -5474,7 +5502,18 @@
   "away_team": "Athletics",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
-  "graded": false
+  "graded": true,
+  "outcome": "Houston Astros",
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-22T00:00:00Z",
+   "book": "draftkings",
+   "home_ml": -160,
+   "away_ml": 124,
+   "pick_ml": 124,
+   "mkt_p": 0.4204,
+   "clv": 0.0274
+  }
  },
  "822857": {
   "gamePk": 822857,
@@ -5491,7 +5530,18 @@
   "away_team": "Los Angeles Angels",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-08-22T00:05:00Z",
+   "book": "draftkings",
+   "home_ml": -130,
+   "away_ml": 100,
+   "pick_ml": 100,
+   "mkt_p": 0.4694,
+   "clv": 0.0414
+  }
  },
  "823911": {
   "gamePk": 823911,
@@ -5508,7 +5558,18 @@
   "away_team": "Pittsburgh Pirates",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
-  "graded": false
+  "graded": true,
+  "outcome": "Los Angeles Dodgers",
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-08-22T02:00:00Z",
+   "book": "draftkings",
+   "home_ml": -250,
+   "away_ml": 190,
+   "pick_ml": 190,
+   "mkt_p": 0.3256,
+   "clv": 0.0066
+  }
  },
  "823101": {
   "gamePk": 823101,
@@ -5525,6 +5586,212 @@
   "away_team": "Chicago Cubs",
   "params": "bd65d255fe",
   "logged_at": "2026-08-21T10:32:59",
+  "graded": true,
+  "outcome": "Seattle Mariners",
+  "units": 0.0
+ },
+ "823509": {
+  "gamePk": 823509,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T17:35:00Z",
+  "matchup": "Toronto Blue Jays @ New York Yankees",
+  "pick": "New York Yankees",
+  "tier": "STRONG",
+  "p_home": 0.54,
+  "mkt_p_home": 0.48,
+  "pick_ml": -105,
+  "value": 0.06,
+  "home_team": "New York Yankees",
+  "away_team": "Toronto Blue Jays",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "823743": {
+  "gamePk": 823743,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T18:10:00Z",
+  "matchup": "Atlanta Braves @ Milwaukee Brewers",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.585,
+  "mkt_p_home": 0.623,
+  "pick_ml": null,
+  "value": -0.038,
+  "home_team": "Milwaukee Brewers",
+  "away_team": "Atlanta Braves",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "823831": {
+  "gamePk": 823831,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T20:10:00Z",
+  "matchup": "Washington Nationals @ Miami Marlins",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.595,
+  "mkt_p_home": 0.623,
+  "pick_ml": null,
+  "value": -0.028,
+  "home_team": "Miami Marlins",
+  "away_team": "Washington Nationals",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "824798": {
+  "gamePk": 824798,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T23:05:00Z",
+  "matchup": "Tampa Bay Rays @ Baltimore Orioles",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.431,
+  "mkt_p_home": 0.48,
+  "pick_ml": null,
+  "value": -0.049,
+  "home_team": "Baltimore Orioles",
+  "away_team": "Tampa Bay Rays",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "822858": {
+  "gamePk": 822858,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T23:05:00Z",
+  "matchup": "Los Angeles Angels @ Texas Rangers",
+  "pick": "Los Angeles Angels",
+  "tier": "STRONG",
+  "p_home": 0.526,
+  "mkt_p_home": 0.607,
+  "pick_ml": 140,
+  "value": -0.081,
+  "home_team": "Texas Rangers",
+  "away_team": "Los Angeles Angels",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "824151": {
+  "gamePk": 824151,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T23:10:00Z",
+  "matchup": "Athletics @ Houston Astros",
+  "pick": "Athletics",
+  "tier": "STRONG",
+  "p_home": 0.478,
+  "mkt_p_home": 0.657,
+  "pick_ml": 175,
+  "value": -0.179,
+  "home_team": "Houston Astros",
+  "away_team": "Athletics",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "824560": {
+  "gamePk": 824560,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T23:10:00Z",
+  "matchup": "New York Mets @ Chicago White Sox",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.52,
+  "mkt_p_home": 0.51,
+  "pick_ml": null,
+  "value": 0.01,
+  "home_team": "Chicago White Sox",
+  "away_team": "New York Mets",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "824073": {
+  "gamePk": 824073,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T23:15:00Z",
+  "matchup": "Detroit Tigers @ Kansas City Royals",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.536,
+  "mkt_p_home": 0.5,
+  "pick_ml": null,
+  "value": 0.036,
+  "home_team": "Kansas City Royals",
+  "away_team": "Detroit Tigers",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "823910": {
+  "gamePk": 823910,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T23:15:00Z",
+  "matchup": "Pittsburgh Pirates @ Los Angeles Dodgers",
+  "pick": "Pittsburgh Pirates",
+  "tier": "STRONG",
+  "p_home": 0.586,
+  "mkt_p_home": 0.681,
+  "pick_ml": 195,
+  "value": -0.094,
+  "home_team": "Los Angeles Dodgers",
+  "away_team": "Pittsburgh Pirates",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "824718": {
+  "gamePk": 824718,
+  "date": "2026-08-22",
+  "game_time": "2026-08-22T23:15:00Z",
+  "matchup": "San Francisco Giants @ Boston Red Sox",
+  "pick": "San Francisco Giants",
+  "tier": "STRONG",
+  "p_home": 0.531,
+  "mkt_p_home": 0.629,
+  "pick_ml": 154,
+  "value": -0.097,
+  "home_team": "Boston Red Sox",
+  "away_team": "San Francisco Giants",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "824316": {
+  "gamePk": 824316,
+  "date": "2026-08-22",
+  "game_time": "2026-08-23T00:10:00Z",
+  "matchup": "Cleveland Guardians @ Colorado Rockies",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.472,
+  "mkt_p_home": 0.459,
+  "pick_ml": null,
+  "value": 0.013,
+  "home_team": "Colorado Rockies",
+  "away_team": "Cleveland Guardians",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
+  "graded": false
+ },
+ "823261": {
+  "gamePk": 823261,
+  "date": "2026-08-22",
+  "game_time": "2026-08-23T00:40:00Z",
+  "matchup": "Minnesota Twins @ San Diego Padres",
+  "pick": "Minnesota Twins",
+  "tier": "STRONG",
+  "p_home": 0.457,
+  "mkt_p_home": 0.572,
+  "pick_ml": 120,
+  "value": -0.114,
+  "home_team": "San Diego Padres",
+  "away_team": "Minnesota Twins",
+  "params": "bd65d255fe",
+  "logged_at": "2026-08-22T10:20:03",
   "graded": false
  }
 }
