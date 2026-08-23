@@ -80,7 +80,7 @@
     },
     "home": {
       "team": "Baltimore Orioles",
-      "batting_score": 56.9,
+      "batting_score": 68.4,
       "pitcher": "Shane Baz",
       "pitcher_score": 57.9,
       "pitcher_metrics": {
@@ -97,7 +97,7 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 4.923,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Jackson Holliday",
@@ -112,20 +112,26 @@
           "platoon_mult": 1.057
         },
         {
-          "name": "Samuel Basallo",
-          "pa": 12
-        },
-        {
-          "name": "Tyler O'Neill",
-          "pa": 43,
-          "form": 16.9,
-          "platoon_mult": 1.0
-        },
-        {
           "name": "Gunnar Henderson",
           "pa": 57,
           "form": 76.9,
           "platoon_mult": 0.98
+        },
+        {
+          "name": "Samuel Basallo",
+          "pa": 12
+        },
+        {
+          "name": "Coby Mayo",
+          "pa": 44,
+          "form": 62.9,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Dylan Beavers",
+          "pa": 32,
+          "form": 80.5,
+          "platoon_mult": 1.071
         },
         {
           "name": "Christian Encarnacion-Strand",
@@ -134,22 +140,16 @@
           "platoon_mult": 1.15
         },
         {
-          "name": "Christian Franklin",
-          "pa": 23,
-          "form": 29.7,
-          "platoon_mult": 1.0
+          "name": "Colton Cowser",
+          "pa": 30,
+          "form": 75.5,
+          "platoon_mult": 1.064
         },
         {
           "name": "Leody Taveras",
           "pa": 44,
           "form": 69.3,
           "platoon_mult": 1.11
-        },
-        {
-          "name": "Dylan Beavers",
-          "pa": 32,
-          "form": 80.5,
-          "platoon_mult": 1.071
         }
       ]
     },
@@ -167,9 +167,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.539,
+      "p_home": 0.561,
       "mkt_p_home": 0.52,
-      "value": 0.019,
+      "value": 0.04,
       "mode": "market",
       "pick": null,
       "tier": "NO VALUE"
@@ -181,7 +181,7 @@
     "game_time": "2026-08-23T17:35:00Z",
     "away": {
       "team": "St. Louis Cardinals",
-      "batting_score": 49.7,
+      "batting_score": 56.9,
       "pitcher": "Kyle Leahy",
       "pitcher_score": 78.1,
       "pitcher_metrics": {
@@ -198,7 +198,7 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 5.214,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "JJ Wetherholt",
@@ -213,16 +213,16 @@
           "platoon_mult": 1.095
         },
         {
-          "name": "Bryan Torres",
-          "pa": 23,
-          "form": 50.7,
-          "platoon_mult": 1.0
-        },
-        {
           "name": "Jordan Walker",
           "pa": 60,
           "form": 98.3,
           "platoon_mult": 1.094
+        },
+        {
+          "name": "Alec Burleson",
+          "pa": 58,
+          "form": 76.6,
+          "platoon_mult": 0.85
         },
         {
           "name": "Joshua B\u00e1ez",
@@ -231,10 +231,10 @@
           "platoon_mult": 1.0
         },
         {
-          "name": "Nathan Church",
-          "pa": 34,
-          "form": 56.3,
-          "platoon_mult": 1.039
+          "name": "Blaze Jordan",
+          "pa": 42,
+          "form": 31.6,
+          "platoon_mult": 1.0
         },
         {
           "name": "Jos\u00e9 Ferm\u00edn",
@@ -243,22 +243,20 @@
           "platoon_mult": 1.105
         },
         {
-          "name": "Jimmy Crooks",
-          "pa": 30,
-          "form": 6.5,
-          "platoon_mult": 1.0
+          "name": "Ram\u00f3n Ur\u00edas",
+          "pa": 0
         },
         {
-          "name": "Blaze Jordan",
-          "pa": 42,
-          "form": 31.6,
-          "platoon_mult": 1.0
+          "name": "Pedro Pag\u00e9s",
+          "pa": 16,
+          "form": 45.3,
+          "platoon_mult": 0.85
         }
       ]
     },
     "home": {
       "team": "Philadelphia Phillies",
-      "batting_score": 63.9,
+      "batting_score": 60.7,
       "pitcher": "Cristopher S\u00e1nchez",
       "pitcher_score": 85.5,
       "pitcher_metrics": {
@@ -275,7 +273,7 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 6.0,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Kyle Schwarber",
@@ -290,10 +288,10 @@
           "platoon_mult": 1.048
         },
         {
-          "name": "Brandon Marsh",
-          "pa": 41,
-          "form": 71.7,
-          "platoon_mult": 1.08
+          "name": "Bryce Harper",
+          "pa": 56,
+          "form": 75.1,
+          "platoon_mult": 1.15
         },
         {
           "name": "Bryson Stott",
@@ -302,8 +300,22 @@
           "platoon_mult": 0.975
         },
         {
-          "name": "Chase Shugart",
-          "pa": 0
+          "name": "Brandon Marsh",
+          "pa": 41,
+          "form": 71.7,
+          "platoon_mult": 1.08
+        },
+        {
+          "name": "J.T. Realmuto",
+          "pa": 42,
+          "form": 27.2,
+          "platoon_mult": 1.025
+        },
+        {
+          "name": "Justin Crawford",
+          "pa": 33,
+          "form": 72.7,
+          "platoon_mult": 1.048
         },
         {
           "name": "Edmundo Sosa",
@@ -314,23 +326,13 @@
         {
           "name": "Bryan De La Cruz",
           "pa": 9
-        },
-        {
-          "name": "Garrett Stubbs",
-          "pa": 7
-        },
-        {
-          "name": "Justin Crawford",
-          "pa": 33,
-          "form": 72.7,
-          "platoon_mult": 1.048
         }
       ]
     },
     "batters_available": {
-      "qualified": 15,
+      "qualified": 16,
       "total": 18,
-      "pct": 83.3
+      "pct": 88.9
     },
     "market": {
       "date": "2026-08-23",
@@ -341,9 +343,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.561,
+      "p_home": 0.541,
       "mkt_p_home": 0.657,
-      "value": -0.096,
+      "value": -0.116,
       "mode": "market",
       "pick": "St. Louis Cardinals",
       "pick_ml": 175,
@@ -356,7 +358,7 @@
     "game_time": "2026-08-23T17:35:00Z",
     "away": {
       "team": "Toronto Blue Jays",
-      "batting_score": 61.6,
+      "batting_score": 65.3,
       "pitcher": "Jos\u00e9 Soriano",
       "pitcher_score": 54.2,
       "pitcher_metrics": {
@@ -373,7 +375,7 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 4.231,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Brett Bateman",
@@ -412,10 +414,8 @@
           "platoon_mult": 1.012
         },
         {
-          "name": "Nathan Lukes",
-          "pa": 45,
-          "form": 32.5,
-          "platoon_mult": 0.955
+          "name": "Daz Cameron",
+          "pa": 13
         },
         {
           "name": "Charles McAdoo",
@@ -498,9 +498,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 18,
+      "qualified": 17,
       "total": 18,
-      "pct": 100.0
+      "pct": 94.4
     },
     "market": {
       "date": "2026-08-23",
@@ -746,7 +746,7 @@
     },
     "home": {
       "team": "Kansas City Royals",
-      "batting_score": 58.5,
+      "batting_score": 52.7,
       "pitcher": "Daniel Lynch IV",
       "pitcher_score": 47.0,
       "pitcher_metrics": {
@@ -763,12 +763,12 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 4.538,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Carter Jensen",
-          "pa": 45,
-          "form": 18.9,
+          "name": "Nick Loftin",
+          "pa": 48,
+          "form": 16.9,
           "platoon_mult": 1.0
         },
         {
@@ -796,15 +796,9 @@
           "platoon_mult": 1.0
         },
         {
-          "name": "Nick Loftin",
-          "pa": 48,
-          "form": 16.9,
-          "platoon_mult": 1.0
-        },
-        {
-          "name": "Michael Massey",
-          "pa": 43,
-          "form": 92.7,
+          "name": "Isaac Collins",
+          "pa": 36,
+          "form": 5.8,
           "platoon_mult": 1.0
         },
         {
@@ -812,6 +806,10 @@
           "pa": 24,
           "form": 24.1,
           "platoon_mult": 1.0
+        },
+        {
+          "name": "Luke Maile",
+          "pa": 10
         },
         {
           "name": "Kyle Isbel",
@@ -822,9 +820,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 18,
+      "qualified": 17,
       "total": 18,
-      "pct": 100.0
+      "pct": 94.4
     },
     "market": {
       "date": "2026-08-23",

@@ -20,9 +20,9 @@
       "opp_starter": "Nick Martinez",
       "opp_runs5_pct": 34.3,
       "season_f5_rate": 2.46,
-      "bat_score": 56.9,
-      "lam": 2.77,
-      "lineup": "PROJECTED"
+      "bat_score": 68.4,
+      "lam": 2.92,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-23",
@@ -34,14 +34,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.77,
+      "lam_home": 2.92,
       "lam_away": 2.67,
-      "exp_total": 5.44,
+      "exp_total": 5.58,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.539,
+      "p_over": 0.554,
       "mkt_p_over": 0.526,
-      "value": 0.013,
+      "value": 0.027,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -59,18 +59,18 @@
       "opp_starter": "Cristopher S\u00e1nchez",
       "opp_runs5_pct": 93.5,
       "season_f5_rate": 2.4,
-      "bat_score": 49.7,
-      "lam": 2.33,
-      "lineup": "PROJECTED"
+      "bat_score": 56.9,
+      "lam": 2.4,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Philadelphia Phillies",
       "opp_starter": "Kyle Leahy",
       "opp_runs5_pct": 85.0,
       "season_f5_rate": 2.47,
-      "bat_score": 63.9,
-      "lam": 2.55,
-      "lineup": "PROJECTED"
+      "bat_score": 60.7,
+      "lam": 2.51,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-23",
@@ -82,14 +82,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.55,
-      "lam_away": 2.33,
-      "exp_total": 4.87,
+      "lam_home": 2.51,
+      "lam_away": 2.4,
+      "exp_total": 4.91,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.475,
+      "p_over": 0.48,
       "mkt_p_over": 0.431,
-      "value": 0.045,
+      "value": 0.049,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -107,9 +107,9 @@
       "opp_starter": "Carlos Rod\u00f3n",
       "opp_runs5_pct": null,
       "season_f5_rate": 1.96,
-      "bat_score": 61.6,
+      "bat_score": 65.3,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "New York Yankees",
@@ -188,9 +188,9 @@
       "opp_starter": null,
       "opp_runs5_pct": null,
       "season_f5_rate": 2.26,
-      "bat_score": 58.5,
+      "bat_score": 52.7,
       "lam": null,
-      "lineup": "PROJECTED"
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-08-23",
