@@ -3184,5 +3184,95 @@
   "over_ml": 114,
   "under_ml": -148,
   "book": "fanduel"
+ },
+ "2026-08-24|boston red sox|miami marlins": {
+  "date": "2026-08-24",
+  "home": "Miami Marlins",
+  "away": "Boston Red Sox",
+  "line": 3.5,
+  "over_ml": -144,
+  "under_ml": 110,
+  "book": "fanduel"
+ },
+ "2026-08-24|tampa bay rays|detroit tigers": {
+  "date": "2026-08-24",
+  "home": "Detroit Tigers",
+  "away": "Tampa Bay Rays",
+  "line": 3.5,
+  "over_ml": -152,
+  "under_ml": 116,
+  "book": "fanduel"
+ },
+ "2026-08-24|colorado rockies|washington nationals": {
+  "date": "2026-08-24",
+  "home": "Washington Nationals",
+  "away": "Colorado Rockies",
+  "line": 4.5,
+  "over_ml": -108,
+  "under_ml": -120,
+  "book": "fanduel"
+ },
+ "2026-08-24|texas rangers|chicago white sox": {
+  "date": "2026-08-24",
+  "home": "Chicago White Sox",
+  "away": "Texas Rangers",
+  "line": 4.5,
+  "over_ml": -108,
+  "under_ml": -120,
+  "book": "fanduel"
+ },
+ "2026-08-24|cleveland guardians|los angeles angels": {
+  "date": "2026-08-24",
+  "home": "Los Angeles Angels",
+  "away": "Cleveland Guardians",
+  "line": 4.5,
+  "over_ml": 108,
+  "under_ml": -140,
+  "book": "fanduel"
+ },
+ "2026-08-24|chicago cubs|arizona diamondbacks": {
+  "date": "2026-08-24",
+  "home": "Arizona Diamondbacks",
+  "away": "Chicago Cubs",
+  "line": 4.5,
+  "over_ml": -144,
+  "under_ml": 110,
+  "book": "fanduel"
+ },
+ "2026-08-24|pittsburgh pirates|san diego padres": {
+  "date": "2026-08-24",
+  "home": "San Diego Padres",
+  "away": "Pittsburgh Pirates",
+  "line": 4.5,
+  "over_ml": 112,
+  "under_ml": -146,
+  "book": "fanduel"
+ },
+ "2026-08-24|minnesota twins|athletics": {
+  "date": "2026-08-24",
+  "home": "Athletics",
+  "away": "Minnesota Twins",
+  "line": 5.5,
+  "over_ml": -128,
+  "under_ml": -102,
+  "book": "fanduel"
+ },
+ "2026-08-24|philadelphia phillies|seattle mariners": {
+  "date": "2026-08-24",
+  "home": "Seattle Mariners",
+  "away": "Philadelphia Phillies",
+  "line": 3.5,
+  "over_ml": -104,
+  "under_ml": -125,
+  "book": "fanduel"
+ },
+ "2026-08-24|cincinnati reds|san francisco giants": {
+  "date": "2026-08-24",
+  "home": "San Francisco Giants",
+  "away": "Cincinnati Reds",
+  "line": 3.5,
+  "over_ml": -140,
+  "under_ml": 108,
+  "book": "fanduel"
  }
 }

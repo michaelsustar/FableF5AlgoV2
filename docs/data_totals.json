@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-23T10:47:47",
- "slate_date": "2026-08-23",
+ "generated_at": "2026-08-24T10:39:41",
+ "slate_date": "2026-08-24",
  "ledger": {
-  "bets": 75,
-  "wins": 36,
+  "bets": 76,
+  "wins": 37,
   "losses": 39,
   "pushes": 0,
-  "units": -6.88,
-  "roi": -0.0917,
-  "hit": 0.48,
-  "claimed": 0.584,
-  "clv_bets": 68,
+  "units": -5.78,
+  "roi": -0.0761,
+  "hit": 0.4868,
+  "claimed": 0.5831,
+  "clv_bets": 69,
   "clv_beat": 35,
   "clv_avg": -0.0002
  },
@@ -114,25 +114,71 @@
   {
    "date": "2026-08-22",
    "units": -6.88
+  },
+  {
+   "date": "2026-08-23",
+   "units": -5.78
   }
  ],
  "bets_today": [
   {
-   "matchup": "Minnesota Twins @ San Diego Padres",
-   "pick": "Under 4.5",
-   "ml": 110,
+   "matchup": "Boston Red Sox @ Miami Marlins",
+   "pick": "Over 3.5",
+   "ml": -144,
    "tier": "LEAN",
-   "time": "2026-08-23T20:10:00Z",
+   "time": "2026-08-24T22:40:00Z",
+   "line": 3.5,
+   "exp_total": 4.91,
+   "lam_home": 2.64,
+   "lam_away": 2.27,
+   "model_p": 0.61,
+   "mkt_p": 0.553,
+   "value": 0.057
+  },
+  {
+   "matchup": "Tampa Bay Rays @ Detroit Tigers",
+   "pick": "Over 3.5",
+   "ml": -152,
+   "tier": "LEAN",
+   "time": "2026-08-24T22:40:00Z",
+   "line": 3.5,
+   "exp_total": 4.97,
+   "lam_home": 2.61,
+   "lam_away": 2.37,
+   "model_p": 0.618,
+   "mkt_p": 0.566,
+   "value": 0.052
+  },
+  {
+   "matchup": "Philadelphia Phillies @ Seattle Mariners",
+   "pick": "Over 3.5",
+   "ml": -104,
+   "tier": "STRONG",
+   "time": "2026-08-25T01:40:00Z",
+   "line": 3.5,
+   "exp_total": 4.54,
+   "lam_home": 2.39,
+   "lam_away": 2.15,
+   "model_p": 0.569,
+   "mkt_p": 0.479,
+   "value": 0.091
+  },
+  {
+   "matchup": "Chicago Cubs @ Arizona Diamondbacks",
+   "pick": "Over 4.5",
+   "ml": -144,
+   "tier": "LEAN",
+   "time": "2026-08-25T01:40:00Z",
    "line": 4.5,
-   "exp_total": 4.95,
-   "lam_home": 2.66,
-   "lam_away": 2.3,
-   "model_p": 0.515,
-   "mkt_p": 0.447,
-   "value": 0.069
+   "exp_total": 6.21,
+   "lam_home": 3.13,
+   "lam_away": 3.1,
+   "model_p": 0.615,
+   "mkt_p": 0.553,
+   "value": 0.062
   }
  ],
- "evaluated_today": 7,
+ "evaluated_today": 8,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

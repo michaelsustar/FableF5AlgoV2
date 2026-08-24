@@ -11886,5 +11886,85 @@
   "home_ml": -130,
   "away_ml": 100,
   "book": "draftkings"
+ },
+ "2026-08-24|boston red sox|miami marlins": {
+  "date": "2026-08-24",
+  "home": "Miami Marlins",
+  "away": "Boston Red Sox",
+  "home_ml": -115,
+  "away_ml": -115,
+  "book": "draftkings"
+ },
+ "2026-08-24|tampa bay rays|detroit tigers": {
+  "date": "2026-08-24",
+  "home": "Detroit Tigers",
+  "away": "Tampa Bay Rays",
+  "home_ml": 120,
+  "away_ml": -154,
+  "book": "draftkings"
+ },
+ "2026-08-24|colorado rockies|washington nationals": {
+  "date": "2026-08-24",
+  "home": "Washington Nationals",
+  "away": "Colorado Rockies",
+  "home_ml": -220,
+  "away_ml": 170,
+  "book": "draftkings"
+ },
+ "2026-08-24|texas rangers|chicago white sox": {
+  "date": "2026-08-24",
+  "home": "Chicago White Sox",
+  "away": "Texas Rangers",
+  "home_ml": -130,
+  "away_ml": 100,
+  "book": "draftkings"
+ },
+ "2026-08-24|cleveland guardians|los angeles angels": {
+  "date": "2026-08-24",
+  "home": "Los Angeles Angels",
+  "away": "Cleveland Guardians",
+  "home_ml": 130,
+  "away_ml": -166,
+  "book": "draftkings"
+ },
+ "2026-08-24|chicago cubs|arizona diamondbacks": {
+  "date": "2026-08-24",
+  "home": "Arizona Diamondbacks",
+  "away": "Chicago Cubs",
+  "home_ml": 114,
+  "away_ml": -145,
+  "book": "draftkings"
+ },
+ "2026-08-24|pittsburgh pirates|san diego padres": {
+  "date": "2026-08-24",
+  "home": "San Diego Padres",
+  "away": "Pittsburgh Pirates",
+  "home_ml": -105,
+  "away_ml": -125,
+  "book": "draftkings"
+ },
+ "2026-08-24|minnesota twins|athletics": {
+  "date": "2026-08-24",
+  "home": "Athletics",
+  "away": "Minnesota Twins",
+  "home_ml": 105,
+  "away_ml": -135,
+  "book": "draftkings"
+ },
+ "2026-08-24|philadelphia phillies|seattle mariners": {
+  "date": "2026-08-24",
+  "home": "Seattle Mariners",
+  "away": "Philadelphia Phillies",
+  "home_ml": -110,
+  "away_ml": -120,
+  "book": "draftkings"
+ },
+ "2026-08-24|cincinnati reds|san francisco giants": {
+  "date": "2026-08-24",
+  "home": "San Francisco Giants",
+  "away": "Cincinnati Reds",
+  "home_ml": 140,
+  "away_ml": -180,
+  "book": "draftkings"
  }
 }

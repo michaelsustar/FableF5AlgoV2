@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-23T10:47:11",
- "slate_date": "2026-08-23",
+ "generated_at": "2026-08-24T10:39:00",
+ "slate_date": "2026-08-24",
  "ledger": {
-  "bets": 119,
-  "wins": 41,
-  "losses": 59,
+  "bets": 122,
+  "wins": 42,
+  "losses": 61,
   "pushes": 19,
-  "units": -9.72,
+  "units": -9.97,
   "roi": -0.0817,
-  "hit": 0.41,
-  "claimed": 0.5555,
-  "clv_bets": 112,
+  "hit": 0.4078,
+  "claimed": 0.5556,
+  "clv_bets": 115,
   "clv_beat": 55,
-  "clv_avg": 0.0052
+  "clv_avg": 0.005
  },
  "series": [
   {
@@ -134,41 +134,75 @@
   {
    "date": "2026-08-22",
    "units": -9.72
+  },
+  {
+   "date": "2026-08-23",
+   "units": -9.97
   }
  ],
  "bets_today": [
   {
-   "matchup": "St. Louis Cardinals @ Philadelphia Phillies",
-   "pick": "St. Louis Cardinals",
-   "ml": 175,
+   "matchup": "Tampa Bay Rays @ Detroit Tigers",
+   "pick": "Detroit Tigers",
+   "ml": 120,
    "tier": "STRONG",
-   "time": "2026-08-23T17:35:00Z",
-   "model_p": 0.439,
-   "mkt_p": 0.343,
+   "time": "2026-08-24T22:40:00Z",
+   "model_p": 0.556,
+   "mkt_p": 0.428,
+   "value": 0.128
+  },
+  {
+   "matchup": "Boston Red Sox @ Miami Marlins",
+   "pick": "Miami Marlins",
+   "ml": -115,
+   "tier": "STRONG",
+   "time": "2026-08-24T22:40:00Z",
+   "model_p": 0.594,
+   "mkt_p": 0.5,
+   "value": 0.094
+  },
+  {
+   "matchup": "Cleveland Guardians @ Los Angeles Angels",
+   "pick": "Los Angeles Angels",
+   "ml": 130,
+   "tier": "STRONG",
+   "time": "2026-08-25T01:38:00Z",
+   "model_p": 0.51,
+   "mkt_p": 0.411,
+   "value": 0.099
+  },
+  {
+   "matchup": "Minnesota Twins @ Athletics",
+   "pick": "Athletics",
+   "ml": 105,
+   "tier": "STRONG",
+   "time": "2026-08-25T01:40:00Z",
+   "model_p": 0.555,
+   "mkt_p": 0.459,
    "value": 0.096
   },
   {
-   "matchup": "Cleveland Guardians @ Colorado Rockies",
-   "pick": "Colorado Rockies",
-   "ml": 124,
+   "matchup": "Chicago Cubs @ Arizona Diamondbacks",
+   "pick": "Arizona Diamondbacks",
+   "ml": 114,
    "tier": "STRONG",
-   "time": "2026-08-23T19:10:00Z",
-   "model_p": 0.504,
-   "mkt_p": 0.42,
-   "value": 0.083
+   "time": "2026-08-25T01:40:00Z",
+   "model_p": 0.527,
+   "mkt_p": 0.441,
+   "value": 0.086
   },
   {
-   "matchup": "Cincinnati Reds @ Arizona Diamondbacks",
-   "pick": "Arizona Diamondbacks",
-   "ml": -130,
+   "matchup": "Philadelphia Phillies @ Seattle Mariners",
+   "pick": "Seattle Mariners",
+   "ml": -110,
    "tier": "STRONG",
-   "time": "2026-08-23T20:15:00Z",
-   "model_p": 0.617,
-   "mkt_p": 0.531,
-   "value": 0.086
+   "time": "2026-08-25T01:40:00Z",
+   "model_p": 0.574,
+   "mkt_p": 0.49,
+   "value": 0.084
   }
  ],
- "evaluated_today": 7,
+ "evaluated_today": 8,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
