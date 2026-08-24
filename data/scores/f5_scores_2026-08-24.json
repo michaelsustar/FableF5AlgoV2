@@ -545,7 +545,7 @@
     "game_time": "2026-08-24T23:40:00Z",
     "away": {
       "team": "Texas Rangers",
-      "batting_score": 40.2,
+      "batting_score": 40.7,
       "pitcher": "Kumar Rocker",
       "pitcher_score": 16.3,
       "pitcher_metrics": {
@@ -567,66 +567,66 @@
         {
           "name": "Evan Carter",
           "pa": 39,
-          "form": 21.8,
-          "platoon_mult": 1.0
+          "form": 23.6,
+          "platoon_mult": 1.085
         },
         {
           "name": "Corey Seager",
           "pa": 49,
-          "form": 89.2,
-          "platoon_mult": 1.0
+          "form": 96.3,
+          "platoon_mult": 1.08
         },
         {
           "name": "Wyatt Langford",
           "pa": 54,
-          "form": 34.0,
-          "platoon_mult": 1.0
+          "form": 34.1,
+          "platoon_mult": 1.004
         },
         {
           "name": "Brandon Nimmo",
           "pa": 54,
-          "form": 9.9,
-          "platoon_mult": 1.0
+          "form": 9.4,
+          "platoon_mult": 0.952
         },
         {
           "name": "Ezequiel Duran",
           "pa": 53,
-          "form": 53.2,
-          "platoon_mult": 1.0
+          "form": 52.4,
+          "platoon_mult": 0.984
         },
         {
           "name": "Jake Burger",
           "pa": 42,
-          "form": 33.1,
-          "platoon_mult": 1.0
+          "form": 31.9,
+          "platoon_mult": 0.964
         },
         {
           "name": "Joc Pederson",
           "pa": 34,
-          "form": 11.0,
-          "platoon_mult": 1.0
+          "form": 11.1,
+          "platoon_mult": 1.006
         },
         {
           "name": "Cody Freeman",
           "pa": 22,
-          "form": 79.0,
-          "platoon_mult": 1.0
+          "form": 81.1,
+          "platoon_mult": 1.027
         },
         {
           "name": "Elias D\u00edaz",
           "pa": 28,
-          "form": 30.8,
-          "platoon_mult": 1.0
+          "form": 26.2,
+          "platoon_mult": 0.85
         }
       ]
     },
     "home": {
       "team": "Chicago White Sox",
       "batting_score": 44.0,
-      "pitcher": null,
+      "pitcher": "Jos\u00e9 Urquidy",
       "pitcher_score": null,
       "pitcher_metrics": null,
-      "pitcher_hand": null,
+      "pitcher_hand": "R",
       "rpg_14d": 4.692,
       "lineup": "PROJECTED",
       "batters": [

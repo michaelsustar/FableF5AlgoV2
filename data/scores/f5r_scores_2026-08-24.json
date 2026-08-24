@@ -156,10 +156,10 @@
     "park_factor": 1.01,
     "away": {
       "team": "Texas Rangers",
-      "opp_starter": null,
+      "opp_starter": "Jos\u00e9 Urquidy",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.37,
-      "bat_score": 40.2,
+      "bat_score": 40.7,
       "lam": null,
       "lineup": "PROJECTED"
     },
