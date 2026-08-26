@@ -386,10 +386,10 @@
     "park_factor": 1.02,
     "away": {
       "team": "Houston Astros",
-      "opp_starter": null,
+      "opp_starter": "Elmer Rodr\u00edguez",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.64,
-      "bat_score": 58.0,
+      "bat_score": 58.1,
       "lam": null,
       "lineup": "PROJECTED"
     },

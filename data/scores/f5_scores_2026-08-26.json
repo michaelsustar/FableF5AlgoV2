@@ -1397,7 +1397,7 @@
     "game_time": "2026-08-26T23:05:00Z",
     "away": {
       "team": "Houston Astros",
-      "batting_score": 58.0,
+      "batting_score": 58.1,
       "pitcher": "Peter Lambert",
       "pitcher_score": 13.7,
       "pitcher_metrics": {
@@ -1419,50 +1419,50 @@
         {
           "name": "Jeremy Pe\u00f1a",
           "pa": 36,
-          "form": 55.8,
-          "platoon_mult": 1.0
+          "form": 56.6,
+          "platoon_mult": 1.014
         },
         {
           "name": "Yordan Alvarez",
           "pa": 45,
-          "form": 88.6,
-          "platoon_mult": 1.0
+          "form": 94.9,
+          "platoon_mult": 1.07
         },
         {
           "name": "Isaac Paredes",
           "pa": 47,
-          "form": 84.2,
-          "platoon_mult": 1.0
+          "form": 85.5,
+          "platoon_mult": 1.015
         },
         {
           "name": "Nick Allen",
           "pa": 15,
-          "form": 84.2,
-          "platoon_mult": 1.0
+          "form": 71.6,
+          "platoon_mult": 0.85
         },
         {
           "name": "Daulton Varsho",
           "pa": 43,
-          "form": 31.8,
-          "platoon_mult": 1.0
+          "form": 31.2,
+          "platoon_mult": 0.981
         },
         {
           "name": "Christian Walker",
           "pa": 38,
-          "form": 14.2,
-          "platoon_mult": 1.0
+          "form": 14.3,
+          "platoon_mult": 1.008
         },
         {
           "name": "Cam Smith",
           "pa": 34,
-          "form": 16.4,
-          "platoon_mult": 1.0
+          "form": 16.8,
+          "platoon_mult": 1.022
         },
         {
           "name": "Yainer Diaz",
           "pa": 24,
-          "form": 89.0,
-          "platoon_mult": 1.0
+          "form": 94.1,
+          "platoon_mult": 1.057
         },
         {
           "name": "Nelson Vel\u00e1zquez",
@@ -1473,10 +1473,10 @@
     "home": {
       "team": "New York Yankees",
       "batting_score": 50.7,
-      "pitcher": null,
+      "pitcher": "Elmer Rodr\u00edguez",
       "pitcher_score": null,
       "pitcher_metrics": null,
-      "pitcher_hand": null,
+      "pitcher_hand": "R",
       "rpg_14d": 4.25,
       "lineup": "PROJECTED",
       "batters": [
