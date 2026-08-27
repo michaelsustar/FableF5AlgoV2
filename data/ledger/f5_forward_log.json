@@ -6732,7 +6732,16 @@
   "away_team": "Houston Astros",
   "params": "bd65d255fe",
   "logged_at": "2026-08-27T19:34:33",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-08-27T22:55:00Z",
+   "book": "draftkings",
+   "home_ml": -175,
+   "away_ml": 135,
+   "pick_ml": 135,
+   "mkt_p": 0.4007,
+   "clv": 0.0817
+  }
  },
  "823581": {
   "gamePk": 823581,
@@ -6749,7 +6758,16 @@
   "away_team": "Milwaukee Brewers",
   "params": "bd65d255fe",
   "logged_at": "2026-08-27T19:34:33",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-08-27T23:00:00Z",
+   "book": "draftkings",
+   "home_ml": 180,
+   "away_ml": -238,
+   "pick_ml": 180,
+   "mkt_p": 0.3365,
+   "clv": 0.2395
+  }
  },
  "824879": {
   "gamePk": 824879,
@@ -6766,6 +6784,15 @@
   "away_team": "Los Angeles Dodgers",
   "params": "bd65d255fe",
   "logged_at": "2026-08-27T19:34:33",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-08-27T23:05:00Z",
+   "book": "draftkings",
+   "home_ml": -145,
+   "away_ml": 114,
+   "pick_ml": 114,
+   "mkt_p": 0.4412,
+   "clv": 0.2482
+  }
  }
 }

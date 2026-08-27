@@ -7271,7 +7271,19 @@
   "exp_total": 5.1,
   "params": "0112c6bd34",
   "logged_at": "2026-08-27T19:35:06",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-08-27T22:55:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -102,
+   "under_ml": -128,
+   "pick_ml": -102,
+   "mkt_p": 0.4735,
+   "clv": null,
+   "line_move": 2.0,
+   "our_way": 2.0
+  }
  },
  "823581": {
   "gamePk": 823581,
@@ -7315,6 +7327,18 @@
   "exp_total": 4.91,
   "params": "0112c6bd34",
   "logged_at": "2026-08-27T19:35:06",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-08-27T23:05:00Z",
+   "book": "fanduel",
+   "line": 3.5,
+   "over_ml": 118,
+   "under_ml": -154,
+   "pick_ml": 118,
+   "mkt_p": 0.4307,
+   "clv": null,
+   "line_move": 1.0,
+   "our_way": 1.0
+  }
  }
 }
