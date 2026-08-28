@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-28T19:24:09",
+ "generated_at": "2026-08-28T19:36:54",
  "slate_date": "2026-08-28",
  "ledger": {
   "bets": 92,
@@ -136,8 +136,107 @@
    "units": -8.56
   }
  ],
- "bets_today": [],
- "evaluated_today": 0,
+ "bets_today": [
+  {
+   "matchup": "Los Angeles Dodgers @ Detroit Tigers",
+   "pick": "Over 1.5",
+   "ml": 116,
+   "tier": "STRONG",
+   "time": "2026-08-28T22:40:00Z",
+   "line": 1.5,
+   "exp_total": 4.85,
+   "lam_home": 2.42,
+   "lam_away": 2.44,
+   "model_p": 0.867,
+   "mkt_p": 0.433,
+   "value": 0.434
+  },
+  {
+   "matchup": "Miami Marlins @ Washington Nationals",
+   "pick": "Over 3.5",
+   "ml": -104,
+   "tier": "STRONG",
+   "time": "2026-08-28T22:45:00Z",
+   "line": 3.5,
+   "exp_total": 4.77,
+   "lam_home": 2.17,
+   "lam_away": 2.6,
+   "model_p": 0.595,
+   "mkt_p": 0.476,
+   "value": 0.119
+  },
+  {
+   "matchup": "Kansas City Royals @ Cleveland Guardians",
+   "pick": "Over 3.5",
+   "ml": 108,
+   "tier": "STRONG",
+   "time": "2026-08-28T23:10:00Z",
+   "line": 3.5,
+   "exp_total": 5.23,
+   "lam_home": 2.46,
+   "lam_away": 2.77,
+   "model_p": 0.644,
+   "mkt_p": 0.449,
+   "value": 0.195
+  },
+  {
+   "matchup": "San Diego Padres @ Tampa Bay Rays",
+   "pick": "Over 2.5",
+   "ml": -136,
+   "tier": "STRONG",
+   "time": "2026-08-28T23:10:00Z",
+   "line": 2.5,
+   "exp_total": 4.31,
+   "lam_home": 2.25,
+   "lam_away": 2.06,
+   "model_p": 0.691,
+   "mkt_p": 0.538,
+   "value": 0.153
+  },
+  {
+   "matchup": "Houston Astros @ New York Mets",
+   "pick": "Over 3.5",
+   "ml": -130,
+   "tier": "STRONG",
+   "time": "2026-08-28T23:10:00Z",
+   "line": 3.5,
+   "exp_total": 5.2,
+   "lam_home": 2.45,
+   "lam_away": 2.75,
+   "model_p": 0.641,
+   "mkt_p": 0.528,
+   "value": 0.113
+  },
+  {
+   "matchup": "Boston Red Sox @ New York Yankees",
+   "pick": "Over 3.5",
+   "ml": -130,
+   "tier": "STRONG",
+   "time": "2026-08-28T23:15:00Z",
+   "line": 3.5,
+   "exp_total": 5.21,
+   "lam_home": 2.76,
+   "lam_away": 2.46,
+   "model_p": 0.642,
+   "mkt_p": 0.528,
+   "value": 0.114
+  },
+  {
+   "matchup": "Texas Rangers @ Milwaukee Brewers",
+   "pick": "Over 4.5",
+   "ml": 114,
+   "tier": "LEAN",
+   "time": "2026-08-28T23:40:00Z",
+   "line": 4.5,
+   "exp_total": 5.01,
+   "lam_home": 2.68,
+   "lam_away": 2.33,
+   "model_p": 0.491,
+   "mkt_p": 0.439,
+   "value": 0.052
+  }
+ ],
+ "evaluated_today": 13,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

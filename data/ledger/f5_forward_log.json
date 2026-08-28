@@ -6816,7 +6816,16 @@
   "away_team": "Los Angeles Dodgers",
   "params": "bd65d255fe",
   "logged_at": "2026-08-28T19:23:33",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-08-28T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": 154,
+   "away_ml": -200,
+   "pick_ml": 154,
+   "mkt_p": 0.3713,
+   "clv": -0.0487
+  }
  },
  "822691": {
   "gamePk": 822691,
@@ -6833,7 +6842,16 @@
   "away_team": "Miami Marlins",
   "params": "bd65d255fe",
   "logged_at": "2026-08-28T19:23:33",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-08-28T22:35:00Z",
+   "book": "draftkings",
+   "home_ml": 120,
+   "away_ml": -154,
+   "pick_ml": 120,
+   "mkt_p": 0.4285,
+   "clv": 0.2035
+  }
  },
  "824396": {
   "gamePk": 824396,
