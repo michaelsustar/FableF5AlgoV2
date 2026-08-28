@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-27T19:51:27",
- "slate_date": "2026-08-27",
+ "generated_at": "2026-08-28T19:24:09",
+ "slate_date": "2026-08-28",
  "ledger": {
-  "bets": 90,
+  "bets": 92,
   "wins": 44,
-  "losses": 46,
+  "losses": 48,
   "pushes": 0,
-  "units": -6.56,
-  "roi": -0.0729,
-  "hit": 0.4889,
-  "claimed": 0.5814,
+  "units": -8.56,
+  "roi": -0.093,
+  "hit": 0.4783,
+  "claimed": 0.5852,
   "clv_bets": 82,
   "clv_beat": 40,
   "clv_avg": -0.0008
@@ -130,39 +130,14 @@
   {
    "date": "2026-08-26",
    "units": -6.56
-  }
- ],
- "bets_today": [
-  {
-   "matchup": "Houston Astros @ New York Yankees",
-   "pick": "Over 2.5",
-   "ml": -144,
-   "tier": "STRONG",
-   "time": "2026-08-27T23:05:00Z",
-   "line": 2.5,
-   "exp_total": 5.1,
-   "lam_home": 2.66,
-   "lam_away": 2.44,
-   "model_p": 0.762,
-   "mkt_p": 0.551,
-   "value": 0.211
   },
   {
-   "matchup": "Los Angeles Dodgers @ Atlanta Braves",
-   "pick": "Over 2.5",
-   "ml": -172,
-   "tier": "STRONG",
-   "time": "2026-08-27T23:15:00Z",
-   "line": 2.5,
-   "exp_total": 4.91,
-   "lam_home": 2.31,
-   "lam_away": 2.6,
-   "model_p": 0.747,
-   "mkt_p": 0.59,
-   "value": 0.157
+   "date": "2026-08-27",
+   "units": -8.56
   }
  ],
- "evaluated_today": 3,
+ "bets_today": [],
+ "evaluated_today": 0,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

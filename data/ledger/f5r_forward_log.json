@@ -7271,7 +7271,7 @@
   "exp_total": 5.1,
   "params": "0112c6bd34",
   "logged_at": "2026-08-27T19:35:06",
-  "graded": false,
+  "graded": true,
   "close": {
    "snapshot": "2026-08-27T22:55:00Z",
    "book": "fanduel",
@@ -7283,7 +7283,10 @@
    "clv": null,
    "line_move": 2.0,
    "our_way": 2.0
-  }
+  },
+  "outcome": "under",
+  "total": 1,
+  "units": -1.0
  },
  "823581": {
   "gamePk": 823581,
@@ -7305,7 +7308,10 @@
   "exp_total": 4.34,
   "params": "0112c6bd34",
   "logged_at": "2026-08-27T19:35:06",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 7,
+  "units": 0.0
  },
  "824879": {
   "gamePk": 824879,
@@ -7327,7 +7333,7 @@
   "exp_total": 4.91,
   "params": "0112c6bd34",
   "logged_at": "2026-08-27T19:35:06",
-  "graded": false,
+  "graded": true,
   "close": {
    "snapshot": "2026-08-27T23:05:00Z",
    "book": "fanduel",
@@ -7339,6 +7345,9 @@
    "clv": null,
    "line_move": 1.0,
    "our_way": 1.0
-  }
+  },
+  "outcome": "under",
+  "total": 1,
+  "units": -1.0
  }
 }

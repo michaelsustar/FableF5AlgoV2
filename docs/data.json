@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-27T19:51:06",
- "slate_date": "2026-08-27",
+ "generated_at": "2026-08-28T19:23:33",
+ "slate_date": "2026-08-28",
  "ledger": {
-  "bets": 139,
-  "wins": 46,
-  "losses": 69,
+  "bets": 142,
+  "wins": 47,
+  "losses": 71,
   "pushes": 24,
-  "units": -13.89,
-  "roi": -0.0999,
-  "hit": 0.4,
-  "claimed": 0.5547,
-  "clv_bets": 132,
-  "clv_beat": 61,
-  "clv_avg": 0.004
+  "units": -13.93,
+  "roi": -0.0981,
+  "hit": 0.3983,
+  "claimed": 0.5542,
+  "clv_bets": 135,
+  "clv_beat": 64,
+  "clv_avg": 0.0082
  },
  "series": [
   {
@@ -150,41 +150,55 @@
   {
    "date": "2026-08-26",
    "units": -13.89
+  },
+  {
+   "date": "2026-08-27",
+   "units": -13.93
   }
  ],
  "bets_today": [
   {
-   "matchup": "Houston Astros @ New York Yankees",
-   "pick": "Houston Astros",
-   "ml": 196,
+   "matchup": "Los Angeles Dodgers @ Detroit Tigers",
+   "pick": "Detroit Tigers",
+   "ml": 124,
    "tier": "STRONG",
-   "time": "2026-08-27T23:05:00Z",
-   "model_p": 0.431,
-   "mkt_p": 0.319,
-   "value": 0.112
+   "time": "2026-08-28T22:40:00Z",
+   "model_p": 0.513,
+   "mkt_p": 0.42,
+   "value": 0.092
   },
   {
-   "matchup": "Milwaukee Brewers @ New York Mets",
-   "pick": "New York Mets",
-   "ml": 870,
+   "matchup": "Miami Marlins @ Washington Nationals",
+   "pick": "Washington Nationals",
+   "ml": 320,
    "tier": "STRONG",
-   "time": "2026-08-27T23:10:00Z",
-   "model_p": 0.524,
-   "mkt_p": 0.097,
-   "value": 0.427
+   "time": "2026-08-28T22:45:00Z",
+   "model_p": 0.423,
+   "mkt_p": 0.225,
+   "value": 0.198
   },
   {
-   "matchup": "Los Angeles Dodgers @ Atlanta Braves",
-   "pick": "Los Angeles Dodgers",
-   "ml": 390,
+   "matchup": "Pittsburgh Pirates @ St. Louis Cardinals",
+   "pick": "St. Louis Cardinals",
+   "ml": 100,
    "tier": "STRONG",
-   "time": "2026-08-27T23:15:00Z",
-   "model_p": 0.516,
-   "mkt_p": 0.193,
-   "value": 0.323
+   "time": "2026-08-29T00:15:00Z",
+   "model_p": 0.532,
+   "mkt_p": 0.469,
+   "value": 0.062
+  },
+  {
+   "matchup": "Baltimore Orioles @ Athletics",
+   "pick": "Athletics",
+   "ml": -120,
+   "tier": "STRONG",
+   "time": "2026-08-29T01:40:00Z",
+   "model_p": 0.591,
+   "mkt_p": 0.51,
+   "value": 0.081
   }
  ],
- "evaluated_today": 3,
+ "evaluated_today": 13,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
