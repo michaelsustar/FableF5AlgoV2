@@ -5,7 +5,7 @@
     "game_time": "2026-08-30T16:15:00Z",
     "away": {
       "team": "Miami Marlins",
-      "batting_score": 46.9,
+      "batting_score": 50.7,
       "pitcher": "Janson Junk",
       "pitcher_score": 63.5,
       "pitcher_metrics": {
@@ -73,10 +73,10 @@
           "platoon_mult": 1.038
         },
         {
-          "name": "Brian Navarreto",
+          "name": "Kyle Stowers",
           "pa": 20,
-          "form": 17.1,
-          "platoon_mult": 1.0
+          "form": 51.2,
+          "platoon_mult": 0.85
         }
       ]
     },
@@ -164,8 +164,8 @@
     },
     "market": null,
     "prediction": {
-      "p_home": 0.519,
-      "edge": 0.019,
+      "p_home": 0.511,
+      "edge": 0.011,
       "mode": "band",
       "pick": null,
       "tier": "NO BET"
