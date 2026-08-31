@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-30T14:06:47",
- "slate_date": "2026-08-30",
+ "generated_at": "2026-08-31T15:50:27",
+ "slate_date": "2026-08-31",
  "ledger": {
-  "bets": 152,
-  "wins": 50,
-  "losses": 76,
+  "bets": 154,
+  "wins": 51,
+  "losses": 77,
   "pushes": 26,
-  "units": -13.49,
-  "roi": -0.0888,
-  "hit": 0.3968,
-  "claimed": 0.5533,
-  "clv_bets": 145,
-  "clv_beat": 69,
-  "clv_avg": 0.0085
+  "units": -12.99,
+  "roi": -0.0844,
+  "hit": 0.3984,
+  "claimed": 0.5526,
+  "clv_bets": 147,
+  "clv_beat": 70,
+  "clv_avg": 0.0109
  },
  "series": [
   {
@@ -162,28 +162,52 @@
   {
    "date": "2026-08-29",
    "units": -13.49
+  },
+  {
+   "date": "2026-08-30",
+   "units": -12.99
   }
  ],
  "bets_today": [
   {
-   "matchup": "Seattle Mariners @ Toronto Blue Jays",
-   "pick": "Seattle Mariners",
-   "ml": 340,
+   "matchup": "Seattle Mariners @ Boston Red Sox",
+   "pick": "Boston Red Sox",
+   "ml": -175,
    "tier": "STRONG",
-   "time": "2026-08-30T17:37:00Z",
-   "model_p": 0.504,
-   "mkt_p": 0.214,
-   "value": 0.289
+   "time": "2026-08-31T22:45:00Z",
+   "model_p": 0.663,
+   "mkt_p": 0.599,
+   "value": 0.063
   },
   {
-   "matchup": "San Diego Padres @ Tampa Bay Rays",
-   "pick": "San Diego Padres",
-   "ml": 150,
+   "matchup": "Milwaukee Brewers @ Chicago Cubs",
+   "pick": "Chicago Cubs",
+   "ml": -115,
    "tier": "STRONG",
-   "time": "2026-08-30T17:40:00Z",
+   "time": "2026-08-31T23:40:00Z",
+   "model_p": 0.633,
+   "mkt_p": 0.5,
+   "value": 0.133
+  },
+  {
+   "matchup": "Athletics @ Texas Rangers",
+   "pick": "Athletics",
+   "ml": 185,
+   "tier": "STRONG",
+   "time": "2026-09-01T00:05:00Z",
    "model_p": 0.516,
-   "mkt_p": 0.377,
-   "value": 0.139
+   "mkt_p": 0.331,
+   "value": 0.185
+  },
+  {
+   "matchup": "Chicago White Sox @ Houston Astros",
+   "pick": "Chicago White Sox",
+   "ml": 110,
+   "tier": "STRONG",
+   "time": "2026-09-01T00:10:00Z",
+   "model_p": 0.51,
+   "mkt_p": 0.449,
+   "value": 0.061
   }
  ],
  "evaluated_today": 8,

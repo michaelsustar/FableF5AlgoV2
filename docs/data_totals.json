@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-30T14:07:22",
- "slate_date": "2026-08-30",
+ "generated_at": "2026-08-31T15:51:18",
+ "slate_date": "2026-08-31",
  "ledger": {
-  "bets": 100,
-  "wins": 46,
-  "losses": 54,
+  "bets": 104,
+  "wins": 48,
+  "losses": 56,
   "pushes": 0,
-  "units": -12.86,
-  "roi": -0.1286,
-  "hit": 0.46,
-  "claimed": 0.5912,
-  "clv_bets": 84,
-  "clv_beat": 42,
-  "clv_avg": -0.0005
+  "units": -13.32,
+  "roi": -0.1281,
+  "hit": 0.4615,
+  "claimed": 0.5919,
+  "clv_bets": 86,
+  "clv_beat": 43,
+  "clv_avg": 0.0004
  },
  "series": [
   {
@@ -142,64 +142,40 @@
   {
    "date": "2026-08-29",
    "units": -12.86
+  },
+  {
+   "date": "2026-08-30",
+   "units": -13.32
   }
  ],
  "bets_today": [
   {
-   "matchup": "Boston Red Sox @ New York Yankees",
-   "pick": "Over 3.5",
-   "ml": -130,
+   "matchup": "Seattle Mariners @ Boston Red Sox",
+   "pick": "Over 4.5",
+   "ml": 112,
    "tier": "STRONG",
-   "time": "2026-08-30T17:35:00Z",
+   "time": "2026-08-31T22:45:00Z",
+   "line": 4.5,
+   "exp_total": 5.68,
+   "lam_home": 3.32,
+   "lam_away": 2.37,
+   "model_p": 0.562,
+   "mkt_p": 0.443,
+   "value": 0.12
+  },
+  {
+   "matchup": "Athletics @ Texas Rangers",
+   "pick": "Over 3.5",
+   "ml": -138,
+   "tier": "STRONG",
+   "time": "2026-09-01T00:05:00Z",
    "line": 3.5,
-   "exp_total": 5.39,
+   "exp_total": 5.25,
    "lam_home": 2.52,
-   "lam_away": 2.87,
-   "model_p": 0.659,
-   "mkt_p": 0.528,
-   "value": 0.13
-  },
-  {
-   "matchup": "Seattle Mariners @ Toronto Blue Jays",
-   "pick": "Under 5.5",
-   "ml": -130,
-   "tier": "STRONG",
-   "time": "2026-08-30T17:37:00Z",
-   "line": 5.5,
-   "exp_total": 5.03,
-   "lam_home": 2.41,
-   "lam_away": 2.62,
-   "model_p": 0.622,
-   "mkt_p": 0.528,
-   "value": 0.094
-  },
-  {
-   "matchup": "San Diego Padres @ Tampa Bay Rays",
-   "pick": "Over 3.5",
-   "ml": -106,
-   "tier": "STRONG",
-   "time": "2026-08-30T17:40:00Z",
-   "line": 3.5,
-   "exp_total": 4.74,
-   "lam_home": 2.25,
-   "lam_away": 2.49,
-   "model_p": 0.592,
-   "mkt_p": 0.481,
-   "value": 0.111
-  },
-  {
-   "matchup": "Baltimore Orioles @ Athletics",
-   "pick": "Under 5.5",
-   "ml": -110,
-   "tier": "LEAN",
-   "time": "2026-08-30T20:05:00Z",
-   "line": 5.5,
-   "exp_total": 5.59,
-   "lam_home": 2.77,
-   "lam_away": 2.83,
-   "model_p": 0.559,
-   "mkt_p": 0.492,
-   "value": 0.067
+   "lam_away": 2.74,
+   "model_p": 0.646,
+   "mkt_p": 0.544,
+   "value": 0.102
   }
  ],
  "evaluated_today": 8,
