@@ -325,9 +325,9 @@
       "opp_starter": "Jacob deGrom",
       "opp_runs5_pct": 34.3,
       "season_f5_rate": 2.38,
-      "bat_score": 54.9,
-      "lam": 2.74,
-      "lineup": "PROJECTED"
+      "bat_score": 49.0,
+      "lam": 2.67,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Texas Rangers",
@@ -349,13 +349,13 @@
     },
     "prediction": {
       "lam_home": 2.52,
-      "lam_away": 2.74,
-      "exp_total": 5.25,
+      "lam_away": 2.67,
+      "exp_total": 5.18,
       "mode": "market",
       "line": 3.5,
-      "p_over": 0.646,
+      "p_over": 0.639,
       "mkt_p_over": 0.544,
-      "value": 0.102,
+      "value": 0.095,
       "p_push": 0.0,
       "pick": "Over 3.5",
       "pick_side": "over",
