@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-31T16:14:58",
- "slate_date": "2026-08-31",
+ "generated_at": "2026-09-01T13:36:50",
+ "slate_date": "2026-09-01",
  "ledger": {
-  "bets": 104,
-  "wins": 48,
+  "bets": 106,
+  "wins": 50,
   "losses": 56,
   "pushes": 0,
-  "units": -13.32,
-  "roi": -0.1281,
-  "hit": 0.4615,
-  "claimed": 0.5919,
-  "clv_bets": 86,
+  "units": -11.48,
+  "roi": -0.1083,
+  "hit": 0.4717,
+  "claimed": 0.5921,
+  "clv_bets": 88,
   "clv_beat": 43,
   "clv_avg": 0.0004
  },
@@ -146,39 +146,43 @@
   {
    "date": "2026-08-30",
    "units": -13.32
+  },
+  {
+   "date": "2026-08-31",
+   "units": -11.48
   }
  ],
  "bets_today": [
   {
-   "matchup": "Seattle Mariners @ Boston Red Sox",
-   "pick": "Over 4.5",
-   "ml": 112,
+   "matchup": "Miami Marlins @ Kansas City Royals",
+   "pick": "Under 5.5",
+   "ml": -120,
    "tier": "STRONG",
-   "time": "2026-08-31T22:45:00Z",
-   "line": 4.5,
-   "exp_total": 5.68,
-   "lam_home": 3.32,
+   "time": "2026-09-01T23:40:00Z",
+   "line": 5.5,
+   "exp_total": 5.09,
+   "lam_home": 2.72,
    "lam_away": 2.37,
-   "model_p": 0.562,
-   "mkt_p": 0.443,
-   "value": 0.12
+   "model_p": 0.615,
+   "mkt_p": 0.512,
+   "value": 0.102
   },
   {
-   "matchup": "Athletics @ Texas Rangers",
+   "matchup": "New York Yankees @ Los Angeles Angels",
    "pick": "Over 3.5",
    "ml": -138,
-   "tier": "STRONG",
-   "time": "2026-09-01T00:05:00Z",
+   "tier": "LEAN",
+   "time": "2026-09-02T01:38:00Z",
    "line": 3.5,
-   "exp_total": 5.25,
-   "lam_home": 2.52,
-   "lam_away": 2.74,
-   "model_p": 0.646,
+   "exp_total": 4.87,
+   "lam_home": 2.16,
+   "lam_away": 2.71,
+   "model_p": 0.606,
    "mkt_p": 0.544,
-   "value": 0.102
+   "value": 0.062
   }
  ],
- "evaluated_today": 8,
+ "evaluated_today": 9,
  "model": {
   "coefficients": {
    "intercept": 0.9273,
