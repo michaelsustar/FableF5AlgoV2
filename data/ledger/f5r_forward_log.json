@@ -8737,7 +8737,19 @@
   "exp_total": 5.06,
   "params": "0112c6bd34",
   "logged_at": "2026-09-02T13:37:13",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-02T16:55:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -140,
+   "under_ml": 108,
+   "pick_ml": -140,
+   "mkt_p": 0.5482,
+   "clv": null,
+   "line_move": 2.0,
+   "our_way": 2.0
+  }
  },
  "822851": {
   "gamePk": 822851,

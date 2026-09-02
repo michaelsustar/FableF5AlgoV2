@@ -234,7 +234,7 @@
     },
     "home": {
       "team": "Washington Nationals",
-      "batting_score": 46.4,
+      "batting_score": 40.0,
       "pitcher": "Brad Lord",
       "pitcher_score": 71.1,
       "pitcher_metrics": {
@@ -292,10 +292,10 @@
           "pa": 5
         },
         {
-          "name": "Keibert Ruiz",
-          "pa": 34,
-          "form": 83.6,
-          "platoon_mult": 0.954
+          "name": "Harry Ford",
+          "pa": 25,
+          "form": 38.3,
+          "platoon_mult": 1.0
         },
         {
           "name": "Nasim Nu\u00f1ez",
@@ -319,9 +319,9 @@
       "book": "fanduel"
     },
     "prediction": {
-      "p_home": 0.576,
+      "p_home": 0.565,
       "mkt_p_home": 0.457,
-      "value": 0.119,
+      "value": 0.107,
       "mode": "market",
       "pick": "Washington Nationals",
       "pick_ml": 106,

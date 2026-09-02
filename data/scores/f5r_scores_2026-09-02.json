@@ -56,8 +56,8 @@
       "opp_starter": "Grant Holmes",
       "opp_runs5_pct": 23.9,
       "season_f5_rate": 2.92,
-      "bat_score": 46.4,
-      "lam": 2.75,
+      "bat_score": 40.0,
+      "lam": 2.68,
       "lineup": "CONFIRMED"
     },
     "market": {
@@ -70,14 +70,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.75,
+      "lam_home": 2.68,
       "lam_away": 2.31,
-      "exp_total": 5.06,
+      "exp_total": 4.99,
       "mode": "market",
       "line": 2.5,
-      "p_over": 0.759,
+      "p_over": 0.753,
       "mkt_p_over": 0.5,
-      "value": 0.259,
+      "value": 0.253,
       "p_push": 0.0,
       "pick": "Over 2.5",
       "pick_side": "over",

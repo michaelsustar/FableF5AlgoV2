@@ -7880,7 +7880,16 @@
   "away_team": "Atlanta Braves",
   "params": "bd65d255fe",
   "logged_at": "2026-09-02T13:36:07",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-02T16:55:00Z",
+   "book": "draftkings",
+   "home_ml": -105,
+   "away_ml": -125,
+   "pick_ml": -105,
+   "mkt_p": 0.4797,
+   "clv": 0.0227
+  }
  },
  "822851": {
   "gamePk": 822851,
