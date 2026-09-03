@@ -8152,7 +8152,16 @@
   "away_team": "San Francisco Giants",
   "params": "bd65d255fe",
   "logged_at": "2026-09-03T13:31:19",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-03T16:25:00Z",
+   "book": "draftkings",
+   "home_ml": -154,
+   "away_ml": 120,
+   "pick_ml": 120,
+   "mkt_p": 0.4285,
+   "clv": 0.3345
+  }
  },
  "824388": {
   "gamePk": 824388,
