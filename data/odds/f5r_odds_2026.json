@@ -4345,5 +4345,86 @@
   "over_ml": 112,
   "under_ml": -146,
   "book": "fanduel"
+ },
+ "2026-09-03|san francisco giants|pittsburgh pirates": {
+  "date": "2026-09-03",
+  "home": "Pittsburgh Pirates",
+  "away": "San Francisco Giants",
+  "line": 4.5,
+  "over_ml": 112,
+  "under_ml": -148,
+  "book": "fanduel"
+ },
+ "2026-09-03|toronto blue jays|cleveland guardians": {
+  "date": "2026-09-03",
+  "home": "Cleveland Guardians",
+  "away": "Toronto Blue Jays",
+  "line": 3.5,
+  "over_ml": -102,
+  "under_ml": -130,
+  "book": "fanduel"
+ },
+ "2026-09-03|chicago white sox|houston astros": {
+  "date": "2026-09-03",
+  "home": "Houston Astros",
+  "away": "Chicago White Sox",
+  "line": 4.5,
+  "over_ml": -104,
+  "under_ml": -125,
+  "book": "fanduel"
+ },
+ "2026-09-03|boston red sox|baltimore orioles": {
+  "date": "2026-09-03",
+  "home": "Baltimore Orioles",
+  "away": "Boston Red Sox",
+  "line": 4.5,
+  "over_ml": -114,
+  "under_ml": -114,
+  "book": "fanduel"
+ },
+ "2026-09-03|milwaukee brewers|chicago cubs": {
+  "date": "2026-09-03",
+  "home": "Chicago Cubs",
+  "away": "Milwaukee Brewers",
+  "line": 4.5,
+  "over_ml": -102,
+  "under_ml": -128,
+  "book": "fanduel"
+ },
+ "2026-09-03|miami marlins|kansas city royals": {
+  "date": "2026-09-03",
+  "home": "Kansas City Royals",
+  "away": "Miami Marlins",
+  "line": 4.5,
+  "over_ml": -135,
+  "under_ml": 104,
+  "book": "fanduel"
+ },
+ "2026-09-03|tampa bay rays|texas rangers": {
+  "date": "2026-09-03",
+  "home": "Texas Rangers",
+  "away": "Tampa Bay Rays",
+  "line": 4.5,
+  "over_ml": 112,
+  "under_ml": -146,
+  "book": "fanduel"
+ },
+ "2026-09-03|athletics|seattle mariners": {
+  "date": "2026-09-03",
+  "home": "Seattle Mariners",
+  "away": "Athletics",
+  "line": 3.5,
+  "over_ml": -152,
+  "under_ml": 116,
+  "book": "fanduel"
+ },
+ "2026-09-03|st. louis cardinals|los angeles dodgers": {
+  "date": "2026-09-03",
+  "home": "Los Angeles Dodgers",
+  "away": "St. Louis Cardinals",
+  "line": 3.5,
+  "over_ml": -148,
+  "under_ml": 114,
+  "book": "fanduel"
  }
 }
