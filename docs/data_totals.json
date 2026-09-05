@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-04T13:42:22",
- "slate_date": "2026-09-04",
+ "generated_at": "2026-09-05T12:33:19",
+ "slate_date": "2026-09-05",
  "ledger": {
-  "bets": 118,
-  "wins": 56,
-  "losses": 62,
+  "bets": 123,
+  "wins": 59,
+  "losses": 64,
   "pushes": 0,
-  "units": -11.97,
-  "roi": -0.1015,
-  "hit": 0.4746,
-  "claimed": 0.5921,
-  "clv_bets": 98,
-  "clv_beat": 47,
-  "clv_avg": 0.0003
+  "units": -11.14,
+  "roi": -0.0906,
+  "hit": 0.4797,
+  "claimed": 0.5914,
+  "clv_bets": 102,
+  "clv_beat": 50,
+  "clv_avg": 0.0005
  },
  "series": [
   {
@@ -162,78 +162,54 @@
   {
    "date": "2026-09-03",
    "units": -11.97
+  },
+  {
+   "date": "2026-09-04",
+   "units": -11.14
   }
  ],
  "bets_today": [
   {
    "matchup": "Atlanta Braves @ Philadelphia Phillies",
-   "pick": "Over 3.5",
-   "ml": 120,
-   "tier": "STRONG",
-   "time": "2026-09-04T22:40:00Z",
-   "line": 3.5,
-   "exp_total": 4.76,
-   "lam_home": 2.31,
-   "lam_away": 2.46,
-   "model_p": 0.595,
-   "mkt_p": 0.427,
-   "value": 0.168
-  },
-  {
-   "matchup": "Los Angeles Angels @ Pittsburgh Pirates",
-   "pick": "Under 4.5",
-   "ml": -110,
-   "tier": "STRONG",
-   "time": "2026-09-04T22:45:00Z",
-   "line": 4.5,
-   "exp_total": 4.4,
-   "lam_home": 2.15,
-   "lam_away": 2.26,
-   "model_p": 0.583,
-   "mkt_p": 0.492,
-   "value": 0.091
-  },
-  {
-   "matchup": "San Francisco Giants @ New York Mets",
-   "pick": "Under 4.5",
-   "ml": -128,
-   "tier": "LEAN",
-   "time": "2026-09-04T23:10:00Z",
-   "line": 4.5,
-   "exp_total": 4.3,
-   "lam_home": 2.11,
-   "lam_away": 2.19,
-   "model_p": 0.597,
-   "mkt_p": 0.526,
-   "value": 0.07
-  },
-  {
-   "matchup": "Chicago Cubs @ Miami Marlins",
    "pick": "Over 4.5",
-   "ml": 108,
-   "tier": "LEAN",
-   "time": "2026-09-04T23:10:00Z",
+   "ml": -102,
+   "tier": "STRONG",
+   "time": "2026-09-05T22:05:00Z",
    "line": 4.5,
-   "exp_total": 5.15,
-   "lam_home": 2.7,
-   "lam_away": 2.45,
-   "model_p": 0.508,
-   "mkt_p": 0.452,
-   "value": 0.056
+   "exp_total": 5.83,
+   "lam_home": 2.76,
+   "lam_away": 3.08,
+   "model_p": 0.579,
+   "mkt_p": 0.474,
+   "value": 0.105
   },
   {
-   "matchup": "St. Louis Cardinals @ Colorado Rockies",
-   "pick": "Under 6.5",
-   "ml": -138,
-   "tier": "LEAN",
-   "time": "2026-09-05T00:40:00Z",
-   "line": 6.5,
-   "exp_total": 6.18,
-   "lam_home": 2.7,
-   "lam_away": 3.5,
-   "model_p": 0.599,
-   "mkt_p": 0.544,
-   "value": 0.055
+   "matchup": "Milwaukee Brewers @ Cincinnati Reds",
+   "pick": "Over 4.5",
+   "ml": -146,
+   "tier": "STRONG",
+   "time": "2026-09-05T22:40:00Z",
+   "line": 4.5,
+   "exp_total": 6.48,
+   "lam_home": 3.38,
+   "lam_away": 3.12,
+   "model_p": 0.638,
+   "mkt_p": 0.557,
+   "value": 0.081
+  },
+  {
+   "matchup": "Tampa Bay Rays @ Texas Rangers",
+   "pick": "Over 3.5",
+   "ml": 100,
+   "tier": "STRONG",
+   "time": "2026-09-05T23:05:00Z",
+   "line": 3.5,
+   "exp_total": 5.27,
+   "lam_home": 2.82,
+   "lam_away": 2.45,
+   "model_p": 0.647,
+   "mkt_p": 0.469,
+   "value": 0.178
   }
  ],
  "evaluated_today": 10,
