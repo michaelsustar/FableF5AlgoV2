@@ -71,7 +71,7 @@
     },
     "home": {
       "team": "New York Mets",
-      "batting_score": 54.2,
+      "batting_score": 53.6,
       "pitcher": "Zac Thornton",
       "pitcher_score": 54.6,
       "pitcher_metrics": {
@@ -88,7 +88,7 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 4.333,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Francisco Lindor",
@@ -109,20 +109,10 @@
           "platoon_mult": 0.979
         },
         {
-          "name": "Mark Vientos",
-          "pa": 10
-        },
-        {
           "name": "Carson Benge",
           "pa": 51,
           "form": 73.6,
           "platoon_mult": 1.01
-        },
-        {
-          "name": "Marcus Semien",
-          "pa": 47,
-          "form": 43.4,
-          "platoon_mult": 0.979
         },
         {
           "name": "Jared Young",
@@ -131,21 +121,35 @@
           "platoon_mult": 1.049
         },
         {
+          "name": "Marcus Semien",
+          "pa": 47,
+          "form": 43.4,
+          "platoon_mult": 0.979
+        },
+        {
+          "name": "A.J. Ewing",
+          "pa": 47,
+          "form": 15.4,
+          "platoon_mult": 1.004
+        },
+        {
           "name": "Francisco Alvarez",
           "pa": 29,
           "form": 48.4,
           "platoon_mult": 1.038
         },
         {
-          "name": "Nick Morabito",
-          "pa": 8
+          "name": "Brett Baty",
+          "pa": 22,
+          "form": 87.9,
+          "platoon_mult": 1.054
         }
       ]
     },
     "batters_available": {
-      "qualified": 16,
+      "qualified": 18,
       "total": 18,
-      "pct": 88.9
+      "pct": 100.0
     },
     "market": {
       "date": "2026-09-05",
