@@ -8584,7 +8584,18 @@
   "away_team": "Atlanta Braves",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "Philadelphia Phillies",
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-05T21:55:00Z",
+   "book": "draftkings",
+   "home_ml": -180,
+   "away_ml": 140,
+   "pick_ml": 140,
+   "mkt_p": 0.3933,
+   "clv": 0.0003
+  }
  },
  "824389": {
   "gamePk": 824389,
@@ -8601,7 +8612,9 @@
   "away_team": "Detroit Tigers",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "Detroit Tigers",
+  "units": 0.0
  },
  "824468": {
   "gamePk": 824468,
@@ -8618,7 +8631,18 @@
   "away_team": "Milwaukee Brewers",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-09-05T22:30:00Z",
+   "book": "draftkings",
+   "home_ml": 114,
+   "away_ml": -145,
+   "pick_ml": 114,
+   "mkt_p": 0.4412,
+   "clv": 0.0302
+  }
  },
  "824795": {
   "gamePk": 824795,
@@ -8635,7 +8659,9 @@
   "away_team": "Boston Red Sox",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0
  },
  "822850": {
   "gamePk": 822850,
@@ -8652,7 +8678,18 @@
   "away_team": "Tampa Bay Rays",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "Tampa Bay Rays",
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-05T22:55:00Z",
+   "book": "draftkings",
+   "home_ml": -130,
+   "away_ml": 100,
+   "pick_ml": -130,
+   "mkt_p": 0.5306,
+   "clv": 0.0106
+  }
  },
  "824066": {
   "gamePk": 824066,
@@ -8669,7 +8706,9 @@
   "away_team": "Toronto Blue Jays",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0
  },
  "824553": {
   "gamePk": 824553,
@@ -8686,7 +8725,18 @@
   "away_team": "Minnesota Twins",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "Minnesota Twins",
+  "units": 0.952,
+  "close": {
+   "snapshot": "2026-09-05T23:00:00Z",
+   "book": "draftkings",
+   "home_ml": -125,
+   "away_ml": -105,
+   "pick_ml": -105,
+   "mkt_p": 0.4797,
+   "clv": -0.0003
+  }
  },
  "824145": {
   "gamePk": 824145,
@@ -8703,7 +8753,9 @@
   "away_team": "Arizona Diamondbacks",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "Houston Astros",
+  "units": 0.0
  },
  "823257": {
   "gamePk": 823257,
@@ -8720,7 +8772,9 @@
   "away_team": "New York Yankees",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
-  "graded": false
+  "graded": true,
+  "outcome": "New York Yankees",
+  "units": 0.0
  },
  "823094": {
   "gamePk": 823094,
@@ -8737,6 +8791,204 @@
   "away_team": "Athletics",
   "params": "bd65d255fe",
   "logged_at": "2026-09-05T12:32:16",
+  "graded": true,
+  "outcome": "Athletics",
+  "units": 1.75,
+  "close": {
+   "snapshot": "2026-09-06T01:30:00Z",
+   "book": "draftkings",
+   "home_ml": -245,
+   "away_ml": 185,
+   "pick_ml": 185,
+   "mkt_p": 0.3307,
+   "clv": -0.0123
+  }
+ },
+ "824469": {
+  "gamePk": 824469,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T16:10:00Z",
+  "matchup": "Milwaukee Brewers @ Cincinnati Reds",
+  "pick": "Milwaukee Brewers",
+  "tier": "STRONG",
+  "p_home": 0.537,
+  "mkt_p_home": 0.848,
+  "pick_ml": 520,
+  "value": -0.311,
+  "home_team": "Cincinnati Reds",
+  "away_team": "Milwaukee Brewers",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "823417": {
+  "gamePk": 823417,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T17:10:00Z",
+  "matchup": "Atlanta Braves @ Philadelphia Phillies",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.496,
+  "mkt_p_home": 0.51,
+  "pick_ml": null,
+  "value": -0.014,
+  "home_team": "Philadelphia Phillies",
+  "away_team": "Atlanta Braves",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "824794": {
+  "gamePk": 824794,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T17:35:00Z",
+  "matchup": "Boston Red Sox @ Baltimore Orioles",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.48,
+  "mkt_p_home": 0.459,
+  "pick_ml": null,
+  "value": 0.02,
+  "home_team": "Baltimore Orioles",
+  "away_team": "Boston Red Sox",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "823336": {
+  "gamePk": 823336,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T17:35:00Z",
+  "matchup": "Los Angeles Angels @ Pittsburgh Pirates",
+  "pick": "Los Angeles Angels",
+  "tier": "STRONG",
+  "p_home": 0.528,
+  "mkt_p_home": 0.623,
+  "pick_ml": 150,
+  "value": -0.095,
+  "home_team": "Pittsburgh Pirates",
+  "away_team": "Los Angeles Angels",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "824385": {
+  "gamePk": 824385,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T17:40:00Z",
+  "matchup": "Detroit Tigers @ Cleveland Guardians",
+  "pick": "Detroit Tigers",
+  "tier": "STRONG",
+  "p_home": 0.534,
+  "mkt_p_home": 0.615,
+  "pick_ml": 145,
+  "value": -0.081,
+  "home_team": "Cleveland Guardians",
+  "away_team": "Detroit Tigers",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "823822": {
+  "gamePk": 823822,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T17:40:00Z",
+  "matchup": "Chicago Cubs @ Miami Marlins",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.471,
+  "mkt_p_home": 0.428,
+  "pick_ml": null,
+  "value": 0.042,
+  "home_team": "Miami Marlins",
+  "away_team": "Chicago Cubs",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "824142": {
+  "gamePk": 824142,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T18:10:00Z",
+  "matchup": "Arizona Diamondbacks @ Houston Astros",
+  "pick": "Arizona Diamondbacks",
+  "tier": "STRONG",
+  "p_home": 0.411,
+  "mkt_p_home": 0.51,
+  "pick_ml": -110,
+  "value": -0.099,
+  "home_team": "Houston Astros",
+  "away_team": "Arizona Diamondbacks",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "822848": {
+  "gamePk": 822848,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T18:35:00Z",
+  "matchup": "Tampa Bay Rays @ Texas Rangers",
+  "pick": "Texas Rangers",
+  "tier": "STRONG",
+  "p_home": 0.572,
+  "mkt_p_home": 0.51,
+  "pick_ml": -120,
+  "value": 0.062,
+  "home_team": "Texas Rangers",
+  "away_team": "Tampa Bay Rays",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "824309": {
+  "gamePk": 824309,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T19:10:00Z",
+  "matchup": "St. Louis Cardinals @ Colorado Rockies",
+  "pick": "Colorado Rockies",
+  "tier": "STRONG",
+  "p_home": 0.513,
+  "mkt_p_home": 0.449,
+  "pick_ml": 110,
+  "value": 0.063,
+  "home_team": "Colorado Rockies",
+  "away_team": "St. Louis Cardinals",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "823091": {
+  "gamePk": 823091,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T20:10:00Z",
+  "matchup": "Athletics @ Seattle Mariners",
+  "pick": "Athletics",
+  "tier": "STRONG",
+  "p_home": 0.503,
+  "mkt_p_home": 0.638,
+  "pick_ml": 160,
+  "value": -0.135,
+  "home_team": "Seattle Mariners",
+  "away_team": "Athletics",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
+  "graded": false
+ },
+ "823253": {
+  "gamePk": 823253,
+  "date": "2026-09-06",
+  "game_time": "2026-09-06T20:10:00Z",
+  "matchup": "New York Yankees @ San Diego Padres",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.508,
+  "mkt_p_home": 0.48,
+  "pick_ml": null,
+  "value": 0.028,
+  "home_team": "San Diego Padres",
+  "away_team": "New York Yankees",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-06T12:42:38",
   "graded": false
  }
 }
