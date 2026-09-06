@@ -1740,7 +1740,7 @@
     "game_time": "2026-09-06T19:10:00Z",
     "away": {
       "team": "St. Louis Cardinals",
-      "batting_score": 53.7,
+      "batting_score": 61.7,
       "pitcher": "Kyle Leahy",
       "pitcher_score": 86.2,
       "pitcher_metrics": {
@@ -1757,11 +1757,13 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 5.5,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "C\u00e9sar Prieto",
-          "pa": 1
+          "name": "Bryan Torres",
+          "pa": 17,
+          "form": 95.1,
+          "platoon_mult": 1.111
         },
         {
           "name": "Iv\u00e1n Herrera",
@@ -1806,10 +1808,10 @@
           "platoon_mult": 0.85
         },
         {
-          "name": "Jos\u00e9 Ferm\u00edn",
-          "pa": 46,
-          "form": 24.0,
-          "platoon_mult": 0.895
+          "name": "Nathan Church",
+          "pa": 42,
+          "form": 55.0,
+          "platoon_mult": 0.989
         }
       ]
     },
@@ -1889,9 +1891,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 16,
+      "qualified": 17,
       "total": 18,
-      "pct": 88.9
+      "pct": 94.4
     },
     "market": {
       "date": "2026-09-06",
@@ -1902,13 +1904,12 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.513,
+      "p_home": 0.498,
       "mkt_p_home": 0.449,
-      "value": 0.063,
+      "value": 0.048,
       "mode": "market",
-      "pick": "Colorado Rockies",
-      "pick_ml": 110,
-      "tier": "STRONG"
+      "pick": null,
+      "tier": "NO VALUE"
     }
   },
   {
@@ -2167,7 +2168,7 @@
     },
     "home": {
       "team": "San Diego Padres",
-      "batting_score": 42.9,
+      "batting_score": 48.5,
       "pitcher": "Michael King",
       "pitcher_score": 91.3,
       "pitcher_metrics": {
@@ -2184,7 +2185,7 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 3.5,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Fernando Tatis Jr.",
@@ -2193,10 +2194,10 @@
           "platoon_mult": 0.968
         },
         {
-          "name": "Xander Bogaerts",
-          "pa": 46,
-          "form": 41.7,
-          "platoon_mult": 1.014
+          "name": "Jake Cronenworth",
+          "pa": 47,
+          "form": 7.5,
+          "platoon_mult": 1.08
         },
         {
           "name": "Manny Machado",
@@ -2223,20 +2224,20 @@
           "platoon_mult": 1.046
         },
         {
-          "name": "Austin Hays",
-          "pa": 19,
-          "form": 19.7,
-          "platoon_mult": 0.922
+          "name": "Dustin Harris",
+          "pa": 21,
+          "form": 86.3,
+          "platoon_mult": 1.016
         },
         {
-          "name": "Jase Bowen",
-          "pa": 7
+          "name": "Xander Bogaerts",
+          "pa": 46,
+          "form": 41.7,
+          "platoon_mult": 1.014
         },
         {
-          "name": "Samad Taylor",
-          "pa": 19,
-          "form": 28.7,
-          "platoon_mult": 0.9
+          "name": "Ethan Salas",
+          "pa": 5
         }
       ]
     },
@@ -2254,9 +2255,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.508,
+      "p_home": 0.519,
       "mkt_p_home": 0.48,
-      "value": 0.028,
+      "value": 0.039,
       "mode": "market",
       "pick": null,
       "tier": "NO VALUE"

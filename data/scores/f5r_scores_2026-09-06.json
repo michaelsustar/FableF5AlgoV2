@@ -479,9 +479,9 @@
       "opp_starter": "Tanner Gordon",
       "opp_runs5_pct": 53.1,
       "season_f5_rate": 2.49,
-      "bat_score": 53.7,
-      "lam": 3.11,
-      "lineup": "PROJECTED"
+      "bat_score": 61.7,
+      "lam": 3.22,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Colorado Rockies",
@@ -503,13 +503,13 @@
     },
     "prediction": {
       "lam_home": 2.96,
-      "lam_away": 3.11,
-      "exp_total": 6.06,
+      "lam_away": 3.22,
+      "exp_total": 6.17,
       "mode": "market",
       "line": 5.5,
-      "p_over": 0.49,
+      "p_over": 0.501,
       "mkt_p_over": 0.54,
-      "value": -0.049,
+      "value": -0.039,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -584,9 +584,9 @@
       "opp_starter": "Gerrit Cole",
       "opp_runs5_pct": 84.6,
       "season_f5_rate": 2.22,
-      "bat_score": 42.9,
-      "lam": 2.02,
-      "lineup": "PROJECTED"
+      "bat_score": 48.5,
+      "lam": 2.07,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-09-06",
@@ -598,14 +598,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.02,
+      "lam_home": 2.07,
       "lam_away": 2.14,
-      "exp_total": 4.16,
+      "exp_total": 4.21,
       "mode": "market",
       "line": 3.5,
-      "p_over": 0.521,
+      "p_over": 0.528,
       "mkt_p_over": 0.512,
-      "value": 0.009,
+      "value": 0.016,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
