@@ -9091,7 +9091,16 @@
   "away_team": "Cleveland Guardians",
   "params": "bd65d255fe",
   "logged_at": "2026-09-07T14:36:11",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-07T17:25:00Z",
+   "book": "draftkings",
+   "home_ml": -145,
+   "away_ml": 114,
+   "pick_ml": 114,
+   "mkt_p": 0.4412,
+   "clv": 0.2982
+  }
  },
  "823742": {
   "gamePk": 823742,
