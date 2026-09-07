@@ -9928,7 +9928,7 @@
   "exp_total": 6.58,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false,
+  "graded": true,
   "close": {
    "snapshot": "2026-09-06T16:00:00Z",
    "book": "fanduel",
@@ -9940,7 +9940,10 @@
    "clv": null,
    "line_move": -1.0,
    "our_way": -1.0
-  }
+  },
+  "outcome": "over",
+  "total": 15,
+  "units": 1.02
  },
  "823417": {
   "gamePk": 823417,
@@ -9962,7 +9965,10 @@
   "exp_total": 4.7,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": 0.0
  },
  "824794": {
   "gamePk": 824794,
@@ -9984,7 +9990,22 @@
   "exp_total": 5.5,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 4,
+  "units": 0.877,
+  "close": {
+   "snapshot": "2026-09-06T17:25:00Z",
+   "book": "fanduel",
+   "line": 3.5,
+   "over_ml": -114,
+   "under_ml": -114,
+   "pick_ml": -114,
+   "mkt_p": 0.5,
+   "clv": 0.0,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "823336": {
   "gamePk": 823336,
@@ -10006,7 +10027,22 @@
   "exp_total": 4.91,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 1,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-06T17:25:00Z",
+   "book": "fanduel",
+   "line": 3.5,
+   "over_ml": -135,
+   "under_ml": 104,
+   "pick_ml": -135,
+   "mkt_p": 0.5396,
+   "clv": -0.0044,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "824385": {
   "gamePk": 824385,
@@ -10028,7 +10064,22 @@
   "exp_total": 4.91,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 4,
+  "units": 0.781,
+  "close": {
+   "snapshot": "2026-09-06T17:30:00Z",
+   "book": "fanduel",
+   "line": 3.5,
+   "over_ml": -128,
+   "under_ml": -102,
+   "pick_ml": -128,
+   "mkt_p": 0.5265,
+   "clv": 0.0005,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "823822": {
   "gamePk": 823822,
@@ -10050,7 +10101,22 @@
   "exp_total": 4.43,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 11,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-06T17:30:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -106,
+   "under_ml": -122,
+   "pick_ml": -122,
+   "mkt_p": 0.5164,
+   "clv": 0.0004,
+   "line_move": 0.0,
+   "our_way": -0.0
+  }
  },
  "824142": {
   "gamePk": 824142,
@@ -10072,7 +10138,10 @@
   "exp_total": 4.84,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 4,
+  "units": 0.0
  },
  "822848": {
   "gamePk": 822848,
@@ -10094,7 +10163,22 @@
   "exp_total": 5.17,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 12,
+  "units": 0.694,
+  "close": {
+   "snapshot": "2026-09-06T18:25:00Z",
+   "book": "fanduel",
+   "line": 3.5,
+   "over_ml": -140,
+   "under_ml": 108,
+   "pick_ml": -140,
+   "mkt_p": 0.5482,
+   "clv": -0.0048,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "824309": {
   "gamePk": 824309,
@@ -10116,7 +10200,10 @@
   "exp_total": 6.06,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 12,
+  "units": 0.0
  },
  "823091": {
   "gamePk": 823091,
@@ -10138,7 +10225,10 @@
   "exp_total": 4.86,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": 0.0
  },
  "823253": {
   "gamePk": 823253,
@@ -10160,6 +10250,9 @@
   "exp_total": 4.16,
   "params": "0112c6bd34",
   "logged_at": "2026-09-06T12:43:33",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 3,
+  "units": 0.0
  }
 }

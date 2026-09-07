@@ -13350,5 +13350,85 @@
   "home_ml": -195,
   "away_ml": 150,
   "book": "draftkings"
+ },
+ "2026-09-07|new york mets|miami marlins": {
+  "date": "2026-09-07",
+  "home": "Miami Marlins",
+  "away": "New York Mets",
+  "home_ml": 1300,
+  "away_ml": -5000,
+  "book": "fanduel"
+ },
+ "2026-09-07|cleveland guardians|baltimore orioles": {
+  "date": "2026-09-07",
+  "home": "Baltimore Orioles",
+  "away": "Cleveland Guardians",
+  "home_ml": -1000,
+  "away_ml": 560,
+  "book": "fanduel"
+ },
+ "2026-09-07|los angeles angels|boston red sox": {
+  "date": "2026-09-07",
+  "home": "Boston Red Sox",
+  "away": "Los Angeles Angels",
+  "home_ml": -7000,
+  "away_ml": 1500,
+  "book": "fanduel"
+ },
+ "2026-09-07|arizona diamondbacks|kansas city royals": {
+  "date": "2026-09-07",
+  "home": "Kansas City Royals",
+  "away": "Arizona Diamondbacks",
+  "home_ml": -115,
+  "away_ml": -111,
+  "book": "fanduel"
+ },
+ "2026-09-07|chicago cubs|milwaukee brewers": {
+  "date": "2026-09-07",
+  "home": "Milwaukee Brewers",
+  "away": "Chicago Cubs",
+  "home_ml": -138,
+  "away_ml": 108,
+  "book": "fanduel"
+ },
+ "2026-09-07|minnesota twins|detroit tigers": {
+  "date": "2026-09-07",
+  "home": "Detroit Tigers",
+  "away": "Minnesota Twins",
+  "home_ml": -140,
+  "away_ml": 110,
+  "book": "draftkings"
+ },
+ "2026-09-07|washington nationals|san diego padres": {
+  "date": "2026-09-07",
+  "home": "San Diego Padres",
+  "away": "Washington Nationals",
+  "home_ml": -180,
+  "away_ml": 140,
+  "book": "draftkings"
+ },
+ "2026-09-07|st. louis cardinals|san francisco giants": {
+  "date": "2026-09-07",
+  "home": "San Francisco Giants",
+  "away": "St. Louis Cardinals",
+  "home_ml": -135,
+  "away_ml": 105,
+  "book": "draftkings"
+ },
+ "2026-09-07|cincinnati reds|los angeles dodgers": {
+  "date": "2026-09-07",
+  "home": "Los Angeles Dodgers",
+  "away": "Cincinnati Reds",
+  "home_ml": -154,
+  "away_ml": 120,
+  "book": "draftkings"
+ },
+ "2026-09-07|toronto blue jays|athletics": {
+  "date": "2026-09-07",
+  "home": "Athletics",
+  "away": "Toronto Blue Jays",
+  "home_ml": 154,
+  "away_ml": -200,
+  "book": "draftkings"
  }
 }
