@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-07T14:47:48",
- "slate_date": "2026-09-07",
+ "generated_at": "2026-09-08T13:45:40",
+ "slate_date": "2026-09-08",
  "ledger": {
-  "bets": 190,
-  "wins": 65,
-  "losses": 96,
+  "bets": 192,
+  "wins": 66,
+  "losses": 97,
   "pushes": 29,
-  "units": -16.47,
-  "roi": -0.0867,
-  "hit": 0.4037,
-  "claimed": 0.5536,
-  "clv_bets": 183,
-  "clv_beat": 91,
-  "clv_avg": 0.0134
+  "units": -15.93,
+  "roi": -0.083,
+  "hit": 0.4049,
+  "claimed": 0.5534,
+  "clv_bets": 185,
+  "clv_beat": 92,
+  "clv_avg": 0.0148
  },
  "series": [
   {
@@ -194,31 +194,65 @@
   {
    "date": "2026-09-06",
    "units": -16.47
+  },
+  {
+   "date": "2026-09-07",
+   "units": -15.93
   }
  ],
  "bets_today": [
   {
    "matchup": "Cleveland Guardians @ Baltimore Orioles",
-   "pick": "Cleveland Guardians",
-   "ml": 560,
+   "pick": "Baltimore Orioles",
+   "ml": -125,
    "tier": "STRONG",
-   "time": "2026-09-07T17:35:00Z",
-   "model_p": 0.438,
-   "mkt_p": 0.143,
-   "value": 0.295
+   "time": "2026-09-08T22:35:00Z",
+   "model_p": 0.585,
+   "mkt_p": 0.52,
+   "value": 0.065
   },
   {
-   "matchup": "Toronto Blue Jays @ Athletics",
-   "pick": "Athletics",
-   "ml": 154,
+   "matchup": "Colorado Rockies @ New York Yankees",
+   "pick": "Colorado Rockies",
+   "ml": 240,
    "tier": "STRONG",
-   "time": "2026-09-08T02:05:00Z",
-   "model_p": 0.496,
-   "mkt_p": 0.371,
-   "value": 0.125
+   "time": "2026-09-08T23:05:00Z",
+   "model_p": 0.406,
+   "mkt_p": 0.277,
+   "value": 0.129
+  },
+  {
+   "matchup": "Chicago Cubs @ Milwaukee Brewers",
+   "pick": "Chicago Cubs",
+   "ml": 180,
+   "tier": "STRONG",
+   "time": "2026-09-08T23:40:00Z",
+   "model_p": 0.427,
+   "mkt_p": 0.337,
+   "value": 0.09
+  },
+  {
+   "matchup": "St. Louis Cardinals @ San Francisco Giants",
+   "pick": "San Francisco Giants",
+   "ml": -120,
+   "tier": "STRONG",
+   "time": "2026-09-09T01:45:00Z",
+   "model_p": 0.58,
+   "mkt_p": 0.51,
+   "value": 0.07
+  },
+  {
+   "matchup": "Cincinnati Reds @ Los Angeles Dodgers",
+   "pick": "Cincinnati Reds",
+   "ml": 230,
+   "tier": "STRONG",
+   "time": "2026-09-09T02:10:00Z",
+   "model_p": 0.473,
+   "mkt_p": 0.285,
+   "value": 0.188
   }
  ],
- "evaluated_today": 4,
+ "evaluated_today": 12,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
