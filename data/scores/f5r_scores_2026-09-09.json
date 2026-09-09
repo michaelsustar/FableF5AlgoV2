@@ -193,18 +193,18 @@
       "opp_starter": "Kade Anderson",
       "opp_runs5_pct": 66.8,
       "season_f5_rate": 2.5,
-      "bat_score": 58.2,
-      "lam": 2.15,
-      "lineup": "PROJECTED"
+      "bat_score": 64.1,
+      "lam": 2.21,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Seattle Mariners",
       "opp_starter": "Cody Bradford",
       "opp_runs5_pct": 29.4,
       "season_f5_rate": 2.3,
-      "bat_score": 44.9,
-      "lam": 2.24,
-      "lineup": "PROJECTED"
+      "bat_score": 38.7,
+      "lam": 2.18,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-09-09",
@@ -216,14 +216,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.24,
-      "lam_away": 2.15,
-      "exp_total": 4.39,
+      "lam_home": 2.18,
+      "lam_away": 2.21,
+      "exp_total": 4.38,
       "mode": "market",
       "line": 4.5,
       "p_over": 0.415,
       "mkt_p_over": 0.474,
-      "value": -0.058,
+      "value": -0.059,
       "p_push": 0.0,
       "pick": "Under 4.5",
       "pick_side": "under",

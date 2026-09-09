@@ -700,7 +700,7 @@
     "game_time": "2026-09-09T20:10:00Z",
     "away": {
       "team": "Texas Rangers",
-      "batting_score": 58.2,
+      "batting_score": 64.1,
       "pitcher": "Cody Bradford",
       "pitcher_score": 29.4,
       "pitcher_metrics": {
@@ -717,13 +717,13 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 5.5,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Justin Foscue",
-          "pa": 30,
-          "form": 100.0,
-          "platoon_mult": 1.15
+          "name": "Ezequiel Duran",
+          "pa": 52,
+          "form": 83.7,
+          "platoon_mult": 1.05
         },
         {
           "name": "Corey Seager",
@@ -732,10 +732,10 @@
           "platoon_mult": 0.85
         },
         {
-          "name": "Ezequiel Duran",
-          "pa": 52,
-          "form": 83.7,
-          "platoon_mult": 1.05
+          "name": "Justin Foscue",
+          "pa": 30,
+          "form": 100.0,
+          "platoon_mult": 1.15
         },
         {
           "name": "Brandon Nimmo",
@@ -750,34 +750,32 @@
           "platoon_mult": 0.993
         },
         {
-          "name": "Evan Carter",
-          "pa": 36,
-          "form": 28.7,
-          "platoon_mult": 0.85
-        },
-        {
           "name": "Jake Burger",
           "pa": 47,
           "form": 68.2,
           "platoon_mult": 1.127
         },
         {
+          "name": "Logan O'Hoppe",
+          "pa": 11
+        },
+        {
+          "name": "Elias D\u00edaz",
+          "pa": 31,
+          "form": 78.7,
+          "platoon_mult": 1.15
+        },
+        {
           "name": "Cody Freeman",
           "pa": 40,
           "form": 34.4,
           "platoon_mult": 0.963
-        },
-        {
-          "name": "Danny Jansen",
-          "pa": 22,
-          "form": 61.1,
-          "platoon_mult": 1.031
         }
       ]
     },
     "home": {
       "team": "Seattle Mariners",
-      "batting_score": 44.9,
+      "batting_score": 38.7,
       "pitcher": "Kade Anderson",
       "pitcher_score": 60.9,
       "pitcher_metrics": {
@@ -794,8 +792,14 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 4.0,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
+        {
+          "name": "J.P. Crawford",
+          "pa": 48,
+          "form": 60.4,
+          "platoon_mult": 0.941
+        },
         {
           "name": "Randy Arozarena",
           "pa": 54,
@@ -809,22 +813,16 @@
           "platoon_mult": 0.85
         },
         {
-          "name": "Julio Rodr\u00edguez",
-          "pa": 53,
-          "form": 11.1,
-          "platoon_mult": 1.147
-        },
-        {
           "name": "Cal Raleigh",
           "pa": 46,
           "form": 74.3,
           "platoon_mult": 0.85
         },
         {
-          "name": "J.P. Crawford",
-          "pa": 48,
-          "form": 60.4,
-          "platoon_mult": 0.941
+          "name": "Julio Rodr\u00edguez",
+          "pa": 53,
+          "form": 11.1,
+          "platoon_mult": 1.147
         },
         {
           "name": "Josh Naylor",
@@ -833,16 +831,16 @@
           "platoon_mult": 1.045
         },
         {
+          "name": "Taylor Ward",
+          "pa": 29,
+          "form": 1.9,
+          "platoon_mult": 1.15
+        },
+        {
           "name": "Cole Young",
           "pa": 43,
           "form": 33.9,
           "platoon_mult": 0.85
-        },
-        {
-          "name": "Lazaro Montes",
-          "pa": 19,
-          "form": 57.2,
-          "platoon_mult": 1.0
         },
         {
           "name": "Weston Wilson",
@@ -853,9 +851,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 18,
+      "qualified": 17,
       "total": 18,
-      "pct": 100.0
+      "pct": 94.4
     },
     "market": {
       "date": "2026-09-09",
@@ -866,9 +864,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.542,
+      "p_home": 0.519,
       "mkt_p_home": 0.559,
-      "value": -0.017,
+      "value": -0.04,
       "mode": "market",
       "pick": null,
       "tier": "NO VALUE"
