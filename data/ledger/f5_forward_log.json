@@ -9712,7 +9712,16 @@
   "away_team": "Houston Astros",
   "params": "bd65d255fe",
   "logged_at": "2026-09-10T13:29:18",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-10T16:55:00Z",
+   "book": "draftkings",
+   "home_ml": -210,
+   "away_ml": 160,
+   "pick_ml": -210,
+   "mkt_p": 0.6379,
+   "clv": 0.2209
+  }
  },
  "823088": {
   "gamePk": 823088,

@@ -96,9 +96,9 @@
       "opp_starter": "Logan Gilbert",
       "opp_runs5_pct": 11.4,
       "season_f5_rate": 2.49,
-      "bat_score": 52.6,
-      "lam": 2.47,
-      "lineup": "PROJECTED"
+      "bat_score": 51.0,
+      "lam": 2.45,
+      "lineup": "CONFIRMED"
     },
     "home": {
       "team": "Seattle Mariners",
@@ -120,13 +120,13 @@
     },
     "prediction": {
       "lam_home": 2.32,
-      "lam_away": 2.47,
-      "exp_total": 4.79,
+      "lam_away": 2.45,
+      "exp_total": 4.77,
       "mode": "market",
       "line": 3.5,
-      "p_over": 0.598,
+      "p_over": 0.596,
       "mkt_p_over": 0.474,
-      "value": 0.124,
+      "value": 0.122,
       "p_push": 0.0,
       "pick": "Over 3.5",
       "pick_side": "over",

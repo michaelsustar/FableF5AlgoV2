@@ -346,7 +346,7 @@
     "game_time": "2026-09-10T20:10:00Z",
     "away": {
       "team": "Texas Rangers",
-      "batting_score": 52.6,
+      "batting_score": 51.0,
       "pitcher": "Jacob deGrom",
       "pitcher_score": 41.9,
       "pitcher_metrics": {
@@ -363,13 +363,13 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 5.333,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Ezequiel Duran",
-          "pa": 51,
-          "form": 63.4,
-          "platoon_mult": 0.984
+          "name": "Joc Pederson",
+          "pa": 25,
+          "form": 46.2,
+          "platoon_mult": 1.006
         },
         {
           "name": "Corey Seager",
@@ -378,10 +378,10 @@
           "platoon_mult": 1.08
         },
         {
-          "name": "Justin Foscue",
-          "pa": 29,
-          "form": 80.1,
-          "platoon_mult": 0.85
+          "name": "Ezequiel Duran",
+          "pa": 51,
+          "form": 63.4,
+          "platoon_mult": 0.984
         },
         {
           "name": "Brandon Nimmo",
@@ -396,30 +396,32 @@
           "platoon_mult": 1.004
         },
         {
-          "name": "Cam Cauley",
-          "pa": 0
+          "name": "Evan Carter",
+          "pa": 36,
+          "form": 25.8,
+          "platoon_mult": 1.085
         },
         {
-          "name": "Joc Pederson",
-          "pa": 25,
-          "form": 46.2,
-          "platoon_mult": 1.006
+          "name": "Jake Burger",
+          "pa": 49,
+          "form": 62.8,
+          "platoon_mult": 0.964
         },
         {
           "name": "Nicky Lopez",
           "pa": 9
         },
         {
-          "name": "Evan Carter",
-          "pa": 36,
-          "form": 25.8,
-          "platoon_mult": 1.085
+          "name": "Danny Jansen",
+          "pa": 22,
+          "form": 57.0,
+          "platoon_mult": 0.968
         }
       ]
     },
     "home": {
       "team": "Seattle Mariners",
-      "batting_score": 55.0,
+      "batting_score": 56.5,
       "pitcher": "Logan Gilbert",
       "pitcher_score": 15.6,
       "pitcher_metrics": {
@@ -436,7 +438,7 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 4.25,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "J.P. Crawford",
@@ -475,14 +477,16 @@
           "platoon_mult": 0.982
         },
         {
-          "name": "Victor Robles",
-          "pa": 2
-        },
-        {
           "name": "Cole Young",
           "pa": 46,
           "form": 46.6,
           "platoon_mult": 1.074
+        },
+        {
+          "name": "Lazaro Montes",
+          "pa": 20,
+          "form": 68.8,
+          "platoon_mult": 1.0
         },
         {
           "name": "Brock Rodden",
@@ -493,9 +497,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 15,
+      "qualified": 17,
       "total": 18,
-      "pct": 83.3
+      "pct": 94.4
     },
     "market": {
       "date": "2026-09-10",
@@ -506,9 +510,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.492,
+      "p_home": 0.498,
       "mkt_p_home": 0.52,
-      "value": -0.029,
+      "value": -0.023,
       "mode": "market",
       "pick": null,
       "tier": "NO VALUE"
