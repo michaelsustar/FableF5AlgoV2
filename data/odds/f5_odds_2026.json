@@ -13670,5 +13670,37 @@
   "home_ml": -298,
   "away_ml": 220,
   "book": "draftkings"
+ },
+ "2026-09-10|houston astros|philadelphia phillies": {
+  "date": "2026-09-10",
+  "home": "Philadelphia Phillies",
+  "away": "Houston Astros",
+  "home_ml": 126,
+  "away_ml": -162,
+  "book": "fanduel"
+ },
+ "2026-09-10|texas rangers|seattle mariners": {
+  "date": "2026-09-10",
+  "home": "Seattle Mariners",
+  "away": "Texas Rangers",
+  "home_ml": -125,
+  "away_ml": -105,
+  "book": "draftkings"
+ },
+ "2026-09-10|colorado rockies|new york yankees": {
+  "date": "2026-09-10",
+  "home": "New York Yankees",
+  "away": "Colorado Rockies",
+  "home_ml": -315,
+  "away_ml": 230,
+  "book": "draftkings"
+ },
+ "2026-09-10|pittsburgh pirates|chicago white sox": {
+  "date": "2026-09-10",
+  "home": "Chicago White Sox",
+  "away": "Pittsburgh Pirates",
+  "home_ml": -115,
+  "away_ml": -115,
+  "book": "draftkings"
  }
 }

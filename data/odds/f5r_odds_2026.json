@@ -5191,5 +5191,41 @@
   "over_ml": -114,
   "under_ml": -114,
   "book": "fanduel"
+ },
+ "2026-09-10|houston astros|philadelphia phillies": {
+  "date": "2026-09-10",
+  "home": "Philadelphia Phillies",
+  "away": "Houston Astros",
+  "line": 4.5,
+  "over_ml": 104,
+  "under_ml": -138,
+  "book": "fanduel"
+ },
+ "2026-09-10|texas rangers|seattle mariners": {
+  "date": "2026-09-10",
+  "home": "Seattle Mariners",
+  "away": "Texas Rangers",
+  "line": 3.5,
+  "over_ml": -102,
+  "under_ml": -128,
+  "book": "fanduel"
+ },
+ "2026-09-10|colorado rockies|new york yankees": {
+  "date": "2026-09-10",
+  "home": "New York Yankees",
+  "away": "Colorado Rockies",
+  "line": 4.5,
+  "over_ml": -120,
+  "under_ml": -108,
+  "book": "fanduel"
+ },
+ "2026-09-10|pittsburgh pirates|chicago white sox": {
+  "date": "2026-09-10",
+  "home": "Chicago White Sox",
+  "away": "Pittsburgh Pirates",
+  "line": 4.5,
+  "over_ml": 108,
+  "under_ml": -140,
+  "book": "fanduel"
  }
 }

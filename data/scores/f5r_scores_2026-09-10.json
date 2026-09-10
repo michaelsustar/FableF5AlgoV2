@@ -1,0 +1,221 @@
+[
+  {
+    "gamePk": 824872,
+    "matchup": "Tampa Bay Rays @ Atlanta Braves",
+    "game_time": "2026-09-10T16:15:00Z",
+    "home_team": "Atlanta Braves",
+    "away_team": "Tampa Bay Rays",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Mart\u00edn P\u00e9rez",
+      "opp_runs5_pct": 34.4,
+      "season_f5_rate": 2.54,
+      "bat_score": 49.6,
+      "lam": 2.7,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Atlanta Braves",
+      "opp_starter": "Nick Martinez",
+      "opp_runs5_pct": 92.5,
+      "season_f5_rate": 2.43,
+      "bat_score": 47.8,
+      "lam": 2.24,
+      "lineup": "CONFIRMED"
+    },
+    "market": null,
+    "prediction": {
+      "lam_home": 2.24,
+      "lam_away": 2.7,
+      "exp_total": 4.93,
+      "mode": "no-line",
+      "pick": null,
+      "tier": "NO LINE"
+    }
+  },
+  {
+    "gamePk": 823413,
+    "matchup": "Houston Astros @ Philadelphia Phillies",
+    "game_time": "2026-09-10T17:05:00Z",
+    "home_team": "Philadelphia Phillies",
+    "away_team": "Houston Astros",
+    "park_factor": 1.03,
+    "away": {
+      "team": "Houston Astros",
+      "opp_starter": "Zack Wheeler",
+      "opp_runs5_pct": 18.2,
+      "season_f5_rate": 2.63,
+      "bat_score": 43.1,
+      "lam": 2.86,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Philadelphia Phillies",
+      "opp_starter": "Cristian Javier",
+      "opp_runs5_pct": 55.2,
+      "season_f5_rate": 2.41,
+      "bat_score": 48.6,
+      "lam": 2.59,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-10",
+      "home": "Philadelphia Phillies",
+      "away": "Houston Astros",
+      "line": 4.5,
+      "over_ml": 104,
+      "under_ml": -138,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.59,
+      "lam_away": 2.86,
+      "exp_total": 5.45,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.54,
+      "mkt_p_over": 0.458,
+      "value": 0.082,
+      "p_push": 0.0,
+      "pick": "Over 4.5",
+      "pick_side": "over",
+      "pick_ml": 104,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 823088,
+    "matchup": "Texas Rangers @ Seattle Mariners",
+    "game_time": "2026-09-10T20:10:00Z",
+    "home_team": "Seattle Mariners",
+    "away_team": "Texas Rangers",
+    "park_factor": 0.92,
+    "away": {
+      "team": "Texas Rangers",
+      "opp_starter": "Logan Gilbert",
+      "opp_runs5_pct": 11.4,
+      "season_f5_rate": 2.49,
+      "bat_score": 52.6,
+      "lam": 2.47,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Seattle Mariners",
+      "opp_starter": "Jacob deGrom",
+      "opp_runs5_pct": 34.4,
+      "season_f5_rate": 2.31,
+      "bat_score": 56.5,
+      "lam": 2.32,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-10",
+      "home": "Seattle Mariners",
+      "away": "Texas Rangers",
+      "line": 3.5,
+      "over_ml": -102,
+      "under_ml": -128,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.32,
+      "lam_away": 2.47,
+      "exp_total": 4.79,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.598,
+      "mkt_p_over": 0.474,
+      "value": 0.124,
+      "p_push": 0.0,
+      "pick": "Over 3.5",
+      "pick_side": "over",
+      "pick_ml": -102,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 823499,
+    "matchup": "Colorado Rockies @ New York Yankees",
+    "game_time": "2026-09-10T23:05:00Z",
+    "home_team": "New York Yankees",
+    "away_team": "Colorado Rockies",
+    "park_factor": 1.02,
+    "away": {
+      "team": "Colorado Rockies",
+      "opp_starter": "Max Fried",
+      "opp_runs5_pct": 86.7,
+      "season_f5_rate": 2.61,
+      "bat_score": 54.9,
+      "lam": 2.41,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "New York Yankees",
+      "opp_starter": "Ryan Feltner",
+      "opp_runs5_pct": 1.9,
+      "season_f5_rate": 2.36,
+      "bat_score": 50.6,
+      "lam": 3.0,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-10",
+      "home": "New York Yankees",
+      "away": "Colorado Rockies",
+      "line": 4.5,
+      "over_ml": -120,
+      "under_ml": -108,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 3.0,
+      "lam_away": 2.41,
+      "exp_total": 5.41,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.535,
+      "mkt_p_over": 0.512,
+      "value": 0.023,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 824550,
+    "matchup": "Pittsburgh Pirates @ Chicago White Sox",
+    "game_time": "2026-09-10T23:40:00Z",
+    "home_team": "Chicago White Sox",
+    "away_team": "Pittsburgh Pirates",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Pittsburgh Pirates",
+      "opp_starter": "Hagen Smith",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.74,
+      "bat_score": 55.6,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Jared Jones",
+      "opp_runs5_pct": 67.5,
+      "season_f5_rate": 2.74,
+      "bat_score": 43.7,
+      "lam": 2.41,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-10",
+      "home": "Chicago White Sox",
+      "away": "Pittsburgh Pirates",
+      "line": 4.5,
+      "over_ml": 108,
+      "under_ml": -140,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

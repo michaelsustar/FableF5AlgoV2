@@ -10795,7 +10795,10 @@
   "exp_total": 4.98,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 7,
+  "units": 0.0
  },
  "823172": {
   "gamePk": 823172,
@@ -10817,7 +10820,10 @@
   "exp_total": 4.69,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 6,
+  "units": 0.0
  },
  "823251": {
   "gamePk": 823251,
@@ -10839,7 +10845,22 @@
   "exp_total": 4.67,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 9,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-09T20:00:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -122,
+   "under_ml": -106,
+   "pick_ml": -106,
+   "mkt_p": 0.4836,
+   "clv": 0.0096,
+   "line_move": 0.0,
+   "our_way": -0.0
+  }
  },
  "823090": {
   "gamePk": 823090,
@@ -10861,7 +10882,22 @@
   "exp_total": 4.39,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 4,
+  "units": 0.781,
+  "close": {
+   "snapshot": "2026-09-09T20:00:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -102,
+   "under_ml": -128,
+   "pick_ml": -128,
+   "mkt_p": 0.5265,
+   "clv": 0.0005,
+   "line_move": 0.0,
+   "our_way": -0.0
+  }
  },
  "824791": {
   "gamePk": 824791,
@@ -10883,7 +10919,22 @@
   "exp_total": 4.7,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 10,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-09T22:25:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -122,
+   "under_ml": -106,
+   "pick_ml": -106,
+   "mkt_p": 0.4836,
+   "clv": -0.0004,
+   "line_move": 0.0,
+   "our_way": -0.0
+  }
  },
  "823416": {
   "gamePk": 823416,
@@ -10905,7 +10956,10 @@
   "exp_total": 5.06,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 11,
+  "units": 0.0
  },
  "823818": {
   "gamePk": 823818,
@@ -10927,7 +10981,22 @@
   "exp_total": 4.71,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 11,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-09T22:30:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -128,
+   "under_ml": -102,
+   "pick_ml": -102,
+   "mkt_p": 0.4735,
+   "clv": -0.0055,
+   "line_move": 0.0,
+   "our_way": -0.0
+  }
  },
  "824713": {
   "gamePk": 824713,
@@ -10949,7 +11018,10 @@
   "exp_total": 5.21,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 8,
+  "units": 0.0
  },
  "823497": {
   "gamePk": 823497,
@@ -10971,7 +11043,10 @@
   "exp_total": 5.69,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 6,
+  "units": 0.0
  },
  "823739": {
   "gamePk": 823739,
@@ -10993,7 +11068,22 @@
   "exp_total": 5.03,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 8,
+  "units": 1.14,
+  "close": {
+   "snapshot": "2026-09-09T23:30:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": 114,
+   "under_ml": -148,
+   "pick_ml": 114,
+   "mkt_p": 0.4392,
+   "clv": 0.0002,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "823900": {
   "gamePk": 823900,
@@ -11015,6 +11105,75 @@
   "exp_total": 4.99,
   "params": "0112c6bd34",
   "logged_at": "2026-09-09T13:34:08",
+  "graded": true,
+  "outcome": "over",
+  "total": 10,
+  "units": 0.0
+ },
+ "823413": {
+  "gamePk": 823413,
+  "date": "2026-09-10",
+  "game_time": "2026-09-10T17:05:00Z",
+  "matchup": "Houston Astros @ Philadelphia Phillies",
+  "home_team": "Philadelphia Phillies",
+  "away_team": "Houston Astros",
+  "line": 4.5,
+  "pick": "Over 4.5",
+  "pick_side": "over",
+  "pick_ml": 104,
+  "tier": "STRONG",
+  "p_over": 0.54,
+  "mkt_p_over": 0.458,
+  "value": 0.082,
+  "lam_home": 2.59,
+  "lam_away": 2.86,
+  "exp_total": 5.45,
+  "params": "0112c6bd34",
+  "logged_at": "2026-09-10T13:30:26",
+  "graded": false
+ },
+ "823088": {
+  "gamePk": 823088,
+  "date": "2026-09-10",
+  "game_time": "2026-09-10T20:10:00Z",
+  "matchup": "Texas Rangers @ Seattle Mariners",
+  "home_team": "Seattle Mariners",
+  "away_team": "Texas Rangers",
+  "line": 3.5,
+  "pick": "Over 3.5",
+  "pick_side": "over",
+  "pick_ml": -102,
+  "tier": "STRONG",
+  "p_over": 0.598,
+  "mkt_p_over": 0.474,
+  "value": 0.124,
+  "lam_home": 2.32,
+  "lam_away": 2.47,
+  "exp_total": 4.79,
+  "params": "0112c6bd34",
+  "logged_at": "2026-09-10T13:30:26",
+  "graded": false
+ },
+ "823499": {
+  "gamePk": 823499,
+  "date": "2026-09-10",
+  "game_time": "2026-09-10T23:05:00Z",
+  "matchup": "Colorado Rockies @ New York Yankees",
+  "home_team": "New York Yankees",
+  "away_team": "Colorado Rockies",
+  "line": 4.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.535,
+  "mkt_p_over": 0.512,
+  "value": 0.023,
+  "lam_home": 3.0,
+  "lam_away": 2.41,
+  "exp_total": 5.41,
+  "params": "0112c6bd34",
+  "logged_at": "2026-09-10T13:30:26",
   "graded": false
  }
 }
