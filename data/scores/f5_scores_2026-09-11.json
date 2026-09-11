@@ -2253,10 +2253,21 @@
     "away": {
       "team": "Texas Rangers",
       "batting_score": 52.1,
-      "pitcher": null,
-      "pitcher_score": null,
-      "pitcher_metrics": null,
-      "pitcher_hand": null,
+      "pitcher": "MacKenzie Gore",
+      "pitcher_score": 27.4,
+      "pitcher_metrics": {
+        "runs_thru_5": 2.667,
+        "whip": 2.583,
+        "k_pct": 0.1385,
+        "ip_per_start": 4.0,
+        "pcts": {
+          "runs_thru_5": 33.2,
+          "whip": 1.6,
+          "k_pct": 10.2,
+          "ip_per_start": 6.9
+        }
+      },
+      "pitcher_hand": "L",
       "rpg_14d": 5.154,
       "lineup": "PROJECTED",
       "batters": [
@@ -2318,7 +2329,7 @@
     },
     "home": {
       "team": "Arizona Diamondbacks",
-      "batting_score": 53.5,
+      "batting_score": 52.3,
       "pitcher": null,
       "pitcher_score": null,
       "pitcher_metrics": null,
@@ -2329,32 +2340,32 @@
         {
           "name": "Gabriel Moreno",
           "pa": 46,
-          "form": 57.6,
-          "platoon_mult": 1.0
+          "form": 54.6,
+          "platoon_mult": 0.947
         },
         {
           "name": "Ketel Marte",
           "pa": 37,
-          "form": 62.9,
-          "platoon_mult": 1.0
+          "form": 72.3,
+          "platoon_mult": 1.15
         },
         {
           "name": "Geraldo Perdomo",
           "pa": 50,
-          "form": 28.2,
-          "platoon_mult": 1.0
+          "form": 25.0,
+          "platoon_mult": 0.887
         },
         {
           "name": "Nolan Arenado",
           "pa": 50,
-          "form": 43.7,
-          "platoon_mult": 1.0
+          "form": 46.0,
+          "platoon_mult": 1.053
         },
         {
           "name": "Tim Tawa",
           "pa": 47,
-          "form": 60.4,
-          "platoon_mult": 1.0
+          "form": 60.9,
+          "platoon_mult": 1.008
         },
         {
           "name": "Lourdes Gurriel Jr.",
@@ -2373,8 +2384,8 @@
         {
           "name": "Lars Nootbaar",
           "pa": 33,
-          "form": 97.3,
-          "platoon_mult": 1.0
+          "form": 82.7,
+          "platoon_mult": 0.85
         }
       ]
     },
