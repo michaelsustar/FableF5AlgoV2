@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-10T13:46:18",
- "slate_date": "2026-09-10",
+ "generated_at": "2026-09-11T13:31:58",
+ "slate_date": "2026-09-11",
  "ledger": {
-  "bets": 147,
+  "bets": 149,
   "wins": 70,
-  "losses": 77,
+  "losses": 79,
   "pushes": 0,
-  "units": -14.64,
-  "roi": -0.0996,
-  "hit": 0.4762,
-  "claimed": 0.5922,
-  "clv_bets": 124,
-  "clv_beat": 58,
-  "clv_avg": 0.0002
+  "units": -16.64,
+  "roi": -0.1117,
+  "hit": 0.4698,
+  "claimed": 0.5919,
+  "clv_bets": 126,
+  "clv_beat": 59,
+  "clv_avg": 0.0005
  },
  "series": [
   {
@@ -186,39 +186,43 @@
   {
    "date": "2026-09-09",
    "units": -14.64
+  },
+  {
+   "date": "2026-09-10",
+   "units": -16.64
   }
  ],
  "bets_today": [
   {
-   "matchup": "Houston Astros @ Philadelphia Phillies",
+   "matchup": "Kansas City Royals @ Boston Red Sox",
    "pick": "Over 4.5",
-   "ml": 104,
+   "ml": -114,
    "tier": "STRONG",
-   "time": "2026-09-10T17:05:00Z",
+   "time": "2026-09-11T23:10:00Z",
    "line": 4.5,
-   "exp_total": 5.45,
-   "lam_home": 2.59,
-   "lam_away": 2.86,
-   "model_p": 0.54,
-   "mkt_p": 0.458,
-   "value": 0.082
+   "exp_total": 6.04,
+   "lam_home": 3.26,
+   "lam_away": 2.79,
+   "model_p": 0.599,
+   "mkt_p": 0.5,
+   "value": 0.099
   },
   {
-   "matchup": "Texas Rangers @ Seattle Mariners",
-   "pick": "Over 3.5",
-   "ml": -102,
-   "tier": "STRONG",
-   "time": "2026-09-10T20:10:00Z",
-   "line": 3.5,
-   "exp_total": 4.79,
-   "lam_home": 2.32,
-   "lam_away": 2.47,
-   "model_p": 0.598,
-   "mkt_p": 0.474,
-   "value": 0.124
+   "matchup": "Chicago White Sox @ St. Louis Cardinals",
+   "pick": "Over 4.5",
+   "ml": -114,
+   "tier": "LEAN",
+   "time": "2026-09-12T00:15:00Z",
+   "line": 4.5,
+   "exp_total": 5.56,
+   "lam_home": 2.88,
+   "lam_away": 2.69,
+   "model_p": 0.552,
+   "mkt_p": 0.499,
+   "value": 0.053
   }
  ],
- "evaluated_today": 3,
+ "evaluated_today": 10,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

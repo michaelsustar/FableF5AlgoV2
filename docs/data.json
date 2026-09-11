@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-10T13:46:04",
- "slate_date": "2026-09-10",
+ "generated_at": "2026-09-11T13:30:55",
+ "slate_date": "2026-09-11",
  "ledger": {
-  "bets": 202,
+  "bets": 204,
   "wins": 69,
-  "losses": 103,
-  "pushes": 30,
-  "units": -18.65,
-  "roi": -0.0923,
-  "hit": 0.4012,
-  "claimed": 0.5544,
-  "clv_bets": 195,
-  "clv_beat": 97,
-  "clv_avg": 0.014
+  "losses": 104,
+  "pushes": 31,
+  "units": -19.65,
+  "roi": -0.0963,
+  "hit": 0.3988,
+  "claimed": 0.5547,
+  "clv_bets": 197,
+  "clv_beat": 99,
+  "clv_avg": 0.015
  },
  "series": [
   {
@@ -206,31 +206,45 @@
   {
    "date": "2026-09-09",
    "units": -18.65
+  },
+  {
+   "date": "2026-09-10",
+   "units": -19.65
   }
  ],
  "bets_today": [
   {
-   "matchup": "Houston Astros @ Philadelphia Phillies",
-   "pick": "Philadelphia Phillies",
-   "ml": 126,
+   "matchup": "Colorado Rockies @ Detroit Tigers",
+   "pick": "Colorado Rockies",
+   "ml": 145,
    "tier": "STRONG",
-   "time": "2026-09-10T17:05:00Z",
-   "model_p": 0.494,
-   "mkt_p": 0.417,
-   "value": 0.077
+   "time": "2026-09-11T22:40:00Z",
+   "model_p": 0.467,
+   "mkt_p": 0.385,
+   "value": 0.082
   },
   {
-   "matchup": "Colorado Rockies @ New York Yankees",
-   "pick": "Colorado Rockies",
-   "ml": 230,
+   "matchup": "Philadelphia Phillies @ Atlanta Braves",
+   "pick": "Philadelphia Phillies",
+   "ml": 185,
    "tier": "STRONG",
-   "time": "2026-09-10T23:05:00Z",
-   "model_p": 0.385,
-   "mkt_p": 0.285,
-   "value": 0.1
+   "time": "2026-09-11T23:15:00Z",
+   "model_p": 0.511,
+   "mkt_p": 0.331,
+   "value": 0.181
+  },
+  {
+   "matchup": "Seattle Mariners @ Athletics",
+   "pick": "Athletics",
+   "ml": 140,
+   "tier": "STRONG",
+   "time": "2026-09-12T01:40:00Z",
+   "model_p": 0.528,
+   "mkt_p": 0.393,
+   "value": 0.135
   }
  ],
- "evaluated_today": 3,
+ "evaluated_today": 10,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
