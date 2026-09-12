@@ -1,0 +1,656 @@
+[
+  {
+    "gamePk": 824224,
+    "matchup": "Colorado Rockies @ Detroit Tigers",
+    "game_time": "2026-09-12T17:10:00Z",
+    "home_team": "Detroit Tigers",
+    "away_team": "Colorado Rockies",
+    "park_factor": 0.98,
+    "away": {
+      "team": "Colorado Rockies",
+      "opp_starter": "Andrew Sears",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.59,
+      "bat_score": 50.3,
+      "lam": null,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Detroit Tigers",
+      "opp_starter": "Tanner Gordon",
+      "opp_runs5_pct": 64.9,
+      "season_f5_rate": 2.55,
+      "bat_score": 42.6,
+      "lam": 2.26,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Detroit Tigers",
+      "away": "Colorado Rockies",
+      "line": 4.5,
+      "over_ml": -135,
+      "under_ml": 104,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823496,
+    "matchup": "New York Mets @ New York Yankees",
+    "game_time": "2026-09-12T17:35:00Z",
+    "home_team": "New York Yankees",
+    "away_team": "New York Mets",
+    "park_factor": 1.02,
+    "away": {
+      "team": "New York Mets",
+      "opp_starter": "Gerrit Cole",
+      "opp_runs5_pct": 64.9,
+      "season_f5_rate": 2.4,
+      "bat_score": 57.2,
+      "lam": 2.57,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "New York Yankees",
+      "opp_starter": "Zac Thornton",
+      "opp_runs5_pct": 25.5,
+      "season_f5_rate": 2.38,
+      "bat_score": 68.3,
+      "lam": 3.03,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "New York Yankees",
+      "away": "New York Mets",
+      "line": 4.5,
+      "over_ml": -108,
+      "under_ml": -120,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 3.03,
+      "lam_away": 2.57,
+      "exp_total": 5.59,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.555,
+      "mkt_p_over": 0.488,
+      "value": 0.067,
+      "p_push": 0.0,
+      "pick": "Over 4.5",
+      "pick_side": "over",
+      "pick_ml": -108,
+      "tier": "LEAN"
+    }
+  },
+  {
+    "gamePk": 824630,
+    "matchup": "Pittsburgh Pirates @ Chicago Cubs",
+    "game_time": "2026-09-12T18:20:00Z",
+    "home_team": "Chicago Cubs",
+    "away_team": "Pittsburgh Pirates",
+    "park_factor": 1.0,
+    "away": {
+      "team": "Pittsburgh Pirates",
+      "opp_starter": "Clay Holmes",
+      "opp_runs5_pct": 44.4,
+      "season_f5_rate": 2.72,
+      "bat_score": 58.8,
+      "lam": 2.7,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Chicago Cubs",
+      "opp_starter": "Paul Skenes",
+      "opp_runs5_pct": 64.9,
+      "season_f5_rate": 2.8,
+      "bat_score": 62.4,
+      "lam": 2.6,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Chicago Cubs",
+      "away": "Pittsburgh Pirates",
+      "line": 5.5,
+      "over_ml": 108,
+      "under_ml": -140,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.6,
+      "lam_away": 2.7,
+      "exp_total": 5.3,
+      "mode": "market",
+      "line": 5.5,
+      "p_over": 0.409,
+      "mkt_p_over": 0.452,
+      "value": -0.043,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 822768,
+    "matchup": "Baltimore Orioles @ Toronto Blue Jays",
+    "game_time": "2026-09-12T19:07:00Z",
+    "home_team": "Toronto Blue Jays",
+    "away_team": "Baltimore Orioles",
+    "park_factor": 1.0,
+    "away": {
+      "team": "Baltimore Orioles",
+      "opp_starter": "Spencer Miles",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.58,
+      "bat_score": 41.5,
+      "lam": null,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Toronto Blue Jays",
+      "opp_starter": "Kyle Bradish",
+      "opp_runs5_pct": 15.6,
+      "season_f5_rate": 2.01,
+      "bat_score": 64.2,
+      "lam": 2.88,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Toronto Blue Jays",
+      "away": "Baltimore Orioles",
+      "line": 4.5,
+      "over_ml": -120,
+      "under_ml": -108,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 822685,
+    "matchup": "Los Angeles Angels @ Washington Nationals",
+    "game_time": "2026-09-12T20:05:00Z",
+    "home_team": "Washington Nationals",
+    "away_team": "Los Angeles Angels",
+    "park_factor": 1.0,
+    "away": {
+      "team": "Los Angeles Angels",
+      "opp_starter": "Andrew Alvarez",
+      "opp_runs5_pct": 64.9,
+      "season_f5_rate": 2.49,
+      "bat_score": 39.9,
+      "lam": 2.31,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Washington Nationals",
+      "opp_starter": "Walbert Ure\u00f1a",
+      "opp_runs5_pct": 64.9,
+      "season_f5_rate": 2.84,
+      "bat_score": 51.8,
+      "lam": 2.48,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Washington Nationals",
+      "away": "Los Angeles Angels",
+      "line": 4.5,
+      "over_ml": 100,
+      "under_ml": -130,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.48,
+      "lam_away": 2.31,
+      "exp_total": 4.8,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.466,
+      "mkt_p_over": 0.469,
+      "value": -0.003,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823170,
+    "matchup": "San Diego Padres @ San Francisco Giants",
+    "game_time": "2026-09-12T20:05:00Z",
+    "home_team": "San Francisco Giants",
+    "away_team": "San Diego Padres",
+    "park_factor": 0.96,
+    "away": {
+      "team": "San Diego Padres",
+      "opp_starter": "Cesar Perdomo",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.27,
+      "bat_score": 56.5,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "San Francisco Giants",
+      "opp_starter": "Michael King",
+      "opp_runs5_pct": 99.0,
+      "season_f5_rate": 2.35,
+      "bat_score": 50.1,
+      "lam": 2.01,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "San Francisco Giants",
+      "away": "San Diego Padres",
+      "line": 4.5,
+      "over_ml": 104,
+      "under_ml": -135,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 824712,
+    "matchup": "Kansas City Royals @ Boston Red Sox",
+    "game_time": "2026-09-12T20:10:00Z",
+    "home_team": "Boston Red Sox",
+    "away_team": "Kansas City Royals",
+    "park_factor": 1.07,
+    "away": {
+      "team": "Kansas City Royals",
+      "opp_starter": "Ranger Suarez",
+      "opp_runs5_pct": 54.3,
+      "season_f5_rate": 2.32,
+      "bat_score": 57.4,
+      "lam": 2.87,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Boston Red Sox",
+      "opp_starter": "Randy Dobnak",
+      "opp_runs5_pct": 54.3,
+      "season_f5_rate": 2.4,
+      "bat_score": 56.9,
+      "lam": 2.88,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Boston Red Sox",
+      "away": "Kansas City Royals",
+      "line": 4.5,
+      "over_ml": -108,
+      "under_ml": -120,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.88,
+      "lam_away": 2.87,
+      "exp_total": 5.75,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.571,
+      "mkt_p_over": 0.488,
+      "value": 0.083,
+      "p_push": 0.0,
+      "pick": "Over 4.5",
+      "pick_side": "over",
+      "pick_ml": -108,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 823657,
+    "matchup": "Cleveland Guardians @ Minnesota Twins",
+    "game_time": "2026-09-12T20:10:00Z",
+    "home_team": "Minnesota Twins",
+    "away_team": "Cleveland Guardians",
+    "park_factor": 0.99,
+    "away": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Connor Prielipp",
+      "opp_runs5_pct": 1.3,
+      "season_f5_rate": 2.33,
+      "bat_score": 49.0,
+      "lam": 2.83,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Minnesota Twins",
+      "opp_starter": "Daniel Espino",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.82,
+      "bat_score": 49.8,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Minnesota Twins",
+      "away": "Cleveland Guardians",
+      "line": 4.5,
+      "over_ml": -108,
+      "under_ml": -120,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823819,
+    "matchup": "Los Angeles Dodgers @ Miami Marlins",
+    "game_time": "2026-09-12T20:10:00Z",
+    "home_team": "Miami Marlins",
+    "away_team": "Los Angeles Dodgers",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Los Angeles Dodgers",
+      "opp_starter": "Tyler Phillips",
+      "opp_runs5_pct": 75.5,
+      "season_f5_rate": 2.78,
+      "bat_score": 59.4,
+      "lam": 2.35,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Miami Marlins",
+      "opp_starter": "Tyler Glasnow",
+      "opp_runs5_pct": 44.4,
+      "season_f5_rate": 2.48,
+      "bat_score": 59.7,
+      "lam": 2.54,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Miami Marlins",
+      "away": "Los Angeles Dodgers",
+      "line": 4.5,
+      "over_ml": 108,
+      "under_ml": -140,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.54,
+      "lam_away": 2.35,
+      "exp_total": 4.88,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.477,
+      "mkt_p_over": 0.452,
+      "value": 0.025,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 822927,
+    "matchup": "Houston Astros @ Tampa Bay Rays",
+    "game_time": "2026-09-12T22:10:00Z",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "Houston Astros",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Houston Astros",
+      "opp_starter": "Ian Seymour",
+      "opp_runs5_pct": 44.4,
+      "season_f5_rate": 2.61,
+      "bat_score": 46.0,
+      "lam": 2.41,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Peter Lambert",
+      "opp_runs5_pct": 35.1,
+      "season_f5_rate": 2.52,
+      "bat_score": 52.0,
+      "lam": 2.53,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Tampa Bay Rays",
+      "away": "Houston Astros",
+      "line": 3.5,
+      "over_ml": -152,
+      "under_ml": 116,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.53,
+      "lam_away": 2.41,
+      "exp_total": 4.93,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.614,
+      "mkt_p_over": 0.566,
+      "value": 0.048,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 823737,
+    "matchup": "Cincinnati Reds @ Milwaukee Brewers",
+    "game_time": "2026-09-12T23:10:00Z",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Cincinnati Reds",
+    "park_factor": 0.99,
+    "away": {
+      "team": "Cincinnati Reds",
+      "opp_starter": null,
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.47,
+      "bat_score": 47.6,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Brady Singer",
+      "opp_runs5_pct": 7.9,
+      "season_f5_rate": 2.82,
+      "bat_score": 63.2,
+      "lam": 3.03,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Milwaukee Brewers",
+      "away": "Cincinnati Reds",
+      "line": 4.5,
+      "over_ml": -115,
+      "under_ml": -113,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 824870,
+    "matchup": "Philadelphia Phillies @ Atlanta Braves",
+    "game_time": "2026-09-12T23:15:00Z",
+    "home_team": "Atlanta Braves",
+    "away_team": "Philadelphia Phillies",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Philadelphia Phillies",
+      "opp_starter": "Tyler Mahle",
+      "opp_runs5_pct": 84.1,
+      "season_f5_rate": 2.4,
+      "bat_score": 38.3,
+      "lam": 2.2,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Atlanta Braves",
+      "opp_starter": null,
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.41,
+      "bat_score": 48.2,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Atlanta Braves",
+      "away": "Philadelphia Phillies",
+      "line": 4.5,
+      "over_ml": 102,
+      "under_ml": -132,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823009,
+    "matchup": "Chicago White Sox @ St. Louis Cardinals",
+    "game_time": "2026-09-12T23:15:00Z",
+    "home_team": "St. Louis Cardinals",
+    "away_team": "Chicago White Sox",
+    "park_factor": 0.98,
+    "away": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Kyle Leahy",
+      "opp_runs5_pct": 54.3,
+      "season_f5_rate": 2.72,
+      "bat_score": 41.8,
+      "lam": 2.35,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "St. Louis Cardinals",
+      "opp_starter": "Sean Newcomb",
+      "opp_runs5_pct": 99.0,
+      "season_f5_rate": 2.52,
+      "bat_score": 56.0,
+      "lam": 2.17,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "St. Louis Cardinals",
+      "away": "Chicago White Sox",
+      "line": 4.5,
+      "over_ml": -118,
+      "under_ml": -110,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.17,
+      "lam_away": 2.35,
+      "exp_total": 4.52,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.432,
+      "mkt_p_over": 0.508,
+      "value": -0.076,
+      "p_push": 0.0,
+      "pick": "Under 4.5",
+      "pick_side": "under",
+      "pick_ml": -110,
+      "tier": "LEAN"
+    }
+  },
+  {
+    "gamePk": 825035,
+    "matchup": "Texas Rangers @ Arizona Diamondbacks",
+    "game_time": "2026-09-13T00:10:00Z",
+    "home_team": "Arizona Diamondbacks",
+    "away_team": "Texas Rangers",
+    "park_factor": 1.04,
+    "away": {
+      "team": "Texas Rangers",
+      "opp_starter": "Brandon Pfaadt",
+      "opp_runs5_pct": 35.1,
+      "season_f5_rate": 2.49,
+      "bat_score": 54.2,
+      "lam": 2.88,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Arizona Diamondbacks",
+      "opp_starter": "Kumar Rocker",
+      "opp_runs5_pct": 54.3,
+      "season_f5_rate": 2.32,
+      "bat_score": 46.2,
+      "lam": 2.6,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Arizona Diamondbacks",
+      "away": "Texas Rangers",
+      "line": 4.5,
+      "over_ml": -115,
+      "under_ml": -113,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.6,
+      "lam_away": 2.88,
+      "exp_total": 5.48,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.543,
+      "mkt_p_over": 0.502,
+      "value": 0.041,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 824955,
+    "matchup": "Seattle Mariners @ Athletics",
+    "game_time": "2026-09-13T01:40:00Z",
+    "home_team": "Athletics",
+    "away_team": "Seattle Mariners",
+    "park_factor": 1.04,
+    "away": {
+      "team": "Seattle Mariners",
+      "opp_starter": "Gage Jump",
+      "opp_runs5_pct": 44.4,
+      "season_f5_rate": 2.29,
+      "bat_score": 50.3,
+      "lam": 2.72,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Athletics",
+      "opp_starter": "Bryan Woo",
+      "opp_runs5_pct": 44.4,
+      "season_f5_rate": 2.44,
+      "bat_score": 62.8,
+      "lam": 2.9,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-12",
+      "home": "Athletics",
+      "away": "Seattle Mariners",
+      "line": 5.5,
+      "over_ml": 112,
+      "under_ml": -146,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.9,
+      "lam_away": 2.72,
+      "exp_total": 5.62,
+      "mode": "market",
+      "line": 5.5,
+      "p_over": 0.444,
+      "mkt_p_over": 0.443,
+      "value": 0.001,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  }
+]

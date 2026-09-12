@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-11T13:48:58",
- "slate_date": "2026-09-11",
+ "generated_at": "2026-09-12T12:45:00",
+ "slate_date": "2026-09-12",
  "ledger": {
-  "bets": 204,
-  "wins": 69,
+  "bets": 207,
+  "wins": 71,
   "losses": 104,
-  "pushes": 31,
-  "units": -19.65,
-  "roi": -0.0963,
-  "hit": 0.3988,
-  "claimed": 0.5547,
-  "clv_bets": 197,
-  "clv_beat": 99,
-  "clv_avg": 0.015
+  "pushes": 32,
+  "units": -16.4,
+  "roi": -0.0792,
+  "hit": 0.4057,
+  "claimed": 0.5543,
+  "clv_bets": 200,
+  "clv_beat": 100,
+  "clv_avg": 0.0147
  },
  "series": [
   {
@@ -210,41 +210,45 @@
   {
    "date": "2026-09-10",
    "units": -19.65
+  },
+  {
+   "date": "2026-09-11",
+   "units": -16.4
   }
  ],
  "bets_today": [
   {
-   "matchup": "Colorado Rockies @ Detroit Tigers",
-   "pick": "Colorado Rockies",
-   "ml": 145,
+   "matchup": "Los Angeles Dodgers @ Miami Marlins",
+   "pick": "Miami Marlins",
+   "ml": 165,
    "tier": "STRONG",
-   "time": "2026-09-11T22:40:00Z",
-   "model_p": 0.467,
-   "mkt_p": 0.385,
-   "value": 0.082
+   "time": "2026-09-12T20:10:00Z",
+   "model_p": 0.552,
+   "mkt_p": 0.356,
+   "value": 0.196
   },
   {
-   "matchup": "Philadelphia Phillies @ Atlanta Braves",
-   "pick": "Philadelphia Phillies",
-   "ml": 185,
+   "matchup": "Kansas City Royals @ Boston Red Sox",
+   "pick": "Kansas City Royals",
+   "ml": 165,
    "tier": "STRONG",
-   "time": "2026-09-11T23:15:00Z",
-   "model_p": 0.511,
-   "mkt_p": 0.331,
-   "value": 0.181
+   "time": "2026-09-12T20:10:00Z",
+   "model_p": 0.484,
+   "mkt_p": 0.356,
+   "value": 0.128
   },
   {
    "matchup": "Seattle Mariners @ Athletics",
    "pick": "Athletics",
-   "ml": 140,
+   "ml": 135,
    "tier": "STRONG",
-   "time": "2026-09-12T01:40:00Z",
-   "model_p": 0.528,
-   "mkt_p": 0.393,
-   "value": 0.135
+   "time": "2026-09-13T01:40:00Z",
+   "model_p": 0.534,
+   "mkt_p": 0.401,
+   "value": 0.134
   }
  ],
- "evaluated_today": 10,
+ "evaluated_today": 9,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

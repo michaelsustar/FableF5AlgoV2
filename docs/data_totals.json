@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-11T13:49:42",
- "slate_date": "2026-09-11",
+ "generated_at": "2026-09-12T12:46:00",
+ "slate_date": "2026-09-12",
  "ledger": {
-  "bets": 149,
-  "wins": 70,
+  "bets": 151,
+  "wins": 72,
   "losses": 79,
   "pushes": 0,
-  "units": -16.64,
-  "roi": -0.1117,
-  "hit": 0.4698,
-  "claimed": 0.5919,
-  "clv_bets": 126,
+  "units": -14.89,
+  "roi": -0.0986,
+  "hit": 0.4768,
+  "claimed": 0.5917,
+  "clv_bets": 128,
   "clv_beat": 59,
-  "clv_avg": 0.0005
+  "clv_avg": 0.0003
  },
  "series": [
   {
@@ -190,39 +190,57 @@
   {
    "date": "2026-09-10",
    "units": -16.64
+  },
+  {
+   "date": "2026-09-11",
+   "units": -14.89
   }
  ],
  "bets_today": [
   {
+   "matchup": "New York Mets @ New York Yankees",
+   "pick": "Over 4.5",
+   "ml": -108,
+   "tier": "LEAN",
+   "time": "2026-09-12T17:35:00Z",
+   "line": 4.5,
+   "exp_total": 5.59,
+   "lam_home": 3.03,
+   "lam_away": 2.57,
+   "model_p": 0.555,
+   "mkt_p": 0.488,
+   "value": 0.067
+  },
+  {
    "matchup": "Kansas City Royals @ Boston Red Sox",
    "pick": "Over 4.5",
-   "ml": -114,
+   "ml": -108,
    "tier": "STRONG",
-   "time": "2026-09-11T23:10:00Z",
+   "time": "2026-09-12T20:10:00Z",
    "line": 4.5,
-   "exp_total": 6.04,
-   "lam_home": 3.26,
-   "lam_away": 2.79,
-   "model_p": 0.599,
-   "mkt_p": 0.5,
-   "value": 0.099
+   "exp_total": 5.75,
+   "lam_home": 2.88,
+   "lam_away": 2.87,
+   "model_p": 0.571,
+   "mkt_p": 0.488,
+   "value": 0.083
   },
   {
    "matchup": "Chicago White Sox @ St. Louis Cardinals",
-   "pick": "Over 4.5",
-   "ml": -114,
+   "pick": "Under 4.5",
+   "ml": -110,
    "tier": "LEAN",
-   "time": "2026-09-12T00:15:00Z",
+   "time": "2026-09-12T23:15:00Z",
    "line": 4.5,
-   "exp_total": 5.56,
-   "lam_home": 2.88,
-   "lam_away": 2.69,
-   "model_p": 0.552,
-   "mkt_p": 0.499,
-   "value": 0.053
+   "exp_total": 4.52,
+   "lam_home": 2.17,
+   "lam_away": 2.35,
+   "model_p": 0.568,
+   "mkt_p": 0.492,
+   "value": 0.076
   }
  ],
- "evaluated_today": 10,
+ "evaluated_today": 9,
  "model": {
   "coefficients": {
    "intercept": 0.9273,
