@@ -14062,5 +14062,85 @@
   "home_ml": -105,
   "away_ml": -125,
   "book": "draftkings"
+ },
+ "2026-09-14|chicago white sox|cleveland guardians": {
+  "date": "2026-09-14",
+  "home": "Cleveland Guardians",
+  "away": "Chicago White Sox",
+  "home_ml": -175,
+  "away_ml": 135,
+  "book": "draftkings"
+ },
+ "2026-09-14|los angeles dodgers|cincinnati reds": {
+  "date": "2026-09-14",
+  "home": "Cincinnati Reds",
+  "away": "Los Angeles Dodgers",
+  "home_ml": 175,
+  "away_ml": -230,
+  "book": "draftkings"
+ },
+ "2026-09-14|detroit tigers|toronto blue jays": {
+  "date": "2026-09-14",
+  "home": "Toronto Blue Jays",
+  "away": "Detroit Tigers",
+  "home_ml": -140,
+  "away_ml": 110,
+  "book": "draftkings"
+ },
+ "2026-09-14|baltimore orioles|new york mets": {
+  "date": "2026-09-14",
+  "home": "New York Mets",
+  "away": "Baltimore Orioles",
+  "home_ml": -130,
+  "away_ml": 100,
+  "book": "draftkings"
+ },
+ "2026-09-14|atlanta braves|chicago cubs": {
+  "date": "2026-09-14",
+  "home": "Chicago Cubs",
+  "away": "Atlanta Braves",
+  "home_ml": -140,
+  "away_ml": 110,
+  "book": "draftkings"
+ },
+ "2026-09-14|new york yankees|minnesota twins": {
+  "date": "2026-09-14",
+  "home": "Minnesota Twins",
+  "away": "New York Yankees",
+  "home_ml": -110,
+  "away_ml": -120,
+  "book": "draftkings"
+ },
+ "2026-09-14|san francisco giants|st. louis cardinals": {
+  "date": "2026-09-14",
+  "home": "St. Louis Cardinals",
+  "away": "San Francisco Giants",
+  "home_ml": -140,
+  "away_ml": 110,
+  "book": "draftkings"
+ },
+ "2026-09-14|san diego padres|colorado rockies": {
+  "date": "2026-09-14",
+  "home": "Colorado Rockies",
+  "away": "San Diego Padres",
+  "home_ml": 130,
+  "away_ml": -166,
+  "book": "draftkings"
+ },
+ "2026-09-14|seattle mariners|los angeles angels": {
+  "date": "2026-09-14",
+  "home": "Los Angeles Angels",
+  "away": "Seattle Mariners",
+  "home_ml": -130,
+  "away_ml": 100,
+  "book": "draftkings"
+ },
+ "2026-09-14|miami marlins|arizona diamondbacks": {
+  "date": "2026-09-14",
+  "home": "Arizona Diamondbacks",
+  "away": "Miami Marlins",
+  "home_ml": -135,
+  "away_ml": 105,
+  "book": "draftkings"
  }
 }

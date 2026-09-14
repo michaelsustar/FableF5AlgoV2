@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-13T13:29:39",
- "slate_date": "2026-09-13",
+ "generated_at": "2026-09-14T15:01:48",
+ "slate_date": "2026-09-14",
  "ledger": {
-  "bets": 210,
+  "bets": 215,
   "wins": 72,
-  "losses": 106,
+  "losses": 111,
   "pushes": 32,
-  "units": -16.75,
-  "roi": -0.0798,
-  "hit": 0.4045,
-  "claimed": 0.554,
-  "clv_bets": 203,
-  "clv_beat": 102,
-  "clv_avg": 0.0147
+  "units": -21.75,
+  "roi": -0.1012,
+  "hit": 0.3934,
+  "claimed": 0.5539,
+  "clv_bets": 208,
+  "clv_beat": 105,
+  "clv_avg": 0.016
  },
  "series": [
   {
@@ -218,61 +218,45 @@
   {
    "date": "2026-09-12",
    "units": -16.75
+  },
+  {
+   "date": "2026-09-13",
+   "units": -21.75
   }
  ],
  "bets_today": [
   {
-   "matchup": "Colorado Rockies @ Detroit Tigers",
-   "pick": "Colorado Rockies",
-   "ml": 1500,
+   "matchup": "Los Angeles Dodgers @ Cincinnati Reds",
+   "pick": "Cincinnati Reds",
+   "ml": 175,
    "tier": "STRONG",
-   "time": "2026-09-13T16:10:00Z",
-   "model_p": 0.518,
-   "mkt_p": 0.059,
-   "value": 0.459
+   "time": "2026-09-14T22:40:00Z",
+   "model_p": 0.511,
+   "mkt_p": 0.343,
+   "value": 0.168
   },
   {
-   "matchup": "Philadelphia Phillies @ Atlanta Braves",
-   "pick": "Atlanta Braves",
-   "ml": -125,
-   "tier": "STRONG",
-   "time": "2026-09-13T17:35:00Z",
-   "model_p": 0.586,
-   "mkt_p": 0.52,
-   "value": 0.066
-  },
-  {
-   "matchup": "New York Mets @ New York Yankees",
-   "pick": "New York Mets",
-   "ml": 154,
-   "tier": "STRONG",
-   "time": "2026-09-13T17:35:00Z",
-   "model_p": 0.432,
-   "mkt_p": 0.371,
-   "value": 0.061
-  },
-  {
-   "matchup": "Kansas City Royals @ Boston Red Sox",
-   "pick": "Kansas City Royals",
+   "matchup": "Chicago White Sox @ Cleveland Guardians",
+   "pick": "Chicago White Sox",
    "ml": 135,
    "tier": "STRONG",
-   "time": "2026-09-13T19:05:00Z",
-   "model_p": 0.472,
+   "time": "2026-09-14T22:40:00Z",
+   "model_p": 0.523,
    "mkt_p": 0.401,
-   "value": 0.071
+   "value": 0.123
   },
   {
-   "matchup": "Seattle Mariners @ Athletics",
-   "pick": "Athletics",
-   "ml": -110,
+   "matchup": "San Diego Padres @ Colorado Rockies",
+   "pick": "Colorado Rockies",
+   "ml": 130,
    "tier": "STRONG",
-   "time": "2026-09-13T20:05:00Z",
-   "model_p": 0.565,
-   "mkt_p": 0.49,
-   "value": 0.075
+   "time": "2026-09-15T00:40:00Z",
+   "model_p": 0.5,
+   "mkt_p": 0.411,
+   "value": 0.09
   }
  ],
- "evaluated_today": 10,
+ "evaluated_today": 7,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

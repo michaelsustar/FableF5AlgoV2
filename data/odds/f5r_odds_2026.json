@@ -5632,5 +5632,95 @@
   "over_ml": -140,
   "under_ml": 108,
   "book": "fanduel"
+ },
+ "2026-09-14|chicago white sox|cleveland guardians": {
+  "date": "2026-09-14",
+  "home": "Cleveland Guardians",
+  "away": "Chicago White Sox",
+  "line": 3.5,
+  "over_ml": -113,
+  "under_ml": -115,
+  "book": "fanduel"
+ },
+ "2026-09-14|los angeles dodgers|cincinnati reds": {
+  "date": "2026-09-14",
+  "home": "Cincinnati Reds",
+  "away": "Los Angeles Dodgers",
+  "line": 3.5,
+  "over_ml": -128,
+  "under_ml": -102,
+  "book": "fanduel"
+ },
+ "2026-09-14|detroit tigers|toronto blue jays": {
+  "date": "2026-09-14",
+  "home": "Toronto Blue Jays",
+  "away": "Detroit Tigers",
+  "line": 4.5,
+  "over_ml": 116,
+  "under_ml": -152,
+  "book": "fanduel"
+ },
+ "2026-09-14|baltimore orioles|new york mets": {
+  "date": "2026-09-14",
+  "home": "New York Mets",
+  "away": "Baltimore Orioles",
+  "line": 4.5,
+  "over_ml": -102,
+  "under_ml": -128,
+  "book": "fanduel"
+ },
+ "2026-09-14|atlanta braves|chicago cubs": {
+  "date": "2026-09-14",
+  "home": "Chicago Cubs",
+  "away": "Atlanta Braves",
+  "line": 5.5,
+  "over_ml": 102,
+  "under_ml": -132,
+  "book": "fanduel"
+ },
+ "2026-09-14|new york yankees|minnesota twins": {
+  "date": "2026-09-14",
+  "home": "Minnesota Twins",
+  "away": "New York Yankees",
+  "line": 4.5,
+  "over_ml": -113,
+  "under_ml": -115,
+  "book": "fanduel"
+ },
+ "2026-09-14|san francisco giants|st. louis cardinals": {
+  "date": "2026-09-14",
+  "home": "St. Louis Cardinals",
+  "away": "San Francisco Giants",
+  "line": 4.5,
+  "over_ml": 104,
+  "under_ml": -135,
+  "book": "fanduel"
+ },
+ "2026-09-14|san diego padres|colorado rockies": {
+  "date": "2026-09-14",
+  "home": "Colorado Rockies",
+  "away": "San Diego Padres",
+  "line": 6.5,
+  "over_ml": 102,
+  "under_ml": -132,
+  "book": "fanduel"
+ },
+ "2026-09-14|seattle mariners|los angeles angels": {
+  "date": "2026-09-14",
+  "home": "Los Angeles Angels",
+  "away": "Seattle Mariners",
+  "line": 3.5,
+  "over_ml": -138,
+  "under_ml": 106,
+  "book": "fanduel"
+ },
+ "2026-09-14|miami marlins|arizona diamondbacks": {
+  "date": "2026-09-14",
+  "home": "Arizona Diamondbacks",
+  "away": "Miami Marlins",
+  "line": 4.5,
+  "over_ml": -106,
+  "under_ml": -122,
+  "book": "fanduel"
  }
 }
