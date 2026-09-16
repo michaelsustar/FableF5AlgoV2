@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-15T14:19:49",
- "slate_date": "2026-09-15",
+ "generated_at": "2026-09-16T13:58:30",
+ "slate_date": "2026-09-16",
  "ledger": {
-  "bets": 218,
-  "wins": 72,
-  "losses": 113,
-  "pushes": 33,
-  "units": -23.75,
-  "roi": -0.1089,
-  "hit": 0.3892,
-  "claimed": 0.5534,
-  "clv_bets": 211,
-  "clv_beat": 106,
-  "clv_avg": 0.0157
+  "bets": 224,
+  "wins": 73,
+  "losses": 117,
+  "pushes": 34,
+  "units": -26.35,
+  "roi": -0.1176,
+  "hit": 0.3842,
+  "claimed": 0.5533,
+  "clv_bets": 217,
+  "clv_beat": 108,
+  "clv_avg": 0.0151
  },
  "series": [
   {
@@ -226,71 +226,75 @@
   {
    "date": "2026-09-14",
    "units": -23.75
+  },
+  {
+   "date": "2026-09-15",
+   "units": -26.35
   }
  ],
  "bets_today": [
   {
-   "matchup": "Milwaukee Brewers @ Pittsburgh Pirates",
-   "pick": "Pittsburgh Pirates",
-   "ml": 185,
+   "matchup": "Chicago White Sox @ Cleveland Guardians",
+   "pick": "Chicago White Sox",
+   "ml": 220,
    "tier": "STRONG",
-   "time": "2026-09-15T22:40:00Z",
-   "model_p": 0.585,
-   "mkt_p": 0.331,
-   "value": 0.254
+   "time": "2026-09-16T17:10:00Z",
+   "model_p": 0.418,
+   "mkt_p": 0.295,
+   "value": 0.123
   },
   {
-   "matchup": "Philadelphia Phillies @ Washington Nationals",
-   "pick": "Washington Nationals",
-   "ml": 150,
+   "matchup": "San Francisco Giants @ St. Louis Cardinals",
+   "pick": "St. Louis Cardinals",
+   "ml": 122,
    "tier": "STRONG",
-   "time": "2026-09-15T22:45:00Z",
-   "model_p": 0.526,
-   "mkt_p": 0.377,
-   "value": 0.149
-  },
-  {
-   "matchup": "Atlanta Braves @ Chicago Cubs",
-   "pick": "Atlanta Braves",
-   "ml": 114,
-   "tier": "STRONG",
-   "time": "2026-09-15T23:40:00Z",
-   "model_p": 0.548,
-   "mkt_p": 0.441,
-   "value": 0.107
+   "time": "2026-09-16T17:15:00Z",
+   "model_p": 0.57,
+   "mkt_p": 0.425,
+   "value": 0.145
   },
   {
    "matchup": "New York Yankees @ Minnesota Twins",
-   "pick": "Minnesota Twins",
-   "ml": 140,
+   "pick": "New York Yankees",
+   "ml": 240,
    "tier": "STRONG",
-   "time": "2026-09-15T23:40:00Z",
-   "model_p": 0.475,
-   "mkt_p": 0.393,
-   "value": 0.082
+   "time": "2026-09-16T17:40:00Z",
+   "model_p": 0.539,
+   "mkt_p": 0.277,
+   "value": 0.262
   },
   {
-   "matchup": "Kansas City Royals @ Houston Astros",
-   "pick": "Kansas City Royals",
-   "ml": 124,
+   "matchup": "Los Angeles Dodgers @ Cincinnati Reds",
+   "pick": "Cincinnati Reds",
+   "ml": 195,
    "tier": "STRONG",
-   "time": "2026-09-16T00:10:00Z",
-   "model_p": 0.52,
-   "mkt_p": 0.42,
-   "value": 0.099
+   "time": "2026-09-16T22:40:00Z",
+   "model_p": 0.407,
+   "mkt_p": 0.319,
+   "value": 0.087
+  },
+  {
+   "matchup": "San Diego Padres @ Colorado Rockies",
+   "pick": "Colorado Rockies",
+   "ml": -105,
+   "tier": "STRONG",
+   "time": "2026-09-17T00:40:00Z",
+   "model_p": 0.577,
+   "mkt_p": 0.48,
+   "value": 0.097
   },
   {
    "matchup": "Seattle Mariners @ Los Angeles Angels",
    "pick": "Los Angeles Angels",
-   "ml": 140,
+   "ml": 100,
    "tier": "STRONG",
-   "time": "2026-09-16T01:38:00Z",
-   "model_p": 0.56,
-   "mkt_p": 0.393,
-   "value": 0.167
+   "time": "2026-09-17T01:38:00Z",
+   "model_p": 0.605,
+   "mkt_p": 0.469,
+   "value": 0.135
   }
  ],
- "evaluated_today": 10,
+ "evaluated_today": 13,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
