@@ -10841,7 +10841,16 @@
   "away_team": "Chicago White Sox",
   "params": "bd65d255fe",
   "logged_at": "2026-09-16T13:58:30",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-16T17:00:00Z",
+   "book": "draftkings",
+   "home_ml": -180,
+   "away_ml": 140,
+   "pick_ml": 140,
+   "mkt_p": 0.3933,
+   "clv": 0.0983
+  }
  },
  "823004": {
   "gamePk": 823004,
@@ -10858,7 +10867,16 @@
   "away_team": "San Francisco Giants",
   "params": "bd65d255fe",
   "logged_at": "2026-09-16T13:58:30",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-16T17:05:00Z",
+   "book": "draftkings",
+   "home_ml": -166,
+   "away_ml": 130,
+   "pick_ml": -166,
+   "mkt_p": 0.5894,
+   "clv": 0.1644
+  }
  },
  "823655": {
   "gamePk": 823655,
@@ -10875,7 +10893,16 @@
   "away_team": "New York Yankees",
   "params": "bd65d255fe",
   "logged_at": "2026-09-16T13:58:30",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-16T17:30:00Z",
+   "book": "draftkings",
+   "home_ml": 124,
+   "away_ml": -160,
+   "pick_ml": -160,
+   "mkt_p": 0.5796,
+   "clv": 0.3026
+  }
  },
  "822763": {
   "gamePk": 822763,
