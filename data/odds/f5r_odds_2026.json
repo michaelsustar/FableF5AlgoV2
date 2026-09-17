@@ -5992,5 +5992,86 @@
   "over_ml": -146,
   "under_ml": 112,
   "book": "fanduel"
+ },
+ "2026-09-17|milwaukee brewers|pittsburgh pirates": {
+  "date": "2026-09-17",
+  "home": "Pittsburgh Pirates",
+  "away": "Milwaukee Brewers",
+  "line": 7.5,
+  "over_ml": 112,
+  "under_ml": -148,
+  "book": "fanduel"
+ },
+ "2026-09-17|los angeles dodgers|cincinnati reds": {
+  "date": "2026-09-17",
+  "home": "Cincinnati Reds",
+  "away": "Los Angeles Dodgers",
+  "line": 7.5,
+  "over_ml": -138,
+  "under_ml": 104,
+  "book": "fanduel"
+ },
+ "2026-09-17|athletics|tampa bay rays": {
+  "date": "2026-09-17",
+  "home": "Tampa Bay Rays",
+  "away": "Athletics",
+  "line": 1.5,
+  "over_ml": 108,
+  "under_ml": -144,
+  "book": "fanduel"
+ },
+ "2026-09-17|san diego padres|colorado rockies": {
+  "date": "2026-09-17",
+  "home": "Colorado Rockies",
+  "away": "San Diego Padres",
+  "line": 5.5,
+  "over_ml": -138,
+  "under_ml": 106,
+  "book": "fanduel"
+ },
+ "2026-09-17|philadelphia phillies|new york mets": {
+  "date": "2026-09-17",
+  "home": "New York Mets",
+  "away": "Philadelphia Phillies",
+  "line": 4.5,
+  "over_ml": -106,
+  "under_ml": -122,
+  "book": "fanduel"
+ },
+ "2026-09-17|kansas city royals|houston astros": {
+  "date": "2026-09-17",
+  "home": "Houston Astros",
+  "away": "Kansas City Royals",
+  "line": 4.5,
+  "over_ml": -140,
+  "under_ml": 108,
+  "book": "fanduel"
+ },
+ "2026-09-17|detroit tigers|chicago white sox": {
+  "date": "2026-09-17",
+  "home": "Chicago White Sox",
+  "away": "Detroit Tigers",
+  "line": 4.5,
+  "over_ml": -120,
+  "under_ml": -108,
+  "book": "fanduel"
+ },
+ "2026-09-17|boston red sox|texas rangers": {
+  "date": "2026-09-17",
+  "home": "Texas Rangers",
+  "away": "Boston Red Sox",
+  "line": 4.5,
+  "over_ml": -108,
+  "under_ml": -120,
+  "book": "fanduel"
+ },
+ "2026-09-17|minnesota twins|los angeles angels": {
+  "date": "2026-09-17",
+  "home": "Los Angeles Angels",
+  "away": "Minnesota Twins",
+  "line": 3.5,
+  "over_ml": -146,
+  "under_ml": 112,
+  "book": "fanduel"
  }
 }

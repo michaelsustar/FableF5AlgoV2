@@ -12631,7 +12631,7 @@
   "exp_total": 4.88,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false,
+  "graded": true,
   "close": {
    "snapshot": "2026-09-16T17:00:00Z",
    "book": "fanduel",
@@ -12643,7 +12643,10 @@
    "clv": 0.0636,
    "line_move": 0.0,
    "our_way": 0.0
-  }
+  },
+  "outcome": "over",
+  "total": 5,
+  "units": 0.962
  },
  "823004": {
   "gamePk": 823004,
@@ -12665,7 +12668,7 @@
   "exp_total": 5.41,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false,
+  "graded": true,
   "close": {
    "snapshot": "2026-09-16T17:05:00Z",
    "book": "fanduel",
@@ -12677,7 +12680,10 @@
    "clv": null,
    "line_move": 1.0,
    "our_way": 1.0
-  }
+  },
+  "outcome": "under",
+  "total": 1,
+  "units": -1.0
  },
  "823655": {
   "gamePk": 823655,
@@ -12699,7 +12705,7 @@
   "exp_total": 4.86,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false,
+  "graded": true,
   "close": {
    "snapshot": "2026-09-16T17:30:00Z",
    "book": "fanduel",
@@ -12711,7 +12717,10 @@
    "clv": 0.0862,
    "line_move": 0.0,
    "our_way": -0.0
-  }
+  },
+  "outcome": "under",
+  "total": 2,
+  "units": 1.02
  },
  "822763": {
   "gamePk": 822763,
@@ -12733,7 +12742,10 @@
   "exp_total": 5.51,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 4,
+  "units": 0.0
  },
  "824467": {
   "gamePk": 824467,
@@ -12755,7 +12767,22 @@
   "exp_total": 5.93,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 4,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-16T22:30:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": 100,
+   "under_ml": -130,
+   "pick_ml": 100,
+   "mkt_p": 0.4694,
+   "clv": -0.0096,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "822926": {
   "gamePk": 822926,
@@ -12777,7 +12804,22 @@
   "exp_total": 4.4,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 6,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-16T22:30:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -106,
+   "under_ml": -122,
+   "pick_ml": -122,
+   "mkt_p": 0.5164,
+   "clv": 0.0044,
+   "line_move": 0.0,
+   "our_way": -0.0
+  }
  },
  "823332": {
   "gamePk": 823332,
@@ -12799,7 +12841,22 @@
   "exp_total": 4.72,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 6,
+  "units": 0.833,
+  "close": {
+   "snapshot": "2026-09-16T22:30:00Z",
+   "book": "fanduel",
+   "line": 3.5,
+   "over_ml": -122,
+   "under_ml": -106,
+   "pick_ml": -122,
+   "mkt_p": 0.5164,
+   "clv": 0.0044,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "823576": {
   "gamePk": 823576,
@@ -12821,7 +12878,22 @@
   "exp_total": 4.98,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 7,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-16T23:00:00Z",
+   "book": "fanduel",
+   "line": 5.5,
+   "over_ml": 100,
+   "under_ml": -130,
+   "pick_ml": -130,
+   "mkt_p": 0.5306,
+   "clv": null,
+   "line_move": 1.0,
+   "our_way": -1.0
+  }
  },
  "822846": {
   "gamePk": 822846,
@@ -12843,7 +12915,22 @@
   "exp_total": 5.49,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 6,
+  "units": 1.02,
+  "close": {
+   "snapshot": "2026-09-16T23:55:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": 102,
+   "under_ml": -132,
+   "pick_ml": 102,
+   "mkt_p": 0.4653,
+   "clv": 0.0003,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "824140": {
   "gamePk": 824140,
@@ -12865,7 +12952,22 @@
   "exp_total": 4.91,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": 1.02,
+  "close": {
+   "snapshot": "2026-09-17T00:00:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": -132,
+   "under_ml": 102,
+   "pick_ml": 102,
+   "mkt_p": 0.4653,
+   "clv": 0.0003,
+   "line_move": 0.0,
+   "our_way": -0.0
+  }
  },
  "824306": {
   "gamePk": 824306,
@@ -12887,7 +12989,10 @@
   "exp_total": 6.55,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 9,
+  "units": 0.0
  },
  "823979": {
   "gamePk": 823979,
@@ -12909,7 +13014,22 @@
   "exp_total": 5.29,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 7,
+  "units": 1.12,
+  "close": {
+   "snapshot": "2026-09-17T01:28:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": 110,
+   "under_ml": -144,
+   "pick_ml": 110,
+   "mkt_p": 0.4466,
+   "clv": 0.0036,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "825031": {
   "gamePk": 825031,
@@ -12931,6 +13051,97 @@
   "exp_total": 5.17,
   "params": "0112c6bd34",
   "logged_at": "2026-09-16T13:59:41",
+  "graded": true,
+  "outcome": "over",
+  "total": 6,
+  "units": 0.0
+ },
+ "822924": {
+  "gamePk": 822924,
+  "date": "2026-09-17",
+  "game_time": "2026-09-17T17:10:00Z",
+  "matchup": "Athletics @ Tampa Bay Rays",
+  "home_team": "Tampa Bay Rays",
+  "away_team": "Athletics",
+  "line": 1.5,
+  "pick": "Over 1.5",
+  "pick_side": "over",
+  "pick_ml": 108,
+  "tier": "STRONG",
+  "p_over": 0.864,
+  "mkt_p_over": 0.449,
+  "value": 0.415,
+  "lam_home": 2.64,
+  "lam_away": 2.15,
+  "exp_total": 4.79,
+  "params": "0112c6bd34",
+  "logged_at": "2026-09-17T13:56:55",
+  "graded": false
+ },
+ "824305": {
+  "gamePk": 824305,
+  "date": "2026-09-17",
+  "game_time": "2026-09-17T19:10:00Z",
+  "matchup": "San Diego Padres @ Colorado Rockies",
+  "home_team": "Colorado Rockies",
+  "away_team": "San Diego Padres",
+  "line": 5.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.518,
+  "mkt_p_over": 0.544,
+  "value": -0.026,
+  "lam_home": 2.97,
+  "lam_away": 3.4,
+  "exp_total": 6.35,
+  "params": "0112c6bd34",
+  "logged_at": "2026-09-17T13:56:55",
+  "graded": false
+ },
+ "823573": {
+  "gamePk": 823573,
+  "date": "2026-09-17",
+  "game_time": "2026-09-17T23:15:00Z",
+  "matchup": "Philadelphia Phillies @ New York Mets",
+  "home_team": "New York Mets",
+  "away_team": "Philadelphia Phillies",
+  "line": 4.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.455,
+  "mkt_p_over": 0.484,
+  "value": -0.028,
+  "lam_home": 2.25,
+  "lam_away": 2.46,
+  "exp_total": 4.71,
+  "params": "0112c6bd34",
+  "logged_at": "2026-09-17T13:56:55",
+  "graded": false
+ },
+ "823978": {
+  "gamePk": 823978,
+  "date": "2026-09-17",
+  "game_time": "2026-09-18T01:38:00Z",
+  "matchup": "Minnesota Twins @ Los Angeles Angels",
+  "home_team": "Los Angeles Angels",
+  "away_team": "Minnesota Twins",
+  "line": 3.5,
+  "pick": "Over 3.5",
+  "pick_side": "over",
+  "pick_ml": -146,
+  "tier": "LEAN",
+  "p_over": 0.612,
+  "mkt_p_over": 0.557,
+  "value": 0.055,
+  "lam_home": 2.46,
+  "lam_away": 2.46,
+  "exp_total": 4.92,
+  "params": "0112c6bd34",
+  "logged_at": "2026-09-17T13:56:55",
   "graded": false
  }
 }

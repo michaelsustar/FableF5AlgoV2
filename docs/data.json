@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-16T14:16:55",
- "slate_date": "2026-09-16",
+ "generated_at": "2026-09-17T13:55:51",
+ "slate_date": "2026-09-17",
  "ledger": {
-  "bets": 224,
-  "wins": 73,
-  "losses": 117,
+  "bets": 230,
+  "wins": 75,
+  "losses": 121,
   "pushes": 34,
-  "units": -26.35,
-  "roi": -0.1176,
-  "hit": 0.3842,
-  "claimed": 0.5533,
-  "clv_bets": 217,
-  "clv_beat": 108,
-  "clv_avg": 0.0151
+  "units": -26.2,
+  "roi": -0.1139,
+  "hit": 0.3827,
+  "claimed": 0.554,
+  "clv_bets": 223,
+  "clv_beat": 112,
+  "clv_avg": 0.0171
  },
  "series": [
   {
@@ -230,71 +230,14 @@
   {
    "date": "2026-09-15",
    "units": -26.35
+  },
+  {
+   "date": "2026-09-16",
+   "units": -26.2
   }
  ],
- "bets_today": [
-  {
-   "matchup": "Chicago White Sox @ Cleveland Guardians",
-   "pick": "Chicago White Sox",
-   "ml": 220,
-   "tier": "STRONG",
-   "time": "2026-09-16T17:10:00Z",
-   "model_p": 0.418,
-   "mkt_p": 0.295,
-   "value": 0.123
-  },
-  {
-   "matchup": "San Francisco Giants @ St. Louis Cardinals",
-   "pick": "St. Louis Cardinals",
-   "ml": 122,
-   "tier": "STRONG",
-   "time": "2026-09-16T17:15:00Z",
-   "model_p": 0.57,
-   "mkt_p": 0.425,
-   "value": 0.145
-  },
-  {
-   "matchup": "New York Yankees @ Minnesota Twins",
-   "pick": "New York Yankees",
-   "ml": 240,
-   "tier": "STRONG",
-   "time": "2026-09-16T17:40:00Z",
-   "model_p": 0.539,
-   "mkt_p": 0.277,
-   "value": 0.262
-  },
-  {
-   "matchup": "Los Angeles Dodgers @ Cincinnati Reds",
-   "pick": "Cincinnati Reds",
-   "ml": 195,
-   "tier": "STRONG",
-   "time": "2026-09-16T22:40:00Z",
-   "model_p": 0.407,
-   "mkt_p": 0.319,
-   "value": 0.087
-  },
-  {
-   "matchup": "San Diego Padres @ Colorado Rockies",
-   "pick": "Colorado Rockies",
-   "ml": -105,
-   "tier": "STRONG",
-   "time": "2026-09-17T00:40:00Z",
-   "model_p": 0.577,
-   "mkt_p": 0.48,
-   "value": 0.097
-  },
-  {
-   "matchup": "Seattle Mariners @ Los Angeles Angels",
-   "pick": "Los Angeles Angels",
-   "ml": 100,
-   "tier": "STRONG",
-   "time": "2026-09-17T01:38:00Z",
-   "model_p": 0.605,
-   "mkt_p": 0.469,
-   "value": 0.135
-  }
- ],
- "evaluated_today": 13,
+ "bets_today": [],
+ "evaluated_today": 4,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
