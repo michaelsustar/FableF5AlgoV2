@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-17T14:23:14",
- "slate_date": "2026-09-17",
+ "generated_at": "2026-09-18T13:29:58",
+ "slate_date": "2026-09-18",
  "ledger": {
   "bets": 230,
   "wins": 75,
@@ -236,8 +236,49 @@
    "units": -26.2
   }
  ],
- "bets_today": [],
- "evaluated_today": 4,
+ "bets_today": [
+  {
+   "matchup": "Kansas City Royals @ Pittsburgh Pirates",
+   "pick": "Kansas City Royals",
+   "ml": 140,
+   "tier": "STRONG",
+   "time": "2026-09-18T22:40:00Z",
+   "model_p": 0.486,
+   "mkt_p": 0.393,
+   "value": 0.092
+  },
+  {
+   "matchup": "Toronto Blue Jays @ Texas Rangers",
+   "pick": "Texas Rangers",
+   "ml": 114,
+   "tier": "STRONG",
+   "time": "2026-09-19T00:05:00Z",
+   "model_p": 0.511,
+   "mkt_p": 0.441,
+   "value": 0.069
+  },
+  {
+   "matchup": "Minnesota Twins @ Los Angeles Angels",
+   "pick": "Los Angeles Angels",
+   "ml": -105,
+   "tier": "STRONG",
+   "time": "2026-09-19T01:38:00Z",
+   "model_p": 0.564,
+   "mkt_p": 0.48,
+   "value": 0.084
+  },
+  {
+   "matchup": "New York Yankees @ Arizona Diamondbacks",
+   "pick": "Arizona Diamondbacks",
+   "ml": 100,
+   "tier": "STRONG",
+   "time": "2026-09-19T01:40:00Z",
+   "model_p": 0.531,
+   "mkt_p": 0.469,
+   "value": 0.061
+  }
+ ],
+ "evaluated_today": 8,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

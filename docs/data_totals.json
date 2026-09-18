@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-17T14:23:39",
- "slate_date": "2026-09-17",
+ "generated_at": "2026-09-18T13:30:55",
+ "slate_date": "2026-09-18",
  "ledger": {
-  "bets": 180,
-  "wins": 83,
-  "losses": 97,
+  "bets": 182,
+  "wins": 84,
+  "losses": 98,
   "pushes": 0,
-  "units": -22.58,
-  "roi": -0.1255,
-  "hit": 0.4611,
-  "claimed": 0.5912,
-  "clv_bets": 153,
+  "units": -22.5,
+  "roi": -0.1236,
+  "hit": 0.4615,
+  "claimed": 0.5928,
+  "clv_bets": 154,
   "clv_beat": 75,
-  "clv_avg": 0.0008
+  "clv_avg": 0.0007
  },
  "series": [
   {
@@ -214,39 +214,14 @@
   {
    "date": "2026-09-16",
    "units": -22.58
-  }
- ],
- "bets_today": [
-  {
-   "matchup": "Athletics @ Tampa Bay Rays",
-   "pick": "Over 1.5",
-   "ml": 108,
-   "tier": "STRONG",
-   "time": "2026-09-17T17:10:00Z",
-   "line": 1.5,
-   "exp_total": 4.79,
-   "lam_home": 2.64,
-   "lam_away": 2.15,
-   "model_p": 0.864,
-   "mkt_p": 0.449,
-   "value": 0.415
   },
   {
-   "matchup": "Minnesota Twins @ Los Angeles Angels",
-   "pick": "Over 3.5",
-   "ml": -146,
-   "tier": "LEAN",
-   "time": "2026-09-18T01:38:00Z",
-   "line": 3.5,
-   "exp_total": 4.92,
-   "lam_home": 2.46,
-   "lam_away": 2.46,
-   "model_p": 0.612,
-   "mkt_p": 0.557,
-   "value": 0.055
+   "date": "2026-09-17",
+   "units": -22.5
   }
  ],
- "evaluated_today": 4,
+ "bets_today": [],
+ "evaluated_today": 0,
  "model": {
   "coefficients": {
    "intercept": 0.9273,
