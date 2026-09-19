@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-18T13:45:10",
- "slate_date": "2026-09-18",
+ "generated_at": "2026-09-19T13:00:43",
+ "slate_date": "2026-09-19",
  "ledger": {
-  "bets": 230,
-  "wins": 75,
-  "losses": 121,
-  "pushes": 34,
-  "units": -26.2,
-  "roi": -0.1139,
-  "hit": 0.3827,
-  "claimed": 0.554,
-  "clv_bets": 223,
-  "clv_beat": 112,
-  "clv_avg": 0.0171
+  "bets": 234,
+  "wins": 76,
+  "losses": 123,
+  "pushes": 35,
+  "units": -27.06,
+  "roi": -0.1156,
+  "hit": 0.3819,
+  "claimed": 0.5537,
+  "clv_bets": 227,
+  "clv_beat": 115,
+  "clv_avg": 0.0168
  },
  "series": [
   {
@@ -234,51 +234,14 @@
   {
    "date": "2026-09-16",
    "units": -26.2
+  },
+  {
+   "date": "2026-09-18",
+   "units": -27.06
   }
  ],
- "bets_today": [
-  {
-   "matchup": "Kansas City Royals @ Pittsburgh Pirates",
-   "pick": "Kansas City Royals",
-   "ml": 140,
-   "tier": "STRONG",
-   "time": "2026-09-18T22:40:00Z",
-   "model_p": 0.486,
-   "mkt_p": 0.393,
-   "value": 0.092
-  },
-  {
-   "matchup": "Toronto Blue Jays @ Texas Rangers",
-   "pick": "Texas Rangers",
-   "ml": 114,
-   "tier": "STRONG",
-   "time": "2026-09-19T00:05:00Z",
-   "model_p": 0.511,
-   "mkt_p": 0.441,
-   "value": 0.069
-  },
-  {
-   "matchup": "Minnesota Twins @ Los Angeles Angels",
-   "pick": "Los Angeles Angels",
-   "ml": -105,
-   "tier": "STRONG",
-   "time": "2026-09-19T01:38:00Z",
-   "model_p": 0.564,
-   "mkt_p": 0.48,
-   "value": 0.084
-  },
-  {
-   "matchup": "New York Yankees @ Arizona Diamondbacks",
-   "pick": "Arizona Diamondbacks",
-   "ml": 100,
-   "tier": "STRONG",
-   "time": "2026-09-19T01:40:00Z",
-   "model_p": 0.531,
-   "mkt_p": 0.469,
-   "value": 0.061
-  }
- ],
- "evaluated_today": 8,
+ "bets_today": [],
+ "evaluated_today": 11,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
