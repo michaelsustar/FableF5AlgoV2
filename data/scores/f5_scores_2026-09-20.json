@@ -1455,7 +1455,7 @@
     },
     "home": {
       "team": "Texas Rangers",
-      "batting_score": 54.8,
+      "batting_score": 58.4,
       "pitcher": "Jacob deGrom",
       "pitcher_score": 77.1,
       "pitcher_metrics": {
@@ -1499,10 +1499,8 @@
           "platoon_mult": 0.984
         },
         {
-          "name": "Brandon Nimmo",
-          "pa": 52,
-          "form": 26.3,
-          "platoon_mult": 0.952
+          "name": "Alejandro Osuna",
+          "pa": 1
         },
         {
           "name": "Jake Burger",
@@ -1531,9 +1529,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 16,
+      "qualified": 15,
       "total": 18,
-      "pct": 88.9
+      "pct": 83.3
     },
     "market": {
       "date": "2026-09-20",
@@ -1544,9 +1542,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.517,
+      "p_home": 0.524,
       "mkt_p_home": 0.638,
-      "value": -0.121,
+      "value": -0.114,
       "mode": "market",
       "pick": "Toronto Blue Jays",
       "pick_ml": 160,

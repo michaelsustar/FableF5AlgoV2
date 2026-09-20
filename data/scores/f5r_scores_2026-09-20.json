@@ -386,8 +386,8 @@
       "opp_starter": "Spencer Miles",
       "opp_runs5_pct": 99.0,
       "season_f5_rate": 2.56,
-      "bat_score": 54.8,
-      "lam": 2.28,
+      "bat_score": 58.4,
+      "lam": 2.32,
       "lineup": "CONFIRMED"
     },
     "market": {
@@ -400,14 +400,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.28,
+      "lam_home": 2.32,
       "lam_away": 2.34,
-      "exp_total": 4.61,
+      "exp_total": 4.65,
       "mode": "market",
       "line": 3.5,
-      "p_over": 0.578,
+      "p_over": 0.582,
       "mkt_p_over": 0.54,
-      "value": 0.039,
+      "value": 0.043,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
