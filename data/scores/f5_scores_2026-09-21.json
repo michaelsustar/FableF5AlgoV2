@@ -69,7 +69,7 @@
     },
     "home": {
       "team": "Baltimore Orioles",
-      "batting_score": 48.3,
+      "batting_score": 56.3,
       "pitcher": "Shane Baz",
       "pitcher_score": 52.2,
       "pitcher_metrics": {
@@ -86,7 +86,7 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 4.333,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Dylan Beavers",
@@ -113,16 +113,22 @@
           "platoon_mult": 0.85
         },
         {
+          "name": "Christian Encarnacion-Strand",
+          "pa": 45,
+          "form": 79.3,
+          "platoon_mult": 1.15
+        },
+        {
           "name": "Samuel Basallo",
           "pa": 34,
           "form": 34.1,
           "platoon_mult": 1.119
         },
         {
-          "name": "Jeremiah Jackson",
-          "pa": 28,
-          "form": 35.5,
-          "platoon_mult": 1.024
+          "name": "Rece Hinds",
+          "pa": 22,
+          "form": 45.8,
+          "platoon_mult": 1.0
         },
         {
           "name": "Colton Cowser",
@@ -131,14 +137,8 @@
           "platoon_mult": 1.064
         },
         {
-          "name": "Leody Taveras",
-          "pa": 30,
-          "form": 25.0,
-          "platoon_mult": 1.11
-        },
-        {
-          "name": "Yohel Pozo",
-          "pa": 5
+          "name": "Jos\u00e9 Barrero",
+          "pa": 0
         }
       ]
     },
@@ -163,13 +163,13 @@
     "game_time": "2026-09-21T22:40:00Z",
     "away": {
       "team": "Washington Nationals",
-      "batting_score": 43.1,
+      "batting_score": 44.8,
       "pitcher": "DJ Herz",
       "pitcher_score": null,
       "pitcher_metrics": null,
       "pitcher_hand": "L",
       "rpg_14d": 4.545,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "James Wood",
@@ -178,16 +178,16 @@
           "platoon_mult": 1.054
         },
         {
+          "name": "Daylen Lile",
+          "pa": 42,
+          "form": 43.6,
+          "platoon_mult": 1.053
+        },
+        {
           "name": "Abimelec Ortiz",
           "pa": 23,
           "form": 27.1,
           "platoon_mult": 1.0
-        },
-        {
-          "name": "Jorbit Vivas",
-          "pa": 32,
-          "form": 77.8,
-          "platoon_mult": 1.007
         },
         {
           "name": "CJ Abrams",
@@ -202,10 +202,16 @@
           "platoon_mult": 0.85
         },
         {
-          "name": "Daylen Lile",
-          "pa": 42,
-          "form": 43.6,
-          "platoon_mult": 1.053
+          "name": "Jorbit Vivas",
+          "pa": 32,
+          "form": 77.8,
+          "platoon_mult": 1.007
+        },
+        {
+          "name": "Brady House",
+          "pa": 32,
+          "form": 38.2,
+          "platoon_mult": 0.85
         },
         {
           "name": "Keibert Ruiz",
@@ -218,12 +224,6 @@
           "pa": 28,
           "form": 28.3,
           "platoon_mult": 0.957
-        },
-        {
-          "name": "Nasim Nu\u00f1ez",
-          "pa": 16,
-          "form": 22.7,
-          "platoon_mult": 0.954
         }
       ]
     },
