@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-20T13:33:20",
- "slate_date": "2026-09-20",
+ "generated_at": "2026-09-21T15:03:12",
+ "slate_date": "2026-09-21",
  "ledger": {
-  "bets": 234,
-  "wins": 76,
-  "losses": 123,
-  "pushes": 35,
-  "units": -27.06,
-  "roi": -0.1156,
-  "hit": 0.3819,
-  "claimed": 0.5537,
-  "clv_bets": 227,
-  "clv_beat": 115,
-  "clv_avg": 0.0168
+  "bets": 242,
+  "wins": 78,
+  "losses": 128,
+  "pushes": 36,
+  "units": -29.72,
+  "roi": -0.1228,
+  "hit": 0.3786,
+  "claimed": 0.5536,
+  "clv_bets": 235,
+  "clv_beat": 118,
+  "clv_avg": 0.0163
  },
  "series": [
   {
@@ -238,91 +238,14 @@
   {
    "date": "2026-09-18",
    "units": -27.06
+  },
+  {
+   "date": "2026-09-20",
+   "units": -29.72
   }
  ],
- "bets_today": [
-  {
-   "matchup": "Kansas City Royals @ Pittsburgh Pirates",
-   "pick": "Pittsburgh Pirates",
-   "ml": -110,
-   "tier": "STRONG",
-   "time": "2026-09-20T17:35:00Z",
-   "model_p": 0.592,
-   "mkt_p": 0.49,
-   "value": 0.102
-  },
-  {
-   "matchup": "Athletics @ Cleveland Guardians",
-   "pick": "Athletics",
-   "ml": 200,
-   "tier": "STRONG",
-   "time": "2026-09-20T17:40:00Z",
-   "model_p": 0.398,
-   "mkt_p": 0.314,
-   "value": 0.084
-  },
-  {
-   "matchup": "Atlanta Braves @ Houston Astros",
-   "pick": "Atlanta Braves",
-   "ml": 135,
-   "tier": "STRONG",
-   "time": "2026-09-20T18:10:00Z",
-   "model_p": 0.498,
-   "mkt_p": 0.401,
-   "value": 0.098
-  },
-  {
-   "matchup": "Toronto Blue Jays @ Texas Rangers",
-   "pick": "Toronto Blue Jays",
-   "ml": 160,
-   "tier": "STRONG",
-   "time": "2026-09-20T18:35:00Z",
-   "model_p": 0.483,
-   "mkt_p": 0.362,
-   "value": 0.121
-  },
-  {
-   "matchup": "Seattle Mariners @ Colorado Rockies",
-   "pick": "Colorado Rockies",
-   "ml": 130,
-   "tier": "STRONG",
-   "time": "2026-09-20T19:10:00Z",
-   "model_p": 0.483,
-   "mkt_p": 0.411,
-   "value": 0.073
-  },
-  {
-   "matchup": "Minnesota Twins @ Los Angeles Angels",
-   "pick": "Los Angeles Angels",
-   "ml": -115,
-   "tier": "STRONG",
-   "time": "2026-09-20T20:07:00Z",
-   "model_p": 0.586,
-   "mkt_p": 0.5,
-   "value": 0.086
-  },
-  {
-   "matchup": "Miami Marlins @ San Diego Padres",
-   "pick": "San Diego Padres",
-   "ml": -135,
-   "tier": "STRONG",
-   "time": "2026-09-20T20:10:00Z",
-   "model_p": 0.61,
-   "mkt_p": 0.541,
-   "value": 0.069
-  },
-  {
-   "matchup": "Milwaukee Brewers @ Baltimore Orioles",
-   "pick": "Baltimore Orioles",
-   "ml": 200,
-   "tier": "STRONG",
-   "time": "2026-09-20T23:20:00Z",
-   "model_p": 0.48,
-   "mkt_p": 0.314,
-   "value": 0.166
-  }
- ],
- "evaluated_today": 11,
+ "bets_today": [],
+ "evaluated_today": 1,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

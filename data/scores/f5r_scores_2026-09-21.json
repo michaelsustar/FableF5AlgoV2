@@ -1,0 +1,124 @@
+[
+  {
+    "gamePk": 824787,
+    "matchup": "Toronto Blue Jays @ Baltimore Orioles",
+    "game_time": "2026-09-21T22:35:00Z",
+    "home_team": "Baltimore Orioles",
+    "away_team": "Toronto Blue Jays",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Toronto Blue Jays",
+      "opp_starter": "Shane Baz",
+      "opp_runs5_pct": 52.6,
+      "season_f5_rate": 2.02,
+      "bat_score": 48.2,
+      "lam": 2.45,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Baltimore Orioles",
+      "opp_starter": "Trey Yesavage",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.54,
+      "bat_score": 48.3,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-21",
+      "home": "Baltimore Orioles",
+      "away": "Toronto Blue Jays",
+      "line": 4.5,
+      "over_ml": 110,
+      "under_ml": -144,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 824221,
+    "matchup": "Washington Nationals @ Detroit Tigers",
+    "game_time": "2026-09-21T22:40:00Z",
+    "home_team": "Detroit Tigers",
+    "away_team": "Washington Nationals",
+    "park_factor": 0.98,
+    "away": {
+      "team": "Washington Nationals",
+      "opp_starter": "River Ryan",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.83,
+      "bat_score": 43.1,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Detroit Tigers",
+      "opp_starter": "DJ Herz",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.56,
+      "bat_score": 53.8,
+      "lam": null,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-09-21",
+      "home": "Detroit Tigers",
+      "away": "Washington Nationals",
+      "line": 4.5,
+      "over_ml": -110,
+      "under_ml": -118,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 823169,
+    "matchup": "Minnesota Twins @ San Francisco Giants",
+    "game_time": "2026-09-22T01:45:00Z",
+    "home_team": "San Francisco Giants",
+    "away_team": "Minnesota Twins",
+    "park_factor": 0.96,
+    "away": {
+      "team": "Minnesota Twins",
+      "opp_starter": "Blade Tidwell",
+      "opp_runs5_pct": 36.3,
+      "season_f5_rate": 2.77,
+      "bat_score": 42.6,
+      "lam": 2.41,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "San Francisco Giants",
+      "opp_starter": "Zebby Matthews",
+      "opp_runs5_pct": 44.4,
+      "season_f5_rate": 2.37,
+      "bat_score": 43.0,
+      "lam": 2.3,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-09-21",
+      "home": "San Francisco Giants",
+      "away": "Minnesota Twins",
+      "line": 4.5,
+      "over_ml": -128,
+      "under_ml": -102,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.3,
+      "lam_away": 2.41,
+      "exp_total": 4.7,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.455,
+      "mkt_p_over": 0.526,
+      "value": -0.072,
+      "p_push": 0.0,
+      "pick": "Under 4.5",
+      "pick_side": "under",
+      "pick_ml": -102,
+      "tier": "LEAN"
+    }
+  }
+]

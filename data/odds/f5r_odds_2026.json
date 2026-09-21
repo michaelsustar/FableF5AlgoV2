@@ -6478,5 +6478,32 @@
   "over_ml": -135,
   "under_ml": 104,
   "book": "fanduel"
+ },
+ "2026-09-21|toronto blue jays|baltimore orioles": {
+  "date": "2026-09-21",
+  "home": "Baltimore Orioles",
+  "away": "Toronto Blue Jays",
+  "line": 4.5,
+  "over_ml": 110,
+  "under_ml": -144,
+  "book": "fanduel"
+ },
+ "2026-09-21|washington nationals|detroit tigers": {
+  "date": "2026-09-21",
+  "home": "Detroit Tigers",
+  "away": "Washington Nationals",
+  "line": 4.5,
+  "over_ml": -110,
+  "under_ml": -118,
+  "book": "fanduel"
+ },
+ "2026-09-21|minnesota twins|san francisco giants": {
+  "date": "2026-09-21",
+  "home": "San Francisco Giants",
+  "away": "Minnesota Twins",
+  "line": 4.5,
+  "over_ml": -128,
+  "under_ml": -102,
+  "book": "fanduel"
  }
 }

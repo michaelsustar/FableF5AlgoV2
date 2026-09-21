@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-20T13:33:56",
- "slate_date": "2026-09-20",
+ "generated_at": "2026-09-21T15:04:30",
+ "slate_date": "2026-09-21",
  "ledger": {
-  "bets": 193,
-  "wins": 90,
-  "losses": 103,
+  "bets": 198,
+  "wins": 93,
+  "losses": 105,
   "pushes": 0,
-  "units": -21.79,
-  "roi": -0.1129,
-  "hit": 0.4663,
-  "claimed": 0.592,
-  "clv_bets": 165,
-  "clv_beat": 79,
+  "units": -20.64,
+  "roi": -0.1043,
+  "hit": 0.4697,
+  "claimed": 0.5916,
+  "clv_bets": 170,
+  "clv_beat": 81,
   "clv_avg": 0.0004
  },
  "series": [
@@ -226,81 +226,29 @@
   {
    "date": "2026-09-19",
    "units": -21.79
+  },
+  {
+   "date": "2026-09-20",
+   "units": -20.64
   }
  ],
  "bets_today": [
   {
-   "matchup": "Kansas City Royals @ Pittsburgh Pirates",
+   "matchup": "Minnesota Twins @ San Francisco Giants",
    "pick": "Under 4.5",
-   "ml": -108,
+   "ml": -102,
    "tier": "LEAN",
-   "time": "2026-09-20T17:35:00Z",
+   "time": "2026-09-22T01:45:00Z",
    "line": 4.5,
-   "exp_total": 4.55,
-   "lam_home": 2.55,
-   "lam_away": 2.0,
-   "model_p": 0.565,
-   "mkt_p": 0.488,
-   "value": 0.077
-  },
-  {
-   "matchup": "Boston Red Sox @ Tampa Bay Rays",
-   "pick": "Over 4.5",
-   "ml": 110,
-   "tier": "LEAN",
-   "time": "2026-09-20T17:40:00Z",
-   "line": 4.5,
-   "exp_total": 5.09,
-   "lam_home": 2.79,
-   "lam_away": 2.31,
-   "model_p": 0.501,
-   "mkt_p": 0.449,
-   "value": 0.051
-  },
-  {
-   "matchup": "Washington Nationals @ St. Louis Cardinals",
-   "pick": "Under 4.5",
-   "ml": 112,
-   "tier": "STRONG",
-   "time": "2026-09-20T18:15:00Z",
-   "line": 4.5,
-   "exp_total": 4.55,
-   "lam_home": 2.38,
-   "lam_away": 2.16,
-   "model_p": 0.565,
-   "mkt_p": 0.443,
-   "value": 0.122
-  },
-  {
-   "matchup": "Seattle Mariners @ Colorado Rockies",
-   "pick": "Over 5.5",
-   "ml": -120,
-   "tier": "LEAN",
-   "time": "2026-09-20T19:10:00Z",
-   "line": 5.5,
-   "exp_total": 6.98,
-   "lam_home": 3.33,
-   "lam_away": 3.69,
-   "model_p": 0.576,
-   "mkt_p": 0.512,
-   "value": 0.063
-  },
-  {
-   "matchup": "Milwaukee Brewers @ Baltimore Orioles",
-   "pick": "Over 3.5",
-   "ml": -135,
-   "tier": "STRONG",
-   "time": "2026-09-20T23:20:00Z",
-   "line": 3.5,
-   "exp_total": 5.53,
-   "lam_home": 2.61,
-   "lam_away": 2.93,
-   "model_p": 0.672,
-   "mkt_p": 0.54,
-   "value": 0.132
+   "exp_total": 4.7,
+   "lam_home": 2.3,
+   "lam_away": 2.41,
+   "model_p": 0.545,
+   "mkt_p": 0.474,
+   "value": 0.072
   }
  ],
- "evaluated_today": 11,
+ "evaluated_today": 1,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

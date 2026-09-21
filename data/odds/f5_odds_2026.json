@@ -14814,5 +14814,29 @@
   "home_ml": 200,
   "away_ml": -270,
   "book": "draftkings"
+ },
+ "2026-09-21|toronto blue jays|baltimore orioles": {
+  "date": "2026-09-21",
+  "home": "Baltimore Orioles",
+  "away": "Toronto Blue Jays",
+  "home_ml": -120,
+  "away_ml": -110,
+  "book": "draftkings"
+ },
+ "2026-09-21|washington nationals|detroit tigers": {
+  "date": "2026-09-21",
+  "home": "Detroit Tigers",
+  "away": "Washington Nationals",
+  "home_ml": -130,
+  "away_ml": 100,
+  "book": "draftkings"
+ },
+ "2026-09-21|minnesota twins|san francisco giants": {
+  "date": "2026-09-21",
+  "home": "San Francisco Giants",
+  "away": "Minnesota Twins",
+  "home_ml": -110,
+  "away_ml": -120,
+  "book": "draftkings"
  }
 }
