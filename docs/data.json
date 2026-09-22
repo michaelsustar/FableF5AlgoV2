@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-21T15:37:25",
- "slate_date": "2026-09-21",
+ "generated_at": "2026-09-22T13:56:14",
+ "slate_date": "2026-09-22",
  "ledger": {
   "bets": 242,
   "wins": 78,
@@ -244,8 +244,59 @@
    "units": -29.72
   }
  ],
- "bets_today": [],
- "evaluated_today": 1,
+ "bets_today": [
+  {
+   "matchup": "Tampa Bay Rays @ New York Yankees",
+   "pick": "Tampa Bay Rays",
+   "ml": 200,
+   "tier": "STRONG",
+   "time": "2026-09-22T17:05:00Z",
+   "model_p": 0.47,
+   "mkt_p": 0.315,
+   "value": 0.155
+  },
+  {
+   "matchup": "Toronto Blue Jays @ Baltimore Orioles",
+   "pick": "Baltimore Orioles",
+   "ml": -130,
+   "tier": "STRONG",
+   "time": "2026-09-22T22:35:00Z",
+   "model_p": 0.62,
+   "mkt_p": 0.531,
+   "value": 0.089
+  },
+  {
+   "matchup": "Tampa Bay Rays @ New York Yankees",
+   "pick": "Tampa Bay Rays",
+   "ml": 200,
+   "tier": "STRONG",
+   "time": "2026-09-22T23:05:00Z",
+   "model_p": 0.476,
+   "mkt_p": 0.315,
+   "value": 0.162
+  },
+  {
+   "matchup": "New York Mets @ Texas Rangers",
+   "pick": "New York Mets",
+   "ml": 105,
+   "tier": "STRONG",
+   "time": "2026-09-23T00:05:00Z",
+   "model_p": 0.527,
+   "mkt_p": 0.459,
+   "value": 0.068
+  },
+  {
+   "matchup": "Houston Astros @ Seattle Mariners",
+   "pick": "Houston Astros",
+   "ml": 120,
+   "tier": "STRONG",
+   "time": "2026-09-23T01:40:00Z",
+   "model_p": 0.551,
+   "mkt_p": 0.428,
+   "value": 0.122
+  }
+ ],
+ "evaluated_today": 12,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
