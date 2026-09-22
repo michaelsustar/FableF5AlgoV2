@@ -11915,7 +11915,16 @@
   "away_team": "Tampa Bay Rays",
   "params": "bd65d255fe",
   "logged_at": "2026-09-22T13:56:14",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-22T16:55:00Z",
+   "book": "draftkings",
+   "home_ml": -140,
+   "away_ml": 110,
+   "pick_ml": 110,
+   "mkt_p": 0.4494,
+   "clv": 0.1344
+  }
  },
  "823494": {
   "gamePk": 823494,

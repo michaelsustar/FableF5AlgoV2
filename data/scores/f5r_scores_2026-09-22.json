@@ -100,54 +100,6 @@
     }
   },
   {
-    "gamePk": 824785,
-    "matchup": "Toronto Blue Jays @ Baltimore Orioles",
-    "game_time": "2026-09-22T22:35:00Z",
-    "home_team": "Baltimore Orioles",
-    "away_team": "Toronto Blue Jays",
-    "park_factor": 1.01,
-    "away": {
-      "team": "Toronto Blue Jays",
-      "opp_starter": "Chris Bassitt",
-      "opp_runs5_pct": 87.7,
-      "season_f5_rate": 2.03,
-      "bat_score": 40.7,
-      "lam": 2.14,
-      "lineup": "PROJECTED"
-    },
-    "home": {
-      "team": "Baltimore Orioles",
-      "opp_starter": "Max Scherzer",
-      "opp_runs5_pct": 20.5,
-      "season_f5_rate": 2.53,
-      "bat_score": 52.0,
-      "lam": 2.84,
-      "lineup": "PROJECTED"
-    },
-    "market": {
-      "date": "2026-09-22",
-      "home": "Baltimore Orioles",
-      "away": "Toronto Blue Jays",
-      "line": 4.5,
-      "over_ml": 110,
-      "under_ml": -144,
-      "book": "fanduel"
-    },
-    "prediction": {
-      "lam_home": 2.84,
-      "lam_away": 2.14,
-      "exp_total": 4.97,
-      "mode": "market",
-      "line": 4.5,
-      "p_over": 0.486,
-      "mkt_p_over": 0.447,
-      "value": 0.04,
-      "p_push": 0.0,
-      "pick": null,
-      "tier": "NO VALUE"
-    }
-  },
-  {
     "gamePk": 824222,
     "matchup": "Washington Nationals @ Detroit Tigers",
     "game_time": "2026-09-22T22:40:00Z",
@@ -734,5 +686,13 @@
       "book": "fanduel"
     },
     "prediction": null
+  },
+  {
+    "gamePk": 824785,
+    "matchup": "Toronto Blue Jays @ Baltimore Orioles",
+    "game_time": "2026-09-22T22:35:00Z",
+    "home_team": "Baltimore Orioles",
+    "away_team": "Toronto Blue Jays",
+    "postponed": "Postponed"
   }
 ]
