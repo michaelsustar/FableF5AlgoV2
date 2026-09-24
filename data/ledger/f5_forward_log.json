@@ -12424,7 +12424,16 @@
   "away_team": "Miami Marlins",
   "params": "bd65d255fe",
   "logged_at": "2026-09-24T14:10:37",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-09-24T18:10:00Z",
+   "book": "draftkings",
+   "home_ml": -200,
+   "away_ml": 154,
+   "pick_ml": 154,
+   "mkt_p": 0.3713,
+   "clv": 0.0003
+  }
  },
  "822842": {
   "gamePk": 822842,

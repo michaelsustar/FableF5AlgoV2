@@ -1117,7 +1117,7 @@
     },
     "home": {
       "team": "Boston Red Sox",
-      "batting_score": 41.3,
+      "batting_score": 43.0,
       "pitcher": "Ranger Suarez",
       "pitcher_score": 93.9,
       "pitcher_metrics": {
@@ -1134,14 +1134,8 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 2.636,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
-        {
-          "name": "Roman Anthony",
-          "pa": 49,
-          "form": 39.1,
-          "platoon_mult": 0.983
-        },
         {
           "name": "Nick Sogard",
           "pa": 44,
@@ -1149,16 +1143,10 @@
           "platoon_mult": 0.85
         },
         {
-          "name": "Jahmai Jones",
-          "pa": 23,
-          "form": 27.5,
-          "platoon_mult": 1.0
-        },
-        {
-          "name": "Wilyer Abreu",
-          "pa": 41,
-          "form": 27.8,
-          "platoon_mult": 0.872
+          "name": "Mickey Gasper",
+          "pa": 24,
+          "form": 55.2,
+          "platoon_mult": 1.117
         },
         {
           "name": "Adley Rutschman",
@@ -1167,10 +1155,10 @@
           "platoon_mult": 1.046
         },
         {
-          "name": "Jarren Duran",
-          "pa": 27,
-          "form": 39.3,
-          "platoon_mult": 1.008
+          "name": "Wilyer Abreu",
+          "pa": 41,
+          "form": 27.8,
+          "platoon_mult": 0.872
         },
         {
           "name": "Caleb Durbin",
@@ -1183,6 +1171,18 @@
           "pa": 39,
           "form": 69.6,
           "platoon_mult": 0.987
+        },
+        {
+          "name": "Jarren Duran",
+          "pa": 27,
+          "form": 39.3,
+          "platoon_mult": 1.008
+        },
+        {
+          "name": "Jahmai Jones",
+          "pa": 23,
+          "form": 27.5,
+          "platoon_mult": 1.0
         },
         {
           "name": "Isiah Kiner-Falefa",
