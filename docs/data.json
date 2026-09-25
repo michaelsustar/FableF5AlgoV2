@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-24T14:30:46",
- "slate_date": "2026-09-24",
+ "generated_at": "2026-09-25T14:14:19",
+ "slate_date": "2026-09-25",
  "ledger": {
-  "bets": 251,
+  "bets": 254,
   "wins": 82,
-  "losses": 131,
-  "pushes": 38,
-  "units": -26.45,
-  "roi": -0.1054,
-  "hit": 0.385,
-  "claimed": 0.5538,
-  "clv_bets": 243,
-  "clv_beat": 125,
-  "clv_avg": 0.017
+  "losses": 132,
+  "pushes": 40,
+  "units": -27.45,
+  "roi": -0.1081,
+  "hit": 0.3832,
+  "claimed": 0.5537,
+  "clv_bets": 246,
+  "clv_beat": 127,
+  "clv_avg": 0.0169
  },
  "series": [
   {
@@ -250,38 +250,42 @@
   {
    "date": "2026-09-23",
    "units": -26.45
+  },
+  {
+   "date": "2026-09-24",
+   "units": -27.45
   }
  ],
  "bets_today": [
   {
-   "matchup": "Miami Marlins @ Chicago Cubs",
-   "pick": "Miami Marlins",
-   "ml": 154,
+   "matchup": "Tampa Bay Rays @ Philadelphia Phillies",
+   "pick": "Tampa Bay Rays",
+   "ml": 145,
    "tier": "STRONG",
-   "time": "2026-09-24T18:20:00Z",
-   "model_p": 0.468,
-   "mkt_p": 0.371,
-   "value": 0.097
+   "time": "2026-09-25T22:40:00Z",
+   "model_p": 0.568,
+   "mkt_p": 0.385,
+   "value": 0.183
   },
   {
-   "matchup": "Arizona Diamondbacks @ Colorado Rockies",
+   "matchup": "Colorado Rockies @ Chicago White Sox",
    "pick": "Colorado Rockies",
-   "ml": 135,
+   "ml": 190,
    "tier": "STRONG",
-   "time": "2026-09-24T19:10:00Z",
-   "model_p": 0.481,
-   "mkt_p": 0.401,
-   "value": 0.081
+   "time": "2026-09-25T23:40:00Z",
+   "model_p": 0.447,
+   "mkt_p": 0.326,
+   "value": 0.122
   },
   {
-   "matchup": "San Diego Padres @ Los Angeles Dodgers",
-   "pick": "San Diego Padres",
+   "matchup": "Houston Astros @ Athletics",
+   "pick": "Athletics",
    "ml": 135,
    "tier": "STRONG",
-   "time": "2026-09-25T02:10:00Z",
-   "model_p": 0.55,
+   "time": "2026-09-26T01:40:00Z",
+   "model_p": 0.474,
    "mkt_p": 0.401,
-   "value": 0.149
+   "value": 0.073
   }
  ],
  "evaluated_today": 8,
