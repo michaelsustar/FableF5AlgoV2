@@ -20,8 +20,8 @@
       "opp_starter": "Clay Holmes",
       "opp_runs5_pct": 17.2,
       "season_f5_rate": 2.32,
-      "bat_score": 37.5,
-      "lam": 2.94,
+      "bat_score": 35.6,
+      "lam": 2.92,
       "lineup": "CONFIRMED"
     },
     "market": {
@@ -164,9 +164,9 @@
       "opp_starter": "Bubba Chandler",
       "opp_runs5_pct": 71.9,
       "season_f5_rate": 2.57,
-      "bat_score": 75.4,
-      "lam": 2.56,
-      "lineup": "PROJECTED"
+      "bat_score": 68.7,
+      "lam": 2.49,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-09-25",
@@ -178,14 +178,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.56,
+      "lam_home": 2.49,
       "lam_away": 2.42,
-      "exp_total": 4.99,
+      "exp_total": 4.91,
       "mode": "market",
       "line": 4.5,
-      "p_over": 0.489,
+      "p_over": 0.48,
       "mkt_p_over": 0.484,
-      "value": 0.005,
+      "value": -0.003,
       "p_push": 0.0,
       "pick": null,
       "tier": "NO VALUE"
@@ -331,10 +331,10 @@
     },
     "home": {
       "team": "Miami Marlins",
-      "opp_starter": null,
+      "opp_starter": "Ray Kerr",
       "opp_runs5_pct": null,
       "season_f5_rate": 2.45,
-      "bat_score": 64.1,
+      "bat_score": 66.6,
       "lam": null,
       "lineup": "PROJECTED"
     },

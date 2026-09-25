@@ -78,7 +78,7 @@
     },
     "home": {
       "team": "Boston Red Sox",
-      "batting_score": 37.5,
+      "batting_score": 35.6,
       "pitcher": "Alec Gamboa",
       "pitcher_score": null,
       "pitcher_metrics": null,
@@ -93,10 +93,8 @@
           "platoon_mult": 0.983
         },
         {
-          "name": "Mickey Gasper",
-          "pa": 27,
-          "form": 50.9,
-          "platoon_mult": 1.117
+          "name": "Connor Wong",
+          "pa": 4
         },
         {
           "name": "Adley Rutschman",
@@ -141,9 +139,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 15,
+      "qualified": 14,
       "total": 18,
-      "pct": 83.3
+      "pct": 77.8
     },
     "market": {
       "date": "2026-09-25",
@@ -1313,10 +1311,10 @@
     "away": {
       "team": "Atlanta Braves",
       "batting_score": 67.0,
-      "pitcher": null,
+      "pitcher": "Ray Kerr",
       "pitcher_score": null,
       "pitcher_metrics": null,
-      "pitcher_hand": null,
+      "pitcher_hand": "L",
       "rpg_14d": 5.0,
       "lineup": "PROJECTED",
       "batters": [
@@ -1378,7 +1376,7 @@
     },
     "home": {
       "team": "Miami Marlins",
-      "batting_score": 64.1,
+      "batting_score": 66.6,
       "pitcher": "Eury P\u00e9rez",
       "pitcher_score": 5.3,
       "pitcher_metrics": {
@@ -1400,38 +1398,38 @@
         {
           "name": "Otto Lopez",
           "pa": 56,
-          "form": 70.1,
-          "platoon_mult": 1.0
+          "form": 80.6,
+          "platoon_mult": 1.15
         },
         {
           "name": "Heriberto Hern\u00e1ndez",
           "pa": 57,
-          "form": 32.0,
-          "platoon_mult": 1.0
+          "form": 36.8,
+          "platoon_mult": 1.15
         },
         {
           "name": "Jakob Marsee",
           "pa": 49,
-          "form": 80.0,
-          "platoon_mult": 1.0
+          "form": 83.1,
+          "platoon_mult": 1.038
         },
         {
           "name": "Javier Sanoja",
           "pa": 51,
-          "form": 80.3,
-          "platoon_mult": 1.0
+          "form": 92.3,
+          "platoon_mult": 1.15
         },
         {
           "name": "Agust\u00edn Ram\u00edrez",
           "pa": 34,
-          "form": 86.3,
-          "platoon_mult": 1.0
+          "form": 80.1,
+          "platoon_mult": 0.929
         },
         {
           "name": "Kyle Stowers",
           "pa": 53,
-          "form": 45.6,
-          "platoon_mult": 1.0
+          "form": 38.8,
+          "platoon_mult": 0.85
         },
         {
           "name": "Griffin Conine",
