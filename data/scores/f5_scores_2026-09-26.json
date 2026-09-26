@@ -1133,13 +1133,13 @@
     "game_time": "2026-09-26T23:10:00Z",
     "away": {
       "team": "Colorado Rockies",
-      "batting_score": 60.8,
+      "batting_score": 61.5,
       "pitcher": "Jose Quintana",
       "pitcher_score": null,
       "pitcher_metrics": null,
       "pitcher_hand": "L",
       "rpg_14d": 4.077,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Jake McCarthy",
@@ -1148,10 +1148,10 @@
           "platoon_mult": 0.963
         },
         {
-          "name": "Adael Amador",
-          "pa": 42,
-          "form": 52.5,
-          "platoon_mult": 1.15
+          "name": "Cole Carrigg",
+          "pa": 55,
+          "form": 80.6,
+          "platoon_mult": 1.037
         },
         {
           "name": "Hunter Goodman",
@@ -1166,28 +1166,28 @@
           "platoon_mult": 1.077
         },
         {
-          "name": "Kyle Karros",
-          "pa": 49,
-          "form": 55.9,
+          "name": "Connor Norby",
+          "pa": 39,
+          "form": 91.5,
+          "platoon_mult": 1.025
+        },
+        {
+          "name": "Adael Amador",
+          "pa": 42,
+          "form": 52.5,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Mickey Moniak",
+          "pa": 34,
+          "form": 43.9,
+          "platoon_mult": 1.07
+        },
+        {
+          "name": "Brett Sullivan",
+          "pa": 19,
+          "form": 9.2,
           "platoon_mult": 1.008
-        },
-        {
-          "name": "Cole Carrigg",
-          "pa": 55,
-          "form": 80.6,
-          "platoon_mult": 1.037
-        },
-        {
-          "name": "Troy Johnston",
-          "pa": 24,
-          "form": 57.1,
-          "platoon_mult": 1.103
-        },
-        {
-          "name": "Zac Veen",
-          "pa": 25,
-          "form": 24.6,
-          "platoon_mult": 1.0
         },
         {
           "name": "Ezequiel Tovar",
