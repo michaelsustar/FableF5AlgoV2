@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-26T13:51:29",
- "slate_date": "2026-09-26",
+ "generated_at": "2026-09-27T14:04:01",
+ "slate_date": "2026-09-27",
  "ledger": {
-  "bets": 223,
-  "wins": 103,
+  "bets": 224,
+  "wins": 104,
   "losses": 120,
   "pushes": 0,
-  "units": -27.35,
-  "roi": -0.1226,
-  "hit": 0.4619,
-  "claimed": 0.596,
-  "clv_bets": 192,
-  "clv_beat": 95,
-  "clv_avg": 0.0005
+  "units": -26.42,
+  "roi": -0.1179,
+  "hit": 0.4643,
+  "claimed": 0.5959,
+  "clv_bets": 193,
+  "clv_beat": 96,
+  "clv_avg": 0.0006
  },
  "series": [
   {
@@ -250,22 +250,54 @@
   {
    "date": "2026-09-25",
    "units": -27.35
+  },
+  {
+   "date": "2026-09-26",
+   "units": -26.42
   }
  ],
  "bets_today": [
   {
+   "matchup": "Tampa Bay Rays @ Philadelphia Phillies",
+   "pick": "Over 3.5",
+   "ml": 100,
+   "tier": "STRONG",
+   "time": "2026-09-27T18:30:00Z",
+   "line": 3.5,
+   "exp_total": 4.84,
+   "lam_home": 2.4,
+   "lam_away": 2.44,
+   "model_p": 0.604,
+   "mkt_p": 0.469,
+   "value": 0.135
+  },
+  {
+   "matchup": "St. Louis Cardinals @ Milwaukee Brewers",
+   "pick": "Over 3.5",
+   "ml": -102,
+   "tier": "STRONG",
+   "time": "2026-09-27T19:10:00Z",
+   "line": 3.5,
+   "exp_total": 4.76,
+   "lam_home": 2.73,
+   "lam_away": 2.03,
+   "model_p": 0.594,
+   "mkt_p": 0.474,
+   "value": 0.12
+  },
+  {
    "matchup": "Cleveland Guardians @ Kansas City Royals",
    "pick": "Over 4.5",
-   "ml": -108,
-   "tier": "LEAN",
-   "time": "2026-09-26T23:10:00Z",
+   "ml": 102,
+   "tier": "STRONG",
+   "time": "2026-09-27T19:10:00Z",
    "line": 4.5,
-   "exp_total": 5.71,
-   "lam_home": 3.08,
-   "lam_away": 2.64,
-   "model_p": 0.566,
-   "mkt_p": 0.488,
-   "value": 0.079
+   "exp_total": 5.65,
+   "lam_home": 2.57,
+   "lam_away": 3.09,
+   "model_p": 0.561,
+   "mkt_p": 0.465,
+   "value": 0.095
   }
  ],
  "evaluated_today": 5,
