@@ -1451,7 +1451,7 @@
     "game_time": "2026-09-27T19:10:00Z",
     "away": {
       "team": "Arizona Diamondbacks",
-      "batting_score": 70.2,
+      "batting_score": 67.3,
       "pitcher": "Michael Soroka",
       "pitcher_score": null,
       "pitcher_metrics": null,
@@ -1472,22 +1472,10 @@
           "platoon_mult": 0.915
         },
         {
-          "name": "Gabriel Moreno",
-          "pa": 55,
-          "form": 97.8,
-          "platoon_mult": 1.019
-        },
-        {
           "name": "Geraldo Perdomo",
           "pa": 55,
           "form": 96.3,
           "platoon_mult": 1.045
-        },
-        {
-          "name": "Corbin Carroll",
-          "pa": 52,
-          "form": 50.4,
-          "platoon_mult": 0.902
         },
         {
           "name": "Nolan Arenado",
@@ -1496,20 +1484,32 @@
           "platoon_mult": 0.983
         },
         {
+          "name": "Corbin Carroll",
+          "pa": 52,
+          "form": 50.4,
+          "platoon_mult": 0.902
+        },
+        {
           "name": "Pavin Smith",
           "pa": 28,
           "form": 81.5,
           "platoon_mult": 1.006
         },
         {
-          "name": "James McCann",
-          "pa": 14
-        },
-        {
           "name": "Tim Tawa",
           "pa": 44,
           "form": 30.0,
           "platoon_mult": 1.132
+        },
+        {
+          "name": "James McCann",
+          "pa": 14
+        },
+        {
+          "name": "Jordan Lawlar",
+          "pa": 28,
+          "form": 74.6,
+          "platoon_mult": 1.0
         }
       ]
     },
