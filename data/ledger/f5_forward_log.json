@@ -12922,7 +12922,7 @@
   "away_team": "Tampa Bay Rays",
   "params": "bd65d255fe",
   "logged_at": "2026-09-27T14:03:14",
-  "graded": false,
+  "graded": true,
   "close": {
    "snapshot": "2026-09-27T18:20:00Z",
    "book": "draftkings",
@@ -12931,7 +12931,9 @@
    "pick_ml": 165,
    "mkt_p": 0.356,
    "clv": 0.0
-  }
+  },
+  "outcome": "Philadelphia Phillies",
+  "units": -1.0
  },
  "824055": {
   "gamePk": 824055,
@@ -12948,7 +12950,9 @@
   "away_team": "Cleveland Guardians",
   "params": "bd65d255fe",
   "logged_at": "2026-09-27T14:03:14",
-  "graded": false
+  "graded": true,
+  "outcome": "Kansas City Royals",
+  "units": 0.0
  },
  "823084": {
   "gamePk": 823084,
@@ -12965,7 +12969,18 @@
   "away_team": "Los Angeles Angels",
   "params": "bd65d255fe",
   "logged_at": "2026-09-27T14:03:14",
-  "graded": false
+  "graded": true,
+  "outcome": "Seattle Mariners",
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-09-27T19:00:00Z",
+   "book": "draftkings",
+   "home_ml": -175,
+   "away_ml": 135,
+   "pick_ml": 135,
+   "mkt_p": 0.4007,
+   "clv": -0.0003
+  }
  },
  "823650": {
   "gamePk": 823650,
@@ -12982,7 +12997,18 @@
   "away_team": "Texas Rangers",
   "params": "bd65d255fe",
   "logged_at": "2026-09-27T14:03:14",
-  "graded": false
+  "graded": true,
+  "outcome": "Minnesota Twins",
+  "units": 0.87,
+  "close": {
+   "snapshot": "2026-09-27T19:00:00Z",
+   "book": "draftkings",
+   "home_ml": -115,
+   "away_ml": -115,
+   "pick_ml": -115,
+   "mkt_p": 0.5,
+   "clv": 0.0
+  }
  },
  "823731": {
   "gamePk": 823731,
@@ -12999,6 +13025,8 @@
   "away_team": "St. Louis Cardinals",
   "params": "bd65d255fe",
   "logged_at": "2026-09-27T14:03:14",
-  "graded": false
+  "graded": true,
+  "outcome": "Milwaukee Brewers",
+  "units": 0.0
  }
 }

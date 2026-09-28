@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-09-27T14:33:21",
- "slate_date": "2026-09-27",
+ "generated_at": "2026-09-28T16:22:37",
+ "slate_date": "2026-09-28",
  "ledger": {
-  "bets": 262,
-  "wins": 83,
-  "losses": 139,
+  "bets": 265,
+  "wins": 84,
+  "losses": 141,
   "pushes": 40,
-  "units": -33.0,
-  "roi": -0.126,
-  "hit": 0.3739,
-  "claimed": 0.5538,
-  "clv_bets": 254,
+  "units": -34.13,
+  "roi": -0.1288,
+  "hit": 0.3733,
+  "claimed": 0.5536,
+  "clv_bets": 257,
   "clv_beat": 132,
-  "clv_avg": 0.0165
+  "clv_avg": 0.0163
  },
  "series": [
   {
@@ -262,41 +262,14 @@
   {
    "date": "2026-09-26",
    "units": -33.0
-  }
- ],
- "bets_today": [
-  {
-   "matchup": "Tampa Bay Rays @ Philadelphia Phillies",
-   "pick": "Tampa Bay Rays",
-   "ml": 165,
-   "tier": "STRONG",
-   "time": "2026-09-27T18:30:00Z",
-   "model_p": 0.479,
-   "mkt_p": 0.356,
-   "value": 0.123
   },
   {
-   "matchup": "Los Angeles Angels @ Seattle Mariners",
-   "pick": "Los Angeles Angels",
-   "ml": 135,
-   "tier": "STRONG",
-   "time": "2026-09-27T19:10:00Z",
-   "model_p": 0.491,
-   "mkt_p": 0.401,
-   "value": 0.091
-  },
-  {
-   "matchup": "Texas Rangers @ Minnesota Twins",
-   "pick": "Minnesota Twins",
-   "ml": -115,
-   "tier": "STRONG",
-   "time": "2026-09-27T19:10:00Z",
-   "model_p": 0.589,
-   "mkt_p": 0.5,
-   "value": 0.089
+   "date": "2026-09-27",
+   "units": -34.13
   }
  ],
- "evaluated_today": 5,
+ "bets_today": [],
+ "evaluated_today": 0,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
