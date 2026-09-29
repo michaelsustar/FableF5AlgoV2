@@ -13028,5 +13028,39 @@
   "graded": true,
   "outcome": "Milwaukee Brewers",
   "units": 0.0
+ },
+ "849851": {
+  "gamePk": 849851,
+  "date": "2026-09-29",
+  "game_time": "2026-09-30T00:00:00Z",
+  "matchup": "Boston Red Sox @ New York Yankees",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.542,
+  "mkt_p_home": 0.572,
+  "pick_ml": null,
+  "value": -0.03,
+  "home_team": "New York Yankees",
+  "away_team": "Boston Red Sox",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-29T15:06:24",
+  "graded": false
+ },
+ "849843": {
+  "gamePk": 849843,
+  "date": "2026-09-29",
+  "game_time": "2026-09-30T02:00:00Z",
+  "matchup": "Chicago Cubs @ San Diego Padres",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.516,
+  "mkt_p_home": 0.531,
+  "pick_ml": null,
+  "value": -0.015,
+  "home_team": "San Diego Padres",
+  "away_team": "Chicago Cubs",
+  "params": "bd65d255fe",
+  "logged_at": "2026-09-29T15:06:24",
+  "graded": false
  }
 }

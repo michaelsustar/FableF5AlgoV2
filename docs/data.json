@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-28T16:38:33",
- "slate_date": "2026-09-28",
+ "generated_at": "2026-09-29T15:06:24",
+ "slate_date": "2026-09-29",
  "ledger": {
   "bets": 265,
   "wins": 84,
@@ -269,7 +269,7 @@
   }
  ],
  "bets_today": [],
- "evaluated_today": 0,
+ "evaluated_today": 2,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-28T16:38:34",
- "slate_date": "2026-09-28",
+ "generated_at": "2026-09-29T15:06:51",
+ "slate_date": "2026-09-29",
  "ledger": {
   "bets": 227,
   "wins": 106,
@@ -260,8 +260,37 @@
    "units": -25.44
   }
  ],
- "bets_today": [],
- "evaluated_today": 0,
+ "bets_today": [
+  {
+   "matchup": "Boston Red Sox @ New York Yankees",
+   "pick": "Over 3.5",
+   "ml": 112,
+   "tier": "STRONG",
+   "time": "2026-09-30T00:00:00Z",
+   "line": 3.5,
+   "exp_total": 4.62,
+   "lam_home": 2.37,
+   "lam_away": 2.25,
+   "model_p": 0.578,
+   "mkt_p": 0.443,
+   "value": 0.136
+  },
+  {
+   "matchup": "Chicago Cubs @ San Diego Padres",
+   "pick": "Over 3.5",
+   "ml": -152,
+   "tier": "LEAN",
+   "time": "2026-09-30T02:00:00Z",
+   "line": 3.5,
+   "exp_total": 5.02,
+   "lam_home": 2.44,
+   "lam_away": 2.57,
+   "model_p": 0.622,
+   "mkt_p": 0.566,
+   "value": 0.057
+  }
+ ],
+ "evaluated_today": 2,
  "model": {
   "coefficients": {
    "intercept": 0.9273,
