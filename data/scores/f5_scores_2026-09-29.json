@@ -389,7 +389,7 @@
     },
     "home": {
       "team": "New York Yankees",
-      "batting_score": 50.3,
+      "batting_score": 59.9,
       "pitcher": "Cam Schlittler",
       "pitcher_score": 71.5,
       "pitcher_metrics": {
@@ -406,7 +406,7 @@
       },
       "pitcher_hand": "R",
       "rpg_14d": 4.909,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Paul Goldschmidt",
@@ -427,8 +427,10 @@
           "platoon_mult": 1.15
         },
         {
-          "name": "Amed Rosario",
-          "pa": 13
+          "name": "Cody Bellinger",
+          "pa": 40,
+          "form": 52.2,
+          "platoon_mult": 0.974
         },
         {
           "name": "George Lombard Jr.",
@@ -437,10 +439,8 @@
           "platoon_mult": 1.0
         },
         {
-          "name": "Spencer Jones",
-          "pa": 39,
-          "form": 25.5,
-          "platoon_mult": 1.0
+          "name": "Amed Rosario",
+          "pa": 13
         },
         {
           "name": "Anthony Volpe",
@@ -449,16 +449,16 @@
           "platoon_mult": 0.965
         },
         {
-          "name": "Ali S\u00e1nchez",
-          "pa": 18,
-          "form": 32.0,
+          "name": "Spencer Jones",
+          "pa": 39,
+          "form": 25.5,
           "platoon_mult": 1.0
         },
         {
-          "name": "Jos\u00e9 Caballero",
-          "pa": 27,
-          "form": 18.2,
-          "platoon_mult": 0.965
+          "name": "Austin Wells",
+          "pa": 24,
+          "form": 74.9,
+          "platoon_mult": 0.85
         }
       ]
     },
@@ -476,9 +476,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.542,
+      "p_home": 0.56,
       "mkt_p_home": 0.572,
-      "value": -0.03,
+      "value": -0.012,
       "mode": "market",
       "pick": null,
       "tier": "NO VALUE"

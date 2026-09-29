@@ -92,9 +92,9 @@
       "opp_starter": "Payton Tolle",
       "opp_runs5_pct": 81.8,
       "season_f5_rate": 2.36,
-      "bat_score": 50.3,
-      "lam": 2.37,
-      "lineup": "PROJECTED"
+      "bat_score": 59.9,
+      "lam": 2.47,
+      "lineup": "CONFIRMED"
     },
     "market": {
       "date": "2026-09-29",
@@ -106,14 +106,14 @@
       "book": "fanduel"
     },
     "prediction": {
-      "lam_home": 2.37,
+      "lam_home": 2.47,
       "lam_away": 2.25,
-      "exp_total": 4.62,
+      "exp_total": 4.72,
       "mode": "market",
       "line": 3.5,
-      "p_over": 0.578,
+      "p_over": 0.59,
       "mkt_p_over": 0.443,
-      "value": 0.136,
+      "value": 0.147,
       "p_push": 0.0,
       "pick": "Over 3.5",
       "pick_side": "over",
