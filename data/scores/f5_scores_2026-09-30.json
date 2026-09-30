@@ -434,7 +434,7 @@
     },
     "home": {
       "team": "New York Yankees",
-      "batting_score": 51.8,
+      "batting_score": 49.7,
       "pitcher": "Max Fried",
       "pitcher_score": 80.9,
       "pitcher_metrics": {
@@ -451,23 +451,13 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 4.6,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
-        {
-          "name": "Paul Goldschmidt",
-          "pa": 17,
-          "form": 39.3,
-          "platoon_mult": 0.85
-        },
         {
           "name": "Ben Rice",
           "pa": 45,
           "form": 91.4,
           "platoon_mult": 1.06
-        },
-        {
-          "name": "Trent Grisham",
-          "pa": 0
         },
         {
           "name": "Cody Bellinger",
@@ -476,22 +466,10 @@
           "platoon_mult": 1.014
         },
         {
-          "name": "George Lombard Jr.",
-          "pa": 38,
-          "form": 64.5,
-          "platoon_mult": 1.0
-        },
-        {
-          "name": "Ryan McMahon",
-          "pa": 20,
-          "form": 46.9,
-          "platoon_mult": 1.049
-        },
-        {
-          "name": "Anthony Volpe",
-          "pa": 32,
-          "form": 34.5,
-          "platoon_mult": 1.025
+          "name": "Luis Garc\u00eda Jr.",
+          "pa": 28,
+          "form": 7.5,
+          "platoon_mult": 1.045
         },
         {
           "name": "Spencer Jones",
@@ -500,17 +478,37 @@
           "platoon_mult": 0.973
         },
         {
+          "name": "George Lombard Jr.",
+          "pa": 38,
+          "form": 64.5,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "pa": 12
+        },
+        {
+          "name": "Trent Grisham",
+          "pa": 0
+        },
+        {
           "name": "Austin Wells",
           "pa": 24,
           "form": 96.5,
           "platoon_mult": 1.117
+        },
+        {
+          "name": "Ryan McMahon",
+          "pa": 20,
+          "form": 46.9,
+          "platoon_mult": 1.049
         }
       ]
     },
     "batters_available": {
-      "qualified": 15,
+      "qualified": 14,
       "total": 18,
-      "pct": 83.3
+      "pct": 77.8
     },
     "market": {
       "date": "2026-09-30",
@@ -521,9 +519,9 @@
       "book": "draftkings"
     },
     "prediction": {
-      "p_home": 0.583,
+      "p_home": 0.579,
       "mkt_p_home": 0.559,
-      "value": 0.024,
+      "value": 0.02,
       "mode": "market",
       "pick": null,
       "tier": "NO VALUE"
