@@ -15542,5 +15542,37 @@
   "home_ml": -130,
   "away_ml": 100,
   "book": "draftkings"
+ },
+ "2026-09-30|philadelphia phillies|atlanta braves": {
+  "date": "2026-09-30",
+  "home": "Atlanta Braves",
+  "away": "Philadelphia Phillies",
+  "home_ml": -104,
+  "away_ml": -122,
+  "book": "fanduel"
+ },
+ "2026-09-30|chicago white sox|houston astros": {
+  "date": "2026-09-30",
+  "home": "Houston Astros",
+  "away": "Chicago White Sox",
+  "home_ml": -166,
+  "away_ml": 130,
+  "book": "draftkings"
+ },
+ "2026-09-30|boston red sox|new york yankees": {
+  "date": "2026-09-30",
+  "home": "New York Yankees",
+  "away": "Boston Red Sox",
+  "home_ml": -145,
+  "away_ml": 114,
+  "book": "draftkings"
+ },
+ "2026-09-30|chicago cubs|san diego padres": {
+  "date": "2026-09-30",
+  "home": "San Diego Padres",
+  "away": "Chicago Cubs",
+  "home_ml": -154,
+  "away_ml": 120,
+  "book": "draftkings"
  }
 }
