@@ -15574,5 +15574,13 @@
   "home_ml": -154,
   "away_ml": 120,
   "book": "draftkings"
+ },
+ "2026-10-01|philadelphia phillies|atlanta braves": {
+  "date": "2026-10-01",
+  "home": "Atlanta Braves",
+  "away": "Philadelphia Phillies",
+  "home_ml": 105,
+  "away_ml": -135,
+  "book": "draftkings"
  }
 }

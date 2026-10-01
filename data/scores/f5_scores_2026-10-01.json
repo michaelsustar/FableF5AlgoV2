@@ -1,0 +1,158 @@
+[
+  {
+    "gamePk": 849844,
+    "matchup": "Philadelphia Phillies @ Atlanta Braves",
+    "game_time": "2026-10-02T00:00:00Z",
+    "away": {
+      "team": "Philadelphia Phillies",
+      "batting_score": 41.0,
+      "pitcher": "Aaron Nola",
+      "pitcher_score": 45.0,
+      "pitcher_metrics": {
+        "runs_thru_5": 2.333,
+        "whip": 1.071,
+        "k_pct": 0.2222,
+        "ip_per_start": 4.67,
+        "pcts": {
+          "runs_thru_5": 43.2,
+          "whip": 69.3,
+          "k_pct": 49.0,
+          "ip_per_start": 34.8
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 3.2,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Trea Turner",
+          "pa": 46,
+          "form": 49.4,
+          "platoon_mult": 0.905
+        },
+        {
+          "name": "Kyle Schwarber",
+          "pa": 46,
+          "form": 34.5,
+          "platoon_mult": 1.05
+        },
+        {
+          "name": "Bryce Harper",
+          "pa": 45,
+          "form": 40.6,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Alec Bohm",
+          "pa": 41,
+          "form": 33.4,
+          "platoon_mult": 1.079
+        },
+        {
+          "name": "Bryson Stott",
+          "pa": 41,
+          "form": 100.0,
+          "platoon_mult": 1.089
+        },
+        {
+          "name": "Bryan De La Cruz",
+          "pa": 12
+        },
+        {
+          "name": "Derek Hill",
+          "pa": 7
+        },
+        {
+          "name": "Justin Crawford",
+          "pa": 29,
+          "form": 27.1,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "J.T. Realmuto",
+          "pa": 33,
+          "form": 2.0,
+          "platoon_mult": 0.935
+        }
+      ]
+    },
+    "home": {
+      "team": "Atlanta Braves",
+      "batting_score": 58.6,
+      "pitcher": "Ray Kerr",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "L",
+      "rpg_14d": 4.0,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Ronald Acu\u00f1a Jr.",
+          "pa": 29,
+          "form": 62.3,
+          "platoon_mult": 1.109
+        },
+        {
+          "name": "Drake Baldwin",
+          "pa": 38,
+          "form": 94.2,
+          "platoon_mult": 1.054
+        },
+        {
+          "name": "Ozzie Albies",
+          "pa": 34,
+          "form": 3.9,
+          "platoon_mult": 0.955
+        },
+        {
+          "name": "Matt Olson",
+          "pa": 36,
+          "form": 62.7,
+          "platoon_mult": 1.052
+        },
+        {
+          "name": "Mauricio Dub\u00f3n",
+          "pa": 34,
+          "form": 77.4,
+          "platoon_mult": 1.015
+        },
+        {
+          "name": "Austin Riley",
+          "pa": 32,
+          "form": 34.6,
+          "platoon_mult": 1.026
+        },
+        {
+          "name": "Michael Harris II",
+          "pa": 34,
+          "form": 91.1,
+          "platoon_mult": 1.03
+        },
+        {
+          "name": "Dominic Smith",
+          "pa": 7
+        },
+        {
+          "name": "Mike Yastrzemski",
+          "pa": 30,
+          "form": 42.8,
+          "platoon_mult": 1.025
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 15,
+      "total": 18,
+      "pct": 83.3
+    },
+    "market": {
+      "date": "2026-10-01",
+      "home": "Atlanta Braves",
+      "away": "Philadelphia Phillies",
+      "home_ml": 105,
+      "away_ml": -135,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]

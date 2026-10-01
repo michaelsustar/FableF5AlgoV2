@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849844,
+    "matchup": "Philadelphia Phillies @ Atlanta Braves",
+    "game_time": "2026-10-02T00:00:00Z",
+    "home_team": "Atlanta Braves",
+    "away_team": "Philadelphia Phillies",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Philadelphia Phillies",
+      "opp_starter": "Ray Kerr",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.37,
+      "bat_score": 41.0,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Atlanta Braves",
+      "opp_starter": "Aaron Nola",
+      "opp_runs5_pct": 43.2,
+      "season_f5_rate": 2.35,
+      "bat_score": 58.6,
+      "lam": 2.7,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-01",
+      "home": "Atlanta Braves",
+      "away": "Philadelphia Phillies",
+      "line": 4.5,
+      "over_ml": 112,
+      "under_ml": -146,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

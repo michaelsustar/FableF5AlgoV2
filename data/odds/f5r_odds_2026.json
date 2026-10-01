@@ -7333,5 +7333,14 @@
   "over_ml": 114,
   "under_ml": -148,
   "book": "fanduel"
+ },
+ "2026-10-01|philadelphia phillies|atlanta braves": {
+  "date": "2026-10-01",
+  "home": "Atlanta Braves",
+  "away": "Philadelphia Phillies",
+  "line": 4.5,
+  "over_ml": 112,
+  "under_ml": -146,
+  "book": "fanduel"
  }
 }

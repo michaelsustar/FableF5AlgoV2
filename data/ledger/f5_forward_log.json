@@ -13082,7 +13082,9 @@
   "away_team": "Philadelphia Phillies",
   "params": "bd65d255fe",
   "logged_at": "2026-09-30T14:49:26",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0
  },
  "849846": {
   "gamePk": 849846,
@@ -13099,7 +13101,9 @@
   "away_team": "Chicago White Sox",
   "params": "bd65d255fe",
   "logged_at": "2026-09-30T14:49:26",
-  "graded": false
+  "graded": true,
+  "outcome": "Chicago White Sox",
+  "units": 0.0
  },
  "849848": {
   "gamePk": 849848,
@@ -13116,7 +13120,9 @@
   "away_team": "Boston Red Sox",
   "params": "bd65d255fe",
   "logged_at": "2026-09-30T14:49:26",
-  "graded": false
+  "graded": true,
+  "outcome": "New York Yankees",
+  "units": 0.0
  },
  "849842": {
   "gamePk": 849842,
@@ -13133,6 +13139,8 @@
   "away_team": "Chicago Cubs",
   "params": "bd65d255fe",
   "logged_at": "2026-09-30T14:49:26",
-  "graded": false
+  "graded": true,
+  "outcome": "San Diego Padres",
+  "units": 0.0
  }
 }
