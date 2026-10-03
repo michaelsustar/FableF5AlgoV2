@@ -1,0 +1,172 @@
+[
+  {
+    "gamePk": 849829,
+    "matchup": "Chicago White Sox @ Cleveland Guardians",
+    "game_time": "2026-10-03T17:00:00Z",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Chicago White Sox",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Parker Messick",
+      "opp_runs5_pct": 62.1,
+      "season_f5_rate": 2.83,
+      "bat_score": 69.8,
+      "lam": 2.57,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Hagen Smith",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.4,
+      "bat_score": 62.7,
+      "lam": null,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-03",
+      "home": "Cleveland Guardians",
+      "away": "Chicago White Sox",
+      "line": 1.5,
+      "over_ml": -120,
+      "under_ml": -110,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 849828,
+    "matchup": "Atlanta Braves @ Los Angeles Dodgers",
+    "game_time": "2026-10-03T20:00:00Z",
+    "home_team": "Los Angeles Dodgers",
+    "away_team": "Atlanta Braves",
+    "park_factor": 0.98,
+    "away": {
+      "team": "Atlanta Braves",
+      "opp_starter": "Tarik Skubal",
+      "opp_runs5_pct": 72.3,
+      "season_f5_rate": 2.35,
+      "bat_score": 48.9,
+      "lam": 2.25,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Los Angeles Dodgers",
+      "opp_starter": "Dylan Dodd",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.77,
+      "bat_score": 56.3,
+      "lam": null,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-03",
+      "home": "Los Angeles Dodgers",
+      "away": "Atlanta Braves",
+      "line": 4.5,
+      "over_ml": -110,
+      "under_ml": -118,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 849835,
+    "matchup": "New York Yankees @ Tampa Bay Rays",
+    "game_time": "2026-10-03T22:30:00Z",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "New York Yankees",
+    "park_factor": 0.97,
+    "away": {
+      "team": "New York Yankees",
+      "opp_starter": "Drew Rasmussen",
+      "opp_runs5_pct": 95.4,
+      "season_f5_rate": 2.36,
+      "bat_score": 45.1,
+      "lam": 2.03,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Gerrit Cole",
+      "opp_runs5_pct": 22.7,
+      "season_f5_rate": 2.57,
+      "bat_score": 39.6,
+      "lam": 2.49,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-03",
+      "home": "Tampa Bay Rays",
+      "away": "New York Yankees",
+      "line": 3.5,
+      "over_ml": -122,
+      "under_ml": -106,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.49,
+      "lam_away": 2.03,
+      "exp_total": 4.52,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.566,
+      "mkt_p_over": 0.516,
+      "value": 0.05,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 849830,
+    "matchup": "San Diego Padres @ Milwaukee Brewers",
+    "game_time": "2026-10-04T00:30:00Z",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "San Diego Padres",
+    "park_factor": 0.99,
+    "away": {
+      "team": "San Diego Padres",
+      "opp_starter": "Jacob Misiorowski",
+      "opp_runs5_pct": 98.9,
+      "season_f5_rate": 2.48,
+      "bat_score": 56.4,
+      "lam": 2.21,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Robbie Ray",
+      "opp_runs5_pct": 52.1,
+      "season_f5_rate": 2.85,
+      "bat_score": 46.0,
+      "lam": 2.47,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-03",
+      "home": "Milwaukee Brewers",
+      "away": "San Diego Padres",
+      "line": 3.5,
+      "over_ml": -132,
+      "under_ml": 102,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.47,
+      "lam_away": 2.21,
+      "exp_total": 4.68,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.585,
+      "mkt_p_over": 0.535,
+      "value": 0.05,
+      "p_push": 0.0,
+      "pick": "Over 3.5",
+      "pick_side": "over",
+      "pick_ml": -132,
+      "tier": "LEAN"
+    }
+  }
+]

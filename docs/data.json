@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-02T15:25:24",
- "slate_date": "2026-10-02",
+ "generated_at": "2026-10-03T13:45:01",
+ "slate_date": "2026-10-03",
  "ledger": {
   "bets": 265,
   "wins": 84,
@@ -268,8 +268,19 @@
    "units": -34.13
   }
  ],
- "bets_today": [],
- "evaluated_today": 0,
+ "bets_today": [
+  {
+   "matchup": "San Diego Padres @ Milwaukee Brewers",
+   "pick": "San Diego Padres",
+   "ml": 195,
+   "tier": "STRONG",
+   "time": "2026-10-04T00:30:00Z",
+   "model_p": 0.438,
+   "mkt_p": 0.319,
+   "value": 0.118
+  }
+ ],
+ "evaluated_today": 2,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,
