@@ -182,10 +182,10 @@
     "away": {
       "team": "Atlanta Braves",
       "batting_score": 43.6,
-      "pitcher": null,
+      "pitcher": "Ray Kerr",
       "pitcher_score": null,
       "pitcher_metrics": null,
-      "pitcher_hand": null,
+      "pitcher_hand": "L",
       "rpg_14d": 3.429,
       "lineup": "PROJECTED",
       "batters": [
@@ -245,7 +245,7 @@
     },
     "home": {
       "team": "Los Angeles Dodgers",
-      "batting_score": 52.9,
+      "batting_score": 51.2,
       "pitcher": "Blake Snell",
       "pitcher_score": 83.7,
       "pitcher_metrics": {
@@ -267,26 +267,26 @@
         {
           "name": "Mookie Betts",
           "pa": 30,
-          "form": 44.4,
-          "platoon_mult": 1.0
+          "form": 37.7,
+          "platoon_mult": 0.85
         },
         {
           "name": "Shohei Ohtani",
           "pa": 22,
-          "form": 38.3,
-          "platoon_mult": 1.0
+          "form": 36.9,
+          "platoon_mult": 0.963
         },
         {
           "name": "Will Smith",
           "pa": 17,
-          "form": 93.7,
-          "platoon_mult": 1.0
+          "form": 79.6,
+          "platoon_mult": 0.85
         },
         {
           "name": "Freddie Freeman",
           "pa": 24,
-          "form": 33.2,
-          "platoon_mult": 1.0
+          "form": 28.2,
+          "platoon_mult": 0.85
         },
         {
           "name": "Enrique Hern\u00e1ndez",
@@ -295,26 +295,26 @@
         {
           "name": "Kyle Tucker",
           "pa": 26,
-          "form": 21.7,
-          "platoon_mult": 1.0
+          "form": 22.6,
+          "platoon_mult": 1.044
         },
         {
           "name": "Andy Pages",
           "pa": 24,
-          "form": 89.6,
-          "platoon_mult": 1.0
+          "form": 97.7,
+          "platoon_mult": 1.091
         },
         {
           "name": "Max Muncy",
           "pa": 22,
-          "form": 29.0,
-          "platoon_mult": 1.0
+          "form": 28.8,
+          "platoon_mult": 0.993
         },
         {
           "name": "Tommy Edman",
           "pa": 24,
-          "form": 73.4,
-          "platoon_mult": 1.0
+          "form": 77.6,
+          "platoon_mult": 1.058
         }
       ]
     },
