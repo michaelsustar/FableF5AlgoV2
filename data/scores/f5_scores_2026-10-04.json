@@ -1,0 +1,336 @@
+[
+  {
+    "gamePk": 849825,
+    "matchup": "San Diego Padres @ Milwaukee Brewers",
+    "game_time": "2026-10-04T20:00:00Z",
+    "away": {
+      "team": "San Diego Padres",
+      "batting_score": 52.3,
+      "pitcher": "Michael King",
+      "pitcher_score": 30.4,
+      "pitcher_metrics": {
+        "runs_thru_5": 3.0,
+        "whip": 1.294,
+        "k_pct": 0.2113,
+        "ip_per_start": 5.67,
+        "pcts": {
+          "runs_thru_5": 22.1,
+          "whip": 52.5,
+          "k_pct": 41.8,
+          "ip_per_start": 74.3
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 5.571,
+      "lineup": "CONFIRMED",
+      "batters": [
+        {
+          "name": "Fernando Tatis Jr.",
+          "pa": 25,
+          "form": 85.6,
+          "platoon_mult": 0.968
+        },
+        {
+          "name": "Dustin Harris",
+          "pa": 30,
+          "form": 42.5,
+          "platoon_mult": 1.016
+        },
+        {
+          "name": "Manny Machado",
+          "pa": 28,
+          "form": 31.1,
+          "platoon_mult": 0.983
+        },
+        {
+          "name": "Ty France",
+          "pa": 30,
+          "form": 18.0,
+          "platoon_mult": 0.994
+        },
+        {
+          "name": "Jackson Merrill",
+          "pa": 23,
+          "form": 32.0,
+          "platoon_mult": 0.947
+        },
+        {
+          "name": "Ethan Salas",
+          "pa": 14
+        },
+        {
+          "name": "Xander Bogaerts",
+          "pa": 21,
+          "form": 79.4,
+          "platoon_mult": 1.014
+        },
+        {
+          "name": "Luis Campusano",
+          "pa": 11
+        },
+        {
+          "name": "Jake Cronenworth",
+          "pa": 26,
+          "form": 77.6,
+          "platoon_mult": 1.08
+        }
+      ]
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "batting_score": 56.6,
+      "pitcher": "Logan Henderson",
+      "pitcher_score": 60.0,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.667,
+        "whip": 1.133,
+        "k_pct": 0.2787,
+        "ip_per_start": 5.0,
+        "pcts": {
+          "runs_thru_5": 61.8,
+          "whip": 61.8,
+          "k_pct": 72.5,
+          "ip_per_start": 44.3
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.714,
+      "lineup": "CONFIRMED",
+      "batters": [
+        {
+          "name": "Jackson Chourio",
+          "pa": 24,
+          "form": 88.3,
+          "platoon_mult": 0.962
+        },
+        {
+          "name": "Brice Turang",
+          "pa": 30,
+          "form": 84.4,
+          "platoon_mult": 1.114
+        },
+        {
+          "name": "Jake Bauers",
+          "pa": 30,
+          "form": 42.6,
+          "platoon_mult": 1.019
+        },
+        {
+          "name": "William Contreras",
+          "pa": 24,
+          "form": 56.8,
+          "platoon_mult": 1.005
+        },
+        {
+          "name": "Garrett Mitchell",
+          "pa": 28,
+          "form": 31.3,
+          "platoon_mult": 1.056
+        },
+        {
+          "name": "Christian Yelich",
+          "pa": 22,
+          "form": 31.6,
+          "platoon_mult": 0.981
+        },
+        {
+          "name": "Sal Frelick",
+          "pa": 15,
+          "form": 11.3,
+          "platoon_mult": 1.077
+        },
+        {
+          "name": "Cooper Pratt",
+          "pa": 21,
+          "form": 80.9,
+          "platoon_mult": 1.148
+        },
+        {
+          "name": "David Hamilton",
+          "pa": 17,
+          "form": 82.7,
+          "platoon_mult": 1.027
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 16,
+      "total": 18,
+      "pct": 88.9
+    },
+    "market": {
+      "date": "2026-10-04",
+      "home": "Milwaukee Brewers",
+      "away": "San Diego Padres",
+      "home_ml": -145,
+      "away_ml": 114,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.573,
+      "mkt_p_home": 0.559,
+      "value": 0.014,
+      "mode": "market",
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  },
+  {
+    "gamePk": 849823,
+    "matchup": "Atlanta Braves @ Los Angeles Dodgers",
+    "game_time": "2026-10-05T00:00:00Z",
+    "away": {
+      "team": "Atlanta Braves",
+      "batting_score": 43.6,
+      "pitcher": null,
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": null,
+      "rpg_14d": 3.429,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Drake Baldwin",
+          "pa": 28,
+          "form": 68.2,
+          "platoon_mult": 0.922
+        },
+        {
+          "name": "Ronald Acu\u00f1a Jr.",
+          "pa": 19,
+          "form": 13.9,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Ozzie Albies",
+          "pa": 26,
+          "form": 8.2,
+          "platoon_mult": 1.058
+        },
+        {
+          "name": "Matt Olson",
+          "pa": 27,
+          "form": 26.7,
+          "platoon_mult": 0.934
+        },
+        {
+          "name": "Michael Harris II",
+          "pa": 25,
+          "form": 81.5,
+          "platoon_mult": 0.948
+        },
+        {
+          "name": "Mauricio Dub\u00f3n",
+          "pa": 25,
+          "form": 75.7,
+          "platoon_mult": 0.971
+        },
+        {
+          "name": "Austin Riley",
+          "pa": 24,
+          "form": 43.2,
+          "platoon_mult": 0.943
+        },
+        {
+          "name": "Sean Murphy",
+          "pa": 17,
+          "form": 31.0,
+          "platoon_mult": 1.135
+        },
+        {
+          "name": "Lane Thomas",
+          "pa": 0
+        }
+      ]
+    },
+    "home": {
+      "team": "Los Angeles Dodgers",
+      "batting_score": 52.9,
+      "pitcher": "Blake Snell",
+      "pitcher_score": 83.7,
+      "pitcher_metrics": {
+        "runs_thru_5": 0.333,
+        "whip": 1.125,
+        "k_pct": 0.2927,
+        "ip_per_start": 3.56,
+        "pcts": {
+          "runs_thru_5": 95.4,
+          "whip": 62.9,
+          "k_pct": 79.6,
+          "ip_per_start": 10.4
+        }
+      },
+      "pitcher_hand": "L",
+      "rpg_14d": 3.429,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Mookie Betts",
+          "pa": 30,
+          "form": 44.4,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Shohei Ohtani",
+          "pa": 22,
+          "form": 38.3,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Will Smith",
+          "pa": 17,
+          "form": 93.7,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Freddie Freeman",
+          "pa": 24,
+          "form": 33.2,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Enrique Hern\u00e1ndez",
+          "pa": 12
+        },
+        {
+          "name": "Kyle Tucker",
+          "pa": 26,
+          "form": 21.7,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Andy Pages",
+          "pa": 24,
+          "form": 89.6,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Max Muncy",
+          "pa": 22,
+          "form": 29.0,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Tommy Edman",
+          "pa": 24,
+          "form": 73.4,
+          "platoon_mult": 1.0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 16,
+      "total": 18,
+      "pct": 88.9
+    },
+    "market": {
+      "date": "2026-10-04",
+      "home": "Los Angeles Dodgers",
+      "away": "Atlanta Braves",
+      "home_ml": -166,
+      "away_ml": 130,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]

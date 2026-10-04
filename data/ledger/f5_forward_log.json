@@ -13158,7 +13158,9 @@
   "away_team": "New York Yankees",
   "params": "bd65d255fe",
   "logged_at": "2026-10-03T13:45:01",
-  "graded": false
+  "graded": true,
+  "outcome": "Tampa Bay Rays",
+  "units": 0.0
  },
  "849830": {
   "gamePk": 849830,
@@ -13175,6 +13177,34 @@
   "away_team": "San Diego Padres",
   "params": "bd65d255fe",
   "logged_at": "2026-10-03T13:45:01",
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-10-04T00:20:00Z",
+   "book": "draftkings",
+   "home_ml": -260,
+   "away_ml": 195,
+   "pick_ml": 195,
+   "mkt_p": 0.3194,
+   "clv": 0.0004
+  }
+ },
+ "849825": {
+  "gamePk": 849825,
+  "date": "2026-10-04",
+  "game_time": "2026-10-04T20:00:00Z",
+  "matchup": "San Diego Padres @ Milwaukee Brewers",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.573,
+  "mkt_p_home": 0.559,
+  "pick_ml": null,
+  "value": 0.014,
+  "home_team": "Milwaukee Brewers",
+  "away_team": "San Diego Padres",
+  "params": "bd65d255fe",
+  "logged_at": "2026-10-04T13:58:24",
   "graded": false
  }
 }

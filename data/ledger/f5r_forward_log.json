@@ -15938,7 +15938,10 @@
   "exp_total": 4.52,
   "params": "0112c6bd34",
   "logged_at": "2026-10-03T13:45:44",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 1,
+  "units": 0.0
  },
  "849830": {
   "gamePk": 849830,
@@ -15960,6 +15963,43 @@
   "exp_total": 4.68,
   "params": "0112c6bd34",
   "logged_at": "2026-10-03T13:45:44",
+  "graded": true,
+  "outcome": "over",
+  "total": 4,
+  "units": 0.758,
+  "close": {
+   "snapshot": "2026-10-04T00:20:00Z",
+   "book": "fanduel",
+   "line": 3.5,
+   "over_ml": -130,
+   "under_ml": 100,
+   "pick_ml": -130,
+   "mkt_p": 0.5306,
+   "clv": -0.0044,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
+ },
+ "849825": {
+  "gamePk": 849825,
+  "date": "2026-10-04",
+  "game_time": "2026-10-04T20:00:00Z",
+  "matchup": "San Diego Padres @ Milwaukee Brewers",
+  "home_team": "Milwaukee Brewers",
+  "away_team": "San Diego Padres",
+  "line": 3.5,
+  "pick": "Over 3.5",
+  "pick_side": "over",
+  "pick_ml": -146,
+  "tier": "STRONG",
+  "p_over": 0.645,
+  "mkt_p_over": 0.557,
+  "value": 0.088,
+  "lam_home": 2.83,
+  "lam_away": 2.42,
+  "exp_total": 5.25,
+  "params": "0112c6bd34",
+  "logged_at": "2026-10-04T13:58:41",
   "graded": false
  }
 }

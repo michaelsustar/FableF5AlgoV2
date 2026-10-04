@@ -1,20 +1,35 @@
 {
- "generated_at": "2026-10-03T14:04:22",
+ "generated_at": "2026-10-04T13:58:24",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 265,
+  "bets": 266,
   "wins": 84,
   "losses": 141,
-  "pushes": 40,
+  "pushes": 41,
   "units": -34.13,
-  "roi": -0.1288,
+  "roi": -0.1283,
   "hit": 0.3733,
   "claimed": 0.5536,
-  "clv_bets": 257,
-  "clv_beat": 132,
+  "clv_bets": 258,
+  "clv_beat": 133,
   "clv_avg": 0.0163
  },
  "bets": [
+  {
+   "date": "2026-10-03",
+   "time": "2026-10-04T00:30:00Z",
+   "matchup": "San Diego Padres @ Milwaukee Brewers",
+   "pick": "San Diego Padres",
+   "ml": 195,
+   "tier": "STRONG",
+   "model_p": 0.438,
+   "mkt_p": 0.319,
+   "value": 0.118,
+   "result": "push",
+   "units": 0.0,
+   "clv": 0.0004,
+   "close_ml": 195
+  },
   {
    "date": "2026-09-27",
    "time": "2026-09-27T19:10:00Z",

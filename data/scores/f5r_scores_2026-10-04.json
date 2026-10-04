@@ -1,0 +1,88 @@
+[
+  {
+    "gamePk": 849825,
+    "matchup": "San Diego Padres @ Milwaukee Brewers",
+    "game_time": "2026-10-04T20:00:00Z",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "San Diego Padres",
+    "park_factor": 0.99,
+    "away": {
+      "team": "San Diego Padres",
+      "opp_starter": "Logan Henderson",
+      "opp_runs5_pct": 61.8,
+      "season_f5_rate": 2.48,
+      "bat_score": 52.3,
+      "lam": 2.42,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Michael King",
+      "opp_runs5_pct": 22.1,
+      "season_f5_rate": 2.85,
+      "bat_score": 56.6,
+      "lam": 2.83,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-04",
+      "home": "Milwaukee Brewers",
+      "away": "San Diego Padres",
+      "line": 3.5,
+      "over_ml": -146,
+      "under_ml": 112,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.83,
+      "lam_away": 2.42,
+      "exp_total": 5.25,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.645,
+      "mkt_p_over": 0.557,
+      "value": 0.088,
+      "p_push": 0.0,
+      "pick": "Over 3.5",
+      "pick_side": "over",
+      "pick_ml": -146,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 849823,
+    "matchup": "Atlanta Braves @ Los Angeles Dodgers",
+    "game_time": "2026-10-05T00:00:00Z",
+    "home_team": "Los Angeles Dodgers",
+    "away_team": "Atlanta Braves",
+    "park_factor": 0.98,
+    "away": {
+      "team": "Atlanta Braves",
+      "opp_starter": "Blake Snell",
+      "opp_runs5_pct": 95.4,
+      "season_f5_rate": 2.35,
+      "bat_score": 43.6,
+      "lam": 2.05,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Los Angeles Dodgers",
+      "opp_starter": null,
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.77,
+      "bat_score": 52.9,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-04",
+      "home": "Los Angeles Dodgers",
+      "away": "Atlanta Braves",
+      "line": 3.5,
+      "over_ml": -114,
+      "under_ml": -114,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

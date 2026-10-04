@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-03T14:04:31",
- "slate_date": "2026-10-03",
+ "generated_at": "2026-10-04T13:58:41",
+ "slate_date": "2026-10-04",
  "ledger": {
-  "bets": 231,
-  "wins": 108,
+  "bets": 232,
+  "wins": 109,
   "losses": 123,
   "pushes": 0,
-  "units": -26.1,
-  "roi": -0.113,
-  "hit": 0.4675,
+  "units": -25.34,
+  "roi": -0.1092,
+  "hit": 0.4698,
   "claimed": 0.5959,
-  "clv_bets": 199,
+  "clv_bets": 200,
   "clv_beat": 98,
   "clv_avg": 0.0004
  },
@@ -266,25 +266,29 @@
   {
    "date": "2026-09-30",
    "units": -26.1
+  },
+  {
+   "date": "2026-10-03",
+   "units": -25.34
   }
  ],
  "bets_today": [
   {
    "matchup": "San Diego Padres @ Milwaukee Brewers",
    "pick": "Over 3.5",
-   "ml": -132,
-   "tier": "LEAN",
-   "time": "2026-10-04T00:30:00Z",
+   "ml": -146,
+   "tier": "STRONG",
+   "time": "2026-10-04T20:00:00Z",
    "line": 3.5,
-   "exp_total": 4.68,
-   "lam_home": 2.47,
-   "lam_away": 2.21,
-   "model_p": 0.585,
-   "mkt_p": 0.535,
-   "value": 0.05
+   "exp_total": 5.25,
+   "lam_home": 2.83,
+   "lam_away": 2.42,
+   "model_p": 0.645,
+   "mkt_p": 0.557,
+   "value": 0.088
   }
  ],
- "evaluated_today": 2,
+ "evaluated_today": 1,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

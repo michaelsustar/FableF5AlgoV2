@@ -15614,5 +15614,21 @@
   "home_ml": -260,
   "away_ml": 195,
   "book": "draftkings"
+ },
+ "2026-10-04|san diego padres|milwaukee brewers": {
+  "date": "2026-10-04",
+  "home": "Milwaukee Brewers",
+  "away": "San Diego Padres",
+  "home_ml": -145,
+  "away_ml": 114,
+  "book": "draftkings"
+ },
+ "2026-10-04|atlanta braves|los angeles dodgers": {
+  "date": "2026-10-04",
+  "home": "Los Angeles Dodgers",
+  "away": "Atlanta Braves",
+  "home_ml": -166,
+  "away_ml": 130,
+  "book": "draftkings"
  }
 }
