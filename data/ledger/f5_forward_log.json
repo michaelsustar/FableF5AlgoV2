@@ -13205,6 +13205,42 @@
   "away_team": "San Diego Padres",
   "params": "bd65d255fe",
   "logged_at": "2026-10-04T13:58:24",
+  "graded": true,
+  "outcome": "San Diego Padres",
+  "units": 0.0
+ },
+ "849834": {
+  "gamePk": 849834,
+  "date": "2026-10-05",
+  "game_time": "2026-10-05T21:00:00Z",
+  "matchup": "Chicago White Sox @ Cleveland Guardians",
+  "pick": "Chicago White Sox",
+  "tier": "STRONG",
+  "p_home": 0.557,
+  "mkt_p_home": 0.921,
+  "pick_ml": 1100,
+  "value": -0.364,
+  "home_team": "Cleveland Guardians",
+  "away_team": "Chicago White Sox",
+  "params": "bd65d255fe",
+  "logged_at": "2026-10-05T17:26:19",
+  "graded": false
+ },
+ "849839": {
+  "gamePk": 849839,
+  "date": "2026-10-05",
+  "game_time": "2026-10-06T00:00:00Z",
+  "matchup": "New York Yankees @ Tampa Bay Rays",
+  "pick": "Tampa Bay Rays",
+  "tier": "STRONG",
+  "p_home": 0.568,
+  "mkt_p_home": 0.428,
+  "pick_ml": 120,
+  "value": 0.139,
+  "home_team": "Tampa Bay Rays",
+  "away_team": "New York Yankees",
+  "params": "bd65d255fe",
+  "logged_at": "2026-10-05T17:26:19",
   "graded": false
  }
 }

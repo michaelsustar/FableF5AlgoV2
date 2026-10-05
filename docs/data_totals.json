@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-04T14:14:43",
- "slate_date": "2026-10-04",
+ "generated_at": "2026-10-05T17:26:39",
+ "slate_date": "2026-10-05",
  "ledger": {
-  "bets": 232,
+  "bets": 233,
   "wins": 109,
-  "losses": 123,
+  "losses": 124,
   "pushes": 0,
-  "units": -25.34,
-  "roi": -0.1092,
-  "hit": 0.4698,
-  "claimed": 0.5959,
-  "clv_bets": 200,
+  "units": -26.34,
+  "roi": -0.113,
+  "hit": 0.4678,
+  "claimed": 0.5961,
+  "clv_bets": 201,
   "clv_beat": 98,
-  "clv_avg": 0.0004
+  "clv_avg": 0.0002
  },
  "series": [
   {
@@ -270,25 +270,43 @@
   {
    "date": "2026-10-03",
    "units": -25.34
+  },
+  {
+   "date": "2026-10-04",
+   "units": -26.34
   }
  ],
  "bets_today": [
   {
-   "matchup": "San Diego Padres @ Milwaukee Brewers",
-   "pick": "Over 3.5",
-   "ml": -146,
+   "matchup": "Chicago White Sox @ Cleveland Guardians",
+   "pick": "Under 5.5",
+   "ml": -114,
    "tier": "STRONG",
-   "time": "2026-10-04T20:00:00Z",
+   "time": "2026-10-05T21:00:00Z",
+   "line": 5.5,
+   "exp_total": 4.72,
+   "lam_home": 2.42,
+   "lam_away": 2.3,
+   "model_p": 0.658,
+   "mkt_p": 0.5,
+   "value": 0.158
+  },
+  {
+   "matchup": "New York Yankees @ Tampa Bay Rays",
+   "pick": "Over 3.5",
+   "ml": -102,
+   "tier": "LEAN",
+   "time": "2026-10-06T00:00:00Z",
    "line": 3.5,
-   "exp_total": 5.25,
-   "lam_home": 2.83,
-   "lam_away": 2.42,
-   "model_p": 0.645,
-   "mkt_p": 0.557,
-   "value": 0.088
+   "exp_total": 4.26,
+   "lam_home": 2.26,
+   "lam_away": 2.0,
+   "model_p": 0.535,
+   "mkt_p": 0.474,
+   "value": 0.061
   }
  ],
- "evaluated_today": 1,
+ "evaluated_today": 2,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

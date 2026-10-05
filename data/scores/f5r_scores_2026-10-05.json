@@ -1,0 +1,102 @@
+[
+  {
+    "gamePk": 849834,
+    "matchup": "Chicago White Sox @ Cleveland Guardians",
+    "game_time": "2026-10-05T21:00:00Z",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Chicago White Sox",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Gavin Williams",
+      "opp_runs5_pct": 81.0,
+      "season_f5_rate": 2.83,
+      "bat_score": 57.5,
+      "lam": 2.3,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Anthony Kay",
+      "opp_runs5_pct": 50.0,
+      "season_f5_rate": 2.4,
+      "bat_score": 54.0,
+      "lam": 2.42,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-05",
+      "home": "Cleveland Guardians",
+      "away": "Chicago White Sox",
+      "line": 5.5,
+      "over_ml": -114,
+      "under_ml": -114,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.42,
+      "lam_away": 2.3,
+      "exp_total": 4.72,
+      "mode": "market",
+      "line": 5.5,
+      "p_over": 0.342,
+      "mkt_p_over": 0.5,
+      "value": -0.158,
+      "p_push": 0.0,
+      "pick": "Under 5.5",
+      "pick_side": "under",
+      "pick_ml": -114,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 849839,
+    "matchup": "New York Yankees @ Tampa Bay Rays",
+    "game_time": "2026-10-06T00:00:00Z",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "New York Yankees",
+    "park_factor": 0.97,
+    "away": {
+      "team": "New York Yankees",
+      "opp_starter": "Freddy Peralta",
+      "opp_runs5_pct": 95.1,
+      "season_f5_rate": 2.36,
+      "bat_score": 41.5,
+      "lam": 2.0,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Cam Schlittler",
+      "opp_runs5_pct": 70.9,
+      "season_f5_rate": 2.57,
+      "bat_score": 50.2,
+      "lam": 2.26,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-05",
+      "home": "Tampa Bay Rays",
+      "away": "New York Yankees",
+      "line": 3.5,
+      "over_ml": -102,
+      "under_ml": -128,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.26,
+      "lam_away": 2.0,
+      "exp_total": 4.26,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.535,
+      "mkt_p_over": 0.474,
+      "value": 0.061,
+      "p_push": 0.0,
+      "pick": "Over 3.5",
+      "pick_side": "over",
+      "pick_ml": -102,
+      "tier": "LEAN"
+    }
+  }
+]

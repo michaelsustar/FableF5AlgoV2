@@ -7396,5 +7396,23 @@
   "over_ml": -114,
   "under_ml": -114,
   "book": "fanduel"
+ },
+ "2026-10-05|chicago white sox|cleveland guardians": {
+  "date": "2026-10-05",
+  "home": "Cleveland Guardians",
+  "away": "Chicago White Sox",
+  "line": 5.5,
+  "over_ml": -114,
+  "under_ml": -114,
+  "book": "fanduel"
+ },
+ "2026-10-05|new york yankees|tampa bay rays": {
+  "date": "2026-10-05",
+  "home": "Tampa Bay Rays",
+  "away": "New York Yankees",
+  "line": 3.5,
+  "over_ml": -102,
+  "under_ml": -128,
+  "book": "fanduel"
  }
 }

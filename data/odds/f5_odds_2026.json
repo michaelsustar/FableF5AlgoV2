@@ -15630,5 +15630,21 @@
   "home_ml": -166,
   "away_ml": 130,
   "book": "draftkings"
+ },
+ "2026-10-05|chicago white sox|cleveland guardians": {
+  "date": "2026-10-05",
+  "home": "Cleveland Guardians",
+  "away": "Chicago White Sox",
+  "home_ml": -4000,
+  "away_ml": 1100,
+  "book": "fanduel"
+ },
+ "2026-10-05|new york yankees|tampa bay rays": {
+  "date": "2026-10-05",
+  "home": "Tampa Bay Rays",
+  "away": "New York Yankees",
+  "home_ml": 120,
+  "away_ml": -154,
+  "book": "draftkings"
  }
 }

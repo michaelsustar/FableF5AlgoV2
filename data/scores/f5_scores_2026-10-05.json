@@ -1,0 +1,348 @@
+[
+  {
+    "gamePk": 849834,
+    "matchup": "Chicago White Sox @ Cleveland Guardians",
+    "game_time": "2026-10-05T21:00:00Z",
+    "away": {
+      "team": "Chicago White Sox",
+      "batting_score": 57.5,
+      "pitcher": "Anthony Kay",
+      "pitcher_score": 45.5,
+      "pitcher_metrics": {
+        "runs_thru_5": 2.0,
+        "whip": 1.462,
+        "k_pct": 0.1897,
+        "ip_per_start": 4.33,
+        "pcts": {
+          "runs_thru_5": 50.0,
+          "whip": 33.2,
+          "k_pct": 34.7,
+          "ip_per_start": 21.6
+        }
+      },
+      "pitcher_hand": "L",
+      "rpg_14d": 7.167,
+      "lineup": "CONFIRMED",
+      "batters": [
+        {
+          "name": "Sam Antonacci",
+          "pa": 23,
+          "form": 93.5,
+          "platoon_mult": 1.094
+        },
+        {
+          "name": "Kyle Teel",
+          "pa": 23,
+          "form": 97.7,
+          "platoon_mult": 1.124
+        },
+        {
+          "name": "Miguel Vargas",
+          "pa": 24,
+          "form": 37.1,
+          "platoon_mult": 0.933
+        },
+        {
+          "name": "Munetaka Murakami",
+          "pa": 27,
+          "form": 86.6,
+          "platoon_mult": 1.087
+        },
+        {
+          "name": "Andrew Benintendi",
+          "pa": 16,
+          "form": 48.3,
+          "platoon_mult": 1.063
+        },
+        {
+          "name": "Tristan Peters",
+          "pa": 19,
+          "form": 8.3,
+          "platoon_mult": 1.067
+        },
+        {
+          "name": "Braden Montgomery",
+          "pa": 21,
+          "form": 88.2,
+          "platoon_mult": 1.092
+        },
+        {
+          "name": "Chase Meidroth",
+          "pa": 14
+        },
+        {
+          "name": "Colson Montgomery",
+          "pa": 22,
+          "form": 0.3,
+          "platoon_mult": 0.94
+        }
+      ]
+    },
+    "home": {
+      "team": "Cleveland Guardians",
+      "batting_score": 54.0,
+      "pitcher": "Gavin Williams",
+      "pitcher_score": 74.6,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.0,
+        "whip": 1.304,
+        "k_pct": 0.3077,
+        "ip_per_start": 5.11,
+        "pcts": {
+          "runs_thru_5": 81.0,
+          "whip": 50.4,
+          "k_pct": 86.9,
+          "ip_per_start": 47.8
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.833,
+      "lineup": "CONFIRMED",
+      "batters": [
+        {
+          "name": "Steven Kwan",
+          "pa": 24,
+          "form": 63.8,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Jos\u00e9 Ram\u00edrez",
+          "pa": 24,
+          "form": 25.6,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Chase DeLauter",
+          "pa": 24,
+          "form": 59.9,
+          "platoon_mult": 1.148
+        },
+        {
+          "name": "Jo Adell",
+          "pa": 27,
+          "form": 64.8,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "pa": 14
+        },
+        {
+          "name": "Angel Mart\u00ednez",
+          "pa": 23,
+          "form": 55.6,
+          "platoon_mult": 0.907
+        },
+        {
+          "name": "Travis Bazzana",
+          "pa": 23,
+          "form": 39.1,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Patrick Bailey",
+          "pa": 14
+        },
+        {
+          "name": "Brayan Rocchio",
+          "pa": 20,
+          "form": 69.3,
+          "platoon_mult": 0.887
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 15,
+      "total": 18,
+      "pct": 83.3
+    },
+    "market": {
+      "date": "2026-10-05",
+      "home": "Cleveland Guardians",
+      "away": "Chicago White Sox",
+      "home_ml": -4000,
+      "away_ml": 1100,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "p_home": 0.557,
+      "mkt_p_home": 0.921,
+      "value": -0.364,
+      "mode": "market",
+      "pick": "Chicago White Sox",
+      "pick_ml": 1100,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 849839,
+    "matchup": "New York Yankees @ Tampa Bay Rays",
+    "game_time": "2026-10-06T00:00:00Z",
+    "away": {
+      "team": "New York Yankees",
+      "batting_score": 41.5,
+      "pitcher": "Cam Schlittler",
+      "pitcher_score": 69.5,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.333,
+        "whip": 0.933,
+        "k_pct": 0.3167,
+        "ip_per_start": 5.0,
+        "pcts": {
+          "runs_thru_5": 70.9,
+          "whip": 85.4,
+          "k_pct": 89.2,
+          "ip_per_start": 42.5
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.333,
+      "lineup": "CONFIRMED",
+      "batters": [
+        {
+          "name": "Ben Rice",
+          "pa": 26,
+          "form": 88.8,
+          "platoon_mult": 1.06
+        },
+        {
+          "name": "Cody Bellinger",
+          "pa": 16,
+          "form": 14.9,
+          "platoon_mult": 1.014
+        },
+        {
+          "name": "Luis Garc\u00eda Jr.",
+          "pa": 16,
+          "form": 17.0,
+          "platoon_mult": 1.045
+        },
+        {
+          "name": "Spencer Jones",
+          "pa": 20,
+          "form": 27.9,
+          "platoon_mult": 0.973
+        },
+        {
+          "name": "George Lombard Jr.",
+          "pa": 20,
+          "form": 59.0,
+          "platoon_mult": 1.0
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "pa": 12
+        },
+        {
+          "name": "Trent Grisham",
+          "pa": 0
+        },
+        {
+          "name": "Austin Wells",
+          "pa": 10
+        },
+        {
+          "name": "Ryan McMahon",
+          "pa": 10
+        }
+      ]
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "batting_score": 50.2,
+      "pitcher": "Freddy Peralta",
+      "pitcher_score": 89.7,
+      "pitcher_metrics": {
+        "runs_thru_5": 0.333,
+        "whip": 1.0,
+        "k_pct": 0.2222,
+        "ip_per_start": 5.33,
+        "pcts": {
+          "runs_thru_5": 95.1,
+          "whip": 77.6,
+          "k_pct": 48.1,
+          "ip_per_start": 58.6
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 4.143,
+      "lineup": "CONFIRMED",
+      "batters": [
+        {
+          "name": "Yandy D\u00edaz",
+          "pa": 22,
+          "form": 63.1,
+          "platoon_mult": 0.993
+        },
+        {
+          "name": "Jonathan Aranda",
+          "pa": 20,
+          "form": 30.4,
+          "platoon_mult": 1.08
+        },
+        {
+          "name": "Junior Caminero",
+          "pa": 25,
+          "form": 48.5,
+          "platoon_mult": 0.954
+        },
+        {
+          "name": "Liam Hicks",
+          "pa": 22,
+          "form": 36.9,
+          "platoon_mult": 1.086
+        },
+        {
+          "name": "Chandler Simpson",
+          "pa": 15,
+          "form": 22.2,
+          "platoon_mult": 1.052
+        },
+        {
+          "name": "Victor Mesa Jr.",
+          "pa": 21,
+          "form": 71.5,
+          "platoon_mult": 0.994
+        },
+        {
+          "name": "Jonny DeLuca",
+          "pa": 29,
+          "form": 82.9,
+          "platoon_mult": 0.977
+        },
+        {
+          "name": "Richie Palacios",
+          "pa": 18,
+          "form": 46.4,
+          "platoon_mult": 0.998
+        },
+        {
+          "name": "Taylor Walls",
+          "pa": 13
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 13,
+      "total": 18,
+      "pct": 72.2
+    },
+    "market": {
+      "date": "2026-10-05",
+      "home": "Tampa Bay Rays",
+      "away": "New York Yankees",
+      "home_ml": 120,
+      "away_ml": -154,
+      "book": "draftkings"
+    },
+    "prediction": {
+      "p_home": 0.568,
+      "mkt_p_home": 0.428,
+      "value": 0.139,
+      "mode": "market",
+      "pick": "Tampa Bay Rays",
+      "pick_ml": 120,
+      "tier": "STRONG"
+    }
+  }
+]
