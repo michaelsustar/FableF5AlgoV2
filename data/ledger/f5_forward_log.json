@@ -13224,7 +13224,16 @@
   "away_team": "Chicago White Sox",
   "params": "bd65d255fe",
   "logged_at": "2026-10-05T17:26:19",
-  "graded": false
+  "graded": false,
+  "close": {
+   "snapshot": "2026-10-05T20:50:00Z",
+   "book": "draftkings",
+   "home_ml": -180,
+   "away_ml": 140,
+   "pick_ml": 140,
+   "mkt_p": 0.3933,
+   "clv": 0.3143
+  }
  },
  "849839": {
   "gamePk": 849839,
