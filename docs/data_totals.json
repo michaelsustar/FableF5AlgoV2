@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T15:18:35",
+ "generated_at": "2026-10-06T15:37:21",
  "slate_date": "2026-10-06",
  "ledger": {
   "bets": 235,
@@ -281,7 +281,7 @@
   }
  ],
  "bets_today": [],
- "evaluated_today": 0,
+ "evaluated_today": 1,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

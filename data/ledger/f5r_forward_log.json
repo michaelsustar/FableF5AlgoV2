@@ -16090,5 +16090,27 @@
    "line_move": 0.0,
    "our_way": 0.0
   }
+ },
+ "849826": {
+  "gamePk": 849826,
+  "date": "2026-10-06",
+  "game_time": "2026-10-07T01:30:00Z",
+  "matchup": "Milwaukee Brewers @ San Diego Padres",
+  "home_team": "San Diego Padres",
+  "away_team": "Milwaukee Brewers",
+  "line": 4.5,
+  "pick": null,
+  "pick_side": null,
+  "pick_ml": null,
+  "tier": "NO VALUE",
+  "p_over": 0.433,
+  "mkt_p_over": 0.452,
+  "value": -0.019,
+  "lam_home": 2.31,
+  "lam_away": 2.21,
+  "exp_total": 4.53,
+  "params": "0112c6bd34",
+  "logged_at": "2026-10-06T15:37:21",
+  "graded": false
  }
 }

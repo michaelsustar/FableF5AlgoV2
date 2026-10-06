@@ -1,0 +1,86 @@
+[
+  {
+    "gamePk": 849819,
+    "matchup": "Los Angeles Dodgers @ Atlanta Braves",
+    "game_time": "2026-10-06T22:00:00Z",
+    "home_team": "Atlanta Braves",
+    "away_team": "Los Angeles Dodgers",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Los Angeles Dodgers",
+      "opp_starter": "Chris Sale",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.77,
+      "bat_score": 52.4,
+      "lam": null,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Atlanta Braves",
+      "opp_starter": "Yoshinobu Yamamoto",
+      "opp_runs5_pct": 60.5,
+      "season_f5_rate": 2.35,
+      "bat_score": 44.9,
+      "lam": 2.42,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-06",
+      "home": "Atlanta Braves",
+      "away": "Los Angeles Dodgers",
+      "line": 3.5,
+      "over_ml": 116,
+      "under_ml": -152,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 849826,
+    "matchup": "Milwaukee Brewers @ San Diego Padres",
+    "game_time": "2026-10-07T01:30:00Z",
+    "home_team": "San Diego Padres",
+    "away_team": "Milwaukee Brewers",
+    "park_factor": 0.96,
+    "away": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Nick Pivetta",
+      "opp_runs5_pct": 81.2,
+      "season_f5_rate": 2.85,
+      "bat_score": 52.7,
+      "lam": 2.21,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "San Diego Padres",
+      "opp_starter": "Dustin May",
+      "opp_runs5_pct": 40.6,
+      "season_f5_rate": 2.48,
+      "bat_score": 40.5,
+      "lam": 2.31,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-06",
+      "home": "San Diego Padres",
+      "away": "Milwaukee Brewers",
+      "line": 4.5,
+      "over_ml": 108,
+      "under_ml": -140,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.31,
+      "lam_away": 2.21,
+      "exp_total": 4.53,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.433,
+      "mkt_p_over": 0.452,
+      "value": -0.019,
+      "p_push": 0.0,
+      "pick": null,
+      "tier": "NO VALUE"
+    }
+  }
+]
