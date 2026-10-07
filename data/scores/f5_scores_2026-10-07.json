@@ -418,8 +418,12 @@
       },
       "pitcher_hand": "L",
       "rpg_14d": 5.75,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
+        {
+          "name": "Trent Grisham",
+          "pa": 0
+        },
         {
           "name": "Ben Rice",
           "pa": 18,
@@ -427,36 +431,32 @@
           "platoon_mult": 1.06
         },
         {
+          "name": "Luis Garc\u00eda Jr.",
+          "pa": 9
+        },
+        {
           "name": "Cody Bellinger",
           "pa": 8
-        },
-        {
-          "name": "Jos\u00e9 Caballero",
-          "pa": 11
-        },
-        {
-          "name": "Spencer Jones",
-          "pa": 13
         },
         {
           "name": "George Lombard Jr.",
           "pa": 13
         },
         {
-          "name": "Jazz Chisholm Jr.",
-          "pa": 8
-        },
-        {
-          "name": "Trent Grisham",
-          "pa": 0
-        },
-        {
           "name": "Austin Wells",
           "pa": 7
         },
         {
-          "name": "Paul Goldschmidt",
-          "pa": 9
+          "name": "Anthony Volpe",
+          "pa": 12
+        },
+        {
+          "name": "Spencer Jones",
+          "pa": 13
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "pa": 11
         }
       ]
     },
