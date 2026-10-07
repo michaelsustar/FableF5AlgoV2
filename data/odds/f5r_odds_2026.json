@@ -7432,5 +7432,41 @@
   "over_ml": 108,
   "under_ml": -140,
   "book": "fanduel"
+ },
+ "2026-10-07|cleveland guardians|chicago white sox": {
+  "date": "2026-10-07",
+  "home": "Chicago White Sox",
+  "away": "Cleveland Guardians",
+  "line": 4.5,
+  "over_ml": 104,
+  "under_ml": -135,
+  "book": "fanduel"
+ },
+ "2026-10-07|los angeles dodgers|atlanta braves": {
+  "date": "2026-10-07",
+  "home": "Atlanta Braves",
+  "away": "Los Angeles Dodgers",
+  "line": 4.5,
+  "over_ml": 116,
+  "under_ml": -152,
+  "book": "fanduel"
+ },
+ "2026-10-07|tampa bay rays|new york yankees": {
+  "date": "2026-10-07",
+  "home": "New York Yankees",
+  "away": "Tampa Bay Rays",
+  "line": 3.5,
+  "over_ml": -140,
+  "under_ml": 108,
+  "book": "fanduel"
+ },
+ "2026-10-07|milwaukee brewers|san diego padres": {
+  "date": "2026-10-07",
+  "home": "San Diego Padres",
+  "away": "Milwaukee Brewers",
+  "line": 4.5,
+  "over_ml": 100,
+  "under_ml": -130,
+  "book": "fanduel"
  }
 }

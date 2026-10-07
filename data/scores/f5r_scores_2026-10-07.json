@@ -1,0 +1,174 @@
+[
+  {
+    "gamePk": 849833,
+    "matchup": "Cleveland Guardians @ Chicago White Sox",
+    "game_time": "2026-10-07T20:00:00Z",
+    "home_team": "Chicago White Sox",
+    "away_team": "Cleveland Guardians",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Sean Newcomb",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.4,
+      "bat_score": 49.2,
+      "lam": null,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Daniel Espino",
+      "opp_runs5_pct": 81.2,
+      "season_f5_rate": 2.83,
+      "bat_score": 57.6,
+      "lam": 2.47,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-07",
+      "home": "Chicago White Sox",
+      "away": "Cleveland Guardians",
+      "line": 4.5,
+      "over_ml": 104,
+      "under_ml": -135,
+      "book": "fanduel"
+    },
+    "prediction": null
+  },
+  {
+    "gamePk": 849822,
+    "matchup": "Los Angeles Dodgers @ Atlanta Braves",
+    "game_time": "2026-10-07T22:00:00Z",
+    "home_team": "Atlanta Braves",
+    "away_team": "Los Angeles Dodgers",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Los Angeles Dodgers",
+      "opp_starter": "Tyler Mahle",
+      "opp_runs5_pct": 40.8,
+      "season_f5_rate": 2.77,
+      "bat_score": 46.3,
+      "lam": 2.64,
+      "lineup": "CONFIRMED"
+    },
+    "home": {
+      "team": "Atlanta Braves",
+      "opp_starter": "Tyler Glasnow",
+      "opp_runs5_pct": 60.4,
+      "season_f5_rate": 2.35,
+      "bat_score": 47.5,
+      "lam": 2.44,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-07",
+      "home": "Atlanta Braves",
+      "away": "Los Angeles Dodgers",
+      "line": 4.5,
+      "over_ml": 116,
+      "under_ml": -152,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 2.44,
+      "lam_away": 2.64,
+      "exp_total": 5.08,
+      "mode": "market",
+      "line": 4.5,
+      "p_over": 0.5,
+      "mkt_p_over": 0.434,
+      "value": 0.066,
+      "p_push": 0.0,
+      "pick": "Over 4.5",
+      "pick_side": "over",
+      "pick_ml": 116,
+      "tier": "LEAN"
+    }
+  },
+  {
+    "gamePk": 849838,
+    "matchup": "Tampa Bay Rays @ New York Yankees",
+    "game_time": "2026-10-08T00:00:00Z",
+    "home_team": "New York Yankees",
+    "away_team": "Tampa Bay Rays",
+    "park_factor": 1.02,
+    "away": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Max Fried",
+      "opp_runs5_pct": 81.2,
+      "season_f5_rate": 2.57,
+      "bat_score": 61.3,
+      "lam": 2.52,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "New York Yankees",
+      "opp_starter": "Nick Martinez",
+      "opp_runs5_pct": 30.0,
+      "season_f5_rate": 2.36,
+      "bat_score": 99.5,
+      "lam": 3.42,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-07",
+      "home": "New York Yankees",
+      "away": "Tampa Bay Rays",
+      "line": 3.5,
+      "over_ml": -140,
+      "under_ml": 108,
+      "book": "fanduel"
+    },
+    "prediction": {
+      "lam_home": 3.42,
+      "lam_away": 2.52,
+      "exp_total": 5.93,
+      "mode": "market",
+      "line": 3.5,
+      "p_over": 0.704,
+      "mkt_p_over": 0.548,
+      "value": 0.156,
+      "p_push": 0.0,
+      "pick": "Over 3.5",
+      "pick_side": "over",
+      "pick_ml": -140,
+      "tier": "STRONG"
+    }
+  },
+  {
+    "gamePk": 849827,
+    "matchup": "Milwaukee Brewers @ San Diego Padres",
+    "game_time": "2026-10-08T02:00:00Z",
+    "home_team": "San Diego Padres",
+    "away_team": "Milwaukee Brewers",
+    "park_factor": 0.96,
+    "away": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Walker Buehler",
+      "opp_runs5_pct": 50.4,
+      "season_f5_rate": 2.85,
+      "bat_score": 59.6,
+      "lam": 2.5,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "San Diego Padres",
+      "opp_starter": null,
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.48,
+      "bat_score": 42.3,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-07",
+      "home": "San Diego Padres",
+      "away": "Milwaukee Brewers",
+      "line": 4.5,
+      "over_ml": 100,
+      "under_ml": -130,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-06T15:37:21",
- "slate_date": "2026-10-06",
+ "generated_at": "2026-10-07T15:43:32",
+ "slate_date": "2026-10-07",
  "ledger": {
   "bets": 235,
   "wins": 111,
@@ -280,8 +280,37 @@
    "units": -24.48
   }
  ],
- "bets_today": [],
- "evaluated_today": 1,
+ "bets_today": [
+  {
+   "matchup": "Los Angeles Dodgers @ Atlanta Braves",
+   "pick": "Over 4.5",
+   "ml": 116,
+   "tier": "LEAN",
+   "time": "2026-10-07T22:00:00Z",
+   "line": 4.5,
+   "exp_total": 5.08,
+   "lam_home": 2.44,
+   "lam_away": 2.64,
+   "model_p": 0.5,
+   "mkt_p": 0.434,
+   "value": 0.066
+  },
+  {
+   "matchup": "Tampa Bay Rays @ New York Yankees",
+   "pick": "Over 3.5",
+   "ml": -140,
+   "tier": "STRONG",
+   "time": "2026-10-08T00:00:00Z",
+   "line": 3.5,
+   "exp_total": 5.93,
+   "lam_home": 3.42,
+   "lam_away": 2.52,
+   "model_p": 0.704,
+   "mkt_p": 0.548,
+   "value": 0.156
+  }
+ ],
+ "evaluated_today": 2,
  "model": {
   "coefficients": {
    "intercept": 0.9273,

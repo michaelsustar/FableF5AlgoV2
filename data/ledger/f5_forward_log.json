@@ -13280,6 +13280,42 @@
   "away_team": "Milwaukee Brewers",
   "params": "bd65d255fe",
   "logged_at": "2026-10-06T15:18:01",
+  "graded": true,
+  "outcome": "San Diego Padres",
+  "units": 0.0
+ },
+ "849822": {
+  "gamePk": 849822,
+  "date": "2026-10-07",
+  "game_time": "2026-10-07T22:00:00Z",
+  "matchup": "Los Angeles Dodgers @ Atlanta Braves",
+  "pick": "Atlanta Braves",
+  "tier": "STRONG",
+  "p_home": 0.51,
+  "mkt_p_home": 0.411,
+  "pick_ml": 130,
+  "value": 0.099,
+  "home_team": "Atlanta Braves",
+  "away_team": "Los Angeles Dodgers",
+  "params": "bd65d255fe",
+  "logged_at": "2026-10-07T15:43:08",
+  "graded": false
+ },
+ "849838": {
+  "gamePk": 849838,
+  "date": "2026-10-07",
+  "game_time": "2026-10-08T00:00:00Z",
+  "matchup": "Tampa Bay Rays @ New York Yankees",
+  "pick": null,
+  "tier": "NO VALUE",
+  "p_home": 0.659,
+  "mkt_p_home": 0.615,
+  "pick_ml": null,
+  "value": 0.044,
+  "home_team": "New York Yankees",
+  "away_team": "Tampa Bay Rays",
+  "params": "bd65d255fe",
+  "logged_at": "2026-10-07T15:43:08",
   "graded": false
  }
 }
