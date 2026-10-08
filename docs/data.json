@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-07T16:02:32",
- "slate_date": "2026-10-07",
+ "generated_at": "2026-10-08T15:39:28",
+ "slate_date": "2026-10-08",
  "ledger": {
-  "bets": 268,
+  "bets": 269,
   "wins": 85,
   "losses": 142,
-  "pushes": 41,
+  "pushes": 42,
   "units": -33.93,
-  "roi": -0.1266,
+  "roi": -0.1261,
   "hit": 0.3744,
   "claimed": 0.5537,
-  "clv_bets": 260,
+  "clv_bets": 261,
   "clv_beat": 135,
-  "clv_avg": 0.0174
+  "clv_avg": 0.0173
  },
  "series": [
   {
@@ -274,21 +274,14 @@
   {
    "date": "2026-10-05",
    "units": -33.93
-  }
- ],
- "bets_today": [
+  },
   {
-   "matchup": "Los Angeles Dodgers @ Atlanta Braves",
-   "pick": "Atlanta Braves",
-   "ml": 130,
-   "tier": "STRONG",
-   "time": "2026-10-07T22:00:00Z",
-   "model_p": 0.51,
-   "mkt_p": 0.411,
-   "value": 0.099
+   "date": "2026-10-07",
+   "units": -33.93
   }
  ],
- "evaluated_today": 2,
+ "bets_today": [],
+ "evaluated_today": 0,
  "model": {
   "batting_window_days": 14,
   "pitcher_starts": 3,

@@ -13299,7 +13299,18 @@
   "away_team": "Los Angeles Dodgers",
   "params": "bd65d255fe",
   "logged_at": "2026-10-07T15:43:08",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0,
+  "close": {
+   "snapshot": "2026-10-07T21:50:00Z",
+   "book": "draftkings",
+   "home_ml": 140,
+   "away_ml": -180,
+   "pick_ml": 140,
+   "mkt_p": 0.3933,
+   "clv": -0.0177
+  }
  },
  "849838": {
   "gamePk": 849838,
@@ -13316,6 +13327,8 @@
   "away_team": "Tampa Bay Rays",
   "params": "bd65d255fe",
   "logged_at": "2026-10-07T15:43:08",
-  "graded": false
+  "graded": true,
+  "outcome": "tie",
+  "units": 0.0
  }
 }

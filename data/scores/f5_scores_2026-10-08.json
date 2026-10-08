@@ -1,0 +1,142 @@
+[
+  {
+    "gamePk": 849832,
+    "matchup": "Cleveland Guardians @ Chicago White Sox",
+    "game_time": "2026-10-09T00:00:00Z",
+    "away": {
+      "team": "Cleveland Guardians",
+      "batting_score": 56.9,
+      "pitcher": "Parker Messick",
+      "pitcher_score": 55.8,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.667,
+        "whip": 1.429,
+        "k_pct": 0.2419,
+        "ip_per_start": 4.67,
+        "pcts": {
+          "runs_thru_5": 61.2,
+          "whip": 36.4,
+          "k_pct": 55.6,
+          "ip_per_start": 31.6
+        }
+      },
+      "pitcher_hand": "L",
+      "rpg_14d": 6.5,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Steven Kwan",
+          "pa": 15,
+          "form": 61.9,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Jos\u00e9 Ram\u00edrez",
+          "pa": 15,
+          "form": 34.8,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Chase DeLauter",
+          "pa": 15,
+          "form": 55.1,
+          "platoon_mult": 1.148
+        },
+        {
+          "name": "Jo Adell",
+          "pa": 18,
+          "form": 75.8,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "pa": 10
+        },
+        {
+          "name": "Petey Halpin",
+          "pa": 6
+        },
+        {
+          "name": "Angel Genao",
+          "pa": 5
+        },
+        {
+          "name": "Patrick Bailey",
+          "pa": 11
+        },
+        {
+          "name": "Brayan Rocchio",
+          "pa": 12
+        }
+      ]
+    },
+    "home": {
+      "team": "Chicago White Sox",
+      "batting_score": 59.1,
+      "pitcher": "Hagen Smith",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "L",
+      "rpg_14d": 6.25,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Sam Antonacci",
+          "pa": 18,
+          "form": 72.2,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Miguel Vargas",
+          "pa": 15,
+          "form": 41.0,
+          "platoon_mult": 1.15
+        },
+        {
+          "name": "Munetaka Murakami",
+          "pa": 18,
+          "form": 64.1,
+          "platoon_mult": 0.85
+        },
+        {
+          "name": "Kyle Teel",
+          "pa": 14
+        },
+        {
+          "name": "Chase Meidroth",
+          "pa": 5
+        },
+        {
+          "name": "Tristan Peters",
+          "pa": 14
+        },
+        {
+          "name": "Braden Montgomery",
+          "pa": 13
+        },
+        {
+          "name": "Randal Grichuk",
+          "pa": 11
+        },
+        {
+          "name": "Colson Montgomery",
+          "pa": 13
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 7,
+      "total": 18,
+      "pct": 38.9
+    },
+    "market": {
+      "date": "2026-10-08",
+      "home": "Chicago White Sox",
+      "away": "Cleveland Guardians",
+      "home_ml": -110,
+      "away_ml": -120,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]

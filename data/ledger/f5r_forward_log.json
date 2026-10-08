@@ -16136,7 +16136,22 @@
   "exp_total": 5.08,
   "params": "0112c6bd34",
   "logged_at": "2026-10-07T15:43:32",
-  "graded": false
+  "graded": true,
+  "outcome": "under",
+  "total": 2,
+  "units": -1.0,
+  "close": {
+   "snapshot": "2026-10-07T21:50:00Z",
+   "book": "fanduel",
+   "line": 4.5,
+   "over_ml": 114,
+   "under_ml": -148,
+   "pick_ml": 114,
+   "mkt_p": 0.4392,
+   "clv": 0.0052,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  },
  "849838": {
   "gamePk": 849838,
@@ -16158,6 +16173,21 @@
   "exp_total": 5.93,
   "params": "0112c6bd34",
   "logged_at": "2026-10-07T15:43:32",
-  "graded": false
+  "graded": true,
+  "outcome": "over",
+  "total": 4,
+  "units": 0.714,
+  "close": {
+   "snapshot": "2026-10-07T23:50:00Z",
+   "book": "fanduel",
+   "line": 3.5,
+   "over_ml": -140,
+   "under_ml": 108,
+   "pick_ml": -140,
+   "mkt_p": 0.5482,
+   "clv": 0.0002,
+   "line_move": 0.0,
+   "our_way": 0.0
+  }
  }
 }

@@ -1,20 +1,35 @@
 {
- "generated_at": "2026-10-07T16:02:32",
+ "generated_at": "2026-10-08T15:39:28",
  "algo": "First Five Hot Streak",
  "ledger": {
-  "bets": 268,
+  "bets": 269,
   "wins": 85,
   "losses": 142,
-  "pushes": 41,
+  "pushes": 42,
   "units": -33.93,
-  "roi": -0.1266,
+  "roi": -0.1261,
   "hit": 0.3744,
   "claimed": 0.5537,
-  "clv_bets": 260,
+  "clv_bets": 261,
   "clv_beat": 135,
-  "clv_avg": 0.0174
+  "clv_avg": 0.0173
  },
  "bets": [
+  {
+   "date": "2026-10-07",
+   "time": "2026-10-07T22:00:00Z",
+   "matchup": "Los Angeles Dodgers @ Atlanta Braves",
+   "pick": "Atlanta Braves",
+   "ml": 130,
+   "tier": "STRONG",
+   "model_p": 0.51,
+   "mkt_p": 0.411,
+   "value": 0.099,
+   "result": "push",
+   "units": 0.0,
+   "clv": -0.0177,
+   "close_ml": 140
+  },
   {
    "date": "2026-10-05",
    "time": "2026-10-06T00:00:00Z",

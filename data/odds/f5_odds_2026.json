@@ -15694,5 +15694,13 @@
   "home_ml": -105,
   "away_ml": -125,
   "book": "draftkings"
+ },
+ "2026-10-08|cleveland guardians|chicago white sox": {
+  "date": "2026-10-08",
+  "home": "Chicago White Sox",
+  "away": "Cleveland Guardians",
+  "home_ml": -110,
+  "away_ml": -120,
+  "book": "draftkings"
  }
 }

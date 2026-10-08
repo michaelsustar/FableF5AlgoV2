@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849832,
+    "matchup": "Cleveland Guardians @ Chicago White Sox",
+    "game_time": "2026-10-09T00:00:00Z",
+    "home_team": "Chicago White Sox",
+    "away_team": "Cleveland Guardians",
+    "park_factor": 1.01,
+    "away": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Hagen Smith",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.4,
+      "bat_score": 56.9,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Parker Messick",
+      "opp_runs5_pct": 61.2,
+      "season_f5_rate": 2.83,
+      "bat_score": 59.1,
+      "lam": 2.64,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-08",
+      "home": "Chicago White Sox",
+      "away": "Cleveland Guardians",
+      "line": 3.5,
+      "over_ml": -140,
+      "under_ml": 108,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]
