@@ -72,19 +72,21 @@
     },
     "home": {
       "team": "Chicago White Sox",
-      "batting_score": 59.1,
+      "batting_score": 52.5,
       "pitcher": "Hagen Smith",
       "pitcher_score": null,
       "pitcher_metrics": null,
       "pitcher_hand": "L",
       "rpg_14d": 6.25,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Sam Antonacci",
-          "pa": 18,
-          "form": 72.2,
-          "platoon_mult": 0.85
+          "name": "Chase Meidroth",
+          "pa": 5
+        },
+        {
+          "name": "Randal Grichuk",
+          "pa": 11
         },
         {
           "name": "Miguel Vargas",
@@ -99,24 +101,20 @@
           "platoon_mult": 0.85
         },
         {
+          "name": "Tommy Pham",
+          "pa": 6
+        },
+        {
+          "name": "Brenton Doyle",
+          "pa": 8
+        },
+        {
           "name": "Kyle Teel",
-          "pa": 14
-        },
-        {
-          "name": "Chase Meidroth",
-          "pa": 5
-        },
-        {
-          "name": "Tristan Peters",
           "pa": 14
         },
         {
           "name": "Braden Montgomery",
           "pa": 13
-        },
-        {
-          "name": "Randal Grichuk",
-          "pa": 11
         },
         {
           "name": "Colson Montgomery",
@@ -125,9 +123,9 @@
       ]
     },
     "batters_available": {
-      "qualified": 7,
+      "qualified": 6,
       "total": 18,
-      "pct": 38.9
+      "pct": 33.3
     },
     "market": {
       "date": "2026-10-08",
