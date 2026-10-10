@@ -1,0 +1,128 @@
+[
+  {
+    "gamePk": 849831,
+    "matchup": "Chicago White Sox @ Cleveland Guardians",
+    "game_time": "2026-10-11T00:00:00Z",
+    "away": {
+      "team": "Chicago White Sox",
+      "batting_score": null,
+      "pitcher": "Sean Burke",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": 5.0,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Chase Meidroth",
+          "pa": 2
+        },
+        {
+          "name": "Tristan Peters",
+          "pa": 5
+        },
+        {
+          "name": "Miguel Vargas",
+          "pa": 5
+        },
+        {
+          "name": "Munetaka Murakami",
+          "pa": 9
+        },
+        {
+          "name": "Sam Antonacci",
+          "pa": 8
+        },
+        {
+          "name": "Andrew Benintendi",
+          "pa": 3
+        },
+        {
+          "name": "Kyle Teel",
+          "pa": 4
+        },
+        {
+          "name": "Braden Montgomery",
+          "pa": 5
+        },
+        {
+          "name": "Colson Montgomery",
+          "pa": 6
+        }
+      ]
+    },
+    "home": {
+      "team": "Cleveland Guardians",
+      "batting_score": null,
+      "pitcher": "Gavin Williams",
+      "pitcher_score": 73.9,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.0,
+        "whip": 1.304,
+        "k_pct": 0.3077,
+        "ip_per_start": 5.11,
+        "pcts": {
+          "runs_thru_5": 80.8,
+          "whip": 48.1,
+          "k_pct": 89.3,
+          "ip_per_start": 44.4
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 6.5,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Steven Kwan",
+          "pa": 5
+        },
+        {
+          "name": "Jos\u00e9 Ram\u00edrez",
+          "pa": 5
+        },
+        {
+          "name": "Chase DeLauter",
+          "pa": 5
+        },
+        {
+          "name": "Jo Adell",
+          "pa": 9
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "pa": 9
+        },
+        {
+          "name": "Petey Halpin",
+          "pa": 5
+        },
+        {
+          "name": "Angel Genao",
+          "pa": 5
+        },
+        {
+          "name": "Patrick Bailey",
+          "pa": 7
+        },
+        {
+          "name": "Brayan Rocchio",
+          "pa": 4
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 0,
+      "total": 18,
+      "pct": 0.0
+    },
+    "market": {
+      "date": "2026-10-10",
+      "home": "Cleveland Guardians",
+      "away": "Chicago White Sox",
+      "home_ml": -140,
+      "away_ml": 110,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]

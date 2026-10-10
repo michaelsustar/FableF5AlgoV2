@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849831,
+    "matchup": "Chicago White Sox @ Cleveland Guardians",
+    "game_time": "2026-10-11T00:00:00Z",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Chicago White Sox",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Chicago White Sox",
+      "opp_starter": "Gavin Williams",
+      "opp_runs5_pct": 80.8,
+      "season_f5_rate": 2.83,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Sean Burke",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.4,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-10",
+      "home": "Cleveland Guardians",
+      "away": "Chicago White Sox",
+      "line": 3.5,
+      "over_ml": -128,
+      "under_ml": -102,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

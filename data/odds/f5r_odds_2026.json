@@ -7477,5 +7477,14 @@
   "over_ml": -140,
   "under_ml": 108,
   "book": "fanduel"
+ },
+ "2026-10-10|chicago white sox|cleveland guardians": {
+  "date": "2026-10-10",
+  "home": "Cleveland Guardians",
+  "away": "Chicago White Sox",
+  "line": 3.5,
+  "over_ml": -128,
+  "under_ml": -102,
+  "book": "fanduel"
  }
 }
