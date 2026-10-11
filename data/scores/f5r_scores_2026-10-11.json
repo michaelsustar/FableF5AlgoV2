@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849809,
+    "matchup": "Los Angeles Dodgers @ Milwaukee Brewers",
+    "game_time": "2026-10-12T00:00:00Z",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Los Angeles Dodgers",
+    "park_factor": 0.99,
+    "away": {
+      "team": "Los Angeles Dodgers",
+      "opp_starter": "Jacob Misiorowski",
+      "opp_runs5_pct": 99.0,
+      "season_f5_rate": 2.77,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Tarik Skubal",
+      "opp_runs5_pct": 72.6,
+      "season_f5_rate": 2.85,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-11",
+      "home": "Milwaukee Brewers",
+      "away": "Los Angeles Dodgers",
+      "line": 3.5,
+      "over_ml": 122,
+      "under_ml": -160,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

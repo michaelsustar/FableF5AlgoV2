@@ -15710,5 +15710,13 @@
   "home_ml": -140,
   "away_ml": 110,
   "book": "draftkings"
+ },
+ "2026-10-11|los angeles dodgers|milwaukee brewers": {
+  "date": "2026-10-11",
+  "home": "Milwaukee Brewers",
+  "away": "Los Angeles Dodgers",
+  "home_ml": -125,
+  "away_ml": -105,
+  "book": "draftkings"
  }
 }

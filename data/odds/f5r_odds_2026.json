@@ -7486,5 +7486,14 @@
   "over_ml": -128,
   "under_ml": -102,
   "book": "fanduel"
+ },
+ "2026-10-11|los angeles dodgers|milwaukee brewers": {
+  "date": "2026-10-11",
+  "home": "Milwaukee Brewers",
+  "away": "Los Angeles Dodgers",
+  "line": 3.5,
+  "over_ml": 122,
+  "under_ml": -160,
+  "book": "fanduel"
  }
 }

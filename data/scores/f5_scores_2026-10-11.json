@@ -1,0 +1,139 @@
+[
+  {
+    "gamePk": 849809,
+    "matchup": "Los Angeles Dodgers @ Milwaukee Brewers",
+    "game_time": "2026-10-12T00:00:00Z",
+    "away": {
+      "team": "Los Angeles Dodgers",
+      "batting_score": null,
+      "pitcher": "Tarik Skubal",
+      "pitcher_score": 76.3,
+      "pitcher_metrics": {
+        "runs_thru_5": 1.333,
+        "whip": 0.895,
+        "k_pct": 0.3056,
+        "ip_per_start": 6.33,
+        "pcts": {
+          "runs_thru_5": 72.6,
+          "whip": 86.5,
+          "k_pct": 87.0,
+          "ip_per_start": 95.7
+        }
+      },
+      "pitcher_hand": "L",
+      "rpg_14d": 5.0,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Mookie Betts",
+          "pa": 2
+        },
+        {
+          "name": "Freddie Freeman",
+          "pa": 3
+        },
+        {
+          "name": "Will Smith",
+          "pa": 0
+        },
+        {
+          "name": "Shohei Ohtani",
+          "pa": 3
+        },
+        {
+          "name": "Hyeseong Kim",
+          "pa": 0
+        },
+        {
+          "name": "Max Muncy",
+          "pa": 5
+        },
+        {
+          "name": "Tommy Edman",
+          "pa": 4
+        },
+        {
+          "name": "Kyle Tucker",
+          "pa": 5
+        },
+        {
+          "name": "Andy Pages",
+          "pa": 5
+        }
+      ]
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "batting_score": null,
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_score": 90.5,
+      "pitcher_metrics": {
+        "runs_thru_5": 0.0,
+        "whip": 0.825,
+        "k_pct": 0.3265,
+        "ip_per_start": 4.44,
+        "pcts": {
+          "runs_thru_5": 99.0,
+          "whip": 91.8,
+          "k_pct": 93.8,
+          "ip_per_start": 21.2
+        }
+      },
+      "pitcher_hand": "R",
+      "rpg_14d": 6.0,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jackson Chourio",
+          "pa": 4
+        },
+        {
+          "name": "Christian Yelich",
+          "pa": 4
+        },
+        {
+          "name": "William Contreras",
+          "pa": 0
+        },
+        {
+          "name": "Brice Turang",
+          "pa": 4
+        },
+        {
+          "name": "Jake Bauers",
+          "pa": 4
+        },
+        {
+          "name": "Cooper Pratt",
+          "pa": 4
+        },
+        {
+          "name": "Sal Frelick",
+          "pa": 3
+        },
+        {
+          "name": "Garrett Mitchell",
+          "pa": 4
+        },
+        {
+          "name": "Joey Ortiz",
+          "pa": 0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 0,
+      "total": 18,
+      "pct": 0.0
+    },
+    "market": {
+      "date": "2026-10-11",
+      "home": "Milwaukee Brewers",
+      "away": "Los Angeles Dodgers",
+      "home_ml": -125,
+      "away_ml": -105,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]
