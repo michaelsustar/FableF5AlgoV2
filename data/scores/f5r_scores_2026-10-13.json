@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849813,
+    "matchup": "Cleveland Guardians @ Tampa Bay Rays",
+    "game_time": "2026-10-14T00:00:00Z",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "Cleveland Guardians",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Freddy Peralta",
+      "opp_runs5_pct": 93.8,
+      "season_f5_rate": 2.4,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Parker Messick",
+      "opp_runs5_pct": 63.3,
+      "season_f5_rate": 2.57,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "CONFIRMED"
+    },
+    "market": {
+      "date": "2026-10-13",
+      "home": "Tampa Bay Rays",
+      "away": "Cleveland Guardians",
+      "line": 3.5,
+      "over_ml": -132,
+      "under_ml": 102,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]
