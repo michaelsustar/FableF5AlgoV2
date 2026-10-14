@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849811,
+    "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
+    "game_time": "2026-10-15T00:00:00Z",
+    "home_team": "Los Angeles Dodgers",
+    "away_team": "Milwaukee Brewers",
+    "park_factor": 0.98,
+    "away": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Blake Snell",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.85,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Los Angeles Dodgers",
+      "opp_starter": "Robert Gasser",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.77,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-14",
+      "home": "Los Angeles Dodgers",
+      "away": "Milwaukee Brewers",
+      "line": 3.5,
+      "over_ml": -146,
+      "under_ml": 112,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]
