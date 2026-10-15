@@ -7531,5 +7531,23 @@
   "over_ml": -146,
   "under_ml": 112,
   "book": "fanduel"
+ },
+ "2026-10-15|tampa bay rays|cleveland guardians": {
+  "date": "2026-10-15",
+  "home": "Cleveland Guardians",
+  "away": "Tampa Bay Rays",
+  "line": 2.5,
+  "over_ml": 142,
+  "under_ml": -192,
+  "book": "fanduel"
+ },
+ "2026-10-15|milwaukee brewers|los angeles dodgers": {
+  "date": "2026-10-15",
+  "home": "Los Angeles Dodgers",
+  "away": "Milwaukee Brewers",
+  "line": 4.5,
+  "over_ml": 110,
+  "under_ml": -144,
+  "book": "fanduel"
  }
 }
