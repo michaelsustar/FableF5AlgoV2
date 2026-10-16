@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849817,
+    "matchup": "Tampa Bay Rays @ Cleveland Guardians",
+    "game_time": "2026-10-17T00:00:00Z",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Tampa Bay Rays",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Shawn Armstrong",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.57,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Nick Martinez",
+      "opp_runs5_pct": 17.9,
+      "season_f5_rate": 2.4,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-16",
+      "home": "Cleveland Guardians",
+      "away": "Tampa Bay Rays",
+      "line": 3.5,
+      "over_ml": -115,
+      "under_ml": -113,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]
