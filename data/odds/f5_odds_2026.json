@@ -15774,5 +15774,13 @@
   "home_ml": 100,
   "away_ml": -130,
   "book": "draftkings"
+ },
+ "2026-10-17|tampa bay rays|cleveland guardians": {
+  "date": "2026-10-17",
+  "home": "Cleveland Guardians",
+  "away": "Tampa Bay Rays",
+  "home_ml": 105,
+  "away_ml": -135,
+  "book": "draftkings"
  }
 }

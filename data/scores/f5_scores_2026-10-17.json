@@ -1,0 +1,117 @@
+[
+  {
+    "gamePk": 849816,
+    "matchup": "Tampa Bay Rays @ Cleveland Guardians",
+    "game_time": "2026-10-18T00:08:00Z",
+    "away": {
+      "team": "Tampa Bay Rays",
+      "batting_score": null,
+      "pitcher": "Nick Martinez",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Yandy D\u00edaz",
+          "pa": 0
+        },
+        {
+          "name": "Jonathan Aranda",
+          "pa": 0
+        },
+        {
+          "name": "Junior Caminero",
+          "pa": 0
+        },
+        {
+          "name": "Victor Mesa Jr.",
+          "pa": 0
+        },
+        {
+          "name": "Chandler Simpson",
+          "pa": 0
+        },
+        {
+          "name": "Liam Hicks",
+          "pa": 0
+        },
+        {
+          "name": "Jonny DeLuca",
+          "pa": 0
+        },
+        {
+          "name": "Jorge Mateo",
+          "pa": 0
+        },
+        {
+          "name": "Taylor Walls",
+          "pa": 0
+        }
+      ]
+    },
+    "home": {
+      "team": "Cleveland Guardians",
+      "batting_score": null,
+      "pitcher": "Shawn Armstrong",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Steven Kwan",
+          "pa": 0
+        },
+        {
+          "name": "Jos\u00e9 Ram\u00edrez",
+          "pa": 0
+        },
+        {
+          "name": "Chase DeLauter",
+          "pa": 0
+        },
+        {
+          "name": "Jo Adell",
+          "pa": 0
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "pa": 0
+        },
+        {
+          "name": "Angel Genao",
+          "pa": 0
+        },
+        {
+          "name": "Patrick Bailey",
+          "pa": 0
+        },
+        {
+          "name": "Petey Halpin",
+          "pa": 0
+        },
+        {
+          "name": "Brayan Rocchio",
+          "pa": 0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 0,
+      "total": 18,
+      "pct": 0.0
+    },
+    "market": {
+      "date": "2026-10-17",
+      "home": "Cleveland Guardians",
+      "away": "Tampa Bay Rays",
+      "home_ml": 105,
+      "away_ml": -135,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]
