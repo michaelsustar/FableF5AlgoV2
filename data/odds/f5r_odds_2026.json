@@ -7567,5 +7567,14 @@
   "over_ml": -108,
   "under_ml": -120,
   "book": "fanduel"
+ },
+ "2026-10-18|tampa bay rays|cleveland guardians": {
+  "date": "2026-10-18",
+  "home": "Cleveland Guardians",
+  "away": "Tampa Bay Rays",
+  "line": 3.5,
+  "over_ml": 110,
+  "under_ml": -144,
+  "book": "fanduel"
  }
 }
