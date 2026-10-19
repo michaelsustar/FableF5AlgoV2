@@ -59,10 +59,10 @@
       "pitcher_metrics": null,
       "pitcher_hand": "R",
       "rpg_14d": null,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
-          "name": "Cedric Mullins",
+          "name": "Yandy D\u00edaz",
           "pa": 0
         },
         {
@@ -70,11 +70,11 @@
           "pa": 0
         },
         {
-          "name": "Victor Mesa Jr.",
+          "name": "Liam Hicks",
           "pa": 0
         },
         {
-          "name": "Richie Palacios",
+          "name": "Junior Caminero",
           "pa": 0
         },
         {
@@ -82,15 +82,15 @@
           "pa": 0
         },
         {
+          "name": "Victor Mesa Jr.",
+          "pa": 0
+        },
+        {
           "name": "Jonny DeLuca",
           "pa": 0
         },
         {
-          "name": "Liam Hicks",
-          "pa": 0
-        },
-        {
-          "name": "Ben Williamson",
+          "name": "Richie Palacios",
           "pa": 0
         },
         {
