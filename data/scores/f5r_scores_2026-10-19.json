@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849815,
+    "matchup": "Cleveland Guardians @ Tampa Bay Rays",
+    "game_time": "2026-10-20T00:08:00Z",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "Cleveland Guardians",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Cleveland Guardians",
+      "opp_starter": "Freddy Peralta",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.4,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Shawn Armstrong",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.57,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-19",
+      "home": "Tampa Bay Rays",
+      "away": "Cleveland Guardians",
+      "line": 3.5,
+      "over_ml": -118,
+      "under_ml": -110,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

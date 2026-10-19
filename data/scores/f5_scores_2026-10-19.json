@@ -1,0 +1,117 @@
+[
+  {
+    "gamePk": 849815,
+    "matchup": "Cleveland Guardians @ Tampa Bay Rays",
+    "game_time": "2026-10-20T00:08:00Z",
+    "away": {
+      "team": "Cleveland Guardians",
+      "batting_score": null,
+      "pitcher": "Shawn Armstrong",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Steven Kwan",
+          "pa": 0
+        },
+        {
+          "name": "Jos\u00e9 Ram\u00edrez",
+          "pa": 0
+        },
+        {
+          "name": "Chase DeLauter",
+          "pa": 0
+        },
+        {
+          "name": "Jo Adell",
+          "pa": 0
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "pa": 0
+        },
+        {
+          "name": "Travis Bazzana",
+          "pa": 0
+        },
+        {
+          "name": "Patrick Bailey",
+          "pa": 0
+        },
+        {
+          "name": "Angel Mart\u00ednez",
+          "pa": 0
+        },
+        {
+          "name": "Brayan Rocchio",
+          "pa": 0
+        }
+      ]
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "batting_score": null,
+      "pitcher": "Freddy Peralta",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Cedric Mullins",
+          "pa": 0
+        },
+        {
+          "name": "Jonathan Aranda",
+          "pa": 0
+        },
+        {
+          "name": "Victor Mesa Jr.",
+          "pa": 0
+        },
+        {
+          "name": "Richie Palacios",
+          "pa": 0
+        },
+        {
+          "name": "Chandler Simpson",
+          "pa": 0
+        },
+        {
+          "name": "Jonny DeLuca",
+          "pa": 0
+        },
+        {
+          "name": "Liam Hicks",
+          "pa": 0
+        },
+        {
+          "name": "Ben Williamson",
+          "pa": 0
+        },
+        {
+          "name": "Taylor Walls",
+          "pa": 0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 0,
+      "total": 18,
+      "pct": 0.0
+    },
+    "market": {
+      "date": "2026-10-19",
+      "home": "Tampa Bay Rays",
+      "away": "Cleveland Guardians",
+      "home_ml": -145,
+      "away_ml": 114,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]
