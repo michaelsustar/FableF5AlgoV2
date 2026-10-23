@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849805,
+    "matchup": "Tampa Bay Rays @ Milwaukee Brewers",
+    "game_time": "2026-10-24T00:00:00Z",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Tampa Bay Rays",
+    "park_factor": 0.99,
+    "away": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Jacob Misiorowski",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.57,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Nick Martinez",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.85,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-23",
+      "home": "Milwaukee Brewers",
+      "away": "Tampa Bay Rays",
+      "line": 3.5,
+      "over_ml": 104,
+      "under_ml": -135,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]
