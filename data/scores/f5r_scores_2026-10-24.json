@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849802,
+    "matchup": "Tampa Bay Rays @ Milwaukee Brewers",
+    "game_time": "2026-10-25T00:00:00Z",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Tampa Bay Rays",
+    "park_factor": 0.99,
+    "away": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": "Logan Henderson",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.57,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Drew Rasmussen",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.85,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-24",
+      "home": "Milwaukee Brewers",
+      "away": "Tampa Bay Rays",
+      "line": 3.5,
+      "over_ml": -102,
+      "under_ml": -128,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

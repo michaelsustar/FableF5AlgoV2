@@ -7594,5 +7594,14 @@
   "over_ml": 104,
   "under_ml": -135,
   "book": "fanduel"
+ },
+ "2026-10-24|tampa bay rays|milwaukee brewers": {
+  "date": "2026-10-24",
+  "home": "Milwaukee Brewers",
+  "away": "Tampa Bay Rays",
+  "line": 3.5,
+  "over_ml": -102,
+  "under_ml": -128,
+  "book": "fanduel"
  }
 }
