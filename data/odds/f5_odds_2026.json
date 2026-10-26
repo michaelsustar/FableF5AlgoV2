@@ -15814,5 +15814,13 @@
   "home_ml": -115,
   "away_ml": -115,
   "book": "draftkings"
+ },
+ "2026-10-26|milwaukee brewers|tampa bay rays": {
+  "date": "2026-10-26",
+  "home": "Tampa Bay Rays",
+  "away": "Milwaukee Brewers",
+  "home_ml": -140,
+  "away_ml": 110,
+  "book": "draftkings"
  }
 }

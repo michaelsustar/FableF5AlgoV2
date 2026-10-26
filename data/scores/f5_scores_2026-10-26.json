@@ -1,0 +1,117 @@
+[
+  {
+    "gamePk": 849804,
+    "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+    "game_time": "2026-10-27T00:00:00Z",
+    "away": {
+      "team": "Milwaukee Brewers",
+      "batting_score": null,
+      "pitcher": "Robert Gasser",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "L",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jackson Chourio",
+          "pa": 0
+        },
+        {
+          "name": "Jake Bauers",
+          "pa": 0
+        },
+        {
+          "name": "Christian Yelich",
+          "pa": 0
+        },
+        {
+          "name": "William Contreras",
+          "pa": 0
+        },
+        {
+          "name": "Brice Turang",
+          "pa": 0
+        },
+        {
+          "name": "Garrett Mitchell",
+          "pa": 0
+        },
+        {
+          "name": "Cooper Pratt",
+          "pa": 0
+        },
+        {
+          "name": "Sal Frelick",
+          "pa": 0
+        },
+        {
+          "name": "David Hamilton",
+          "pa": 0
+        }
+      ]
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "batting_score": null,
+      "pitcher": "Freddy Peralta",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Yandy D\u00edaz",
+          "pa": 0
+        },
+        {
+          "name": "Jonathan Aranda",
+          "pa": 0
+        },
+        {
+          "name": "Chandler Simpson",
+          "pa": 0
+        },
+        {
+          "name": "Junior Caminero",
+          "pa": 0
+        },
+        {
+          "name": "Nick Fortes",
+          "pa": 0
+        },
+        {
+          "name": "Richie Palacios",
+          "pa": 0
+        },
+        {
+          "name": "Jonny DeLuca",
+          "pa": 0
+        },
+        {
+          "name": "Victor Mesa Jr.",
+          "pa": 0
+        },
+        {
+          "name": "Ben Williamson",
+          "pa": 0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 0,
+      "total": 18,
+      "pct": 0.0
+    },
+    "market": {
+      "date": "2026-10-26",
+      "home": "Tampa Bay Rays",
+      "away": "Milwaukee Brewers",
+      "home_ml": -140,
+      "away_ml": 110,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]
