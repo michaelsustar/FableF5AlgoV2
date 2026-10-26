@@ -59,14 +59,14 @@
       "pitcher_metrics": null,
       "pitcher_hand": "R",
       "rpg_14d": null,
-      "lineup": "PROJECTED",
+      "lineup": "CONFIRMED",
       "batters": [
         {
           "name": "Yandy D\u00edaz",
           "pa": 0
         },
         {
-          "name": "Jonathan Aranda",
+          "name": "Ryan Vilade",
           "pa": 0
         },
         {
@@ -78,11 +78,7 @@
           "pa": 0
         },
         {
-          "name": "Nick Fortes",
-          "pa": 0
-        },
-        {
-          "name": "Richie Palacios",
+          "name": "Ben Williamson",
           "pa": 0
         },
         {
@@ -94,7 +90,11 @@
           "pa": 0
         },
         {
-          "name": "Ben Williamson",
+          "name": "Nick Fortes",
+          "pa": 0
+        },
+        {
+          "name": "Taylor Walls",
           "pa": 0
         }
       ]
