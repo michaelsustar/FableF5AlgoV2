@@ -1,0 +1,38 @@
+[
+  {
+    "gamePk": 849803,
+    "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+    "game_time": "2026-10-28T00:00:00Z",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "Milwaukee Brewers",
+    "park_factor": 0.97,
+    "away": {
+      "team": "Milwaukee Brewers",
+      "opp_starter": "Griffin Jax",
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.85,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "opp_starter": null,
+      "opp_runs5_pct": null,
+      "season_f5_rate": 2.57,
+      "bat_score": null,
+      "lam": null,
+      "lineup": "PROJECTED"
+    },
+    "market": {
+      "date": "2026-10-27",
+      "home": "Tampa Bay Rays",
+      "away": "Milwaukee Brewers",
+      "line": 3.5,
+      "over_ml": -118,
+      "under_ml": -110,
+      "book": "fanduel"
+    },
+    "prediction": null
+  }
+]

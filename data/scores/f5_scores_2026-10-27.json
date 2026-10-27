@@ -1,0 +1,117 @@
+[
+  {
+    "gamePk": 849803,
+    "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+    "game_time": "2026-10-28T00:00:00Z",
+    "away": {
+      "team": "Milwaukee Brewers",
+      "batting_score": null,
+      "pitcher": null,
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": null,
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jackson Chourio",
+          "pa": 0
+        },
+        {
+          "name": "Jake Bauers",
+          "pa": 0
+        },
+        {
+          "name": "Andrew Vaughn",
+          "pa": 0
+        },
+        {
+          "name": "Gary S\u00e1nchez",
+          "pa": 0
+        },
+        {
+          "name": "Brice Turang",
+          "pa": 0
+        },
+        {
+          "name": "Luis Lara",
+          "pa": 0
+        },
+        {
+          "name": "Cooper Pratt",
+          "pa": 0
+        },
+        {
+          "name": "Sal Frelick",
+          "pa": 0
+        },
+        {
+          "name": "Joey Ortiz",
+          "pa": 0
+        }
+      ]
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "batting_score": null,
+      "pitcher": "Griffin Jax",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Yandy D\u00edaz",
+          "pa": 0
+        },
+        {
+          "name": "Jonathan Aranda",
+          "pa": 0
+        },
+        {
+          "name": "Chandler Simpson",
+          "pa": 0
+        },
+        {
+          "name": "Junior Caminero",
+          "pa": 0
+        },
+        {
+          "name": "Ben Williamson",
+          "pa": 0
+        },
+        {
+          "name": "Jonny DeLuca",
+          "pa": 0
+        },
+        {
+          "name": "Victor Mesa Jr.",
+          "pa": 0
+        },
+        {
+          "name": "Cedric Mullins",
+          "pa": 0
+        },
+        {
+          "name": "Jorge Mateo",
+          "pa": 0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 0,
+      "total": 18,
+      "pct": 0.0
+    },
+    "market": {
+      "date": "2026-10-27",
+      "home": "Tampa Bay Rays",
+      "away": "Milwaukee Brewers",
+      "home_ml": -115,
+      "away_ml": -115,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]
