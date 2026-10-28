@@ -1,0 +1,117 @@
+[
+  {
+    "gamePk": 849799,
+    "matchup": "Milwaukee Brewers @ Tampa Bay Rays",
+    "game_time": "2026-10-29T00:00:00Z",
+    "away": {
+      "team": "Milwaukee Brewers",
+      "batting_score": null,
+      "pitcher": "Jacob Misiorowski",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jackson Chourio",
+          "pa": 0
+        },
+        {
+          "name": "Jake Bauers",
+          "pa": 0
+        },
+        {
+          "name": "Christian Yelich",
+          "pa": 0
+        },
+        {
+          "name": "William Contreras",
+          "pa": 0
+        },
+        {
+          "name": "Brice Turang",
+          "pa": 0
+        },
+        {
+          "name": "Sal Frelick",
+          "pa": 0
+        },
+        {
+          "name": "Cooper Pratt",
+          "pa": 0
+        },
+        {
+          "name": "Luis Lara",
+          "pa": 0
+        },
+        {
+          "name": "Joey Ortiz",
+          "pa": 0
+        }
+      ]
+    },
+    "home": {
+      "team": "Tampa Bay Rays",
+      "batting_score": null,
+      "pitcher": "Drew Rasmussen",
+      "pitcher_score": null,
+      "pitcher_metrics": null,
+      "pitcher_hand": "R",
+      "rpg_14d": null,
+      "lineup": "PROJECTED",
+      "batters": [
+        {
+          "name": "Jorge Mateo",
+          "pa": 0
+        },
+        {
+          "name": "Jonathan Aranda",
+          "pa": 0
+        },
+        {
+          "name": "Cedric Mullins",
+          "pa": 0
+        },
+        {
+          "name": "Nick Fortes",
+          "pa": 0
+        },
+        {
+          "name": "Jonny DeLuca",
+          "pa": 0
+        },
+        {
+          "name": "Chandler Simpson",
+          "pa": 0
+        },
+        {
+          "name": "Ben Williamson",
+          "pa": 0
+        },
+        {
+          "name": "Richie Palacios",
+          "pa": 0
+        },
+        {
+          "name": "Taylor Walls",
+          "pa": 0
+        }
+      ]
+    },
+    "batters_available": {
+      "qualified": 0,
+      "total": 18,
+      "pct": 0.0
+    },
+    "market": {
+      "date": "2026-10-28",
+      "home": "Tampa Bay Rays",
+      "away": "Milwaukee Brewers",
+      "home_ml": 135,
+      "away_ml": -175,
+      "book": "draftkings"
+    },
+    "prediction": null
+  }
+]
